@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: /wa-apps/shop/templates/actions/backend/BackendImportexport.html:17
@@ -15462,7 +15462,6 @@ msgstr "Інформація про знижки для кожного това�
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:323
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:324
-#, fuzzy
 msgid "Total discount information"
 msgstr "Загальна інформація про знижку"
 
@@ -15473,9 +15472,8 @@ msgstr "Графік роботи магазину"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:429
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:433
-#, fuzzy
 msgid "Is used to calculate estimated order shipping time. Specified period of time is added to the order creation time and is taken into account to transfer order processing to the next day, if an order is placed shortly before the end of a workday or later. Additional order picking time can be specified in individual shipping methods’ settings."
-msgstr "Використовується для розрахунку приблизної замовлення час доставки. Зазначений період часу додається до часу створення замовлення і враховується до передачі обробки замовлення на наступний день, якщо замовлення розміщений незадовго до кінця робочого дня або пізніше. Додаткова комплектація замовлень час можна вказати в налаштуваннях окремих способів доставки'."
+msgstr "Використовується для розрахунку приблизного часу доставки замовлення. Вказаний період часу додається до часу створення замовлення. Враховується необхідність переносу обробки замовлення на наступний день, якщо замовлення було зроблене наприкінці робочого дня або пізніше. У налаштуваннях варіанту доставки можна вказати додаткові часи готовності замовлення."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:489
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:491
@@ -15489,35 +15487,29 @@ msgstr "Обмежити область доставки"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:532
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:535
-#, fuzzy
 msgid "Separate locality names with a comma."
-msgstr "Окремі найменування населеному пункту з комою."
+msgstr "Окремі найменування населених пунктів через кому."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:539
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:543
-#, fuzzy
 msgid "Show pickup points map"
-msgstr "Показати точки самовивозу карті"
+msgstr "Показати точки самовивозу на карті"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:557
-#, fuzzy
 msgid "Use a fixed list of <strong>shipping areas</strong> if you deliver orders to a limited list of locations. Customers can quickly select a location from a list without having to select a country and region first."
-msgstr "Використання фіксованого списку <сильний>області доставка</strong>, якщо ви доставляєте замовлення в обмеженому списку місць. Клієнти можуть швидко вибрати місце списку без вибору країни і першим регіоном."
+msgstr "Використовуйте фіксований перелік регіонів доставки, якщо ви доставляєте замовлення до обмеженої кількості місць. Покупці зможуть швидко обрати локацію з переліку без необхідності вибору країни та регіону."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:558
-#, fuzzy
 msgid "A <strong>country is required</strong> to be selected in shipping area properties. If a region or a city name are not specified, they will be requested from a customer."
-msgstr "<Сильний>країни вимагається</strong> щоб бути обрані в доставці властивості. Якщо регіон або місто не вказані, вони будуть запитані у замовника."
+msgstr "У налаштуваннях регіону доставки <strong>необхідно вказати країну</strong>. Якщо назви регіону та міста не вказано, їх буде запитано у покупця."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:559
-#, fuzzy
 msgid "If <strong>no shipping areas have been set up</strong>, customers will have to select a country and a region, and to enter a city name to view available shipping options."
-msgstr "Якщо <Strong>в не зони доставки були створені</сильний>, клієнти повинні вибрати країну і регіон, і введіть назву міста, щоб переглянути доступні варіанти доставки."
+msgstr "Якщо <strong>регіони доставки не налаштовано</strong>, покупцям доведеться обрати країну та регіон, а також вказати назву міста, аби переглянути доступні варіанти доставки."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:560
-#, fuzzy
 msgid "If you set up <strong>only one shipping area</strong>, with <strong>country</strong>, <strong>region</strong>, and <strong>city</strong> specified, then customers will see at once all shipping options available for that area only, without an option to change location."
-msgstr "Якщо ви налаштовані на <Strong>тільки один доставка куточок</Strong>, <strong>країна</Strong> <Strong>область</Strong> і <Strong>місто</strong> не вказано, то клієнти будуть бачити всі варіанти доставки, доступні для цієї області тільки, без можливості змінити становище."
+msgstr "Якщо ви налаштували <strong>тільки одну зону доставки</strong>, вказавши <strong>країну</strong>, <strong>регіон</strong> та <strong>місто</strong>, то покупці будуть бачити відразу усі варіанти доставки для цієї зони, без можливості зміни адреси."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:574
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:571
@@ -15526,15 +15518,13 @@ msgstr "Додати зону доставки"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:602
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:599
-#, fuzzy
 msgid "Login offer text"
-msgstr "Пропонуємо увійти текст"
+msgstr "Текст запрошення увійти"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:612
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:609
-#, fuzzy
 msgid "Logout offer text"
-msgstr "Вихід пропозицію текст"
+msgstr "Текст підказки виходу"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:621
 msgid "Customer types"
@@ -15552,7 +15542,6 @@ msgstr "Назва режиму кампанії"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:655
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:652
-#, fuzzy
 msgid "Hint text for companies"
 msgstr "Текст підказки для компаній"
 
@@ -15563,15 +15552,13 @@ msgstr "Текст умов обслуговування для кампаній
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:672
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:669
-#, fuzzy
 msgid "Persons:"
-msgstr "Осіб:"
+msgstr "Особи:"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:684
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:681
-#, fuzzy
 msgid "Companies:"
-msgstr "Підприємства:"
+msgstr "Компанії:"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:750
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:747
@@ -15595,30 +15582,25 @@ msgstr "Назва типу доставки «Пошта»"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:798
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:795
-#, fuzzy
 msgid "country"
 msgstr "країна"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:816
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:813
-#, fuzzy
 msgid "region"
-msgstr "області"
+msgstr "регіон"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:834
-#, fuzzy
 msgid "locality"
-msgstr "район"
+msgstr "місцевість"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:852
-#, fuzzy
 msgid "Address fields provided by shipping plugins will be displayed before custom fields that you may add."
-msgstr "Адресні поля забезпечується доставка плагіни будуть відображатися до користувальницьких полів, які можна додати."
+msgstr "Поля адреси, додані плагінами доставки, буде показано перед користувальницькими полями, які ви могли додати"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:854
-#, fuzzy
 msgid "Disable address fields which are not required for all shipping options. Shipping plugins will add required address fields during checkout, if necessary."
-msgstr "Відключити поля адреси, які не потрібні для всіх варіантів доставки. Доставка Плагіни буде додати необхідні поля адреси при оформленні замовлення, в разі необхідності."
+msgstr "Вимкніть поля адреси, які не потрібні для усіх варіантів доставки. При необхідності плагіни запитають поля адреси, яких не вистачає, в процесі оформлення замовлення."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:879
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:873
@@ -15627,33 +15609,28 @@ msgstr "Період очікування відповіді плагінів д
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:885
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:879
-#, fuzzy
 msgid "Shipping options provided by plugins which process external requests longer than specified will not be available for choice."
-msgstr "Варіанти доставки за умови плагінами, що процес зовнішніх запитів більше, ніж вказано, не будуть доступні для вибору."
+msgstr "Варіанти доставки, створені за допомогою плагінів, що оброблюють зовнішні запити довше, ніж зазначено, не буде показано."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:920
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:914
-#, fuzzy
 msgid "Allow customers to leave a comment to an order"
-msgstr "Дозволяють клієнтам залишити коментар до замовлення"
+msgstr "Дозволити клієнтам залишати коментар до замовлення"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:937
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:931
-#, fuzzy
 msgid "Show"
 msgstr "Показати"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:945
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:939
-#, fuzzy
 msgid "Enter your terms of service, refund conditions, and other legal information for customers to read and to agree to during checkout."
-msgstr "Введіть умови обслуговування, умов повернення, та іншої правової інформації для клієнтів, щоб читати і погоджуватися при оформленні замовлення."
+msgstr "Вкажіть умови обслуговування, умови повернення та іншу правову інформацію для клієнтів, яку вони мають прочитати і з якою мають погодитися."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:946
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:940
-#, fuzzy
 msgid "If this field is completed, customers will see a link to the conditions and a checkbox to confirm their consent before checkout completion."
-msgstr "Якщо це поле заповнюється, клієнт побачить посилання на умови і прапорець, щоб підтвердити свою згоду до завершення перевірки."
+msgstr "Якщо це поле заповнене, перед завершенням оформлення замовлення клієнт побачить посилання на умови і прапорець, аби підтвердити свою згоду."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:954
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:948
@@ -15661,36 +15638,30 @@ msgid "Unauthorized checkout with existing customer profiles"
 msgstr "Оформлення замовлення без авторизації та існуючі профілі покупців"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:974
-#, fuzzy
 msgid "Попросить подтвердить email-адрес или номер телефона"
 msgstr "Попросити підтвердити email-адресу або номер телефону"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:980
-#, fuzzy
 msgid "Проверочный код для подтверждения будет отправлен на email-адрес или телефон покупателя в зависимости от настроек авторизации для этого сайта."
 msgstr "Перевірочний код для підтвердження буде надіслано на email-адресу або телефон покупця в залежності від налаштувань авторизації для цього сайту."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:982
-#, fuzzy
 msgid "После подтверждения покупатель будет авторизован и сможет войти в личный кабинет."
 msgstr "Після підтвердження покупець буде авторизований і зможе увійти в особистий кабінет."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:992
-#, fuzzy
 msgid "Покупатель может пропустить подтверждение email-адрес или телефона."
-msgstr "Покупець може пропустити підтвердження email-адресу або номер телефону."
+msgstr "Покупець може пропустити підтвердження email-адреси або номеру телефону."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:996
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:983
-#, fuzzy
 msgid "You can request a code again in"
-msgstr "Ви можете знову запросити код"
+msgstr "Ви можете знову запросити код через"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:1007
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:991
-#, fuzzy
 msgid "After this timeout, a customer will be able to re-request a confirmation code by email or SMS when logging in to confirm checkout completion."
-msgstr "Після цього тайм-аут, клієнт зможе повторно запросити код підтвердження по електронній пошті або SMS при вході в систему для підтвердження завершення перевірки."
+msgstr "Після цього тайм-ауту, клієнт зможе повторно запросити код підтвердження по електронній пошті або SMS при вході в систему для підтвердження оформлення замовлення."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:1015
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:997
@@ -15706,46 +15677,39 @@ msgstr "Текст сторінки «Дякуємо»"
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:692
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:677
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:689
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">Edit contact fields</a> <i class=\"icon10 new-window\"></i> in Settings app."
-msgstr "<а href=\"%s\" таргет=\"розділ налаштувань\"> \" редагування контакту поля</в> <I клас=\"icon10 нові вікна\"></I> в настройках програми."
+msgstr "<a href=\"%s\" target=\"_blank\">Відредагуйте поля контакту</a> <i class=\"icon10 new-window\"></i> у додатку «Налаштування»."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:730
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:727
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">Add and configure shipping methods <i class=\"icon16 new-window\"></i></a>"
-msgstr "<а href=\"%s\" таргет=\"розділ налаштувань\">додати і налаштувати методи доставки <I клас=\"icon16 нові вікна\"></а></а>"
+msgstr "<a href=\"%s\" target=\"_blank\">Додайте та відредагуйте варіанти доставки <i class=\"icon16 new-window\"></i></a>"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:851
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:848
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">Edit address fields</a> <i class=\"icon10 new-window\"></i> in Settings app."
-msgstr "<а href=\"%s\" таргет=\"розділ налаштувань\"> \" редагування поля адреси</A> і <I клас=\"icon10 нові вікна\"></I> в настройках програми."
+msgstr "<a href=\"%s\" target=\"_blank\">Відредагуйте поля адреси</a> <i class=\"icon10 new-window\"></i> у додатку «Налаштування»."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:895
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:889
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">Add and configure payment methods <i class=\"icon16 new-window\"></i></a>"
-msgstr "<а href=\"%s\" таргет=\"розділ налаштувань\">додати і налаштувати способи оплати <I клас=\"icon16 нові вікна\"></а></а>"
+msgstr "<a href=\"%s\" target=\"_blank\">Додайте та відредагуйте варіанти оплати <i class=\"icon16 new-window\"></i></a>"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsStock.html:168
 msgid "Not updated by order actions"
 msgstr "Не оновлюється діями із замовленнями"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsStock.html:171
-#, fuzzy
 msgid "With option “Not updated by order actions”, products’ stock level is supposed to be updated only during data exchange with accounting software, which is used to manage product stock updates."
-msgstr "З опцією \"не оновив порядок дій\", запас продуктів повинен бути поновлений тільки під час обміну даними з бухгалтерським програмним забезпеченням, яке використовується для управління запасу продукту оновлення."
+msgstr "Коли увімкнено опцію «Не оновлюється діями із замовлення», складські залишки товару будуть оновлені тільки при обміні даними із обліковими програмами, що використовуються для керування складськими залишками."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsAnalytics.html:10
-#, fuzzy
 msgid "Order was marked as paid or completed"
-msgstr "Замовлення був відзначений як платний чи завершений"
+msgstr "Замовлення було позначене як сплачене або виконане"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsAnalytics.html:17
-#, fuzzy
 msgid "Choose an order action to associate its date with the order amount in <a href=\"?action=reports\">sales reports</a>."
-msgstr "Вибрати порядок дій, щоб зв'язати свої дата з суми замовлення у <а href=\"?дію=звіти\">звіти по продажам</а>."
+msgstr "Оберіть дію із замовленням, яка пов'яже його дату із кількістю замовлень у <a href=\"?action=reports\">звіті про продажі</a>."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckoutSidebar.html:41
 msgid "Common storefront settings"
@@ -15766,34 +15730,28 @@ msgid "Customer-related data array"
 msgstr "Масив даних, пов'язаних із клієнтами"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsOrderStatesActionTemplateHelp.html:354
-#, fuzzy
 msgid "Start of store’s business hours; e.g., 9:00 am"
-msgstr "Почати бізнес магазин годинників, наприклад, з 9:00"
+msgstr "Час відкриття магазину, наприклад: 9:00"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsOrderStatesActionTemplateHelp.html:362
-#, fuzzy
 msgid "End of store’s business hours; e.g., 5:00 pm"
-msgstr "В кінці дня магазин годинників, наприклад, 5:00 вечора"
+msgstr "Час закриття магазину, наприклад: 17:00"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:57
-#, fuzzy
 msgid "Select a tax rule to be applied to shipping rates calculated by this plugin."
-msgstr "Виберіть податковий правило може бути застосоване до вартість доставки розраховується цей плагін."
+msgstr "Оберіть податкове правило, яке буде застосовано до тарифів доставки, які обраховуються цим плагіном."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:62
-#, fuzzy
 msgid "Additional order picking time"
-msgstr "Додаткова комплектація замовлень час"
+msgstr "Додатковий час на комплектацію замовлення"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:65
-#, fuzzy
 msgid "Specify a period of time expressed in hours. It will be added to order ready time calculated by storefront business hours."
-msgstr "Вкажіть період часу, виражений в годинах. Він буде доданий до замовлення готовий розрахункового часу магазин годин."
+msgstr "Вкажіть період часу, виражений в годинах. Його буде додано до часу готовності замовлення, яке обраховується на підставі робочого часу магазину."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:66
-#, fuzzy
 msgid "This setting is used only with in-cart checkout option."
-msgstr "Цей параметр використовується лише в кошик варіантом оформлення замовлення."
+msgstr "Цей параметр використовується лише при оформленні замовлення у кошику."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:82
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:85
@@ -15802,47 +15760,39 @@ msgstr "Пропонувати типи доставки клієнтам"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:92
 #: /wa-apps/shop/templates/actions/settings/SettingsShippingSetup.html:95
-#, fuzzy
 msgid "In  “%s” mode shipping is offered only to selected customer types.<br>In “%s” mode this setting is ignored and shipping is always offered to all customer types."
-msgstr "У \"%S\" в режим доставки надається тільки для вибраних типів клієнтів.<br>\"%s\" в режимі цей параметр ігнорується і доставка завжди запропонують всі типи клієнтів."
+msgstr "У режимі «%s» оплата пропонується лише для обраних типів клієнтів.<br> У режимі «%s» параметр ігнорується і оплата пропонується для усіх типів клієнтів."
 
 #: /wa-apps/shop/js/category/products.category.js:81
-#, fuzzy
 msgid "Matching features were not found or are already selected."
-msgstr "Відповідні функції не були знайдені або вже обрані."
+msgstr "Відповідні характеристики не знайдено або вже обрано."
 
 #: /wa-apps/shop/js/category/products.category.js:718
 #: /wa-apps/shop/js/category/products.category.js:719
 #: /wa-apps/shop/js/category/products.category.js:717
-#, fuzzy
 msgid "Nothing selected"
 msgstr "Нічого не вибрано"
 
 #: /wa-apps/shop/js/product/product.js:979
-#, fuzzy
 msgid "Select parameters to be available to customers for ordering this product in the storefront."
-msgstr "Виберіть параметри, які повинні бути доступні клієнтам для замовлення цього продукту в магазині."
+msgstr "Оберіть параметри замовлення цього продукту в магазині, які мають бути бути доступними клієнтам."
 
 #: /wa-apps/shop/js/settings/features.js:210
-#, fuzzy
 msgid "Sorting in the common list is disabled. Drag-and-drop features into product types."
-msgstr "Сортування в загальному списку інвалідів. Перетягніть об'єкти в видах продукції."
+msgstr "Сортування у загальному переліку вимкнено. Перетягуйте характеристики у типах товарів."
 
 #: /wa-apps/shop/lib/actions/category/shopCategorySave.controller.php:145
 #: /wa-apps/shop/lib/actions/products/shopProductsSaveListSettings.controller.php:127
-#, fuzzy
 msgid "URL is in use"
-msgstr "URL-адреса використовується"
+msgstr "URL вже використовується"
 
 #: /wa-apps/shop/lib/actions/orders/shopOrdersLoadList.controller.php:18
-#, fuzzy
 msgid "Unknown offset"
-msgstr "Невідомі зміщення"
+msgstr "Невідоме зміщення"
 
 #: /wa-apps/shop/lib/actions/orders/shopOrdersLoadList.controller.php:22
-#, fuzzy
 msgid "Unknown count"
-msgstr "Невідомий граф"
+msgstr "Невідома кількість"
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:706
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:707
