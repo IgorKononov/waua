@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: /wa-apps/shop/templates/actions/backend/BackendImportexport.html:17
@@ -15818,41 +15818,35 @@ msgstr "Помилка завантаження файлу"
 
 #: /wa-apps/shop/lib/actions/frontend/my/shopFrontendMyOrder.action.php:104
 #: /wa-apps/shop/lib/actions/frontend/shopFrontendCheckout.action.php:154
-#, fuzzy
 msgid "Payment option will be available in your customer account after your order has been verified."
-msgstr "Спосіб оплати буде доступний у вашому особистому кабінеті клієнта, після того як ваше замовлення був перевірений."
+msgstr "Оплата буде доступна у вашому обліковому записі клієнта після перевірки замовлення."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:107
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:95
-#, fuzzy
 msgid "Service does not exist."
-msgstr "Служба не існує."
+msgstr "Послуги не існує."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:115
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:100
-#, fuzzy
 msgid "Service is already in cart."
-msgstr "Служба вже в кошику."
+msgstr "Служба вже у кошику."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:125
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:107
-#, fuzzy
 msgid "Service variant does not exist."
-msgstr "Варіант сервісу не існує."
+msgstr "Варіанту послуги не існує."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:149
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:176
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:130
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:157
-#, fuzzy
 msgid "Incorrect input data"
 msgstr "Неправильні вхідні дані"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:156
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:137
-#, fuzzy
 msgid "No product to add service to."
-msgstr "Немає продукту, щоб додати службу."
+msgstr "Немає товару, до якого можна додати послугу."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:432
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:439
@@ -15862,46 +15856,39 @@ msgstr "Немає продукту, щоб додати службу."
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:383
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:420
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:422
-#, fuzzy
 msgid "Data mismatch. Shopping cart parameters have changed beyond this page?"
-msgstr "Невідповідність даних. Параметри кошик змінилися до цієї сторінки?"
+msgstr "Невідповідність даних. Параметри кошику змінилися?"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:452
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:396
-#, fuzzy
 msgid "Quantity must be integer."
 msgstr "Кількість повинна бути цілим числом."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.action.php:42
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.action.php:37
-#, fuzzy
 msgid "Page not supported by selected design theme."
-msgstr "Сторінка не підтримується обраної теми дизайну."
+msgstr "Сторінка не підтримується обраною темою дизайну."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:82
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:71
-#, fuzzy
 msgid "You must be logged in to complete this order."
-msgstr "Ви повинні увійти в систему для виконання цього замовлення."
+msgstr "Аби завершити це замовлення, ви маєте авторизуватися."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:142
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:129
-#, fuzzy
 msgid "Order creation error."
 msgstr "Помилка при створенні замовлення."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:170
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrder.actions.php:157
-#, fuzzy
 msgid "Unable to save order."
-msgstr "Не вдається зберегти порядок."
+msgstr "Не вдалося зберегти замовлення."
 
 #: /wa-apps/shop/lib/actions/frontend/shopFrontendProductReviewsAdd.controller.php:157
 #: /wa-apps/shop/lib/classes/checkout/shopCheckoutContactinfo.class.php:256
 #: /wa-apps/shop/lib/classes/checkout/shopCheckoutContactinfo.class.php:249
-#, fuzzy
 msgid "Please confirm your agreement"
-msgstr "Будь ласка, підтвердіть вашу згоду"
+msgstr "Підтвердіть, будь ласка, вашу згоду"
 
 #: /wa-apps/shop/lib/actions/backend/shopBackendLoc.action.php:102
 #: /wa-apps/shop/lib/actions/backend/shopBackendLoc.action.php:96
@@ -15912,70 +15899,58 @@ msgstr[1] "Ви вже додали %d товари до цього трансф
 msgstr[2] "Ви вже додали %d товарів до цього трансферу. Ви впевнені, що бажаєте змінити склад-джерело?"
 
 #: /wa-apps/shop/lib/actions/tutorial/shopTutorial.actions.php:122
-#, fuzzy
 msgid "Basic settings"
-msgstr "Основні параметри"
+msgstr "Основні налаштування"
 
 #: /wa-apps/shop/lib/actions/tutorial/shopTutorial.actions.php:132
-#, fuzzy
 msgid "Select design"
-msgstr "Виберіть дизайн"
+msgstr "Оберіть дизайн"
 
 #: /wa-apps/shop/lib/actions/tutorial/shopTutorial.actions.php:137
-#, fuzzy
 msgid "Set up payment"
-msgstr "Налаштування оплати"
+msgstr "Налаштуйте оплату"
 
 #: /wa-apps/shop/lib/actions/tutorial/shopTutorial.actions.php:142
-#, fuzzy
 msgid "Set up shipping"
-msgstr "Настроювання доставки"
+msgstr "Налаштуйте доставку"
 
 #: /wa-apps/shop/lib/actions/customers/shopCustomersFilterSave.controller.php:11
-#, fuzzy
 msgid "Filter cannot be saved."
-msgstr "Фільтр не може бути збережений."
+msgstr "Зберегти фільтр неможливо."
 
 #: /wa-apps/shop/lib/actions/customers/shopCustomersFilterDelete.controller.php:10
-#, fuzzy
 msgid "Filter cannot be deleted."
-msgstr "Фільтр може бути видалений."
+msgstr "Видалити фільтр неможливо."
 
 #: /wa-apps/shop/lib/actions/product/shopProductImageDelete.controller.php:24
-#, fuzzy
 msgid "Coudn’t delete image"
 msgstr "Не вдалося видалити зображення"
 
 #: /wa-apps/shop/lib/actions/product/shopProductPageMove.controller.php:14
-#, fuzzy
 msgid "Page couldn’t be inserted before itself."
-msgstr "Сторінка не може бути вставлено перед собою."
+msgstr "Сторінку не можна вставити перед собою."
 
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:33
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:30
-#, fuzzy
 msgid "Syntax error in the template of action “%s” in line %s “%s”. Reason: %s."
-msgstr "Помилка синтаксису в шаблон дій \"%s у рядку %\"%\". Причина: %s."
+msgstr "Синтаксична помилка у шаблоні для дії \"%s\" на стрічці %s \"%s\". Причина: %s."
 
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:35
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:32
-#, fuzzy
 msgid "You can edit the template in <a href=\"?action=settings#/orderStates/\">order states settings</a>."
-msgstr "Ви можете відредагувати шаблон, В <а href=\"?дію=налаштування#/orderStates/\">порядок налаштування держав</а>."
+msgstr "Ви можете відредагувати шаблон<a href=\"?action=settings#/orderStates/\">налаштувань статусів заказів</a>"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:58
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:122
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:119
-#, fuzzy
 msgid "Invalid value"
 msgstr "Неприпустиме значення"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:65
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:129
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:126
-#, fuzzy
 msgid "Please enter at least one working day"
-msgstr "Будь ласка, введіть принаймні один робочий день"
+msgstr "Будь ласка, вкажіть принаймні один робочий день"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:75
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:114
@@ -15986,9 +15961,8 @@ msgstr "Будь ласка, введіть принаймні один робо
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:112
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:136
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:173
-#, fuzzy
 msgid "Invalid time"
-msgstr "Неприпустиме час"
+msgstr "Неприпустимий час"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:84
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:99
@@ -15996,64 +15970,54 @@ msgstr "Неприпустиме час"
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:163
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:145
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:160
-#, fuzzy
 msgid "Invalid date"
 msgstr "Неприпустима дата"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:86
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:150
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:147
-#, fuzzy
 msgid "Remove duplicate"
 msgstr "Видалити дублікати"
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:101
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:165
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:162
-#, fuzzy
 msgid "Remove the date from extra work days days"
 msgstr "Видалити дату з додаткових робочих днів"
 
 #: /wa-apps/shop/lib/actions/settings/features/shopSettingsFeaturesTypeDelete.controller.php:19
-#, fuzzy
 msgid "Cannot delete product type. At least one product type must remain."
-msgstr "Неможливо видалити Тип товару. Принаймні, один тип продукту повинна залишатися."
+msgstr "Не вдалося видалити тип товару. Має існувати принаймні один тип."
 
 #: /wa-apps/shop/lib/actions/settings/shopSettingsSystemPluginClone.controller.php:15
-#, fuzzy
 msgid "Invalid plugin type."
-msgstr "Некоректний плагіна."
+msgstr "Невірний тип плагіну."
 
 #: /wa-apps/shop/lib/actions/settings/shopSettingsSystemPluginClone.controller.php:28
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShippingClone.controller.php:23
-#, fuzzy
 msgid "Shipping plugin not found."
-msgstr "Доставка плагін не знайдено."
+msgstr "Плагін доставки не знайдено."
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:78
-#, fuzzy
 msgid "Logo not uploaded. Please try again."
-msgstr "Логотип не завантажений. Будь ласка, спробуйте знову."
+msgstr "Логотип не завантажено. Будь ласка, спробуйте знову."
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2UploadLogo.controller.php:9
-#, fuzzy
 msgid "Missing storefront id."
-msgstr "Відсутній ідентифікатор магазину."
+msgstr "Відсутній ідентифікатор вітрини."
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2UploadLogo.controller.php:14
 msgid "Image uploading error"
 msgstr "Помилка завантаження зображення"
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2UploadLogo.controller.php:22
-#, fuzzy
 msgid "Invalid image format."
 msgstr "Некоректний формат зображення."
 
 #: /wa-apps/shop/lib/actions/settings/order_states/shopSettingsOrderStateSave.controller.php:72
 #: /wa-apps/shop/lib/actions/settings/order_states/shopSettingsOrderStateSave.controller.php:42
-#, fuzzy
 msgid "State name cannot be empty"
-msgstr "Ім'я не може бути порожнім"
+msgstr "Назва статусу не може бути порожньою"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShippingSave.controller.php:28
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:96
@@ -16071,19 +16035,16 @@ msgid "Product length"
 msgstr "Довжина товару"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShippingSave.controller.php:75
-#, fuzzy
 msgid "Parameters are not specified: %s"
-msgstr "Параметри не зазначені: %s"
+msgstr "Параметри не зазначено: %s"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:47
-#, fuzzy
 msgid "Product feature “%s” with code <tt>%s</tt> is used."
-msgstr "Характеристика продукту \"%S\" з кодом <TT>%х</TT> використовується."
+msgstr "Характеристика продукту“%s” з кодом<tt>%s</tt> вже використовується."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:55
-#, fuzzy
 msgid "Shipping plugins retrieve weight from the vaules of a product feature with code <tt>%s</tt>."
-msgstr "Доставка Плагіни відновити вагу від воулс функції товару з кодом <TT>%х</TT>."
+msgstr "Плагіни доставки отримують вагу із значення характеристики товару з кодом <tt>%s</tt>."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:62
 #: /wa-apps/shop/templates/actions/settings/SettingsShipping.html:5
