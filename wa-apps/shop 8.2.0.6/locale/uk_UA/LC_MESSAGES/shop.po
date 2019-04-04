@@ -16048,86 +16048,71 @@ msgstr "Плагіни доставки отримують вагу із зна�
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:62
 #: /wa-apps/shop/templates/actions/settings/SettingsShipping.html:5
-#, fuzzy
 msgid "Most shipping rate calculation plugins require <strong>product weight</strong> information which is taken from a product feature with code <tt>%s</tt>."
-msgstr "Більшість судноплавних Плагіни розрахунку ставки вимагають <сильний>вага товару</strong> для відомості з якого взята характеристика товару з кодом <TT>%х</TT>."
+msgstr "Більшості плагінів розрахунку доставки потрібна інформація про <strong>вагу продукту</strong> , яка береться з характеристики продукту з кодом <tt>%s</tt>."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:66
 #: /wa-apps/shop/templates/actions/settings/SettingsShipping.html:6
-#, fuzzy
 msgid "You have no such feature in your online store settings."
-msgstr "У вас немає такої функції в настройках інтернет-магазину."
+msgstr "У вас немає такої характеристики в налаштуваннях інтернет-магазину."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:69
 #: /wa-apps/shop/templates/actions/settings/SettingsShipping.html:7
-#, fuzzy
 msgid "Add it in “<a href=\"%s\">Product types &amp; Features</a>” screen."
-msgstr "Додати його в \"<а href=\"%s\">типи продукту &amp; особливості</а>\" екран."
+msgstr "Додайте її у розділі «<a href=\"%s\">Типи та характеристики товарів</a>»."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:77
-#, fuzzy
 msgid "Product dimensions (value × value × value)"
-msgstr "Габарити виробу (в×значення × значення)"
+msgstr "Габарити виробу (значення×значення×значення)"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:78
-#, fuzzy
 msgid "Select a common product feature containing 3 dimension values to avoid selecting separate features for individual dimensions below."
-msgstr "Виберіть загальна характеристика продукту, що містить 3 значення вимірювань, щоб уникнути вибравши окремі елементи за індивідуальними розмірами нижче."
+msgstr "Оберіть загальну характеристику товару, яка містить значення трьох вимірів, аби уникнути вибору окремих характеристик для вимірів."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:85
-#, fuzzy
 msgid "Product dimensions are passed on to shipping plugins."
-msgstr "Габарити вироби передаються на доставку плагінів."
+msgstr "Габарити виробу передаються плагінам доставки."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:89
-#, fuzzy
 msgid "Passing of product dimensions on to shipping plugins is not set up."
-msgstr "Проходження габарити товару на доставку плагіни не налаштовані."
+msgstr "Передачу габаритів товару плагінам доставки не налаштовано."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:111
-#, fuzzy
 msgid "Select separate product features for individual product dimensions if you have not selected a common dimensions feature above."
-msgstr "Виберіть окремі характеристики продукту під індивідуальні розміри виробу, якщо ви не обрали загальну особливість вище."
+msgstr "Оберіть окремі характеристики товару під індивідуальні розміри виробу, якщо ви не обрали загальну характеристику вище."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:119
 msgid "Order dimensions calculation plugin"
 msgstr "Плагін розрахунку розмірів замовлення"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:124
-#, fuzzy
 msgid "Order dimensions calculation is set up."
-msgstr "Порядок розрахунку вимірювань."
+msgstr "Порядок розрахунку вимірювань налаштовано."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:126
-#, fuzzy
 msgid "Order dimensions calculation is not set up."
-msgstr "Порядок розрахунку розмірів не встановлено."
+msgstr "Порядок розрахунку розмірів не налаштовано."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:150
-#, fuzzy
 msgid "Install an order dimensions calculation plugin."
-msgstr "Встановити порядок, габарити плагін розрахунку."
+msgstr "Встановіть плагін розрахунку вимірів замовлення."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:156
-#, fuzzy
 msgid "Do not calculate order dimensions"
-msgstr "Не розрахують замовлення розміри"
+msgstr "Не розраховувати розміри замовлення"
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:159
-#, fuzzy
 msgid "If no plugin is selected, then order dimensions are calculated by shipping plugins."
-msgstr "Якщо плагін встановлений, то замовлення розміри розраховуються за доставка Плагіни."
+msgstr "Якщо плагін не обрано, то розміри замовлення буде розраховано плагінами доставки."
 
 #: /wa-apps/shop/lib/actions/settings/shipping/shopSettingsShipping.action.php:198
-#, fuzzy
 msgid "Select a feature"
-msgstr "Виберіть функцію"
+msgstr "Оберіть характеристику"
 
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:51
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:74
-#, fuzzy
 msgid "Shipping method with id=%s not found."
-msgstr "Спосіб доставки з ID=%s не знайдено."
+msgstr "Варіант доставки з ідентифікатором %s не знайдено."
 
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:527
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:528
@@ -16135,74 +16120,62 @@ msgstr "Спосіб доставки з ID=%s не знайдено."
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:364
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:365
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:366
-#, fuzzy
 msgid "shipping type “%s”"
-msgstr "тип доставки \"%s\""
+msgstr "варіант доставки «%s»"
 
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:527
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:364
-#, fuzzy
 msgid "pickup"
-msgstr "пікап"
+msgstr "самовивіз"
 
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:528
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:365
-#, fuzzy
 msgid "courier"
 msgstr "кур'єр"
 
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:530
 #: /wa-apps/shop/lib/classes/shopShipping.class.php:367
-#, fuzzy
 msgid "post"
-msgstr "пост"
+msgstr "пошта"
 
 #: /wa-apps/shop/lib/classes/shopAffiliate.class.php:368
-#, fuzzy
 msgid "Recalculation of discount after order is restored"
-msgstr "Перерахунок знижки після того, буде відновлено"
+msgstr "Перерахунок знижки після відновлення замовлення"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:44
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:30
-#, fuzzy
 msgid "Unknown shipping method."
-msgstr "Невідомий спосіб доставки."
+msgstr "Невідомий варіант доставки."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:189
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:198
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:146
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutDetailsStep.class.php:151
-#, fuzzy
 msgid "Unable to calculate a shipping rate."
-msgstr "Можете розрахувати вартість доставки."
+msgstr "Неможливо розрахувати вартість доставки."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:197
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:178
-#, fuzzy
 msgid "Mini"
 msgstr "Міні"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:200
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:181
-#, fuzzy
 msgid "Narrow"
-msgstr "Вузькі"
+msgstr "Вузький"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:203
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:184
-#, fuzzy
 msgid "Medium"
 msgstr "Середній"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:206
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:187
-#, fuzzy
 msgid "Large"
-msgstr "Великі"
+msgstr "Великий"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:215
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:199
-#, fuzzy
 msgid "Only compare at price without discount"
 msgstr "Порівнювати тільки за ціною без знижки"
 
@@ -16217,85 +16190,71 @@ msgstr "Тільки загальна сума знижки"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:230
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:211
-#, fuzzy
 msgid "Extra information about discounts by coupons and bonus points"
-msgstr "Додаткову інформацію про знижки за купонами та бонусні бали"
+msgstr "Додаткова інформація про знижки за купонами та бонусні бали"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:239
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:220
-#, fuzzy
 msgid "Default"
 msgstr "За замовчуванням"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:240
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:221
-#, fuzzy
 msgid "Available shipping options are grouped by type—“courier”, “pickup”, “post”."
-msgstr "Доступні варіанти доставки групуються по типу—\"кур'єр\", \"самовивіз\", \"пошта\"."
+msgstr "Доступні варіанти доставки групуються за типом—«кур'єр», «самовивіз», «пошта»."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:244
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:225
-#, fuzzy
 msgid "Minimal"
 msgstr "Мінімальний"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:244
-#, fuzzy
 msgid "Shipping options are not grouped by types—“courier”, “pickup”, “post”. There is no option to select a pickup point on a map."
-msgstr "Варіанти доставки не згруповані за типами—\"кур'єр\", \"самовивіз\", \"пошта\". Немає можливість вибрати пункт самовивозу на карті."
+msgstr "Доступні варіанти доставки групуються за типом—«кур'єр», «самовивіз», «пошта». Немає можливості обрати пункт самовивозу на карті."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:254
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:235
-#, fuzzy
 msgid "Always show"
-msgstr "Завжди показують"
+msgstr "Завжди показувати"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:256
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:237
-#, fuzzy
 msgid "Only on screens over 760 pixels wide"
 msgstr "Тільки на екранах понад 760 пікселів в ширину"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:260
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:241
-#, fuzzy
 msgid "Never show"
-msgstr "Ніколи не показують"
+msgstr "Ніколи не показувати"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:260
-#, fuzzy
 msgid "A small map with one pickup point will be shown by a click on an address in the pickup point selection dialog."
-msgstr "Невелика карта з однією точкою наведення будуть показані клікніть на адресу пікап діалогове вікно вибору точки."
+msgstr "При кліку на адресі у діалозі вибору точки самовивозу буде показано невелику карту."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:276
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:256
-#, fuzzy
 msgid "Persons & companies"
-msgstr "Осіб і компаній"
+msgstr "Особи та компанії"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:288
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:268
-#, fuzzy
 msgid "By submitting this form I agree to <a href=\"---INSERT A LINK HERE!---\" target=\"_blank\">personal data protection policy</a>"
-msgstr "Відправляючи цю форму, я погоджуюся на <а href=\"---вставити сюди посилання!---\" мета=\"\\_blank\">для захисту персональних даних</A>"
+msgstr "Відправляючи цю форму, я погоджуюся із <a href=\"---ВСТАВИТИ СЮДИ ПОСИЛАННЯ!---\" target=\"_blank\">політикою захисту персональних даних</a>"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:292
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:272
-#, fuzzy
 msgid "I agree to <a href=\"---INSERT A LINK HERE!---\" target=\"_blank\">personal data protection policy</a>"
-msgstr "Я згоден <а href=\"---вставити сюди посилання!---\" мета=\"\\_blank\">для захисту персональних даних</A>"
+msgstr "Я погоджуюся із <a href=\"---ВСТАВИТИ СЮДИ ПОСИЛАННЯ!---\" target=\"_blank\">політикою захисту персональних даних</a>"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:304
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:98
-#, fuzzy
 msgid "Add an order to existing customer profile with the same phone number or email address"
-msgstr "Додайте замовлення на існуючий профіль клієнта з тим же номером телефону або адресу електронної пошти"
+msgstr "Додати замовлення до існуючого профілю клієнта із тим же номером телефона або із тою же адресою електронної пошти"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:305
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:285
-#, fuzzy
 msgid "Existing customer’s data will be updated by the data from a new order."
-msgstr "Дані замовника будуть оновлюватися дані від нового замовлення."
+msgstr "Відомості про існуючого клієнта будуть оновлені даними з нового замовлення."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:309
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:287
@@ -16304,136 +16263,113 @@ msgstr "Оформлення замовлення не допускається 
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:320
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:297
-#, fuzzy
 msgid "Common working schedule"
-msgstr "Загальні робочий графік"
+msgstr "Загальний робочий графік"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:320
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:297
-#, fuzzy
 msgid "Section “<a href=\"?action=settings#/schedule/\" target=\"_blank\">%s</a>” <i class=\"icon16 new-window\"></i> settings are used"
-msgstr "Розділ “<а href=\"?дію=налаштування#/розклад/\" таргет=\"розділ налаштувань\">%х</а>\" <I клас=\"icon16 нові вікна\"></> налаштування використовуються"
+msgstr "Використовуються налаштування з розділу «<a href=\"?action=settings#/schedule/\" target=\"_blank\">%s</a>» <i class=\"icon16 new-window\"></i>"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:324
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:300
-#, fuzzy
 msgid "Custom working schedule for this storefront"
-msgstr "Виготовлений на замовлення графік роботи цього магазину"
+msgstr "Особливий графік роботи магазину для цієї вітрини"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:325
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:301
-#, fuzzy
 msgid "Select if your online store has several storefronts with different working schedules"
-msgstr "Виберіть, якщо ваш інтернет-магазин має кілька вітрин з різними робочими графіками"
+msgstr "Оберіть, якщо ваш інтернет-магазин має кілька вітрин із різними робочими графіками"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:51
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:50
-#, fuzzy
 msgid "Some items in your order are not available. Please remove them from your cart."
-msgstr "Деякі позиції у вашому замовленні немає в наявності. Будь ласка, видаліть їх з вашої корзини."
+msgstr "Деяких позицій у вашому замовленні немає в наявності. Будь ласка, видаліть їх з вашого кошику."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:64
-#, fuzzy
 msgid "You have not accepted the terms of service."
-msgstr "Ви не погодилися з умовами обслуговування."
+msgstr "Ви не погодилися із умовами обслуговування."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:44
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:42
-#, fuzzy
 msgid "You are logged in as a company. Please log out and login again as a person."
-msgstr "Ви зайшли на сайт як компанію. Будь ласка, вийдіть і зайдіть знову як людина."
+msgstr "Ви авторизовались як компанія. Будь ласка, вийдіть та авторизуйтесь як особа."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:51
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:45
-#, fuzzy
 msgid "You are logged in as a person. Please log out and log in again as a company."
-msgstr "Ви увійшли як людини. Будь ласка, вийдіть і знову увійдіть в систему в якості компанії."
+msgstr "Ви авторизовались як особа. Будь ласка, вийдіть та авторизуйтесь як компанія."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:143
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:127
-#, fuzzy
 msgid "Please select customer type."
-msgstr "Будь ласка, виберіть тип клієнта."
+msgstr "Будь ласка, оберіть тип клієнта."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutShippingStep.class.php:77
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutShippingStep.class.php:63
-#, fuzzy
 msgid "No shipping options available for selected region."
-msgstr "Немає варіанти доставки, доступні для вибраного регіону."
+msgstr "Для вказаного регіону немає доступних варіантів доставки."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutShippingStep.class.php:251
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutShippingStep.class.php:195
-#, fuzzy
 msgid "Please select shipping option."
-msgstr "Будь ласка, виберіть варіант доставки."
+msgstr "Оберіть варіант доставки, будь ласка."
 
 #: /wa-apps/shop/lib/classes/shopOrder.class.php:1062
 #: /wa-apps/shop/lib/classes/shopOrder.class.php:1052
-#, fuzzy
 msgid "Discount is greater than order total."
 msgstr "Знижка більше, ніж сума замовлення."
 
 #: /wa-apps/shop/lib/classes/shopOrder.class.php:2189
 #: /wa-apps/shop/lib/classes/shopOrder.class.php:2178
-#, fuzzy
 msgid "Previously calculated discount was preserved"
-msgstr "Попередньо розрахованої знижка збереглася"
+msgstr "Попередньо розраховану знижку збережено"
 
 #: /wa-apps/shop/lib/classes/checkout/shopCheckoutContactinfo.class.php:24
-#, fuzzy
 msgid "We do not accept orders from clients registered as companies. To continue checkout, please <a href='?logout=%s'>log out</a> and log in again as a person."
-msgstr "Ми не приймаємо замовлення від клієнтів, зареєстрованих в компанії. Для продовження оформлення замовлення, будь ласка <а href='?вихід=%s'>вийти</A> і знову увійдіть у систему, як людина."
+msgstr "Ми не приймаємо замовлення від клієнтів, зареєстрованих як компанії. Для продовження оформлення замовлення, будь ласка <a href='?logout=%s'>вийдіть</a> та авторизуйтесь як особа."
 
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:483
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:437
-#, fuzzy
 msgid "Name cannot be left blank"
-msgstr "Ім'я не може бути порожнім"
+msgstr "Введіть ім'я"
 
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:489
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:443
-#, fuzzy
 msgid "Email cannot be left blank"
-msgstr "Електронної пошти не може бути порожнім"
+msgstr "Введіть email-адресу"
 
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:503
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:457
-#, fuzzy
 msgid "Review title cannot be left blank"
-msgstr "Назва коментар не може бути порожнім"
+msgstr "Введіть назву відгуку"
 
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:507
 #: /wa-apps/shop/lib/model/shopProductReviews.model.php:461
-#, fuzzy
 msgid "Review text cannot be left blank"
-msgstr "Текст відгуку не може бути порожнім"
+msgstr "Введіть текст відгуку"
 
 #: /wa-apps/shop/lib/model/shopProductStocksLog.model.php:42
 #: /wa-apps/shop/lib/model/shopProductStocksLog.model.php:43
-#, fuzzy
 msgid "Inventory transferred to warehouse"
-msgstr "Інвентаризації переданих на склад"
+msgstr "Інвентар перенесено на склад"
 
 #: /wa-apps/shop/lib/layouts/shopBackend.layout.php:89
-#, fuzzy
 msgid "Conventional commodity"
 msgstr "Звичайний товар"
 
 #: /wa-apps/shop/lib/workflow/templates/ShipAction.html:33
-#, fuzzy
 msgid "specify date and time"
-msgstr "вкажіть дату і час"
+msgstr "вкажіть дату та час"
 
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:17
-#, fuzzy
 msgid "Actual refund"
-msgstr "Фактичний повернення"
+msgstr "Фактичне відшкодування"
 
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:23
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:5
-#, fuzzy
 msgid "Money will be returned to the customer via the payment gateway."
-msgstr "Гроші будуть повернуті клієнту через платіжний шлюз."
+msgstr "Гроші будуть повернуті клієнту через платіжний шлюз"
 
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:36
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:8
@@ -16458,20 +16394,17 @@ msgid "“%s” action"
 msgstr "Дія \"%s\""
 
 #: /wa-apps/shop/lib/workflow/shopWorkflowRefundAction.class.php:46
-#, fuzzy
 msgid "Refunded %s via %s payment gateway."
-msgstr "Повернута %s через %платіжний шлюз С."
+msgstr "Повернено %s через платіжний шлюз %s."
 
 #: /wa-apps/shop/lib/workflow/shopWorkflowEditAction.class.php:207
 #: /wa-apps/shop/lib/workflow/shopWorkflowEditAction.class.php:134
-#, fuzzy
 msgid "Editing this order will mark it as settled and will re-calculate its current amount (%s) based on the changed order content. Are you sure you want to settle this order and to reset the order amount?"
-msgstr "Для редагування цього замовлення він буде позначений як вирішене і повторно обчислити його поточне кількість (%s) заснований на зміненому вміст замовлення. Ви впевнені, що хочете врегулювати цей порядок і скинути сума замовлення?"
+msgstr "Редагування цього замовлення позначить його як підтверджене та перерахує його поточну суму (%s) на основі введеної вами інформації. Ви дійсно бажаєте підтвердити це замовлення та скинути його суму?"
 
 #: /wa-apps/shop/lib/config/shopConfig.class.php:43
-#, fuzzy
 msgid "as added to the shopping cart"
-msgstr "як додали в кошик"
+msgstr "додано до кошику"
 
 #: /wa-apps/shop/lib/config/shopConfig.class.php:44
 msgid "by item name"
@@ -16487,26 +16420,22 @@ msgstr "за кодом артикула"
 #: /wa-apps/shop/lib/config/data/workflow.php:149
 #: /wa-apps/shop/lib/config/data/workflow.php:205
 #: /wa-apps/shop/lib/config/data/workflow.php:226
-#, fuzzy
 msgid "Order status will be changed to “%s”."
-msgstr "Статус замовлення буде змінено на \"%S\"."
+msgstr "Статус замовлення буде змінено на «%s»."
 
 #: /wa-apps/shop/lib/config/data/workflow.php:150
 #: /wa-apps/shop/lib/config/data/workflow.php:227
-#, fuzzy
 msgid "A payment date will be saved."
-msgstr "Датою оплати буде збережений."
+msgstr "Дату оплати буде збережено."
 
 #: /wa-apps/shop/lib/config/data/workflow.php:171
 #: /wa-apps/shop/lib/config/data/workflow.php:206
-#, fuzzy
 msgid "Quantities of ordered products and their SKUs, if non-empty, will be increased accordingly. Order payment date will be cleared."
-msgstr "Кількості замовлених товарів та їх артикули, якщо непорожня, буде збільшена відповідно. Дата оплата замовлення буде очищений."
+msgstr "Кількість замовлених товарів та їх артикулів, якщо більша за ноль, буде відповідно збільшена. Дату оплати замовлення буде очищено."
 
 #: /wa-apps/shop/lib/config/data/workflow.php:217
-#, fuzzy
 msgid "Order status will be changed to the one the order had before deletion."
-msgstr "Статус замовлення буде змінено на одне замовлення було до видалення."
+msgstr "Статус замовлення буде змінено на той, що це замовлення мало перед видаленням."
 
 #: /wa-apps/shop/lib/config/site.php:329 /wa-apps/shop/lib/config/site.php:463
 #: /wa-apps/shop/lib/config/site.php:545
@@ -16517,108 +16446,91 @@ msgid "Courier contact’s default phone number"
 msgstr "Стандартний номер телефону кур'єра"
 
 #: /wa-apps/shop/lib/config/site.php:86
-#, fuzzy
 msgid "<br>Product URLs: /<strong>product-name/</strong><br>Category URLs: /category/<strong>category-name/subcategory-name/subcategory-name/</strong>"
-msgstr "в <br>URL-адреси продукту: /<сильний>назва продукту/</сильні><br>в категорії URL-адрес: /категорії/<сильний>ім'я-категорії/підкатегорії-назва/підкатегорія-найменування/</сильний>"
+msgstr "<br>URL товарів: /<strong>product-name/</strong><br>URL категорій: /category/<strong>category-name/subcategory-name/subcategory-name/</strong>"
 
 #: /wa-apps/shop/lib/config/site.php:143 /wa-apps/shop/lib/config/site.php:114
-#, fuzzy
 msgid "When enabled, out-of-stock products will be automatically dropped to the bottom of every product list on this storefront, e.g. in product search results, category product filtering, and more. Product quantities in all stocks are taken into account."
-msgstr "При включенні, на складі товарів буде автоматично скинута на дно кожного списку товарів на цій вітрині, наприклад, у пошуковій видачі продукту, категорія фільтрації продукту, і багато іншого. Кількості продукту в усі запаси приймаються до уваги."
+msgstr "Коли увімкнено, товари, яких немає на складі, будуть автоматично опущені у кінець кожного переліку товарів на вітрині — наприклад, у результатах пошуку, фільтрації, та інших. Береться до уваги кількість товарів на усіх складах."
 
 #: /wa-apps/shop/lib/config/site.php:147 /wa-apps/shop/lib/config/site.php:117
-#, fuzzy
 msgid "Out-of-stock products will remain published, but will be automatically hidden from all product lists on this storefront, e.g. product search results, category product filtering, and others. Product quantities in all stocks are taken into account."
-msgstr "В наявності продукція залишиться опубліковані, але будуть автоматично приховані з усіх списків товару на вітрину, наприклад, Результати пошуку продукту, категорія фільтрації продукту, та інші. Кількості продукту в усі запаси приймаються до уваги."
+msgstr "Товари, яких немає на складі, залишаться опублікованими, але будуть автоматично приховані з кожного переліку товарів на вітрині — наприклад, результатів пошуку, фільтрації, та інших. Береться до уваги кількість товарів на усіх складах."
 
 #: /wa-apps/shop/lib/config/site.php:195
 msgid "Checkout mode"
 msgstr "Оформлення оформлення замовлення"
 
 #: /wa-apps/shop/lib/config/site.php:199
-#, fuzzy
 msgid "<span class=\"checkout-2-background\">%s</span> (may be not supported by some design themes; please check your theme’s description or checkout settings after selecting this mode)"
-msgstr "<проміжок клас=\"касам-2-фон\">%х</span> є (можуть не підтримувати деякі теми оформлення; будь ласка, перевірте опис вашої теми або параметри замовлення Після вибору цього режиму)"
+msgstr "<span class=\"checkout-2-background\">%s</span> (може не підтримуватись деякими темами дизайну; перевірте, будь ласка, опис вашої теми дизайну або налаштування оформлення замовлення після вибору цього режиму)"
 
 #: /wa-apps/shop/lib/config/site.php:200
-#, fuzzy
 msgid "If your design theme does not support “in-cart checkout”, standard checkout design of “Default” theme can be used. <a href=\"%s\" target=\"_blank\">Set up</a> <i class=\"icon16 new-window\"></i>in-cart checkout."
-msgstr "Якщо ваша тема оформлення не підтримує \"у корзину і оформити замовлення\", стандартна перевірка оформлення \"тему за замовчуванням\" може бути використаний. <а href=\"%s\" таргет=\"розділ налаштувань\">налаштування</A> і <I клас=\"icon16 нові вікна\"></I>в кошик оформити замовлення."
+msgstr "Якщо ваша тема дизайну не підтримує «оформлення замовлення у кошику», можна використовувати стандартний дизайн теми «Дефолт». <a href=\"%s\" target=\"_blank\">Налаштуйте</a> <i class=\"icon16 new-window\"></i>оформлення замовлення у кошику."
 
 #: /wa-apps/shop/lib/config/site.php:200
-#, fuzzy
 msgid "Read <a href=\"https://www.shop-script.com/help/29297/in-cart-checkout/\" target=\"_blank\">user manual</a> before enabling this checkout option."
-msgstr "Читати <а href=\"https://www.shop-script.com/help/29297/in-cart-checkout/\" цільових=\"розділ налаштувань\">керівництво користувача</a> перед включенням цієї покупки."
+msgstr "Прочитайте <a href=\"https://www.shop-script.com/help/29297/in-cart-checkout/\" target=\"_blank\">керівництво користувача</a> перед увімкненням цього режиму оформлення замовлення."
 
 #: /wa-apps/shop/lib/config/site.php:204
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">Set up</a> <i class=\"icon16 new-window\"></i>multi-step checkout"
-msgstr "<а href=\"%s\" таргет=\"розділ налаштувань\">налаштування</A> і <I клас=\"icon16 нові вікна\"></>Multi-кроку оформлення замовлення"
+msgstr "<a href=\"%s\" target=\"_blank\">Налаштуйте</a> <i class=\"icon16 new-window\"></i>поетапне оформлення замовлення"
 
 #: /wa-apps/shop/lib/config/site.php:224 /wa-apps/shop/lib/config/site.php:354
 #: /wa-apps/shop/lib/config/site.php:136 /wa-apps/shop/lib/config/site.php:188
-#, fuzzy
 msgid "Product ID. Other elements of <em>$product</em> object available in this template are listed below."
-msgstr "Ідентифікатор товару. Інші елементи <ЕМ>$продукту на сайті</em> об'єкт у цьому шаблоні перераховані нижче."
+msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче"
 
 #: /wa-apps/shop/lib/config/site.php:233 /wa-apps/shop/lib/config/site.php:234
-#, fuzzy
 msgid "Array of product subpages"
-msgstr "Асортимент виробів підсторінки"
+msgstr "Масив підсторінок товару"
 
 #: /wa-apps/shop/lib/config/site.php:264 /wa-apps/shop/lib/config/site.php:265
-#, fuzzy
 msgid "Returns HTML of in-cart checkout cart block"
-msgstr "Повертає HTML-код в кошику кошик оформити замовлення блок"
+msgstr "Повертає HTML форми оформлення замовлення на одній сторінці"
 
 #: /wa-apps/shop/lib/config/site.php:265 /wa-apps/shop/lib/config/site.php:267
-#, fuzzy
 msgid "Returns variables that $wa->shop->checkout()->cart() assigns to its template"
-msgstr "Повертає змінні $уа->магазин->витягти()->корзина() передає шаблон"
+msgstr "Повертає змінні, які $wa->shop->checkout()->cart() призначає його шаблону"
 
 #: /wa-apps/shop/lib/config/site.php:266 /wa-apps/shop/lib/config/site.php:267
 msgid "Returns HTML of in-cart checkout form"
 msgstr "Повертає HTML форми оформлення замовлення на одній сторінці"
 
 #: /wa-apps/shop/lib/config/site.php:267 /wa-apps/shop/lib/config/site.php:272
-#, fuzzy
 msgid "Returns variables that $wa->shop->checkout()->form() assigns to its template"
-msgstr "Повертає змінні $уа->магазин->витягти()->форма() передає шаблон"
+msgstr "Повертає змінні, які $wa->shop->checkout()->form() призначає його шаблону"
 
 #: /wa-apps/shop/lib/config/site.php:293 /wa-apps/shop/lib/config/site.php:414
 #: /wa-apps/shop/lib/config/site.php:504 /wa-apps/shop/lib/config/site.php:295
 #: /wa-apps/shop/lib/config/site.php:416 /wa-apps/shop/lib/config/site.php:505
-#, fuzzy
 msgid "URL of Shop-Script storefront where the order was placed, decoded from Punycode if applicable"
-msgstr "Адреса магазину-скрипт магазину, де був розміщений замовлення, декодуються з Punycode, якщо це застосовне"
+msgstr "URL вітрини Shop-Script, на якій було розміщене замовлення, при необхідності декодоване з Punycode"
 
 #: /wa-apps/shop/lib/config/site.php:295 /wa-apps/shop/lib/config/site.php:417
 #: /wa-apps/shop/lib/config/site.php:506 /wa-apps/shop/lib/config/site.php:298
 #: /wa-apps/shop/lib/config/site.php:418 /wa-apps/shop/lib/config/site.php:507
-#, fuzzy
 msgid "Customer’s User-Agent value at the moment of order creation"
-msgstr "Агент користувача клієнта вартості в момент створення замовлення"
+msgstr "«User-Agent» браузера покупця на момент формування замовлення"
 
 #: /wa-apps/shop/lib/config/site.php:301 /wa-apps/shop/lib/config/site.php:428
 #: /wa-apps/shop/lib/config/site.php:517 /wa-apps/shop/lib/config/site.php:304
 #: /wa-apps/shop/lib/config/site.php:430 /wa-apps/shop/lib/config/site.php:519
-#, fuzzy
 msgid "Day number of customer’s date of birth"
 msgstr "Номер дня дати народження клієнта"
 
 #: /wa-apps/shop/lib/config/site.php:302 /wa-apps/shop/lib/config/site.php:429
 #: /wa-apps/shop/lib/config/site.php:518 /wa-apps/shop/lib/config/site.php:305
 #: /wa-apps/shop/lib/config/site.php:431 /wa-apps/shop/lib/config/site.php:521
-#, fuzzy
 msgid "Month number of customer’s date of birth"
-msgstr "Номер місяця з дати народження клієнта"
+msgstr "Номер місяця дати народження клієнта"
 
 #: /wa-apps/shop/lib/config/site.php:303 /wa-apps/shop/lib/config/site.php:430
 #: /wa-apps/shop/lib/config/site.php:520 /wa-apps/shop/lib/config/site.php:307
 #: /wa-apps/shop/lib/config/site.php:432 /wa-apps/shop/lib/config/site.php:522
-#, fuzzy
 msgid "Year number of customer’s date of birth"
-msgstr "Число Рік Дата народження клієнта"
+msgstr "Номер року дати народження клієнта"
 
 #: /wa-apps/shop/lib/config/site.php:305 /wa-apps/shop/lib/config/site.php:431
 #: /wa-apps/shop/lib/config/site.php:521 /wa-apps/shop/lib/config/site.php:308
@@ -16693,14 +16605,12 @@ msgid "Returns checkout page URL"
 msgstr "Повертає URL-адресу сторінки оформлення замовлення"
 
 #: /wa-apps/shop/lib/config/site.php:336
-#, fuzzy
 msgid "Returns shopping cart page URL"
-msgstr "Повертає торговий кошик URL-адресу"
+msgstr "Повертає URL сторінки кошику"
 
 #: /wa-apps/shop/lib/config/site.php:336
-#, fuzzy
 msgid "Returns working schedule data array for current storefront"
-msgstr "Повертає графік роботи масив даних для поточного магазину"
+msgstr "Повертає масив даних графіку роботи для поточної вітрини"
 
 #: /wa-apps/shop/lib/config/site.php:339 /wa-apps/shop/lib/config/site.php:338
 #, fuzzy
