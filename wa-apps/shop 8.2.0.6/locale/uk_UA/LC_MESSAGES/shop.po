@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: /wa-apps/shop/templates/actions/backend/BackendImportexport.html:17
@@ -16613,28 +16613,24 @@ msgid "Returns working schedule data array for current storefront"
 msgstr "Повертає масив даних графіку роботи для поточної вітрини"
 
 #: /wa-apps/shop/lib/config/site.php:339 /wa-apps/shop/lib/config/site.php:338
-#, fuzzy
 msgid "Returns array of visible subcategories of specified parent category.<br><strong>$id</strong> (default: <em>0</em>): ID of parent category whose subcategories must be returned. By default, categories starting from top level are returned.<br><strong>$depth</strong> (default: <em>null</em>): depth of subcategory tree. By default, entire category tree is returned.<br><strong>$tree</strong> (default: <em>false</em>): flag requiring to return categories as a tree (<em>true</em>) or a flat array (<em>false</em>).<br><strong>$params</strong> (default: <em>false</em>): flag requiring to return categories with their extra parameters. By default, categories are returned without extra parameters.<br><strong>$route</strong> (default: <em>null</em>): array of route parameters of the storefront for which visible categories must be returned. By default, returned categories are not necessarily limited to certain storefronts."
-msgstr "Повертає масив видимих місцях визначеної батьківської категорії.<БР><сильний>ідентифікатор</сильний> (за замовчуванням: <ЕМ>0</em>): ідентифікатор батьківського категорії, підкатегорії, які мають бути повернені. За замовчуванням категорій, починаючи від верхнього рівня будуть повернуті.<br>це<сильний>$глибина</сильний> (за замовчуванням: <ЕМ>нуль</em>): глибина дерева підкатегорії. За замовчуванням, всі дерево категорія повертається.<br>це<сильний>$дерево</сильний> (за замовчуванням: <EM>ні</em>): прапор, вимагаючи повернути категорій у вигляді дерева (<ЕМ>правда</em>) або плоский масив (<ЕМ>помилкові</em>).<БР><strong>для виводу$params</сильний> (за замовчуванням: <EM>ні</em>): прапор, вимагаючи повернути категорій з їх додаткових параметрів. За замовчуванням категорії будуть повернуті без додаткових параметрів.<br>це<сильний>$маршруту</сильний> (за замовчуванням: <ЕМ>нуль</em>): вибору параметрів маршруту, дивлячись на яких видно категорії, повинні бути повернені. За замовчуванням, яке повертається категорії не обов'язково обмежені деякі вітрин."
+msgstr "Повертає масив видимих підкатегорій вказаної батьківської категорії.<br><strong>$id</strong> (за замовчуванням: <em>0</em>): Ідентифікатор батьківської категорії для відображення підкатегорій. За замовчуванням категорії повертаються, починаючи з найвищого рівня.<br><strong>$depth</strong> (за замовчуванням: <em>null</em>): глибина дерева підкатегорій. За замовчуванням повертається повне дерево.<br><strong>$tree</strong> (за замовчуванням: <em>false</em>): прапорець визначає необхідність повернути категорії у вигляді дерева (<em>true</em>) або плаского масиву (<em>false</em>). <br><strong>$params</strong> (за замовчуванням: <em>false</em>): прапорець позначає необхідність повернути категорії із додатковими параметрами. За замовчуванням, категорії повертаються без додаткових параметрів.<br><strong>$route</strong> (за замовчуванням: <em>null</em>): масив параметрів маршрутизації вітрини, для якої мають бути повернені видимі категорії. За замовчуванням, повернені категорії не обмежуються певними вітринами."
 
 #: /wa-apps/shop/lib/config/site.php:341 /wa-apps/shop/lib/config/site.php:342
 msgid "Returns category URL for specified <em>$category</em> array"
 msgstr "Повертає URL-адресу категорії для зазначеного масиву <em>$category</em>"
 
 #: /wa-apps/shop/lib/config/site.php:344
-#, fuzzy
 msgid "Returns array of specified product’s cross-selling items.<br><strong>$id</strong> of product whose cross-selling items must be returned.<br><strong>$limit</strong> (default: <em>5</em>) limits the number of returned items.<br><strong>$available_only</strong> (default: <em>false</em>) excludes out-of-stock products from the result. By default, out-of-stock products are not skipped."
-msgstr "Повертає масив зазначеного продукту крос-продажів.<БР><сильний>ідентифікатор</strong> для продукції, чий крос-продажу товари повинні бути повернені.<br>це<сильний>$ліміт</сильний> (за замовчуванням: <ет>5</em>) обмежує кількість елементів, які повертаються.<br>це<сильний>$available_only</сильний> (за замовчуванням: <EM>ні</em>) виключає немає в наявності товарів з результату. За замовчуванням, на складі продукція не пропускається."
+msgstr "Повертає масив вказаних рекомендацій для товару. <br><strong>$id</strong> товарів, рекомендації до яких потрібно повернути.<br><strong>$limit</strong> (за замовчуванням: <em>5</em>) обмежує кількість повернених елементів.<br><strong>$available_only</strong> (за замовчуванням: <em>false</em>) виключає з результату товари, яких немає у наявності. За замовчуванням товари не у наявності не виключаються з переліку."
 
 #: /wa-apps/shop/lib/config/site.php:346
-#, fuzzy
 msgid "Returns array of available currencies."
-msgstr "Повертає масив з доступних валют."
+msgstr "Повертає масив доступних валют."
 
 #: /wa-apps/shop/lib/config/site.php:347
-#, fuzzy
 msgid "Returns current currency’s properties object."
-msgstr "Властивості об'єкта повертає поточну валюти."
+msgstr "Повертає об'єкт властивостей поточної валюти."
 
 #: /wa-apps/shop/lib/config/site.php:347
 #, fuzzy
