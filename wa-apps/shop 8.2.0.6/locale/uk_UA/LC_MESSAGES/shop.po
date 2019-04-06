@@ -2347,7 +2347,7 @@ msgstr "редагувати"
 #: /wa-apps/shop/templates/actions/product/Product.html:412
 #: /wa-apps/shop/templates/actions/product/Product.html:321
 msgid "Hidden products are not shown among other products in the storefront, are not available for purchase, and can be viewed by the direct URL only."
-msgstr "Приховані товари не показуються на вітрині у загальних списках товарів і їх не можна додати в корзину. Переглянути прихований товар на вітрині можливо тільки за прямим посиланням"
+msgstr "Приховані товари не показуються на вітрині у загальних списках товарів і їх не можна додати в корзину. Переглянути прихований товар на вітрині можливо тільки за прямим посиланням."
 
 #: /wa-apps/shop/templates/actions/product/Product.html:424
 #: /wa-apps/shop/templates/actions/product/ProductFeatures.html:15
@@ -2408,7 +2408,7 @@ msgstr "Немає"
 
 #: /wa-apps/shop/templates/actions/product/Product.html:511
 msgid "Selling mode"
-msgstr "Режим продаж "
+msgstr "Режим продаж"
 
 #: /wa-apps/shop/templates/actions/product/Product.html:521
 #: /wa-apps/shop/templates/actions/product/Product.html:503
@@ -2423,7 +2423,7 @@ msgstr "Найкраще для товарів з однією ціною та �
 #: /wa-apps/shop/templates/actions/product/Product.html:538
 #: /wa-apps/shop/templates/actions/product/ProductFeaturesSelectable.html:33
 msgid "Best for multi-dimensional featured products, e.g. apparel or footwear which can vary in size and color. Flat SKU list is created automatically based on the combination of features offered for selection. Customer is prompted to choose preferable product feature values which unambiguously identifies SKU that is being added to shopping cart. "
-msgstr "Найкраще підходить для продуктів з декількома варіаціями — наприклад, одежі чи взуття, які можуть відрізнятися розміром та кольором. Плаский перелік артикулів автоматично створюється на основі сполучення характеристик, які можна обрати. Покупець може обрати бажані значення характеристик, які однозначно вкажуть на те, який артикул потрібно додати до кошику."
+msgstr "Найкраще підходить для продуктів з декількома варіаціями — наприклад, одежі чи взуття, які можуть відрізнятися розміром та кольором. Плаский перелік артикулів автоматично створюється на основі сполучення характеристик, які можна обрати. Покупець може обрати бажані значення характеристик, які однозначно вкажуть на те, який артикул потрібно додати до кошику. "
 
 #: /wa-apps/shop/templates/actions/product/Product.html:544
 msgid "To activate this mode, this particular product must be assigned a product type which offers at least one product feature with a <strong>multiple choice</strong> control, i.e. checkbox list. The list of available product types and features is configured on the <em>Settings &rarr; Product types &amp; features</em> screen."
@@ -3103,7 +3103,7 @@ msgstr "Загальний обсяг продажу"
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:10
 #: /wa-apps/shop/templates/actions/reports/ReportsSales.html:10
 msgid "Traffic sources"
-msgstr "Джерела трафіку "
+msgstr "Джерела трафіку"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:11
 #: /wa-apps/shop/templates/actions/reports/ReportsSales.html:11
@@ -3123,7 +3123,7 @@ msgstr "Способи доставки"
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:14
 #: /wa-apps/shop/templates/actions/reports/ReportsSales.html:14
 msgid "Payment types"
-msgstr "Способи оплати "
+msgstr "Способи оплати"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:18
 #: /wa-apps/shop/templates/actions/reports/ReportsSales.html:18
@@ -3150,7 +3150,7 @@ msgstr "Витрати"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:48
 msgid "Product purchase"
-msgstr "Закупівля товару "
+msgstr "Закупівля товару"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsProfit.html:53
 msgid "Average daily profit"
@@ -5299,7 +5299,7 @@ msgstr "Маска поштового індексу"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsTaxes.html:144
 msgid "No county taxes are defined."
-msgstr "Місцеві податки не визначено"
+msgstr "Місцеві податки не визначено."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsTaxes.html:172
 msgid "Add zip"
@@ -5350,7 +5350,7 @@ msgstr "Трансфер"
 #: /wa-apps/shop/templates/actions/stocks/Stocks.html:69
 #: /wa-apps/shop/templates/actions/stocks/Stocks.html:61
 msgid "Please add at least one stock in your store settings."
-msgstr "Додайте хоча б один склад у налаштуваннях магазину"
+msgstr "Додайте хоча б один склад у налаштуваннях магазину."
 
 #: /wa-apps/shop/templates/actions/stocks/Stocks.html:164
 #: /wa-apps/shop/templates/actions/stocks/Stocks.html:135
@@ -6901,7 +6901,7 @@ msgstr "Закрити"
 #: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:47
 #: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:58
 msgid "Reset checkout funnel"
-msgstr "Скинути воронку оформлення замовлення "
+msgstr "Скинути воронку оформлення замовлення"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:48
 #: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:59
@@ -7682,9 +7682,9 @@ msgstr[2] "Оновлено %d зображень товару."
 #: /wa-apps/shop/lib/actions/settings/images/shopSettingsImagesRegenerate.controller.php:215
 msgid "%d product affected."
 msgid_plural "%d products affected."
-msgstr[0] "Вплинуто на %d товар"
-msgstr[1] "Вплинуто на %d товари"
-msgstr[2] "Вплинуто на %d товарів"
+msgstr[0] "Вплинуто на %d товар."
+msgstr[1] "Вплинуто на %d товари."
+msgstr[2] "Вплинуто на %d товарів."
 
 #: /wa-apps/shop/lib/actions/settings/images/shopSettingsImagesRegenerate.controller.php:60
 msgid "Error when delete thumbnails for image %d"
@@ -8553,7 +8553,7 @@ msgstr "Повертає об'єкт кошика покупця"
 
 #: /wa-apps/shop/lib/config/site.php:178 /wa-apps/shop/lib/config/site.php:127
 msgid "Returns array of subcategories of the specified category. Omit parent category for the entire array of categories"
-msgstr "Повертає масив підкатегорій для зазначеної категорії. Не включає батьківську категорію до усього масиву категорій."
+msgstr "Повертає масив підкатегорій для зазначеної категорії. Не включає батьківську категорію до усього масиву категорій"
 
 #: /wa-apps/shop/lib/config/site.php:179 /wa-apps/shop/lib/config/site.php:170
 msgid "Returns category object by <em>$category_id</em>"
@@ -8569,13 +8569,13 @@ msgstr "Повертає масив товарів, що знаходяться 
 
 #: /wa-apps/shop/lib/config/site.php:182 /wa-apps/shop/lib/config/site.php:128
 msgid "Returns array of cross-sell products.<em>$product_id</em> can be either a number (ID of the specified base product) or an array of products IDs"
-msgstr "Повертає масив товарів, рекомендованих функцією перехресного продажу. <em>$product_id</em> може містити число (ID зазначеного основного товару), або масив ID товарів."
+msgstr "Повертає масив товарів, рекомендованих функцією перехресного продажу. <em>$product_id</em> може містити число (ID зазначеного основного товару), або масив ID товарів"
 
 #: /wa-apps/shop/lib/config/site.php:182 /wa-apps/shop/lib/config/site.php:186
 #: /wa-apps/shop/lib/config/site.php:187 /wa-apps/shop/lib/config/site.php:177
 #: /wa-apps/shop/lib/config/site.php:181
 msgid "Setting <em>$available_only = true</em> will automatically exclude all out-of-stock products from the return"
-msgstr "Налаштування <em>$available_only = true</em> автоматично виключить із результату усі товари, яких немає на складі."
+msgstr "Налаштування <em>$available_only = true</em> автоматично виключить із результату усі товари, яких немає на складі"
 
 #: /wa-apps/shop/lib/config/site.php:183 /wa-apps/shop/lib/config/site.php:129
 msgid "Returns current currency object"
@@ -8883,7 +8883,7 @@ msgstr "Дозволити створення ескізів @2x на вимог
 
 #: /wa-apps/shop/templates/actions/settings/SettingsImages.html:149
 msgid "Enabling this option will allow automatic creation of image thumbnails on-fly for devices with high pixel density displays, e.g. Retina displays. Generating bigger images require more memory resources for image generation, requires more disk space for storing images, but significantly improves user experience on devices with high-end displays"
-msgstr "Включення цієї настройки дозволить автоматично створювати ескізи зображень для пристроїв із високою щільністю пікселів — наприклад, для пристроїв із Retina-дисплеєм. Формування таких зображень вимагає більше оперативної пам'яті сервера і більше місця для зберігання файлів, однак це суттєво покращить відображення товарів на сучасних моніторах."
+msgstr "Включення цієї настройки дозволить автоматично створювати ескізи зображень для пристроїв із високою щільністю пікселів — наприклад, для пристроїв із Retina-дисплеєм. Формування таких зображень вимагає більше оперативної пам'яті сервера і більше місця для зберігання файлів, однак це суттєво покращить відображення товарів на сучасних моніторах"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsImages.html:154
 msgid "Thumbnail quality @2x"
@@ -9618,7 +9618,7 @@ msgstr "Тільки категорія <strong>%s</strong>"
 #: /wa-apps/shop/templates/actions/dialog/DialogProductCategorySettings.html:207
 #: /wa-apps/shop/templates/actions/dialog/DialogProductCategoryCreate.html:106
 msgid "Dynamic categories filter products only from parent categories they belong to."
-msgstr "Динамічні категорії показують товари тільки з тих батьківских категорій, яким вони належать"
+msgstr "Динамічні категорії показують товари тільки з тих батьківских категорій, яким вони належать."
 
 #: /wa-apps/shop/templates/actions/dialog/DialogProductsDelete.html:1
 msgid "Unable to delete some of the products (%d) because you have insufficient access rights."
@@ -9740,7 +9740,7 @@ msgstr "Аналітика"
 #: /wa-apps/shop/templates/actions/customers/CustomersInfo.html:29
 #: /wa-apps/shop/templates/actions/customers/CustomersInfo.html:28
 msgid "Permanent user account"
-msgstr "Постійний обліковий запис користувача "
+msgstr "Постійний обліковий запис користувача"
 
 #: /wa-apps/shop/templates/actions/customers/CustomersInfo.html:32
 msgid "%s has personal account on your site."
@@ -10525,7 +10525,7 @@ msgstr "Розумний"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsSearch.html:20
 msgid "Product search will be performed by product and SKU names."
-msgstr "Пошук товару буде виконуватися за назвою товарів та артикулів"
+msgstr "Пошук товару буде виконуватися за назвою товарів та артикулів."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsStock.html:96
 #: /wa-apps/shop/templates/actions/settings/SettingsStock.html:188
@@ -10867,7 +10867,7 @@ msgstr "Повне керівництво по А/Б-тестуванню у Sho
 #: /wa-apps/shop/templates/actions/reports/ReportsAbtesting.html:55
 #: /wa-apps/shop/templates/actions/reports/ReportsAbtesting.html:75
 msgid "Test ID"
-msgstr "Тест ID "
+msgstr "Тест ID"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsAbtesting.html:113
 #: /wa-apps/shop/templates/actions/reports/ReportsAbtesting.html:146
@@ -11779,7 +11779,7 @@ msgstr "URL-адреса зображення для соцмережі"
 #: /wa-apps/shop/templates/actions/product/Product.html:896
 #: /wa-apps/shop/templates/actions/dialog/include.category.og.html:33
 msgid "If not set, a social network will attempt to determine preview image on it’s own."
-msgstr "Якщо не встановлено, соціальна мережа буде самостійно намагатися визначити зображення для попереднього перегляду"
+msgstr "Якщо не встановлено, соціальна мережа буде самостійно намагатися визначити зображення для попереднього перегляду."
 
 #: /wa-apps/shop/templates/actions/product/Product.html:868
 #: /wa-apps/shop/templates/actions/product/Product.html:900
@@ -11941,7 +11941,7 @@ msgstr "Назва для розміщення у соцмережі (og:title)"
 #: /wa-apps/shop/lib/config/site.php:41 /wa-apps/shop/lib/config/site.php:58
 #: /wa-apps/shop/lib/config/site.php:47 /wa-apps/shop/lib/config/site.php:64
 msgid "For detailed information on Open Graph parameters and examples please refer to <a href=\"http://ogp.me\" target=\"_blank\">ogp.me</a>"
-msgstr "Аби отримати детальну інформацію про параметри Open Graph та приклади, зверніться до <a href=\"http://ogp.me\" target=\"_blank\">ogp.me</a>."
+msgstr "Аби отримати детальну інформацію про параметри Open Graph та приклади, зверніться до <a href=\"http://ogp.me\" target=\"_blank\">ogp.me</a>"
 
 #: /wa-apps/shop/lib/config/site.php:44 /wa-apps/shop/lib/config/site.php:50
 msgid "Social sharing Image URL (og:image)"
@@ -12525,7 +12525,7 @@ msgstr "Це попередній перегляд дій, які доступн
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:170
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:172
 msgid "Custom product fields"
-msgstr "Користувальницькі поля товару "
+msgstr "Користувальницькі поля товару"
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:172
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:174
@@ -12893,7 +12893,7 @@ msgstr "За місцем доставки"
 
 #: /wa-apps/shop/templates/actions/backend/BackendProducts.html:115
 msgid "No categories available."
-msgstr "Немає доступних категорій"
+msgstr "Немає доступних категорій."
 
 #: /wa-apps/shop/lib/actions/order/shopOrder.action.php:298
 #: /wa-apps/shop/lib/actions/reports/shopReportsSales.action.php:303
@@ -13526,7 +13526,7 @@ msgstr "Дата відвантаження, наприклад: 16 лютого
 
 #: /wa-apps/shop/lib/config/site.php:382 /wa-apps/shop/lib/config/site.php:453
 msgid "Shipping date, for example: February 16"
-msgstr "Дати відвантаження, наприклад: 16 лютого "
+msgstr "Дати відвантаження, наприклад: 16 лютого"
 
 #: /wa-apps/shop/lib/config/site.php:383 /wa-apps/shop/lib/config/site.php:455
 msgid "Shipping date, for example: 02/16/2017"
@@ -13580,7 +13580,7 @@ msgstr "Кур'єрська доставка"
 
 #: /wa-apps/shop/lib/workflow/templates/ShipAction.html:28
 msgid "from "
-msgstr "з"
+msgstr "з "
 
 #: /wa-apps/shop/lib/workflow/templates/ShipAction.html:31
 msgid "to "
@@ -13720,7 +13720,7 @@ msgid "Discount modified manually via backend editor: %s"
 msgstr "Знижка вказана вручну при редагуванні замовлення: %s"
 
 msgid "Primary email address is used as a reply-to address in email notifications sent to your customers"
-msgstr "Основна email-адреса; використовується в якості адреси для відповіді на повідомлення з магазину."
+msgstr "Основна email-адреса; використовується в якості адреси для відповіді на повідомлення з магазину"
 
 msgid "What does it do"
 msgstr "Що воно виконує"
@@ -13948,7 +13948,7 @@ msgid "Use built-in design editor to edit this text and replace it with your gen
 msgstr "Скористайтесь вбудованим редактором дизайну для того, аби редагувати цей текст та замінити його на опис та контактні дані вашого магазину."
 
 msgid "http://www.webasyst.net/support/help/payment-shipping-icons.html"
-msgstr "https://support.webasyst.ru/shop-script/728/payment-shipping-icons/"
+msgstr "https://support.webasyst.ru/shop-script/728/payment-shipping-icons.html"
 
 msgid "No plugins installed"
 msgstr "Плагіни не встановлено"
@@ -14717,7 +14717,7 @@ msgstr "Вказана вручну знижка. Натисніть, щоб з�
 
 #: /wa-apps/shop/templates/actions/order/OrderEdit.html:417
 msgid "Manually edit automatically calculated discount"
-msgstr "Редагування автоматично розрахованої знижки."
+msgstr "Редагування автоматично розрахованої знижки"
 
 #: /wa-apps/shop/templates/actions/order/OrderEdit.html:452
 #: /wa-apps/shop/templates/actions/order/OrderEdit.html:453
@@ -15091,7 +15091,7 @@ msgstr "Для інтернет-магазинів з доставкою до б
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:27
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:25
 msgid "1.&nbsp;Contact info &rarr; 2.&nbsp;Shipping &rarr; 3.&nbsp;Payment &rarr; 4.&nbsp;Confirmation."
-msgstr "1.&nbsp;Контактна інформація &rarr; 2.&nbsp;Доставка &rarr; 3.&nbsp;Оплата &rarr; 4.&nbsp;Підтвердження"
+msgstr "1.&nbsp;Контактна інформація &rarr; 2.&nbsp;Доставка &rarr; 3.&nbsp;Оплата &rarr; 4.&nbsp;Підтвердження."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:29
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:27
@@ -15169,7 +15169,7 @@ msgstr "Сортування позицій замовлення"
 #: /wa-apps/shop/templates/actions/settings/SettingsGeneral.html:92
 #: /wa-apps/shop/templates/actions/settings/SettingsGeneral.html:65
 msgid "a generated “monster” with different colors, faces, etc."
-msgstr "Згенеровані «монстри» із різними кольорами, обличчями, тощо."
+msgstr "згенеровані «монстри» із різними кольорами, обличчями, тощо."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsGeneral.html:179
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:223
@@ -15596,7 +15596,7 @@ msgstr "місцевість"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:852
 msgid "Address fields provided by shipping plugins will be displayed before custom fields that you may add."
-msgstr "Поля адреси, додані плагінами доставки, буде показано перед користувальницькими полями, які ви могли додати"
+msgstr "Поля адреси, додані плагінами доставки, буде показано перед користувальницькими полями, які ви могли додати."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:854
 msgid "Disable address fields which are not required for all shipping options. Shipping plugins will add required address fields during checkout, if necessary."
@@ -15938,7 +15938,7 @@ msgstr "Синтаксична помилка у шаблоні для дії \"
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:35
 #: /wa-apps/shop/lib/actions/workflow/shopWorkflowPrepare.controller.php:32
 msgid "You can edit the template in <a href=\"?action=settings#/orderStates/\">order states settings</a>."
-msgstr "Ви можете відредагувати шаблон<a href=\"?action=settings#/orderStates/\">налаштувань статусів заказів</a>"
+msgstr "Ви можете відредагувати шаблон<a href=\"?action=settings#/orderStates/\">налаштувань статусів заказів</a>."
 
 #: /wa-apps/shop/lib/actions/settings/schedule/shopSettingsScheduleSave.controller.php:58
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2Save.controller.php:122
@@ -16369,7 +16369,7 @@ msgstr "Фактичне відшкодування"
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:23
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:5
 msgid "Money will be returned to the customer via the payment gateway."
-msgstr "Гроші будуть повернуті клієнту через платіжний шлюз"
+msgstr "Гроші будуть повернуті клієнту через платіжний шлюз."
 
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:36
 #: /wa-apps/shop/lib/workflow/templates/RefundAction.html:8
@@ -16408,7 +16408,7 @@ msgstr "додано до кошику"
 
 #: /wa-apps/shop/lib/config/shopConfig.class.php:44
 msgid "by item name"
-msgstr "за іменем елемента "
+msgstr "за іменем елемента"
 
 #: /wa-apps/shop/lib/config/shopConfig.class.php:45
 msgid "by SKU code"
@@ -16480,7 +16480,7 @@ msgstr "<a href=\"%s\" target=\"_blank\">Налаштуйте</a> <i class=\"ico
 #: /wa-apps/shop/lib/config/site.php:224 /wa-apps/shop/lib/config/site.php:354
 #: /wa-apps/shop/lib/config/site.php:136 /wa-apps/shop/lib/config/site.php:188
 msgid "Product ID. Other elements of <em>$product</em> object available in this template are listed below."
-msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче"
+msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче."
 
 #: /wa-apps/shop/lib/config/site.php:233 /wa-apps/shop/lib/config/site.php:234
 msgid "Array of product subpages"
@@ -16633,34 +16633,28 @@ msgid "Returns current currency’s properties object."
 msgstr "Повертає об'єкт властивостей поточної валюти."
 
 #: /wa-apps/shop/lib/config/site.php:347
-#, fuzzy
 msgid "Returns HTML for a product image thumbnail with specified size and attributes. <em>$image</em> array must contain <em>'id'</em>, <em>'product_id'</em>, and <em>'ext'</em> elements."
-msgstr "Повертає HTML для зображення товару ескіз із заданими розмірами і атрибутами. <їх>$зображення</масив ЕМ> повинен містити <ем>'идентификатор'на сайті</em>, <em>'product_id'</EM>, і <їх>'ВН'на сайті</em> елементи."
+msgstr "Повертає HTML для ескізу зображення товару зі вказаними розмірами та атрибутами. Масив <em>$image</em> має містити елементи <em>'id'</em>, <em>'product_id'</em> та <em>'ext'</em>."
 
 #: /wa-apps/shop/lib/config/site.php:348 /wa-apps/shop/lib/config/site.php:349
-#, fuzzy
 msgid "Returns relative or absolute URL of a product image thumbnail with specified size. <em>$image</em> array must contain <em>'id'</em>, <em>'product_id'</em>, and <em>'ext'</em> elements."
-msgstr "Повертає відносний або абсолютний URL-адреса зображення товару ескіз з заданими розмірами. <їх>$зображення</масив ЕМ> повинен містити <ем>'идентификатор'на сайті</em>, <em>'product_id'</EM>, і <їх>'ВН'на сайті</em> елементи."
+msgstr "Повертає відносну або абсолютну URL ескізу зображення товару зі вказаними розмірами. Масив <em>$image</em> має містити елементи <em>'id'</em>, <em>'product_id'</em> та <em>'ext'</em>."
 
 #: /wa-apps/shop/lib/config/site.php:350
-#, fuzzy
 msgid "To get product-related information, first create a product object by passing its numeric ID; e.g., <em>'product_id'</em> property of an item in <em>$order.items</em> array."
-msgstr "Щоб отримати пов'язану з продуктом інформацію, спочатку створіть об'єкт товару, передавши його числовий ідентифікатор; наприклад, <ем>'product_id'</em> властивості елемента <Ем>$замовлення.елементи</масив EM>."
+msgstr "Аби отримати пов'язану з товаром інформацію, спочатку створіть об'єкт товару, передавши його числовий ідентифікатор; наприклад, властивість об'єкту <em>'product_id'</em> у масиві <em>$order.items</em>."
 
 #: /wa-apps/shop/lib/config/site.php:351
-#, fuzzy
 msgid "Returns product URL for specified storefront address. E.g., use <em>$order.params.storefront</em> containing the storefront on which a product was purchased by a customer."
-msgstr "Повертає URL-адресу продукту для вказаного магазину за адресою. Е. Р., використовуйте <ЕМ>$замовлення.параметри.магазину</em>, що містить вітрина, на якій товар був придбаний клієнтом."
+msgstr "Повертає URL товару для вказаної адреси вітрини. Наприклад, використовуйте <em>$order.params.storefront</em>, який містить вітрину, на якій покупець придбав товар."
 
 #: /wa-apps/shop/lib/config/site.php:352
-#, fuzzy
 msgid "Returns array of product’s upselling items.<br><strong>$limit</strong> (default: <em>5</em>) limits the number of returned items.<br><strong>$available_only</strong> (default: <em>false</em>) excludes out-of-stock products from the result. By default, out-of-stock products are not skipped."
-msgstr "Повертає масив елементів, збільшення обсягів продажу продукції.<br>це<сильний>$ліміт</сильний> (за замовчуванням: <ет>5</em>) обмежує кількість елементів, які повертаються.<br>це<сильний>$available_only</сильний> (за замовчуванням: <EM>ні</em>) виключає немає в наявності товарів з результату. За замовчуванням, на складі продукція не пропускається."
+msgstr "Повертає масив рекомендацій upselling для товару.<br><strong>$limit</strong> (за замовчуванням: <em>5</em>) обмежує кількість елементів, що повертаються.<br><strong>$available_only</strong> (за замовчуванням: <em>false</em>) виключає з результату товари, яких немає у наявності. За замовчуванням товари, яких немає у наявності, не виключаються."
 
 #: /wa-apps/shop/lib/config/site.php:353
-#, fuzzy
 msgid "Returns array of product’s cross-selling items.<br><strong>$limit</strong> (default: <em>5</em>) limits the number of returned items.<br><strong>$available_only</strong> (default: <em>false</em>) excludes out-of-stock products from the result. By default, out-of-stock products are not skipped."
-msgstr "Повертає масив крос-продажів продукції товарів.<br>це<сильний>$ліміт</сильний> (за замовчуванням: <ет>5</em>) обмежує кількість елементів, які повертаються.<br>це<сильний>$available_only</сильний> (за замовчуванням: <EM>ні</em>) виключає немає в наявності товарів з результату. За замовчуванням, на складі продукція не пропускається."
+msgstr "Повертає масив рекомендацій перехресного продажу (cross-selling) для товару.<br><strong>$limit</strong> (за замовчуванням: <em>5</em>) обмежує кількість елементів, що повертаються.<br><strong>$available_only</strong> (за замовчуванням: <em>false</em>) виключає з результату товари, яких немає у наявності. За замовчуванням товари, яких немає у наявності, не виключаються."
 
 #: /wa-apps/shop/lib/config/site.php:359 /wa-apps/shop/lib/config/site.php:361
 msgid "Array of product’s SKUs"
@@ -16668,7 +16662,7 @@ msgstr "Масив артикулів товару"
 
 #: /wa-apps/shop/lib/config/site.php:360 /wa-apps/shop/lib/config/site.php:362
 msgid "Array of product’s images"
-msgstr "Масив зображень продукту "
+msgstr "Масив зображень продукту"
 
 #: /wa-apps/shop/lib/config/site.php:361 /wa-apps/shop/lib/config/site.php:362
 msgid "Array of product’s categories"
@@ -16683,23 +16677,20 @@ msgid "Array of product’s subpages"
 msgstr "Масив підсторінок товару"
 
 #: /wa-apps/shop/lib/config/site.php:364 /wa-apps/shop/lib/config/site.php:366
-#, fuzzy
 msgid "Array of product’s features and their values"
-msgstr "Набір функцій продукту і їх значення"
+msgstr "Масив характеристик товару та іх значень"
 
 #: /wa-apps/shop/lib/config/site.php:366 /wa-apps/shop/lib/config/site.php:367
 msgid "Array of product’s reviews"
 msgstr "Масив відгуків продукту"
 
 #: /wa-apps/shop/lib/config/site.php:375
-#, fuzzy
 msgid "Returns array of tags, by default limited to 50 items"
-msgstr "Повертає масив тегів, за замовчуванням обмежена до 50 пунктів"
+msgstr "Повертає масив тегів, за замовчуванням діє обмеження на 50 елементів"
 
 #: /wa-apps/shop/lib/config/site.php:378 /wa-apps/shop/lib/config/site.php:379
-#, fuzzy
 msgid "Returns formatted order ID by provided numerical ID"
-msgstr "Повертає відформатований код замовлення надається ідентифікаційний номер"
+msgstr "Повертає форматований ідентифікатор замовлення за наданим цифровим ідентифікатором"
 
 #: /wa-apps/shop/lib/config/site.php:379 /wa-apps/shop/lib/config/site.php:382
 msgid "Returns array of enabled payment methods"
@@ -16710,41 +16701,34 @@ msgid "Returns array of enabled shipping methods"
 msgstr "Повертає масив увімкнених методів доставки"
 
 #: /wa-apps/shop/lib/config/site.php:419 /wa-apps/shop/lib/config/site.php:420
-#, fuzzy
 msgid "Nearest delivery date and time formatted as <em>yyyy-mm-dd hh:mm:ss</em>; e.g., <em>2001-12-31 12:30:59</em>."
-msgstr "Найближча дата доставки і час, відформатовані <Ем>рррр-ММ-ДД гг:мм:СС</em>, наприклад <їх>2001-12-31 12:30:59</em>."
+msgstr "Найближча дата та час доставки, у форматі <em>рррр-мм-дд гг:хх:сс</em>; наприклад: <em>2001-12-31 12:30:59</em>."
 
 #: /wa-apps/shop/lib/config/site.php:420 /wa-apps/shop/lib/config/site.php:510
 #: /wa-apps/shop/lib/config/site.php:421
-#, fuzzy
 msgid "Deadline for delivery formatted as <em>yyyy-mm-dd hh:mm:ss</em>; e.g., <em>2001-12-31 13:30:59</em>."
-msgstr "Термін доставки у такому форматі: <ЕМ>рррр-ММ-ДД гг:мм:СС</em>, наприклад <їх>2001-12-31 13:30:59</em>."
+msgstr "Граничний строк доставки, у форматі <em>рррр-мм-дд гг:хх:сс</em>; наприклад, <em>2001-12-31 13:30:59</em>."
 
 #: /wa-apps/shop/lib/config/site.php:421 /wa-apps/shop/lib/config/site.php:511
 #: /wa-apps/shop/lib/config/site.php:422
-#, fuzzy
 msgid "Desired delivery date selected by customer, formatted as <em>yyyy-mm-dd</em>; e.g., <em>2001-12-31</em>."
-msgstr "Бажану дату доставки, обраного клієнтом, у форматі <ЕМ>рррр-ММ-ДД</em>, наприклад <їх>2001-12-31</em>."
+msgstr "Бажана дата доставки, вказана клієнтом, у форматі <em>рррр-мм-дд</em>; наприклад, <em>2001-12-31</em>."
 
 #: /wa-apps/shop/lib/config/site.php:422 /wa-apps/shop/lib/config/site.php:512
 #: /wa-apps/shop/lib/config/site.php:423 /wa-apps/shop/lib/config/site.php:513
-#, fuzzy
 msgid "Desired delivery date selected by customer, formatted as <em>dd.mm.yyyy</em>; e.g., <em>31.12.2001</em>."
-msgstr "Бажану дату доставки, обраного клієнтом, у форматі <ЕМ>ДД.мм. рррр на сайті</em>, наприклад <їх>31.12.2001</em>."
+msgstr "Бажана дата доставки, вказана клієнтом, у форматі <em>дд.мм.рррр</em>; наприклад, <em>31.12.2001</em>."
 
 #: /wa-apps/shop/lib/config/site.php:423 /wa-apps/shop/lib/config/site.php:513
 #: /wa-apps/shop/lib/config/site.php:426 /wa-apps/shop/lib/config/site.php:515
-#, fuzzy
 msgid "Desired delivery interval selected by customer, formatted as <em>xx:xx-xx:xx</em>; e.g., <em>10:00-12:00</em>."
-msgstr "Бажаний інтервал доставки, обраного клієнтом, у форматі <ЕМ>хх:хХ-Хх:ХХ</em>, наприклад <їх>10:00-12:00</em>."
+msgstr "Бажаний інтервал доставки, вказаний клієнтом, у форматі <em>xx:xx-xx:xx</em>, наприклад <em>10:00-12:00</em>."
 
 #: /wa-apps/shop/lib/config/site.php:509 /wa-apps/shop/lib/config/site.php:510
-#, fuzzy
 msgid "Nearest delivery date and time formatted as <em>yyyy-mm-dd</em>; e.g., <em>2001-12-31</em>."
-msgstr "Найближча дата доставки і час, відформатовані <Ем>рррр-ММ-ДД</em>, наприклад <ЕМ>2001-12-31</em>."
+msgstr "Наийближчі дата та час доставки у форматі <em>рррр-мм-дд</em>;наприклад, <em>2001-12-31</em>."
 
 #: /wa-apps/shop/lib/config/hints/template.html:8
-#, fuzzy
 msgid "Read more"
 msgstr "Читати далі"
 
@@ -16752,14 +16736,12 @@ msgstr "Читати далі"
 #: /wa-apps/shop/themes/default/order.html:22
 #: /wa-apps/shop/themes/default/order.html:21
 #: /wa-apps/shop/themes/default/checkout.success.html:47
-#, fuzzy
 msgid "Go to home page"
 msgstr "Перейти на головну сторінку"
 
 #: /wa-apps/shop/themes/default/order.html:38
-#, fuzzy
 msgid "Delete all products"
-msgstr "Видалити всі продукти"
+msgstr "Видалити усі товари"
 
 #: /wa-apps/shop/themes/default/checkout.payment.html:20
 #: /wa-apps/shop/themes/clear/checkout.payment.html:20
@@ -16769,9 +16751,8 @@ msgstr "Видалити всі продукти"
 #: /wa-apps/shop/themes/nifty/checkout.payment.html:19
 #: /wa-apps/shop/themes/sidebar/checkout.payment.html:20
 #: /wa-apps/shop/themes/vk/checkout.payment.html:20
-#, fuzzy
 msgid "Oops! We are sorry, but <strong>we cannot offer any payment option for your order</strong>. Checkout cannot be completed."
-msgstr "Упс! Нам дуже шкода, але <сильний>ми не можемо запропонувати будь-який варіант оплати вашого замовлення</сильний>. Перевірка не може бути завершена."
+msgstr "Вибачте! Замовлення не може бути оформлене: <strong>ми не можемо запропонувати жодного варіанту оплати для вашого замовлення</strong>."
 
 #: /wa-apps/shop/themes/default/checkout.shipping.html:76
 #: /wa-apps/shop/themes/clear/checkout.shipping.html:65
@@ -16781,38 +16762,31 @@ msgstr "Упс! Нам дуже шкода, але <сильний>ми не м�
 #: /wa-apps/shop/themes/nifty/checkout.shipping.html:65
 #: /wa-apps/shop/themes/sidebar/checkout.shipping.html:65
 #: /wa-apps/shop/themes/vk/checkout.shipping.html:65
-#, fuzzy
 msgid "Oops! We are sorry, but <strong>we cannot ship this order to your selected destination</strong>. Checkout cannot be completed."
-msgstr "Упс! Нам дуже шкода, але <сильний>ми не можемо доставити замовлення в обраний пункт призначення</сильний>. Перевірка не може бути завершена."
+msgstr "Вибачте! Замовлення не може бути оформлене: <strong>ми не можемо доставити замовлені товари за вказаною адресою</strong>."
 
 #: /wa-apps/shop/templates/actions/dialog/DialogProductSetSettings.html:17
-#, fuzzy
 msgid "Changing the set ID <em>will not</em> automatically update templates and pages in which this code is embedded, so be sure to update them if you change the ID.e those manually if you change the ID."
-msgstr "Зміна ідентифікатора <їх>не</em> автоматичне оновлення шаблонів і сторінок, на яких цей код вбудований, так що будьте впевнені, щоб оновити їх, якщо ви зміните ідентифікатор.е ті вручну, якщо ви зміните ідентифікатор."
+msgstr "Заміна ідентифікатора переліку автоматично не оновить шаблони та сторінки, на яких вказано цей ідентифікатор, тому впевніться, що оновили їх після зміни ідентифікатора."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsOrderStates.html:171
-#, fuzzy
 msgid "Email and SMS notifications on order actions are configured in <a href=\"?action=settings#/notifications/\" class=\"nowrap\">Settings → Notifications</a> section."
-msgstr "Електронної пошти та SMS-повідомлення про порядок дії налаштовуються в <а href=\"?дію=Налаштування#/Повідомлення/\" клас=\"без перенесення\">Налаштування → Повідомлення</a> у розділі."
+msgstr "Email- та SMS-повідомлення про дії із замовленнями налаштовуються у розділі <a href=\"?action=settings#/notifications/\" class=\"nowrap\">Налаштування → Повідомлення</a>."
 
-#, fuzzy
 msgid "To change the date and time of delivery by courier, you must specify the date and time of delivery"
-msgstr "Щоб змінити дату й час доставки кур'єром, необхідно вказати дату і час доставки"
+msgstr "Аби змінити дату й час доставки кур'єром, необхідно вказати дату і час доставки"
 
 #: /wa-apps/shop/templates/actions/category/ProductsCategory.html:163
 #: /wa-apps/shop/templates/actions/category/ProductsCategory.html:211
-#, fuzzy
 msgid "i"
 msgstr "я"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:431
 #: /wa-apps/shop/templates/actions/settings/SettingsSchedule.html:114
-#, fuzzy
 msgid "Is used to calculate estimated order shipping time. Specified period of time is added to the order creation time and is taken into account to transfer order processing to the next day, if an order is placed shortly before the end of a workday or later."
-msgstr "Використовується для розрахунку приблизної замовлення час доставки. Зазначений період часу додається до часу створення замовлення і враховується до передачі обробки замовлення на наступний день, якщо замовлення розміщений незадовго до кінця робочого дня або пізніше."
+msgstr "Використовується для розрахунку приблизного часу доставки замовлення. Вказаний період часу додається до часу створення замовлення. Враховується необхідність переносу обробки замовлення на наступний день, якщо замовлення було зроблене наприкінці робочого дня або пізніше."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:832
-#, fuzzy
 msgid "city"
 msgstr "місто"
 
@@ -16821,126 +16795,102 @@ msgid "Ask to log in with a confirmation code"
 msgstr "Просити увійти з кодом підтверждення"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:970
-#, fuzzy
 msgid "A login confirmation code will be sent to a customer’s email address or phone."
-msgstr "Код підтвердження для входу будуть відправлені замовнику по електронній пошті або телефону."
+msgstr "Код підтвердження для входу буде відправлено клієнтові електронною поштою або на телефон."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:979
-#, fuzzy
 msgid "Upon confirmation, a customer will be authorized and will have access to their online account."
-msgstr "Після підтвердження, клієнт отримає повноваження і буде мати доступ до їх онлайн-рахунку."
+msgstr "Після підтвердження клієнта буде авторизовано, і він буде мати доступ до особистого кабінету."
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/region.html:259
-#, fuzzy
 msgid "Locations"
-msgstr "Місця"
+msgstr "Офіси"
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2UploadLogo.controller.php:14
-#, fuzzy
 msgid "Image loading error."
 msgstr "Помилка при завантаженні зображення."
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderCart.actions.php:403
-#, fuzzy
 msgid "Not enough in stock."
 msgstr "Не вистачає на складі."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:127
-#, fuzzy
 msgid "Please select customer mode."
-msgstr "Будь ласка, виберіть режим клієнта."
+msgstr "Оберіть режим клієнта, будь ласка."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:281
 msgid "Unauthorized customer can place orders, and each order will create a new customer profile"
 msgstr "Неавторизовані клієнти можуть розміщувати замовлення, і кожне замовлення буде створювати новий профіль клієнта"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:284
-#, fuzzy
 msgid "Unauthorized customer can place orders, and they will be connected with an existing customer profile"
-msgstr "Неавторизовані клієнти можуть розміщувати замовлення, і вони будуть пов'язані з існуючою клієнтською профілю"
+msgstr "Неавторизовані клієнти можуть розміщувати замовлення, які буде пов'язано із існуючим профілем клієнта"
 
 #: /wa-apps/shop/lib/config/site.php:266
-#, fuzzy
 msgid "Returns HTML rendering cart block for new one-page checkout"
-msgstr "Повертає HTML рендеринга блок кошик для нової сторінці оформлення замовлення"
+msgstr "Повертає HTML блоку кошика для режима оформлення замовлення у кошику"
 
 #: /wa-apps/shop/lib/config/site.php:270
-#, fuzzy
 msgid "Returns HTML rendering form block for new one-page checkout"
-msgstr "Повертає HTML рендеринга форма блоку на новий-сторінку оформлення замовлення"
+msgstr "Повертає HTML блок форми нового режиму оформлення на одній сторінці"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckoutSidebar.html:8
-#, fuzzy
 msgid "<i class=\"icon16 status-green-tiny\"></i>&nbsp;“In-cart checkout” or <i class=\"icon16 status-blue-tiny\"></i>&nbsp;“Multi-step checkout” are selectable in <a href=\"%s\" target=\"_blank\">strorefront settings</a> <i class=\"icon10 new-window\"></i> individually for each storefront."
-msgstr "<I клас=\"icon16 статус-зелені крихітні\">вимкнено</I>&nbsp; ви\"у корзину і оформити замовлення\", або <I клас=\"icon16 статус-синьо-крихітні\">вимкнено</I>&nbsp; ви\"мульти-крок оформлення замовлення\" вибирається в <а href=\"%з\" таргет=\"розділ налаштувань\">налаштування strorefront</в> <I клас=\"icon10 нові вікна\"></I> це індивідуально для кожного магазину."
+msgstr "<i class=\"icon16 status-green-tiny\"></i>&nbsp;Режим «оформлення замовлення у кошику» або <i class=\"icon16 status-blue-tiny\"></i>&nbsp;«Поетапного офомлення замовлення» можна вибрати у <a href=\"%s\" target=\"_blank\">налаштуваннях вітрини</a> <i class=\"icon10 new-window\"></i> окремо для кожної вітрини."
 
 #: /wa-apps/shop/lib/updates/dev/1541167785.php:16
-#, fuzzy
 msgid "We will contact you as soon as possible. Your order No. is $order_id."
-msgstr "Ми зв'яжемося з вами як можна швидше. Вашого замовлення немає. становить $order_id."
+msgstr "Ми зв'яжемося з вами найближчим часом. Номер вашого замовлення — $order_id."
 
 #: /wa-apps/shop/lib/actions/settings/checkout2/shopSettingsCheckout2UploadLogo.controller.php:14
-#, fuzzy
 msgid "s"
-msgstr "з"
+msgstr "s"
 
 #: /wa-apps/shop/lib/config/site.php:200
-#, fuzzy
 msgid "If your design theme does not support “in-cart checkout”, standard checkout design of “Default” theme can be used. <a href=\"%s\">Set up</a> <i class=\"icon16 new-window\"></i>in-cart checkout."
-msgstr "Якщо ваша тема оформлення не підтримує \"у корзину і оформити замовлення\", стандартна перевірка оформлення \"тему за замовчуванням\" може бути використаний. <а href=\"%з\">налаштування</A> і <I клас=\"icon16 нові вікна\"></I>в кошик оформити замовлення."
+msgstr "Якщо ваша тема дизайну не підтримує «оформлення замовлення у кошику», можна використовувати стандартний дизайн теми «Дефолт». <a href=\"%s\" target=\"_blank\">Налаштуйте</a> <i class=\"icon16 new-window\"></i>оформлення замовлення у кошику."
 
 #: /wa-apps/shop/lib/config/site.php:204
-#, fuzzy
 msgid "<a href=\"%s\">Set up</a> <i class=\"icon16 new-window\"></i>multi-step checkout"
-msgstr "<а href=\"%з\">налаштування</A> і <I клас=\"icon16 нові вікна\"></>Multi-кроку оформлення замовлення"
+msgstr "<a href=\"%s\" target=\"_blank\">Налаштуйте</a> <i class=\"icon16 new-window\"></i>поетапне оформлення замовлення"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:18
-#, fuzzy
 msgid "Your shopping cart is empty"
 msgstr "Ваш кошик порожній"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:40
-#, fuzzy
 msgid "Logging in makes ordering simple because all your orders are saved in your account history and you do not need to enter contact details for every new order."
-msgstr "Увійшовши в робить замовлення просто тому, що всі ваші замовлення зберігаються в історії вашого рахунку, і вам не знадобиться вводити контактні дані при кожному новому замовленні."
+msgstr "Авторизація спрощує замовлення тому, що всі ваші замовлення зберігаються в історії вашого акаунта, і вам не доведеться вводити контактні дані при кожному новому замовленні."
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:41
 #: /wa-apps/shop/lib/config/checkout2/default.php:47
-#, fuzzy
 msgid "Log out if you want to check out as another customer"
-msgstr "Увійти, якщо ви хочете, щоб перевірити, як інший клієнт"
+msgstr "Вийдіть з акаунта, якщо хочете оформити замовлення від імені іншого клієнта"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:48
-#, fuzzy
 msgid "I accept <a href=\"\">terms of service</a>"
-msgstr "Я приймаю <а href=\"\">умови надання послуг</a>"
+msgstr "Я приймаю <a href=\"\">умови надання послуг</a>"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:57
-#, fuzzy
 msgid "Pickup"
-msgstr "Пікап"
+msgstr "Cамовивіз"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:58
-#, fuzzy
 msgid "Post"
-msgstr "Пост"
+msgstr "Пошта"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:61
-#, fuzzy
 msgid "By placing an order you confirm that you are of adult age and agree to our <a href=\"\">personal data processing terms</a>"
-msgstr "Розміщуючи замовлення, ви підтверджуєте, що ви-дорослий вік і погоджуєтесь на <а href=\"\">на обробку персональних даних умови</a>"
+msgstr "Розміщуючи замовлення, ви підтверджуєте, що ви дорослий і погоджуєтесь на наші <a href=\"\">умови обробки персональних даних</a>"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:75
-#, fuzzy
 msgid "We have received your order. Thank you!"
-msgstr "Ми отримали ваше замовлення. Спасибі!"
+msgstr "Ми отримали ваше замовлення. Дякуємо!"
 
 #: /wa-apps/shop/lib/config/checkout2/default.php:76
-#, fuzzy
 msgid "We will contact you soon. Your order No. is $order_id."
-msgstr "Ми скоро зв'яжемося з вами. Вашого замовлення немає. становить $order_id."
+msgstr "Ми зв'яжемося з вами найближчим часом. Номер вашого замовлення — $order_id."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsSchedule.html:114
-#, fuzzy
 msgid "Is used to calculate estimated order shipping time only with in-cart checkout option. Specified period of time is added to the order creation time and is taken into account to transfer order processing to the next day, if an order is placed shortly before the end of a workday or later. Additional order picking time can be specified in individual shipping methods’ settings."
-msgstr "Використовується, щоб обчислити передбачуваний термін відправки замовлення лише в кошик варіантом оформлення замовлення. Зазначений період часу додається до часу створення замовлення і враховується до передачі обробки замовлення на наступний день, якщо замовлення розміщений незадовго до кінця робочого дня або пізніше. Додаткова комплектація замовлень час можна вказати в налаштуваннях окремих способів доставки'."
+msgstr "Використовується для обрахування приблизного часу доставки тільки у режимі оформлення замовлення у кошику. Вказаний період часу додається до терміну обробки замовлення і враховується для перенесення обробки замовлення на наступний день — якщо замовлення розміщене наприкінці робочого дня або після його закінчення. Додатковий час самовивозу може бути вказано у налаштуваннях варіанту доставки."
