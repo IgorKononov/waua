@@ -1,17 +1,22 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: Shop-Script 8.2.0.6 UA translation v. 0.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: Webasyst Shop-Script 8.3.0.7 UA translation v 0.2\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2013-02-11 12:44+0400\n"
+"PO-Revision-Date: \n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
 
 #: /wa-apps/shop/templates/actions/backend/BackendImportexport.html:17
 msgid "Import products from CSV"
@@ -14290,50 +14295,62 @@ msgid "No name"
 msgstr "Без імені"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:60
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:50
 msgid "Изменить"
 msgstr "Змінити"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:64
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:54
 msgid "Проверочный код"
 msgstr "Код перевірки"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:76
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:66
 msgid "Выслать ещё раз"
 msgstr "Надіслати ще раз"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:80
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:77
 msgid "Выслать код"
 msgstr "Надіслати код"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:85
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:81
 msgid "Завершить оформление"
 msgstr "Завершити оформлення"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:22
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:6
 msgid "Пожалуйста, подтвердите телефон"
 msgstr "Будь ласка, підтвердіть номер телефону"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:23
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:7
 msgid "Завершить без подтверждения телефона"
 msgstr "Завершити без підтвердження телефону"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:27
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:11
 msgid "отправлен на телефон"
 msgstr "надіслано на телефон"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:32
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:14
 msgid "Пожалуйста, подтвердите email"
 msgstr "Будь ласка, підтвердіть email"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:37
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:18
 msgid "Завершить без подтверждения email"
 msgstr "Завершити без підтвердження email"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:37
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:20
 msgid "отправлен на email"
 msgstr "надіслано на email"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:112
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:111
 msgid "Чтобы завершить оформление введите проверочный код."
 msgstr "Щоб завершити оформлення, введіть перевірочний код."
 
@@ -15642,14 +15659,17 @@ msgid "Попросить подтвердить email-адрес или ном�
 msgstr "Попросити підтвердити email-адресу або номер телефону"
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:980
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:972
 msgid "Проверочный код для подтверждения будет отправлен на email-адрес или телефон покупателя в зависимости от настроек авторизации для этого сайта."
 msgstr "Перевірочний код для підтвердження буде надіслано на email-адресу або телефон покупця в залежності від налаштувань авторизації для цього сайту."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:982
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:974
 msgid "После подтверждения покупатель будет авторизован и сможет войти в личный кабинет."
 msgstr "Після підтвердження покупець буде авторизований і зможе увійти в особистий кабінет."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:992
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:983
 msgid "Покупатель может пропустить подтверждение email-адрес или телефона."
 msgstr "Покупець може пропустити підтвердження email-адреси або номеру телефону."
 
@@ -16894,3 +16914,106 @@ msgstr "Ми зв'яжемося з вами найближчим часом. Н
 #: /wa-apps/shop/templates/actions/settings/SettingsSchedule.html:114
 msgid "Is used to calculate estimated order shipping time only with in-cart checkout option. Specified period of time is added to the order creation time and is taken into account to transfer order processing to the next day, if an order is placed shortly before the end of a workday or later. Additional order picking time can be specified in individual shipping methods’ settings."
 msgstr "Використовується для обрахування приблизного часу доставки тільки у режимі оформлення замовлення у кошику. Вказаний період часу додається до терміну обробки замовлення і враховується для перенесення обробки замовлення на наступний день — якщо замовлення розміщене наприкінці робочого дня або після його закінчення. Додатковий час самовивозу може бути вказано у налаштуваннях варіанту доставки."
+
+#: /wa-apps/shop/templates/actions/customers/include.top_fields.html:23
+#: /wa-apps/shop/templates/actions/order/Order.html:132
+msgid "Number of customers with the same email address"
+msgstr "Кількість покупців з однаковими email"
+
+#: /wa-apps/shop/templates/actions/customers/include.top_fields.html:33
+#: /wa-apps/shop/templates/actions/order/Order.html:136
+msgid "Number of customers with the same phone number"
+msgstr "Кількість покупців з однаковими номерами телефону"
+
+#: /wa-apps/shop/templates/actions/customers/include.top_fields.html:67
+msgid "More contact information"
+msgstr "Більше контактної інформації"
+
+#: /wa-apps/shop/templates/actions/customers/include.top_fields.html:21
+#: /wa-apps/shop/templates/actions/order/Order.html:132
+#: /wa-apps/shop/templates/actions/order/Order.html:136
+msgid "%d more customer found with the same email address"
+msgid_plural "%d more customers found with the same email address"
+msgstr[0] "Знайдено ще %d покупця із тим же email"
+msgstr[1] "Знайдено ще %d покупці із тим же email"
+msgstr[2] "Знайдено ще %d покупців із тим же email"
+
+#: /wa-apps/shop/templates/actions/customers/include.top_fields.html:31
+msgid "%d more customer found with the same phone number"
+msgid_plural "%d more customers found with the same phone number"
+msgstr[0] "Знайдено ще %d покупця із тим же номером телефону"
+msgstr[1] "Знайдено ще %d покупці із тим же номером телефону"
+msgstr[2] "Знайдено ще %d покупців із тим же номером телефону"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
+msgid "Ошибка"
+msgstr "Помилка"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
+msgid "Канал для подтвержения отсутствует"
+msgstr "Відсутній канал для підтверждення"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopConfirmationChannel.class.php:558
+msgid "TODO Больше не нужно подтверждать этот канал"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:181
+msgid "TODO!!! Контакт забанен"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:183
+msgid "TODO!!! Запрещено использовать эти данные"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:300
+msgid "TODO: Нет диалога подтверждения email или телефона."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:301
+msgid "TODO: Нет автоматической авторизации и регистрации после оформления заказа."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:302
+msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ будет привязан к старому покупателю и он будет автоматически авторизован, но только после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта)."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:304
+msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель без автоматической авторизации и регистрации после оформления заказа."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:305
+msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ нельзя создать без подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта). После оформления заказа покупатель будет автоматически авторизован."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:314
+msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель и после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта) он будет автоматически авторизаван и зарегистрирован."
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:132
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:173
+msgid "Todo Требуется подтвердить канал"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:55
+msgid "Todo Подождите %d секунд"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:64
+msgid "TODO Неправильно указан источник"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:73
+msgid "TODO Ошибка отправки кода"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:103
+msgid "TODO Код не отправлен"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:115
+msgid "TODO У вас закончились попытки ввода. Отправьте смс еще раз"
+msgstr "TODO"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:123
+msgid "TODO Вы ввели не верный код. У вас осталось %d попыток"
+msgstr "TODO"
