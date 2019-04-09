@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"Project-Id-Version: Webasyst Shop-Script Migrate plugin 2.1.1.3 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst Shop-Script Migrate plugin 2.1.1.3 UA translation v 0.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
@@ -16,7 +16,7 @@ msgstr ""
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:117
 #: /wa-apps/shop/plugins/migrate/lib/config/plugin.php:5
 msgid "Transfer data from third-party ecommerce platforms and sources to Shop-Script."
-msgstr "Перенесення даних зі сторонніх платформ для електронної комерції та інших джерел у Shop-Script"
+msgstr "Перенесення даних зі сторонніх платформ для електронної комерції та інших джерел у Shop-Script."
 
 #: /wa-apps/shop/plugins/migrate/templates/actions/backend/BackendSetup.html:5
 #: /wa-apps/shop/plugins/migrate/templates/actions/backend/BackendSetup.html:4
@@ -42,7 +42,7 @@ msgstr "Імпорт даних"
 #: /wa-apps/shop/plugins/migrate/templates/actions/backend/BackendSetup.html:60
 #: /wa-apps/shop/plugins/migrate/templates/actions/backend/BackendSetup.html:55
 msgid "Please do not close your browser window and do not leave this page until the entire migration process is finished."
-msgstr "Будь ласка, не закривайте браузер і не покидайте цю сторінку, поки не завершиться процес міграції"
+msgstr "Будь ласка, не закривайте браузер і не покидайте цю сторінку, поки не завершиться процес міграції."
 
 #: /wa-apps/shop/plugins/migrate/templates/actions/backend/BackendSetup.html:79
 #: /wa-apps/shop/plugins/migrate/js/migrate.js:19
@@ -99,33 +99,28 @@ msgstr "Перенесення даних з онлайн-магазину на 
 
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:102
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:19
-#, fuzzy
 msgid "YML feed file"
-msgstr "Файл у форматі YML фід"
+msgstr "Файл фіду у форматі YML"
 
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:105
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:21
-#, fuzzy
 msgid "YML"
-msgstr "У форматі YML"
+msgstr "YML"
 
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:138
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:106
-#, fuzzy
 msgid "Successfully imported"
 msgstr "Успішно імпортовано"
 
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:157
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:120
-#, fuzzy
 msgid "%02d hr %02d min %02d sec"
-msgstr "%02d порту ч %02d порту хв %02d порту сек"
+msgstr "%02d год %02d хв %02d сек"
 
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:162
 #: /wa-apps/shop/plugins/migrate/lib/actions/backend/shopMigratePluginBackendRun.controller.php:121
-#, fuzzy
 msgid "(total time: %s)"
-msgstr "(загальний час: %ів)"
+msgstr "(загальний час: %s)"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateSimplaTransport.class.php:322
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:736
@@ -134,9 +129,8 @@ msgstr "(загальний час: %ів)"
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:325
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:1119
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateSimplaTransport.class.php:311
-#, fuzzy
 msgid "Import data from %s"
-msgstr "Імпорт даних з %S"
+msgstr "Імпорт даних з %s"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:94
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:116
@@ -148,31 +142,26 @@ msgstr[2] "%d валют"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:44
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:41
-#, fuzzy
 msgid "Feed URL"
-msgstr "Url каналу"
+msgstr "URL фіду"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:45
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:42
-#, fuzzy
 msgid "Specify YML feed URL."
-msgstr "Вкажіть URL-адресу каналу у форматі YML."
+msgstr "Вкажіть URL фіду у форматі YML."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:77
 #: wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:75
-#, fuzzy
 msgid "Importing currencies..."
 msgstr "Імпорт валют..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:108
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:106
-#, fuzzy
 msgid "Empty URL for YML"
-msgstr "Порожній URL-адресу у форматі YML"
+msgstr "Порожня URL для YML"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:116
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateYmlTransport.class.php:114
-#, fuzzy
 msgid "Error while upload YML file: %s"
 msgstr "Помилка завантаження файлу YML: %s"
 
@@ -180,76 +169,65 @@ msgstr "Помилка завантаження файлу YML: %s"
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:72
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:20
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:141
-#, fuzzy
 msgid "Storefront"
-msgstr "Магазин"
+msgstr "Вітрина"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:117
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:73
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:21
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:142
-#, fuzzy
 msgid "Shop-Script settlement for static info pages"
-msgstr "Шоп-скрипт врегулювання на статичні інформаційні сторінки"
+msgstr "Поселення Shop-Script для статичних інформаційних сторінок"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:126
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:228
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:357
-#, fuzzy
 msgid "Contact fields map"
-msgstr "Поля контактів карті"
+msgstr "Карта полів контакта"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:152
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:202
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:145
-#, fuzzy
 msgid "Weight unit"
-msgstr "Питома вага "
+msgstr "Одиниця ваги"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:175
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateInsalesTransport.class.php:165
-#, fuzzy
 msgid "Order currency"
-msgstr "Валюта замовлення "
+msgstr "Валюта замовлення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:17
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:18
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:12
-#, fuzzy
 msgid "Data access URL"
-msgstr "URL-адреса доступ до даних "
+msgstr "URL доступу до даних"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:52
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:87
-#, fuzzy
 msgid "Store name"
-msgstr "Назва магазину "
+msgstr "Назва магазину"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:55
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:90
-#, fuzzy
 msgid "Source locale"
-msgstr "Мова джерело "
+msgstr "Локаль джерела"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:58
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:93
-#, fuzzy
 msgid "Source currency code"
-msgstr "Вихідний код валюти"
+msgstr "Код валюти джерела"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:89
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:219
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:349
-#, fuzzy
 msgid "Custom parameters"
 msgstr "Користувальницькі параметри"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateOpencartTransport.class.php:97
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:31
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:165
-#, fuzzy
 msgid "Preserve IDs"
-msgstr "Збереження Ідентифікаторів"
+msgstr "Зберегти ідентифікатори"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:157
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:163
@@ -261,60 +239,50 @@ msgstr "Збереження Ідентифікаторів"
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:260
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:451
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:454
-#, fuzzy
 msgid "Unknown default currency %s"
-msgstr "Невідомий валюти за замовчуванням %з"
+msgstr "Невідома валюта за замовчуванням %s"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:25
-#, fuzzy
 msgid "WordPress URL"
-msgstr "URL-адреса для WordPress "
+msgstr "URL для WordPress"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:26
-#, fuzzy
 msgid "Enter your main WordPress blog URL"
-msgstr "Введіть Ваш основний адреса блогу на WordPress "
+msgstr "Введіть адресу вашого основного блогу на WordPress"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:33
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:49
-#, fuzzy
 msgid "Consumer Key"
-msgstr "Основним Споживачем "
+msgstr "Ключ користувача"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:41
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:58
-#, fuzzy
 msgid "Consumer Secret"
-msgstr "Секрет"
+msgstr "Секрет користувача"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:43
-#, fuzzy
 msgid "Enable WooCommerce REST API and obtain Consumer Key and Consumer Secret according to this guide: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
-msgstr "Включити плагін WooCommerce API-інтерфейс REST і отримати ключ клієнта і секрет клієнта по даному керівництва: <а href=\"%1$з\" таргет=\"\\_blank\">%1$S</А>"
+msgstr "Увімкніть WooCommerce REST API та отримайте ключ користувача та секрет користувача згідно з інструкцією: <a href=\"%1$s\" target=\"_blank\">%1$s</a>"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:96
-#, fuzzy
 msgid "Woocommerce plugin version"
 msgstr "Плагін WooCommerce версії"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:106
-#, fuzzy
 msgid "Woocommerce plugin version should be 2.2 or later"
-msgstr "Плагін WooCommerce версія повинна бути 2.2 або більш пізня версія"
+msgstr "Версія плагіну WooCommerce повинна бути 2.2 або вищою"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:113
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:247
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:211
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:366
-#, fuzzy
 msgid "Status map"
-msgstr "Карту статус "
+msgstr "Карта статусів"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:121
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:92
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:187
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:210
-#, fuzzy
 msgid "Currency"
 msgstr "Валюта"
 
@@ -322,132 +290,111 @@ msgstr "Валюта"
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2437
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:1207
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2769
-#, fuzzy
 msgid "Select target order state"
-msgstr "Вибір цільового державного замовлення "
+msgstr "Оберіть цільовий статус замовлення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWoocommerceTransport.class.php:977
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2439
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:1209
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2771
-#, fuzzy
 msgid "Add as new order state"
-msgstr "Додати новий державний порядок "
+msgstr "Додати як новий статус замовлення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:195
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:167
-#, fuzzy
 msgid "Invalid server response with code %d"
-msgstr "Неправильна відповідь сервера з кодом %D"
+msgstr "Невірна відповідь сервера з кодом %d"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:20
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:13
-#, fuzzy
 msgid "For WebAsyst <strong>PHP software</strong> installed on your server:<br /> 1. Download data access script <a href=\"http://www.webasyst.com/wa-data/public/site/downloads/old-webasyst-export-php.zip\">export.php</a>, and upload it to your Webasyst published/ folder via FTP.<br /> 2. Enter the complete URL to this file, which should look like this: <strong>http://YOUR_WEBASYST_ROOT_URL/published/export.php</strong><br /><br /> For <strong>hosted accounts</strong>: get your Secure Data Access URL in your ACCOUNT.webasyst.net backend’s “Account (link in the top right corner) &gt; System Settings” page."
-msgstr "Для Webasyst <Strong>програмне забезпечення</strong> для встановлених на вашому сервері:<br /> 1. Завантажити даних Access скрипт <у href=\"\\http://www.webasyst.com/wa-data/public/site/downloads/old-webasyst-export-php.zip\">export.php</a>і завантажити його в ваш Вебасист опубліковано/ папки через FTP.<БР /> 2. Введіть повний URL-адреса файлу, який повинен виглядати так: <сильний>http://YOUR_WEBASYST_ROOT_URL/published/export.php</сильні><БР /><br / > <Strong>клієнтських акаунтах</strong>: зробити ваші дані в безпеці, доступ до URL-адресу в ACCOUNT.webasyst.net внутрішнім \"аккаунт (посилання у верхньому правому куті) і gt; Налаштування системи\" на сторінці."
+msgstr "Для <strong>програмного забезпечення WebAsyst на PHP</strong>, яке встановлене на вашому сервері:<br />1. Скачайте скрипт доступу до даних <a href=\"http://www.webasyst.com/wa-data/public/site/downloads/old-webasyst-export-php.zip\">export.php</a> та завантажте його до каталогу published/ вашого Webasyst по FTP.<br />2. Введіть повний URL цього файлу, яка має виглядати наступним чином: <strong>http://КОРЕНЕВА_ПАПКА_ВАШОГО_WEBASYST/published/export.php</strong><br /><br />Для <strong>акаунтів веб-сервісу</strong>: отримайте вашу URL безпечного доступу до даних у бекенді вашого акаунту (посилання у верхньому правому кутові → сторінка «Системні налаштування») за адресою НАЗВА_АКАУНТУ.webasyst.net."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:27
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:18
-#, fuzzy
 msgid "Login"
 msgstr "Логін"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:29
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:20
-#, fuzzy
 msgid "WebAsyst user login"
-msgstr "Акаунта користувача "
+msgstr "Акаунта користувача"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:33
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:24
-#, fuzzy
 msgid "Password"
 msgstr "Пароль"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:35
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:26
-#, fuzzy
 msgid "WebAsyst user password"
-msgstr "Пароль облікового запису користувача "
+msgstr "Пароль облікового запису користувача"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:92
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:111
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:68
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:87
-#, fuzzy
 msgid "Invalid URL, login or password"
-msgstr "Неправильний URL-адреса, логін або пароль"
+msgstr "Невірні URL, логін або пароль"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:99
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:103
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:75
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:79
-#, fuzzy
 msgid "Invalid server response"
-msgstr "Неправильна відповідь сервера "
+msgstr "Неправильна відповідь сервера"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:261
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:231
-#, fuzzy
 msgid "PHP extension curl not loaded"
-msgstr "Розширення PHP локон не завантажується"
+msgstr "Розширення PHP cURL не завантажене"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:264
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:234
-#, fuzzy
 msgid "Error while init Curl"
-msgstr "Помилка при ініціалізації завиток"
+msgstr "Помилка ініціалізації сURL"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:268
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystremoteTransport.class.php:238
-#, fuzzy
 msgid "Curl error %d#:%s"
-msgstr "Помилка завиток %д#:%s"
+msgstr "Помилка cURL %d#:%s"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:326
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:306
-#, fuzzy
 msgid "Undefined default language"
-msgstr "Невизначений мову за замовчуванням "
+msgstr "Мову за замовчуванням не визначено"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:340
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:442
-#, fuzzy
 msgid "Undefined default currency"
-msgstr "Невизначені валюті за замовчуванням "
+msgstr "Валюту за замовчуванням не визначено"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:33
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:166
-#, fuzzy
 msgid "If product (or category) with a particular ID already exists in your new store, delete it and replace with the imported data."
-msgstr "Якщо продукт (або категорії) з певним ідентифікатором вже існує у Вашому новому магазині, видаліть його і замініть з імпортованими даними."
+msgstr "Якщо товар (або категорія) з певним ідентифікатором вже існує у вашому новому магазині, видаліть їх і замініть імпортованими даними."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:60
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:180
-#, fuzzy
 msgid "Source language"
-msgstr "Мова джерело "
+msgstr "Мова джерела"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:62
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:181
-#, fuzzy
 msgid "Shop-Script 7 allows storing product info and database content in one language. Select primary language of your WebAsyst Shop-Script-based online store."
-msgstr "Магазин-скрипт 7 дозволяє зберігати інформацію про товар і вмісту бази даних на одній мові. Виберіть основну мову Вебасист шоп-скрипт інтернет-магазину."
+msgstr "Shop-Script 7 дозволяє зберігати інформацію про товар і вміст бази даних на одній мові. Виберіть основну мову свого інтернет-магазину на базі Shop-Script."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:158
-#, fuzzy
 msgid "Data to import"
 msgstr "Дані для імпорту"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:161
-#, fuzzy
 msgid "Import all products, categories, customers, and orders"
-msgstr "Імпорт всі товари, категорії, клієнти і замовлення"
+msgstr "Імпортувати всі товари, категорії, клієнтів і замовлення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:162
-#, fuzzy
 msgid "Import only orders and customers starting from"
-msgstr "Імпорт лише замовлення і клієнти, починаючи з"
+msgstr "Імпорт тільки замовлень і клієнтів, починаючи з"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:176
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:183
@@ -455,39 +402,33 @@ msgstr "Імпорт лише замовлення і клієнти, почин
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:307
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:313
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:1688
-#, fuzzy
 msgid "Weight"
 msgstr "Вага"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:177
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:308
-#, fuzzy
 msgid "Select feature defining product weight."
-msgstr "Виберіть функцію визначення ваги продукту."
+msgstr "Оберіть функцію визначення ваги продукту."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:212
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:342
-#, fuzzy
 msgid "Source weight unit: <strong>%s</strong>"
-msgstr "Джерело вага: <сильний>%</сильний>"
+msgstr "Одиниця ваги у джерелі: <strong>%s</strong>"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2409
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2479
-#, fuzzy
 msgid "There no options to import"
-msgstr "Немає можливості імпортувати"
+msgstr "Відсутні опції для імпорту"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:23
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:18
-#, fuzzy
 msgid "Path to folder"
-msgstr "Шлях до папки"
+msgstr "Шлях до каталогу"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:25
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:20
-#, fuzzy
 msgid "Path to folder of the WebAsyst (old version) installation"
-msgstr "Шлях до папки Вебасист (стара версія) установка"
+msgstr "Шлях до каталогу установки WebAsyst (стара версія)"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:57
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:60
@@ -496,15 +437,13 @@ msgstr "Шлях до папки Вебасист (стара версія) ус
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:46
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:49
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:61
-#, fuzzy
 msgid "Invalid PATH %s"
-msgstr "Невірний шлях %s"
+msgstr "Невірний PATH %s"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:88
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystsameTransport.class.php:72
-#, fuzzy
 msgid "Invalid SQL server name"
-msgstr "Неприпустиме ім'я сервера SQL "
+msgstr "Неприпустима назва сервера SQL"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:129
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:93
@@ -604,334 +543,276 @@ msgstr[2] "%d сторінок"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:946
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2628
-#, fuzzy
 msgid "Don't import"
-msgstr "Імпорт"
+msgstr "Не імпортувати"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:58
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:26
-#, fuzzy
 msgid "Importing taxes..."
-msgstr "Імпорт податки..."
+msgstr "Імпорт податків..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:61
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:29
-#, fuzzy
 msgid "Importing categories..."
-msgstr "Категорії імпорті..."
+msgstr "Імпорт категорій..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:64
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:32
-#, fuzzy
 msgid "Updating category hierarchy..."
 msgstr "Оновлення ієрархії категорій..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:67
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:35
-#, fuzzy
 msgid "Importing products..."
-msgstr "Імпорті товарів..."
+msgstr "Імпорт товарів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:70
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:38
-#, fuzzy
 msgid "Importing customers..."
 msgstr "Імпорт клієнтів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:73
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:41
-#, fuzzy
 msgid "Importing customer categories..."
 msgstr "Імпорт категорій клієнтів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:76
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:44
-#, fuzzy
 msgid "Importing product custom options..."
-msgstr "Імпорт користувальницьких параметрів продукту..."
+msgstr "Імпорт користувальницьких параметрів товару..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:79
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:47
-#, fuzzy
 msgid "Importing product custom option values..."
-msgstr "Імпортувати опції продукту значення..."
+msgstr "Імпорт значень користувальницьких опцій товару..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:82
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:50
-#, fuzzy
 msgid "Importing product downloadable files..."
-msgstr "Імпорт завантажувані файли продукту..."
+msgstr "Імпорт завантажуваних файлів товару..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:85
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:53
-#, fuzzy
 msgid "Importing product reviews..."
-msgstr "Імпорт відгуки про продукт..."
+msgstr "Імпорт відгуків про товар..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:88
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:56
-#, fuzzy
 msgid "Importing product images (this is the longest part, please be patient)..."
-msgstr "Імпорт зображень товару (це найдовша частина, будь ласка, будьте терплячими)..."
+msgstr "Імпорт зображень товару (це найдовша частина — наберіться терпіння, будь ласка)..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:91
-#, fuzzy
 msgid "Updating product categories"
-msgstr "Оновлення категорій продуктів "
+msgstr "Оновлення категорій продуктів"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:94
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:59
-#, fuzzy
 msgid "Importing orders..."
 msgstr "Імпорт замовлень..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:97
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:62
-#, fuzzy
 msgid "Importing coupons..."
-msgstr "Імпорт купони..."
+msgstr "Імпорт купонів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:100
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:65
-#, fuzzy
 msgid "Creating product thumbnails..."
-msgstr "Створення ескізів продукції..."
+msgstr "Створення ескізів зображень товарів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:103
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:68
-#, fuzzy
 msgid "Creating product sets..."
-msgstr "Створення наборів продуктів..."
+msgstr "Створення переліків товарів..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:106
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:71
-#, fuzzy
 msgid "Importing pages..."
-msgstr "Сторінки імпорті..."
+msgstr "Імпорт сторінок..."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:463
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:164
-#, fuzzy
 msgid "Errors only"
-msgstr "Помилки тільки"
+msgstr "Тільки помилки"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:464
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:165
-#, fuzzy
 msgid "Debug (detailed log)"
 msgstr "Налагодження (детальний звіт)"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:469
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:170
-#, fuzzy
 msgid "Log level"
-msgstr "Рівень журналу "
+msgstr "Рівень логування"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:618
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2808
-#, fuzzy
 msgid "Add as new feature"
-msgstr "Додати нову функцію"
+msgstr "Додати як нову характеристику"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:619
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:706
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2809
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2923
-#, fuzzy
 msgid "Add to existing"
 msgstr "Додати до існуючих"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:700
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2917
-#, fuzzy
 msgid "Add as new service"
 msgstr "Додати як нову послугу"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:723
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2869
-#, fuzzy
 msgid "Without dimension"
 msgstr "Без розміру"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:748
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:272
-#, fuzzy
 msgid "Product type"
-msgstr "Тип продукту "
+msgstr "Тип товару"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:749
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:273
-#, fuzzy
 msgid "Selected product type will be applied to all imported products"
-msgstr "Типу вибраного товару будуть застосовані до всіх імпортованої продукції"
+msgstr "Обраний тип товару буде застосовано до усіх товарів"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:755
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:281
-#, fuzzy
 msgid "Add as new product type"
-msgstr "Додати новий тип продукту "
+msgstr "Додати як новий тип продукту"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:769
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:292
-#, fuzzy
 msgid "Default product type"
-msgstr "За замовчуванням тип продукту "
+msgstr "Тип товару за замовчуванням"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:804
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2512
-#, fuzzy
 msgid "Ignore this field"
 msgstr "Ігнорувати це поле"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:810
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2518
-#, fuzzy
 msgid "Add as a new contact field"
-msgstr "Додати в якості нового контакту полі"
+msgstr "Додати як нове поле контакту"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:880
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2582
-#, fuzzy
 msgid "There no customer fields to import"
-msgstr "Немає підтримки полів для імпорту"
+msgstr "Немає користувальницьких полів для імпорту"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:927
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2613
-#, fuzzy
 msgid "Feature"
 msgstr "Характеристика"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:928
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2614
-#, fuzzy
 msgid "Content will be imported as a fixed descriptive product field"
-msgstr "Вміст буде імпортовано у вигляді фіксованого поля опису товару "
+msgstr "Вміст буде імпортовано у вигляді фіксованого поля опису товару"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:932
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2618
-#, fuzzy
 msgid "Service"
-msgstr "Послуги"
+msgstr "Послуга"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:934
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2619
-#, fuzzy
 msgid "Services feature allows customers to customize product when adding it to shopping cart (either select or unselect particular service with the product)"
-msgstr "Характеристика послуг дозволяє клієнтам налаштовувати товару при додаванні його в корзину (або установіть або зніміть вибір конкретної послуги з продуктом)"
+msgstr "Функціональність послуг дозволяє клієнтам налаштувати товар при додаванні його до кошика (обрати або відкинути певну послугу, яка пропонується разом із товаром)"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:939
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2623
-#, fuzzy
 msgid "SKU"
-msgstr "Сеї"
+msgstr "Артикул"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateTransport.class.php:941
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:2624
-#, fuzzy
 msgid "SKUs feature allows tracking inventory by multiple stocks. Multiple product SKUs (purchase options) will be created according to this custom option value set"
-msgstr "Характеристика асортиментних позицій дозволяє відстежувати інвентарю по кілька акцій. Кілька артикулів товару (право на покупку) буде створений з цього власне значення параметру set"
+msgstr "Характеристика артикулу дозволяє відслідковувати інвентар по декількох складах. Декілька артикулів товару (варіанти покупки) будуть створені згідно цього переліку опцій"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:31
-#, fuzzy
 msgid "Magento URL"
-msgstr "URL-адресу в Magento "
+msgstr "URL Magento"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:33
-#, fuzzy
 msgid "Enter the URL of your Magento storefront. Make sure to enter storefront URL, not admin URL."
-msgstr "Введіть URL-адресу вашого магазину на Magento. Обов'язково введіть URL-адресу магазину, а не адресу адміністратора."
+msgstr "Введіть URL вашого магазину на Magento. Обов'язково введіть URL магазину, а не адресу входу для адміністратора."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:41
-#, fuzzy
 msgid "Admin mode path"
-msgstr "Шлях режимі адміністратора "
+msgstr "Шлях до режиму адміністратора"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:42
-#, fuzzy
 msgid "Path to Magento admin (backend)"
-msgstr "Шлях до адмін-панелі (бекенде)"
+msgstr "Шлях до адмін-панелі Magento"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:114
-#, fuzzy
 msgid "Verifier code"
-msgstr "Код верифікатора "
+msgstr "Код верифікатора"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:134
-#, fuzzy
 msgid "Empty URL"
-msgstr "Порожній URL-адресу"
+msgstr "Порожня URL"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:141
-#, fuzzy
 msgid "Invalid URL"
-msgstr "Неправильний URL-адресу"
+msgstr "Невірна URL"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:148
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:151
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:657
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:712
-#, fuzzy
 msgid "Magento installation was not found by this URL: %s"
-msgstr "Встановлення Magento не зустрівся цей URL: %s"
+msgstr "Установку Magento не знайдено за цією URL: %s"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:148
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:658
-#, fuzzy
 msgid "empty server response"
-msgstr "порожній відповідь сервера "
+msgstr "порожня відповідь сервера"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:158
-#, fuzzy
 msgid "Empty value"
 msgstr "Порожнє значення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:173
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:694
-#, fuzzy
 msgid "Invalid value"
 msgstr "Неприпустиме значення"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:430
-#, fuzzy
 msgid "Paste Magento verifier code to continue"
-msgstr "Вставте код верифікатора Magento для продовження"
+msgstr "Для продовження вставте код верифікатора Magento"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:660
-#, fuzzy
 msgid "Empty server response"
-msgstr "Порожній відповідь сервера "
+msgstr "Порожня відповідь сервера"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:713
-#, fuzzy
 msgid "unexpected server response"
-msgstr "непередбачений відповідь сервера "
+msgstr "непередбачувана відповідь сервера"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:760
-#, fuzzy
 msgid "1. Click this link: <a href=\"%1$s\" target=\"_blank\" style=\"color: #03c;\"><b>%1$s</b><i class=\"icon10 new-window\"></i></a><br> 2. Copy <b>verifier code</b> from the Magento window and paste in the field above.<br> 3. Click <b>Connect</b>. This will grant API access to your data in Magento admin mode."
-msgstr "1. Натисніть на цю посилання: <а href=\"%1$з\" таргет=\"розділ налаштувань\" стиль=\"колір: #03c;\"><Б>%1$s</B><I клас=\"icon10 нові вікна\"></а></a><br> 2. Копія <б>верифікатор коду</B> з вікна Magento і вставте в поле вище.<br> 3. Натисніть кнопку <B>зв'язок</б>. Це дозволить надати доступ до API для ваших даних в режимі адмін."
+msgstr "1. Клікніть це посилання: <a href=\"%1$s\" target=\"_blank\" style=\"color: #03c;\"><b>%1$s</b><i class=\"icon10 new-window\"></i></a><br> 2. Скопіюйте<b>код перевірки</b> з вікна Magento і вставте до поля вище.<br> 3. Клікніть<b>З'єднання</b>. Таким чином API буде надано доступ до ваших даних у режимі адміністратора Magento."
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:1170
-#, fuzzy
 msgid "Get new verifier code"
-msgstr "Отримати новий код верифікатора "
+msgstr "Отримайте новий код верифікатора"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateMagentoTransport.class.php:1170
-#, fuzzy
 msgid "This will generate new Magento request link so you can copy the new verifier code"
-msgstr "Це буде генерувати нову посилання запит в Magento, так що ви можете скопіювати новий код верифікатора "
+msgstr "Таким чином буде згенеровано новий запит на посилання Magento, і ви зможете скопіювати новий код верифікатора"
 
 #: /wa-apps/shop/plugins/migrate/lib/transport/shopMigrateWebasystTransport.class.php:428
-#, fuzzy
 msgid "Undefined default langunage"
-msgstr "Невизначені langunage за замовчуванням "
+msgstr "Мову за замовчуванням не визначено"
 
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:30
-#, fuzzy
 msgid "Migrate data from <a href=\"http://www.opencart.com\" target=\"_blank\">OpenCart</a>-powered online store via Web API 1.0 OpenCart plugin.<br><br><strong>IMPORTANT:</strong> <a href=\"https://github.com/zenwalker/opencart-webapi/\" target=\"_blank\">Web API 1.0 OpenCart plugin</a> must be installed to export your data from OpenCart."
-msgstr "Перенесення даних з <а href=\"http://www.opencart.com\" таргет=\"розділ налаштувань\">OpenCart</A>-працює інтернет-магазин з допомогою веб-API 1.0 версії плагіна.<бр><бр><strong>це важливо:</strong> Для <а href=\"https://github.com/zenwalker/opencart-webapi/\" цільових=\"розділ налаштувань\">веб-API 1.0 версії плагіна</a> повинен бути встановлений, щоб експортувати ваші дані в OpenCart."
+msgstr "Перенесення даних з онлайн-магазину на базі <a href=\"http://www.opencart.com\" target=\"_blank\">OpenCart</a> за допомогою плагіну Web API 1.0 OpenCart.<br><br><strong>ВАЖЛИВО:</strong> <a href=\"https://github.com/zenwalker/opencart-webapi/\" target=\"_blank\">Плагін Web API 1.0 OpenCart</a> має бути встановлено, аби експортувати ваші дані з OpenCart."
 
 #: /wa-apps/shop/plugins/migrate/lib/shopMigrate.plugin.php:63
-#, fuzzy
 msgid "Bitrix"
 msgstr "Бітрікс"
