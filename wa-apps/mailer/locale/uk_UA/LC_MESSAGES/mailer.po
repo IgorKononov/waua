@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Mailer 1.0.18.37 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst Mailer 1.0.19.42 UA translation v 0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -872,16 +872,16 @@ msgstr "Виключити з цього переліку підписувачі
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:194
 msgid "Do you really want to eliminate contact %s from all subscribers?"
 msgid_plural "<span id=\"delete-contact-name-email\"></span>"
-msgstr[0] "Ви дійсно бажаєте виключити контакт %s з усіх підписок?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ви дійсно бажаєте виключити %s контакт з усіх підписок?"
+msgstr[1] "Ви дійсно бажаєте виключити %s контакти з усіх підписок?"
+msgstr[2] "Ви дійсно бажаєте виключити %s контактів з усіх підписок?"
 
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:197
 msgid "Do you really want to eliminate contact %s from this subscribers list?"
 msgid_plural "<span id=\"delete-contact-name-email\"></span>"
-msgstr[0] "Ви дійсно бажаєте виключити контакт %s з цього переліку підписувачів?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ви дійсно бажаєте виключити %s контакт з цього переліку підписувачів?"
+msgstr[1] "Ви дійсно бажаєте виключити %s контакти з цього переліку підписувачів?"
+msgstr[2] "Ви дійсно бажаєте виключити %s контактів з цього переліку підписувачів?"
 
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersListold.html:99
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:195
@@ -1586,9 +1586,9 @@ msgstr "Відписаний адміністратором."
 #: /wa-apps/mailer/templates/actions/unsubscribed/UnsubscribedList.html:9
 msgid "You can also %sunsubscribe any address yourself%s."
 msgid_plural "<a href=\"javascript:void(0)\" id=\"unsibscribe-dialog-link\" class=\"inline-link\"><b><i>"
-msgstr[0] "Ви також можете %власноруч відписати будь-який контакт%s."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "You can also %sunsubscribe any address yourself%s."
+msgstr[1] "<a href=\"javascript:void(0)\" id=\"unsibscribe-dialog-link\" class=\"inline-link\"><b><i>"
+msgstr[2] "<a href=\"javascript:void(0)\" id=\"unsibscribe-dialog-link\" class=\"inline-link\"><b><i>"
 
 #: /wa-apps/mailer/templates/actions/unsubscribed/UnsubscribedList.html:243
 msgid "N/A"
@@ -1657,9 +1657,9 @@ msgstr "Посилання відписки у вашій розсилці не 
 #: /wa-apps/mailer/templates/actions/campaigns/CampaignsPresend.html:57
 msgid "To set up routing rules use %sSite application%s."
 msgid_plural "<a href=\"../site/#/routing/\" target=\"_blank\">"
-msgstr[0] "Для налаштування правил маршрутизації використовуйте %sдодаток «Сайт»%s."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "To set up routing rules use %sSite application%s."
+msgstr[1] "<a href=\"../site/#/routing/\" target=\"_blank\">"
+msgstr[2] "<a href=\"../site/#/routing/\" target=\"_blank\">"
 
 #: /wa-apps/mailer/templates/actions/campaigns/CampaignsPresend.html:16
 msgid "Settings checking passed. Campaign is ready for sending."
@@ -1676,7 +1676,7 @@ msgstr "Ми виконаємо фінальну перевірку та зап�
 
 #: /wa-apps/mailer/templates/actions/schedule/ScheduleDialog.html:25
 msgid "current time is"
-msgstr "поточний час:"
+msgstr "поточний час"
 
 #: /wa-apps/mailer/templates/actions/schedule/ScheduleDialog.html:25
 msgid "format"
@@ -1957,9 +1957,9 @@ msgstr[2] "Для даного розсилання було обрано %s о�
 #: /wa-apps/mailer/templates/actions/campaigns/CampaignsReport.html:147
 msgid "However, not every one of them was actually included in the mailing list (see %s for details)"
 msgid_plural "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
-msgstr[0] "Однак не усі вони були включені у перелік розсилання (дивись подробиці у %s )"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "However, not every one of them was actually included in the mailing list (see %s for details)"
+msgstr[1] "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
+msgstr[2] "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
 
 #: /wa-apps/mailer/templates/actions/campaigns/CampaignsReport.html:161
 msgid "Excluded were previously unsubscribed and also those email addresses that have resulted in a permanent error returned by the recipient server in your past mailing campaigns. Those mail boxes either do not exist, or cannot receive your message by any reason. Further attempts to send messages to these addresses may result in blacklisting of your mail server. This is the reason to exclude these addresses from the lists of your campaigns recipients."
@@ -2548,9 +2548,9 @@ msgstr "ПРИМІТКА: Цей контакт не буде видалено. 
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersListold.html:97
 msgid "Do you really want to eliminate contact %s from subscribers?"
 msgid_plural "<span id=\"delete-contact-name-email\"></span>"
-msgstr[0] "Ви дійсно бажаєте виключити контакт %s з переліку підписувачів?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Do you really want to eliminate contact %s from subscribers?"
+msgstr[1] "<span id=\"delete-contact-name-email\"></span>"
+msgstr[2] "<span id=\"delete-contact-name-email\"></span>"
 
 #: /wa-apps/mailer/templates/actions/senders/SendersDialog.html:148
 msgid "You need to install openssl php extention to use DKIM"
@@ -2846,3 +2846,15 @@ msgstr "Адреса URL для незареєстрованих клієнті�
 #: /wa-apps/mailer/templates/actions/backend/BackendContactTab.html:11
 msgid "Date"
 msgstr "Дата"
+
+#: /wa-apps/mailer/templates/actions/undeliverable/UndeliverableList.html:68
+#: /wa-apps/mailer/templates/actions/unsubscribed/UnsubscribedList.html:64
+#: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:147
+msgid "prev"
+msgstr "назад"
+
+#: /wa-apps/mailer/templates/actions/undeliverable/UndeliverableList.html:71
+#: /wa-apps/mailer/templates/actions/unsubscribed/UnsubscribedList.html:67
+#: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:150
+msgid "next"
+msgstr "далі"

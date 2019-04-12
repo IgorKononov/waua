@@ -1,13 +1,14 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: Webasyst MyLang 2.0.1.0 UA translation v 0.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: Webasyst MyLang 2.1.1.0 UA translation v 0.2\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-12T16:12:04+03:00\n"
+"PO-Revision-Date: 2019-04-12 16:13+0300\n"
 "Language: uk_UA\n"
 "X-Generator: Poedit 2.2.1\n"
 
@@ -1273,3 +1274,11 @@ msgstr "Роздільник тисяч"
 #: /wa-apps/mylang/templates/actions/shop/ShopWorkflow.html:8
 msgid "State"
 msgstr "Держава"
+
+#: /wa-apps/mylang/templates/actions/settings/Settings.html:117
+msgid "MyLang version"
+msgstr "Версія MyLang"
+
+#: /wa-apps/mylang/lib/actions/plugins/mylangPlugins.actions.php:14
+msgid "Plugin settings page"
+msgstr "Сторінка налаштувань плагіну"
