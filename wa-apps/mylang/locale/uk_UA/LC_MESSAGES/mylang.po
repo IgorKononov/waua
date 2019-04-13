@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst MyLang 2.1.1.0 UA translation v 0.2\n"
+"Project-Id-Version: Webasyst MyLang 2.2 UA translation v 0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -8,9 +8,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2019-04-12T16:12:04+03:00\n"
-"PO-Revision-Date: 2019-04-12 16:13+0300\n"
+"PO-Revision-Date: 2019-04-13 17:55+0300\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: /wa-apps/mylang/templates/actions/site/SiteAuth.html:2
 #: /wa-apps/mylang/templates/actions/site/SiteDefault.html:9
@@ -1276,9 +1277,34 @@ msgid "State"
 msgstr "Держава"
 
 #: /wa-apps/mylang/templates/actions/settings/Settings.html:117
+#: /wa-apps/mylang/templates/actions/settings/Settings.html:120
 msgid "MyLang version"
 msgstr "Версія MyLang"
 
 #: /wa-apps/mylang/lib/actions/plugins/mylangPlugins.actions.php:14
 msgid "Plugin settings page"
 msgstr "Сторінка налаштувань плагіну"
+
+#: /wa-apps/mylang/templates/actions/settings/SettingsLangpack.html:4
+msgid "Language packs"
+msgstr "Мовні пакети"
+
+#: /wa-apps/mylang/templates/actions/settings/SettingsLangpack.html:17
+msgid "Version"
+msgstr "Версія"
+
+#: /wa-apps/mylang/templates/actions/settings/SettingsLangpack.html:18
+msgid "Language"
+msgstr "Мова"
+
+#: /wa-apps/mylang/templates/actions/settings/SettingsLangpack.html:32
+msgid "There are no language packs installed."
+msgstr "Не встановлено жодного мовного пакету."
+
+#: /wa-apps/mylang/templates/actions/settings/SettingsLangpack.html:34
+msgid "Install new plugins from the Webasyst Store using the Installer app"
+msgstr "Встановіть нові плагіни з магазину Webasyst за допомогою додатку «Інсталлер»"
+
+#: /wa-apps/mylang/templates/actions/settings/Settings.html:12
+msgid "Language pack"
+msgstr "Мовний пакет"
