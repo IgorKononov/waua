@@ -5,13 +5,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: Webasyst CRM 1.4.0.253 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst CRM 1.4.0.253 UA translation v 0.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -22,21 +22,18 @@ msgstr "Угода в CRM"
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:102
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:111
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:211
-#, fuzzy
 msgid "Owner:"
 msgstr "Власник:"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:186
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:158
-#, fuzzy
 msgid "not assigned"
-msgstr "не призначається"
+msgstr "не призначено"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:195
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:155
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:162
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:170
-#, fuzzy
 msgid "Create deal in CRM"
 msgstr "Створити угоду в CRM"
 
@@ -51,7 +48,6 @@ msgstr "Створити угоду в CRM"
 #: /wa-apps/crm/templates/actions/message/MessageList.html:213
 #: /wa-apps/crm/lib/models/crmLog.model.php:518
 #: /wa-apps/crm/templates/actions/call/Call.html:148
-#, fuzzy
 msgid "incoming"
 msgstr "вхідні"
 
@@ -66,7 +62,6 @@ msgstr "вхідні"
 #: /wa-apps/crm/templates/actions/message/MessageList.html:213
 #: /wa-apps/crm/lib/models/crmLog.model.php:513
 #: /wa-apps/crm/templates/actions/call/Call.html:148
-#, fuzzy
 msgid "outgoing"
 msgstr "вихідні"
 
@@ -75,7 +70,6 @@ msgstr "вихідні"
 #: /wa-apps/crm/templates/source/message/ImSourceMessageViewer.html:49
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:85
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:61
-#, fuzzy
 msgid "open conversation"
 msgstr "відкрита розмова"
 
@@ -88,7 +82,6 @@ msgstr "відкрита розмова"
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:93
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:169
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:90
-#, fuzzy
 msgid "From"
 msgstr "Від"
 
@@ -102,7 +95,6 @@ msgstr "Від"
 #: /wa-apps/crm/templates/actions/message/MessageSendSmsDialog.html:23
 #: /wa-apps/crm/templates/actions/settings/SettingsEmailEditor.inc.html:41
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:41
-#, fuzzy
 msgid "To"
 msgstr "Для"
 
@@ -117,9 +109,8 @@ msgstr "Для"
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:58
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:40
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:70
-#, fuzzy
 msgid "Reply"
-msgstr "Відповідь"
+msgstr "Відповісти"
 
 #: /wa-apps/crm/templates/source/message/NullSourceMessageDialog.inc.html:68
 #: /wa-apps/crm/templates/source/message/ImSourceMessageSender.html:115
@@ -261,7 +252,6 @@ msgstr "Відповідь"
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:44
 #: /wa-apps/crm/js/crmDialog/template.html:15
 #: /wa-apps/crm/js/search/period.dialog.js:43
-#, fuzzy
 msgid "or"
 msgstr "або"
 
@@ -419,9 +409,8 @@ msgstr "або"
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:45
 #: /wa-apps/crm/js/crmDialog/template.html:19
 #: /wa-apps/crm/js/search/period.dialog.js:44
-#, fuzzy
 msgid "cancel"
-msgstr "відмінити"
+msgstr "скасувати"
 
 #: /wa-apps/crm/templates/source/message/NullSourceMessageDialog.inc.html:73
 #: /wa-apps/crm/templates/source/message/NullSourceMessageDialog.inc.html:87
@@ -500,19 +489,16 @@ msgstr "Видалити повідомлення"
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:237
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:63
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:66
-#, fuzzy
 msgid "Delete"
-msgstr "Удалить"
+msgstr "Видалити"
 
 #: /wa-apps/crm/templates/source/message/ImSourceMessageSender.html:24
 #: /wa-apps/crm/templates/source/message/ImSourceMessageViewer.html:24
-#, fuzzy
 msgid "(no subject)"
 msgstr "(без теми)"
 
 #: /wa-apps/crm/templates/source/message/ImSourceMessageSender.html:114
 #: /wa-apps/crm/templates/source/message/ImSourceMessageSender.html:99
-#, fuzzy
 msgid "Send"
 msgstr "Надіслати"
 
@@ -549,7 +535,6 @@ msgstr "Повідомлення відправлене"
 #: /wa-apps/crm/templates/actions/deal/DealId.html:103
 #: /wa-apps/crm/templates/actions/deal/DealMessageDialog.html:52
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:57
-#, fuzzy
 msgid "Close"
 msgstr "Закрити"
 
@@ -559,53 +544,48 @@ msgstr "Закрити"
 #: /wa-apps/crm/templates/source/message/ImSourceMessageViewer.html:125
 #: /wa-apps/crm/templates/source/message/ImSourceMessageViewer.html:127
 #: /wa-apps/crm/lib/actions/message/crmMessageBodyDialog.action.php:90
-#, fuzzy
 msgid "Delete message from %s"
-msgstr "Повідомлення видалити з %S"
+msgstr "Видалити повідомлення від %s"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:5
 #: /wa-apps/crm/templates/actions/settings/SettingsSource.html:53
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:12
-#, fuzzy
 msgid "Set up an email address to receive messages and deal requests."
 msgstr ""
-"Встановити адресу електронної пошти для отримання повідомлень та інтернет-"
-"запитів."
+"Налаштувати адресу електронної пошти для отримання повідомлень та запитів на "
+"угоду."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:6
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:31
-#, fuzzy
 msgid ""
 "Please specify an existing email address; it may be hosted on any mail "
 "server; e.g., in a popular mail service such as Gmail, Yahoo!, etc., and "
 "must be accessible for connection via POP3 protocol."
 msgstr ""
-"Будь ласка, вкажіть існуюча адреса електронної пошти; він може бути "
-"розміщений на будь-якому поштовому сервері, наприклад, в одній з популярних "
-"служб електронної пошти, таких як Gmail, Yahoo! і т. д. і повинні бути "
-"доступні для зв'язку через протокол POP3."
+"Вкажіть, будь-ласка існуючу адресу електронної пошти. Вона може хостуватися "
+"на будь-якому поштовому сервері — наприклад, на одному з таких популярних "
+"сервісів, як Gmail, Yahoo! Поштова скринька має бути доступною для "
+"підключення по протоколу POP3."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:9
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:16
-#, fuzzy
 msgid ""
 "<strong>IMPORTANT NOTE:</strong> It is recommended that you specify an email "
 "account which was specially created for use by the CRM app."
 msgstr ""
-"<Strong>важливо:</Strong> рекомендується вказати обліковий запис електронної "
-"пошти, який був спеціально створений для використання програми CRM."
+"<strong>ВАЖЛИВО:</strong> рекомендується вказати обліковий запис електронної "
+"пошти, який було створено спеціально для використання додатком CRM."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:10
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:17
-#, fuzzy
 msgid ""
 "After you configure and save this source, all messages from the specified "
 "email account will be downloaded into CRM and will be <strong>deleted from "
 "your mail server!</strong>"
 msgstr ""
-"Після налаштування і збереження цього джерела, всі повідомлення з вказаної "
-"облікового запису електронної пошти будуть завантажені в CRM і буде "
-"<Strong>в видалені з вашого поштового сервера!</сильний>"
+"Після налаштування і збереження цього джерела, усі повідомлення з вказаного "
+"облікового запису електронної пошти буде завантажено в CRM і "
+"<strong>видалено з поштової скриньки!</strong>"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:16
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:136
@@ -623,37 +603,31 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:42
 #: /wa-apps/crm/lib/actions/settings/notifications/crmSettingsNotifications.action.php:15
 #: /wa-apps/crm/lib/actions/settings/notifications/crmSettingsNotificationsEdit.action.php:23
-#, fuzzy
 msgid "Email"
 msgstr "Електронна пошта"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:22
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:48
-#, fuzzy
 msgid "Username"
 msgstr "Ім'я користувача"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:29
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:55
-#, fuzzy
 msgid "Password"
 msgstr "Пароль"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:34
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:60
-#, fuzzy
 msgid "Leave blank to keep current value unchanged."
-msgstr "Залиште поле порожнім, щоб зберегти поточне значення без змін."
+msgstr "Залиште поле порожнім, аби зберегти поточне значення без змін."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:39
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:65
-#, fuzzy
 msgid "Incoming server"
-msgstr "Сервер вхідної"
+msgstr "Вхідний сервер"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:45
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:71
-#, fuzzy
 msgid "POP3 Port"
 msgstr "Порт (POP3)"
 
@@ -669,25 +643,22 @@ msgstr "Використовувати налаштування безпеки S
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:72
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:90
-#, fuzzy
 msgid ""
 "If your mail server supports this option, we recommend using POP3 over "
 "STARTTLS or SSL/TLS since it provides increased security for your "
 "interactions with the remote mail server."
 msgstr ""
 "Якщо ваш поштовий сервер підтримує цю функцію, ми рекомендуємо "
-"використовувати POP3 через STARTTLS або SSL і TLS, оскільки вона забезпечує "
+"використовувати POP3 через STARTTLS або SSL/TLS, оскільки вони забезпечують "
 "підвищений рівень безпеки для ваших взаємодій з віддаленим поштовим сервером."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:83
 #: /wa-apps/crm/templates/actions/settings/SettingsSourcePOP3Block.inc.html:81
-#, fuzzy
 msgid "Test connection"
 msgstr "Перевірити підключення"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettingsPop3Block.html:87
 #: /wa-apps/crm/templates/actions/settings/SettingsSourcePOP3Block.inc.html:85
-#, fuzzy
 msgid "Connection to POP3-server failed"
 msgstr "Підключення до POP3-сервера не вдалося"
 
@@ -697,32 +668,28 @@ msgid "POP3-server connected successfully"
 msgstr "POP3-сервер підключено"
 
 #: /wa-apps/crm/templates/source/settings/NullSourceSettings.html:18
-#, fuzzy
 msgid "No settings page for this source"
-msgstr "Розділі немає параметрів для цього джерела"
+msgstr "Для цього джерела немає параметрів"
 
 #: /wa-apps/crm/templates/source/settings/NullSourceSettings.html:23
 #: /wa-apps/crm/templates/source/settings/ImSourceSettings.html:38
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:107
 #: /wa-apps/crm/templates/source/settings/ImSourceSettings.html:78
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:135
-#, fuzzy
 msgid "Delete this source"
-msgstr "Видалити цей джерело"
+msgstr "Видалити це джерело"
 
 #: /wa-apps/crm/templates/source/settings/NullSourceSettings.html:26
 #: /wa-apps/crm/templates/actions/deal/DealList.html:129
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:107
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDeleteCheckingDialog.inc.html:12
-#, fuzzy
 msgid "Cancel"
-msgstr "Відміна"
+msgstr "Скасувати"
 
 #: /wa-apps/crm/templates/source/settings/NullSourceSettings.html:35
 #: /wa-apps/crm/templates/source/settings/ImSourceSettings.html:54
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:127
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:235
-#, fuzzy
 msgid "Delete source"
 msgstr "Видалити джерело"
 
@@ -742,7 +709,6 @@ msgstr "Видалити джерело"
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:143
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:186
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:236
-#, fuzzy
 msgid "Are you sure?"
 msgstr "Ви впевнені?"
 
@@ -754,7 +720,6 @@ msgstr "Ви впевнені?"
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:42
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceCreateDealBlock.html:10
 #: /wa-apps/crm/lib/config/search/search_crm.php:71
-#, fuzzy
 msgid "Funnel"
 msgstr "Воронка"
 
@@ -768,7 +733,6 @@ msgstr "Воронка"
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:382
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:18
 #: /wa-apps/crm/templates/actions/deal/DealList.html:365
-#, fuzzy
 msgid "Owner"
 msgstr "Власник"
 
@@ -779,9 +743,8 @@ msgstr "Власник"
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:36
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:156
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:233
-#, fuzzy
 msgid "Disabled"
-msgstr "Відключено"
+msgstr "Вимкнено"
 
 #: /wa-apps/crm/templates/source/settings/blocks/helpers.html:53
 #: /wa-apps/crm/templates/source/settings/blocks/form_helpers.html:55
@@ -793,7 +756,6 @@ msgstr "Відключено"
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:158
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:235
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:51
-#, fuzzy
 msgid "Enabled"
 msgstr "Увімкнено"
 
@@ -804,13 +766,11 @@ msgstr "Увімкнено"
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:227
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:228
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:198
-#, fuzzy
 msgid "Create deal"
-msgstr "Створити інтернет"
+msgstr "Створити угоду"
 
 #: /wa-apps/crm/templates/source/settings/blocks/responsible.inc.html:16
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceCreateDealBlock.html:46
-#, fuzzy
 msgid "Personally"
 msgstr "Особисто"
 
@@ -825,28 +785,24 @@ msgstr "Особисто"
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:6
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:14
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignResponsible.html:6
-#, fuzzy
 msgid "Set the owner"
-msgstr "Встановити власника"
+msgstr "Вказати власника"
 
 #: /wa-apps/crm/templates/source/settings/blocks/add_to_segments.html:23
 #: /wa-apps/crm/templates/source/settings/blocks/form_add_to_segments.html:25
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:281
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:85
-#, fuzzy
 msgid "Add contact to segments"
-msgstr "Додати контакт в сегментах"
+msgstr "Додати контакт до сегментів"
 
 #: /wa-apps/crm/templates/source/settings/blocks/form_create_deal.html:25
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:238
-#, fuzzy
 msgid "A deal will be created upon subscription."
-msgstr "Угода буде створений за передплатою."
+msgstr "Угоду буде створено після підписки."
 
 #: /wa-apps/crm/templates/source/settings/ImSourceSettings.html:6
-#, fuzzy
 msgid "New connection to instant messenger"
-msgstr "Нове з'єднання для обміну миттєвими повідомленнями"
+msgstr "Нове підключення до месенджера"
 
 #: /wa-apps/crm/templates/source/settings/ImSourceSettings.html:28
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:97
@@ -909,7 +865,6 @@ msgstr "Нове з'єднання для обміну миттєвими пов
 #: /wa-apps/crm/templates/actions/settings/SettingsPBX.html:89
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:73
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:207
-#, fuzzy
 msgid "Save"
 msgstr "Зберегти"
 
@@ -925,7 +880,6 @@ msgstr "Зберегти"
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:84
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:76
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:211
-#, fuzzy
 msgid "Saved"
 msgstr "Збережено"
 
@@ -936,13 +890,11 @@ msgstr "Новий джерело електронної пошти"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:16
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:106
-#, fuzzy
 msgid "Spam control"
-msgstr "Спам-контроль"
+msgstr "Захист від спаму"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:27
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:112
-#, fuzzy
 msgid ""
 "Every time you receive a message from an unknown email address which is not "
 "yet stored in your Contacts database, an automatic notification will be sent "
@@ -954,7 +906,6 @@ msgstr ""
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:28
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:113
-#, fuzzy
 msgid ""
 "This notification contains a special link which must be clicked to confirm "
 "the sending of the first request. You may also add extra instructions for "
@@ -967,22 +918,19 @@ msgstr ""
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:39
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:249
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:195
-#, fuzzy
 msgid ""
 "Variable &#123;CONFIRM_URL&#125; must be present in the text of your message "
 "template shown above. It will be replaced in the outgoing message with a "
 "confirmation URL that your client should click to confirm registration."
 msgstr ""
-"Змінна &#123;CONFIRM_URL&#125; має бути в тексті шаблону, наведене вище "
-"повідомлення. Він буде замінений у вихідне повідомлення з URL-адресою "
-"підтвердження того, що ваш клієнт повинен натиснути, щоб підтвердити "
-"реєстрацію."
+"Змінна &#123;CONFIRM_URL&#125; має знаходитись в тексті шаблону вашого "
+"повідомлення, який наведено вище. У реальному повідомленні її буде замінено "
+"на URL, за яким має перейти клієнт для підтвердження реєстрації."
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:45
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:256
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:228
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:123
-#, fuzzy
 msgid "After successful confirmation"
 msgstr "Після успішного підтвердження"
 
@@ -991,17 +939,15 @@ msgstr "Після успішного підтвердження"
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:262
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:130
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:213
-#, fuzzy
 msgid "Redirect to URL"
-msgstr "Перейти на сторінку"
+msgstr "Перейти на URL"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:62
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:273
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:245
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:140
-#, fuzzy
 msgid "Display text"
-msgstr "Відображення тексту"
+msgstr "Показати текст"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:66
 #: /wa-apps/crm/templates/actions/frontend/FrontendConfirmEmail.html:7
@@ -1009,7 +955,6 @@ msgstr "Відображення тексту"
 #: /wa-apps/crm/templates/actions/frontend/FrontendConfirmEmail.html:2
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:249
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:144
-#, fuzzy
 msgid "Confirmed"
 msgstr "Підтверджений"
 
@@ -1021,20 +966,17 @@ msgstr "Підтверджений"
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:207
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:131
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:22
-#, fuzzy
 msgid "Messages"
-msgstr "Повідомлень"
+msgstr "Повідомлення"
 
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:126
 #: /wa-apps/crm/templates/source/settings/EmailSourceSettings.html:154
-#, fuzzy
 msgid "Can not connect with the specified parameters to server"
-msgstr "Не можу зв'язатися із заданими параметрами для сервера"
+msgstr "Не вдалося підключитись до сервера зі вказаними параметрами"
 
 #: /wa-apps/crm/templates/actions/call/CallRedirectDialog.html:11
 #: /wa-apps/crm/templates/actions/call/Call.html:234
 #: /wa-apps/crm/templates/actions/call/Call.html:229
-#, fuzzy
 msgid "Redirect call"
 msgstr "Перенаправлення виклику"
 
@@ -1043,7 +985,6 @@ msgstr "Перенаправлення виклику"
 #: /wa-apps/crm/templates/actions/popup/PopupMessage.html:16
 #: /wa-apps/crm/templates/actions/log/LogLive.html:125
 #: /wa-apps/crm/templates/actions/report/Report.html:112
-#, fuzzy
 msgid "from"
 msgstr "з"
 
@@ -1051,40 +992,33 @@ msgstr "з"
 #: /wa-apps/crm/templates/actions/call/Call.html:241
 #: /wa-apps/crm/templates/actions/log/LogLive.html:128
 #: /wa-apps/crm/templates/actions/report/Report.html:115
-#, fuzzy
 msgid "to"
-msgstr "для"
+msgstr "до"
 
 #: /wa-apps/crm/templates/actions/call/CallRedirectDialog.html:27
-#, fuzzy
 msgid "Select number"
-msgstr "Виберіть номер"
+msgstr "Оберіть номер"
 
 #: /wa-apps/crm/templates/actions/call/CallRedirectDialog.html:37
 #: /wa-apps/crm/templates/actions/settings/SettingsPBX.html:74
-#, fuzzy
 msgid "Number does not exist"
 msgstr "Номер не існує"
 
 #: /wa-apps/crm/templates/actions/call/CallRedirectDialog.html:52
-#, fuzzy
 msgid "Other "
 msgstr "Інші "
 
 #: /wa-apps/crm/templates/actions/call/CallRedirectDialog.html:71
-#, fuzzy
 msgid "Redirect"
 msgstr "Перенаправлення"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:11
-#, fuzzy
 msgid "Outgoing call:"
 msgstr "Вихідний виклик:"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:16
-#, fuzzy
 msgid "Call started.."
-msgstr "Почав дзвонити.."
+msgstr "Виклик почався..."
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:19
 msgid "Select extension number"
@@ -1094,9 +1028,8 @@ msgstr "Оберіть додатковий номер"
 #: /wa-apps/crm/lib/actions/crmPopup.controller.php:38
 #: /wa-apps/crm/lib/config/crmConfig.class.php:308
 #: /wa-apps/crm/lib/config/crmConfig.class.php:270
-#, fuzzy
 msgid "Call"
-msgstr "Дзвоніть"
+msgstr "Виклик"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:69
 #, fuzzy
@@ -2377,9 +2310,9 @@ msgstr[2] "%d угод"
 #: /wa-apps/crm/templates/actions/report/Report.html:174
 msgid "%d deal lost"
 msgid_plural "%d deals lost"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d deal lost"
+msgstr[1] "%d deals lost"
+msgstr[2] "%d угод програно"
 
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:158
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:156
@@ -2397,9 +2330,9 @@ msgstr "Немає оплачених рахунків-фактур за вка�
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:156
 msgid "invoice paid"
 msgid_plural "invoices paid"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "накладну сплачено"
+msgstr[1] "накладні сплачено"
+msgstr[2] "накладних сплачено"
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:166
 #, fuzzy
@@ -3201,9 +3134,9 @@ msgstr "Залишити"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:213
 msgid "Show all %d completed reminder"
 msgid_plural "Show all %d completed reminders"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Показати %d виконане нагадування"
+msgstr[1] "Показати %d виконаних нагадування"
+msgstr[2] "Показати %d виконаних нагадувань"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:51
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:49
@@ -3226,9 +3159,9 @@ msgstr "Створити нагадування"
 #: /wa-apps/crm/templates/actions/popup/PopupMessage.html:55
 msgid "%d attachment"
 msgid_plural "%d attachments"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d вкладення"
+msgstr[1] "%d вкладення"
+msgstr[2] "%d вкладень"
 
 #: /wa-apps/crm/templates/actions/popup/PopupMessage.html:14
 #: /wa-apps/crm/lib/actions/crmPopup.controller.php:42
@@ -3318,9 +3251,9 @@ msgstr "Змінити"
 #: /wa-apps/crm/templates/actions/deal/DealChangeResponsible.html:10
 msgid "Transfer %d deal to"
 msgid_plural "Transfer %d deals to"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Передати %d угоду до"
+msgstr[1] "Передати %d угоди до"
+msgstr[2] "Передати %d угод до"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:29
 #: /wa-apps/crm/templates/actions/deal/DealId.html:34
@@ -3901,17 +3834,18 @@ msgstr "Замовлення залишаться незмінними."
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:36
 msgid "Move %d deal to"
 msgid_plural "Move %d deals to"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Перемістити %d угоду до"
+msgstr[1] "Перемістити %d угоди до"
+msgstr[2] "Перемістити %d угод до"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:90
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:33
+#, fuzzy
 msgid "%d selected deal are linked to Shop-Script orders."
 msgid_plural "%d selected deals are linked to Shop-Script orders."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d обрану угоду пов'язано із замовленнями Shop-Script"
+msgstr[1] "%d обрані угоди пов'язано із замовленнями Shop-Script"
+msgstr[2] "%d обраних угод пов'язано із замовленнями Shop-Script"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:8
 #, fuzzy
@@ -3965,9 +3899,9 @@ msgstr "Почати експорт"
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:13
 msgid "%d selected deal will be exported into CSV file"
 msgid_plural "%d selected deals will be exported into CSV file"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d обрану угоду буде експортовано до CSV-файлу"
+msgstr[1] "%d обрані угоди буде експортовано до CSV-файлу"
+msgstr[2] "%d обраних угод буде експортовано до CSV-файлу"
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:8
 #, fuzzy
@@ -4072,9 +4006,9 @@ msgstr "Навальний закрити операцію не вплине н�
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:26
 msgid "Close %d deal"
 msgid_plural "Close %d deals"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Закрити %d угоду"
+msgstr[1] "Закрити %d угоди"
+msgstr[2] "Закрити %d угод"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchPeriodDialog.inc.html:5
 #, fuzzy
@@ -4211,31 +4145,31 @@ msgstr "Почати пошук"
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:29
 msgid "<strong>%d duplicate group</strong> found."
 msgid_plural "<strong>%d duplicate groups</strong> found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Знайдено <strong>%d групу дублікатів</strong>."
+msgstr[1] "Знайдено <strong>%d групи дублікатів</strong>."
+msgstr[2] "Знайдено <strong>%d груп дублікатів</strong>."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:27
 msgid "All groups include <strong>%d contact</strong>."
 msgid_plural "All groups include <strong>%d contacts</strong>."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "All groups include <strong>%d contact</strong>."
+msgstr[1] "All groups include <strong>%d contacts</strong>."
+msgstr[2] "All groups include <strong>%d contacts</strong>."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:30
 msgid "This group includes <strong>%d contact</strong>."
 msgid_plural "This group includes <strong>%d contacts</strong>."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ця група включає <strong>%d контакт</strong>."
+msgstr[1] "Ця група включає <strong>%d контакти</strong>."
+msgstr[2] "Ця група включає <strong>%d контактів</strong>."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:62
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:58
 msgid "%d duplicate"
 msgid_plural "%d duplicates"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d дублікат"
+msgstr[1] "%d дублікати"
+msgstr[2] "%d дублікатів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:117
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:122
@@ -4480,9 +4414,9 @@ msgstr "Молодець! Всі контакти успішно імпорто�
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:13
 msgid "We have found %d column in imported data."
 msgid_plural "We have found %d columns in imported data."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "У імпортованих даних знайдено %d колонку."
+msgstr[1] "У імпортованих даних знайдено %d колонки."
+msgstr[2] "У імпортованих даних знайдено %d колонок."
 
 #: /wa-apps/crm/templates/actions/contact/ContactCreateSettings.html:13
 msgid "Open dialog for contact creation"
@@ -4566,9 +4500,9 @@ msgstr "Немає динамічних сегментів"
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:115
 msgid "%d employee."
 msgid_plural "%d employees."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d співробітник."
+msgstr[1] "%d співробітника."
+msgstr[2] "%d співробітників."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:12
 #, fuzzy
@@ -4647,16 +4581,16 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:68
 msgid "%d other contact will be merged with %%s."
 msgid_plural "%d other contacts will be merged with %%s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d інший контакт буде поєднано з %%s."
+msgstr[1] "%d інші контакти буде поєднано з %%s."
+msgstr[2] "%d інших контактів буде поєднано з %%s."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:71
 msgid "%d contact will not be merged by the reasons designated above."
 msgid_plural "%d contacts will not be merged by the reasons designated above."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d контакт не буде об'єднано з зазначених вище причин."
+msgstr[1] "%d контакти не буде об'єднано з зазначених вище причин."
+msgstr[2] "%d контактів не буде об'єднано з зазначених вище причин."
 
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:11
 msgid "The customer owner"
@@ -4954,9 +4888,9 @@ msgstr "Видалити все одно"
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:49
 msgid "%d link"
 msgid_plural "%d links"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d посилання"
+msgstr[1] "%d посилання"
+msgstr[2] "%d посилань"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:13
 #, fuzzy
@@ -5122,9 +5056,9 @@ msgstr "Операції"
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:42
 msgid "Show %d archived segment"
 msgid_plural "Show %d archived segments"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Показати %d архівований сегмент"
+msgstr[1] "Показати %d архівованих сегмента"
+msgstr[2] "Показати %d архівованих сегментів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:8
 #, fuzzy
@@ -5138,9 +5072,9 @@ msgstr "Експортувати назви полів"
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:13
 msgid "%d selected contact will be exported into CSV file"
 msgid_plural "%d selected contacts will be exported into CSV file"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d обраний контакт буде експортовано до файлу CSV"
+msgstr[1] "%d обраних контакти буде експортовано до файлу CSV"
+msgstr[2] "%d обраних контактів буде експортовано до файлу CSV"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:128
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:74
@@ -5153,9 +5087,9 @@ msgstr "Принаймні, один власник повинен бути ви
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:84
 msgid "%d employee"
 msgid_plural "%d employees"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d співробітник"
+msgstr[1] "%d співробітники"
+msgstr[2] "%d співробітників"
 
 #: /wa-apps/crm/templates/actions/contact/ContactUpdateDialog.html:16
 #, fuzzy
@@ -5192,9 +5126,9 @@ msgstr "Помилка в призначенні"
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignResponsible.html:10
 msgid "Responsibility for %d selected contact will be assigned to:"
 msgid_plural "Responsibility for %d selected contacts will be assigned to:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Відповідальність за %d обраний контакт буде призначено:"
+msgstr[1] "Відповідальність за %d обраних контакти буде призначено:"
+msgstr[2] "Відповідальність за %d обраних контактів буде призначено:"
 
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:107
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:90
@@ -5350,9 +5284,9 @@ msgstr "Почніть виключати"
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExcludeFromSegment.html:13
 msgid "%d selected contact will be excluded from list \"%s\""
 msgid_plural "%d selected contacts will be excluded from list \"%s\""
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d обраний контакт буде виключено з переліку \"%s\""
+msgstr[1] "%d обрані контакти буде виключено з переліку \"%s\""
+msgstr[2] "%d обраних контактів буде виключено з переліку \"%s\""
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:1
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:6
@@ -5958,9 +5892,9 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:103
 msgid "There are %d contact in vault \"%%s\"."
 msgid_plural "There are %d contacts in vault \"%%s\"."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Знайдено %d контакт у сховищі \"%%s\"."
+msgstr[1] "Знайдено %d контакти у сховищі \"%%s\"."
+msgstr[2] "Знайдено %d контактів у сховищі \"%%s\"."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronCurrenciesCopy.inc.html:10
 #, fuzzy
@@ -6550,17 +6484,17 @@ msgstr "Власні і непризначені пропозиції"
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:128
 msgid "%d deal in stage"
 msgid_plural "%d deals in stage"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d угода на етапі"
+msgstr[1] "%d угоди на етапі"
+msgstr[2] "%d угод на етапі"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:239
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:117
 msgid "%d deal in funnel"
 msgid_plural "%d deals in funnel"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d угода у воронці"
+msgstr[1] "%d угоди у воронці"
+msgstr[2] "%d угод у воронці"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:39
 #, fuzzy
@@ -6723,18 +6657,18 @@ msgstr "Видалення цього поля не призведе до втр
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:22
 msgid "%d contact have data in the field"
 msgid_plural "%d contacts have data in the field"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d контакт містить дані у полі"
+msgstr[1] "%d контакти містять дані у полі"
+msgstr[2] "%d контактів містить дані у полі"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:27
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:26
 msgid "Deleting the field will cause a loss of this contact information."
 msgid_plural ""
 "Deleting the field will cause a loss of these contacts information."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Видалення поля призведе до втрати інформації про цей контакт."
+msgstr[1] "Видалення поля призведе до втрати інформації про ці контакти."
+msgstr[2] "Видалення поля призведе до втрати інформації про ці контакти."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:1
 #, fuzzy
@@ -7325,23 +7259,23 @@ msgstr "і видалити компанію"
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanyDeleteDialog.html:16
 msgid "%d payment option configured"
 msgid_plural "%d payment options configured"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Налаштовано %d варіант оплати"
+msgstr[1] "Налаштовано %d варіанти оплати"
+msgstr[2] "Налаштовано %d варіантів оплати"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanyDeleteDialog.html:26
 msgid "%d invoice issued"
 msgid_plural "%d invoices issued"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Випущена %d накладна"
+msgstr[1] "Випущено %d накладні"
+msgstr[2] "Випущено %d накладних"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanyDeleteDialog.html:31
 msgid "%d invoice"
 msgid_plural "%d invoices"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d рахунок"
+msgstr[1] "%d рахунки"
+msgstr[2] "%d рахунків"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronNotificationBirthday.inc.html:10
 #, fuzzy
@@ -7547,9 +7481,9 @@ msgstr "Незбережені зміни будуть втрачені. Піт�
 #: /wa-apps/crm/lib/models/crmCall.model.php:144
 msgid "%d pending call"
 msgid_plural "%d pending calls"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Очікує %d дзвінок"
+msgstr[1] "Очікують %d дзвінки"
+msgstr[2] "Очікують %d дзвінків"
 
 #: /wa-apps/crm/lib/models/crmCall.model.php:326
 #: /wa-apps/crm/lib/models/crmCall.model.php:141
@@ -7855,9 +7789,9 @@ msgstr "Примітки"
 #: /wa-apps/crm/lib/actions/crmPopup.controller.php:194
 msgid "in %d minute"
 msgid_plural "in %d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "через %d хвилину"
+msgstr[1] "через %d хвилини"
+msgstr[2] "через %d хвилин"
 
 #: /wa-apps/crm/lib/actions/crmPopup.controller.php:46
 #: /wa-apps/crm/lib/config/crmConfig.class.php:303
@@ -7946,9 +7880,9 @@ msgstr "Видалити клієнта %S від відповідальност
 #: /wa-apps/crm/lib/actions/contact/operation/crmContactOperationDeleteProcess.controller.php:28
 msgid "%d contact has been deleted"
 msgid_plural "%d contacts have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d контакт видалено"
+msgstr[1] "%d контакти видалено"
+msgstr[2] "%d контактів видалено"
 
 #: /wa-apps/crm/lib/actions/contact/operation/crmContactOperationAssignResponsibleProcess.controller.php:38
 msgid ""
@@ -7958,8 +7892,14 @@ msgid_plural ""
 "The responsible person is not assigned to these clients, since he has no "
 "access rights."
 msgstr[0] ""
+"Для цього клієнта не призначено відповідального, оскільки у нього немає прав "
+"доступу."
 msgstr[1] ""
+"Для цих клієнтів не призначено відповідального, оскільки у нього немає прав "
+"доступу."
 msgstr[2] ""
+"Для цих клієнтів не призначено відповідального, оскільки у нього немає прав "
+"доступу."
 
 #: /wa-apps/crm/lib/actions/contact/segment/crmContactSegmentDialog.action.php:22
 #: /wa-apps/crm/lib/actions/contact/segment/crmContactSegmentId.action.php:17
@@ -7983,9 +7923,9 @@ msgstr "Користувачі не можуть бути об'єднані з �
 #: /wa-apps/crm/lib/actions/contact/merge/crmContactMergeRun.controller.php:35
 msgid "%d contact was skipped because they have user accounts"
 msgid_plural "%d contacts were skipped because they have user accounts"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d контакт було пропущено, оскільки у нього є акаунт користувача"
+msgstr[1] "%d контакти було пропущено, оскільки у них є акаунти користувача"
+msgstr[2] "%d контактів було пропущено, оскільки у них є акаунти користувача"
 
 #: /wa-apps/crm/lib/actions/contact/merge/crmContactMergeRun.controller.php:135
 #: /wa-apps/crm/lib/actions/contact/merge/crmContactMergeRun.controller.php:29
@@ -8065,9 +8005,9 @@ msgstr "Відповідальність"
 #: /wa-apps/crm/lib/actions/contact/crmContactId.action.php:173
 msgid "%d owner"
 msgid_plural "%d owners"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d власник"
+msgstr[1] "%d власника"
+msgstr[2] "%d власників"
 
 #: /wa-apps/crm/lib/actions/contact/crmContactId.action.php:90
 #: /wa-apps/crm/lib/actions/contact/crmContactId.action.php:64
@@ -8446,9 +8386,9 @@ msgstr "Значення поля клієнта \"%s"
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:255
 msgid "We have found %d duplicate for this field"
 msgid_plural "We have found %d duplicates for this field"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Знайдено %d дублікат цього поля"
+msgstr[1] "Знайдено %d дублікати цього поля"
+msgstr[2] "Знайдено %d дублікатів цього поля"
 
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:233
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:171
@@ -9214,9 +9154,9 @@ msgstr "змінив власника контакту"
 #: /wa-apps/crm/lib/config/data/templates/deal.stage_overdue.ru_RU.html:7
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d година"
+msgstr[1] "%d години"
+msgstr[2] "%d годин"
 
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:38
 #, fuzzy
