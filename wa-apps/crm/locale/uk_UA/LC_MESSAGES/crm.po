@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: Webasyst CRM 1.4.0.253 UA translation v 0.2\n"
+"Project-Id-Version: Webasyst CRM 1.4.0.253 UA translation v 0.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
@@ -1032,24 +1032,20 @@ msgid "Call"
 msgstr "Виклик"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:69
-#, fuzzy
 msgid "Call pending"
-msgstr "Зателефонуйте в очікуванні"
+msgstr "Виклик очікує"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:70
-#, fuzzy
 msgid "Call connected"
-msgstr "Дзвінка"
+msgstr "Виклик з'єднано"
 
 #: /wa-apps/crm/templates/actions/call/CallInitContactDialog.html:71
-#, fuzzy
 msgid "Call finished"
-msgstr "Дзвінок закінчений"
+msgstr "Виклик завершено"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:11
-#, fuzzy
 msgid "Associate call with a deal"
-msgstr "Зв'язати дзвінок з інтернет"
+msgstr "Пов'язати виклик із угодою"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:17
 #: /wa-apps/crm/templates/actions/call/Call.html:138
@@ -1063,7 +1059,6 @@ msgstr "Зв'язати дзвінок з інтернет"
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:379
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:38
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:53
-#, fuzzy
 msgid "Client"
 msgstr "Клієнт"
 
@@ -1086,9 +1081,8 @@ msgstr "Клієнт"
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:70
 #: /wa-apps/crm/lib/models/crmLog.model.php:260
 #: /wa-apps/crm/lib/models/crmLog.model.php:315
-#, fuzzy
 msgid "Deal"
-msgstr "Справа"
+msgstr "Угода"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:34
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:524
@@ -1098,9 +1092,8 @@ msgstr "Справа"
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:174
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:149
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:341
-#, fuzzy
 msgid "Select deal"
-msgstr "Виберіть операцію"
+msgstr "Оберіть угоду"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:43
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:178
@@ -1108,9 +1101,8 @@ msgstr "Виберіть операцію"
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:157
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:154
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:154
-#, fuzzy
 msgid "Create new"
-msgstr "Створити новий"
+msgstr "Створити"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:127
 #: /wa-apps/crm/templates/actions/message/MessageConversationAssociateDealDialog.html:127
@@ -1125,49 +1117,43 @@ msgstr "Назва угоди"
 
 #: /wa-apps/crm/templates/actions/call/CallAssociateDealDialog.html:140
 #: /wa-apps/crm/templates/actions/message/MessageConversationAssociateDealDialog.html:140
-#, fuzzy
 msgid "Associate"
-msgstr "Зв'язати"
+msgstr "Пов'язати"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:1
 #: /wa-apps/crm/templates/actions/Sidebar.html:66
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:213
 #: /wa-apps/crm/templates/actions/Sidebar.html:63
-#, fuzzy
 msgid "Calls"
-msgstr "Дзвінки"
+msgstr "Виклики"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:8
 #: /wa-apps/crm/templates/actions/call/Call.html:9
-#, fuzzy
 msgid ""
 "OneSignal takes longer than expected to load! Please make sure you're not "
 "running AdBlock."
 msgstr ""
-"OneSignal займає більше часу, ніж очікувалося! Будь ласка, переконайтеся, що "
-"ви не використовуєте Адблок."
+"Завантаження OneSignal займає більше часу, ніж очікувалося! Будь ласка, "
+"переконайтеся, що ви не використовуєте AdBlock."
 
 #: /wa-apps/crm/templates/actions/call/Call.html:12
 #: /wa-apps/crm/templates/actions/call/Call.html:13
-#, fuzzy
 msgid "OneSignal failed to load! Please make sure you're not running AdBlock."
 msgstr ""
 "OneSignal не вдалося завантажити! Будь ласка, переконайтеся, що ви не "
-"використовуєте Адблок."
+"використовуєте AdBlock."
 
 #: /wa-apps/crm/templates/actions/call/Call.html:16
-#, fuzzy
 msgid "You blocked push-notifications from this domain."
-msgstr "Ви заблокували пуш-повідомленнями від цього домену."
+msgstr "Ви заблокували Push-повідомлення від цього домену."
 
 #: /wa-apps/crm/templates/actions/call/Call.html:17
-#, fuzzy
 msgid ""
 "Please grant push-notification permission to enable CRM pop-up details "
 "during incoming calls."
 msgstr ""
-"Будь ласка, дозвольте push-повідомлення дозволу на включення в CRM спливаючі "
-"подробиці під час вхідних дзвінків."
+"Дозвольте, будь ласка, отримання push-повідомлень, аби CRM змогла показати "
+"випливаючі повідомлення під час вхідних викликів."
 
 #: /wa-apps/crm/templates/actions/call/Call.html:128
 #: /wa-apps/crm/templates/actions/message/MessageByClientDialog.html:18
@@ -1185,7 +1171,6 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/deal/DealList.html:156
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:43
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:38
-#, fuzzy
 msgid "Date"
 msgstr "Дата"
 
@@ -1203,20 +1188,17 @@ msgstr "Дата"
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:118
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:72
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:74
-#, fuzzy
 msgid "Phone"
 msgstr "Телефон"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:134
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:64
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:91
-#, fuzzy
 msgid "State"
-msgstr "Держава"
+msgstr "Статус"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:144
 #: /wa-apps/crm/templates/actions/call/Call.html:111
-#, fuzzy
 msgid "User"
 msgstr "Користувач"
 
@@ -1230,30 +1212,26 @@ msgstr "прихований номер телефону"
 #: /wa-apps/crm/lib/models/crmLog.model.php:515
 #: /wa-apps/crm/lib/models/crmLog.model.php:520
 #: /wa-apps/crm/lib/models/crmLog.model.php:281
-#, fuzzy
 msgid "unknown"
 msgstr "невідомо"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:206
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:126
 #: /wa-apps/crm/templates/actions/call/Call.html:169
-#, fuzzy
 msgid "Create or update contact"
 msgstr "Створити або оновити контакт"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:221
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:265
 #: /wa-apps/crm/templates/actions/call/Call.html:216
-#, fuzzy
 msgid "Associate with a deal"
-msgstr "Зв'язати з інтернет"
+msgstr "Пов'язати з угодою"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:223
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:270
 #: /wa-apps/crm/templates/actions/call/Call.html:218
-#, fuzzy
 msgid "deal is hidden"
-msgstr "інтернет-приховано"
+msgstr "угоду приховано"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:245
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:288
@@ -1278,54 +1256,46 @@ msgstr "інтернет-приховано"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:150
 #: /wa-apps/crm/templates/actions/log/Log.html:150
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:48
-#, fuzzy
 msgid "delete"
 msgstr "видалити"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:258
 #: /wa-apps/crm/templates/actions/call/Call.html:207
-#, fuzzy
 msgid "No phone calls."
-msgstr "Ніяких телефонних дзвінків."
+msgstr "Немає телефонних викликів."
 
 #: /wa-apps/crm/templates/actions/call/Call.html:260
 #: /wa-apps/crm/templates/actions/settings/SettingsPBX.html:5
 #: /wa-apps/crm/templates/actions/call/Call.html:209
-#, fuzzy
 msgid "No PBX plugins installed."
-msgstr "Встановлено АТС плагінів."
+msgstr "Не встановлено плагінів АТС."
 
 #: /wa-apps/crm/templates/actions/pbx/PbxInit.js:13
 #: /wa-apps/crm/templates/actions/PbxInit.js:13
-#, fuzzy
 msgid "Thanks for subscribing"
 msgstr "Дякуємо за підписку"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxInit.js:14
 #: /wa-apps/crm/templates/actions/PbxInit.js:14
-#, fuzzy
 msgid ""
 "You're now subscribed to notifications. You can unsubscribe at any time."
 msgstr ""
-"Тепер ви підписані на повідомлення. Ви можете відмовитися в будь-який момент."
+"Тепер ви підписані на повідомлення. Ви можете відписатися в будь-який момент."
 
 #: /wa-apps/crm/templates/actions/pbx/PbxInit.js:15
 #: /wa-apps/crm/templates/actions/PbxInit.js:15
-#, fuzzy
 msgid "Finish Subscribing!"
-msgstr "Обробка Підписка!"
+msgstr "Завершіть підписку!"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:27
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:140
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:7
-#, fuzzy
 msgid "Remove call"
 msgstr "Видалити виклик"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:98
-#, fuzzy
 msgid "No contacts match this phone"
-msgstr "Ніяких контактів матч телефон"
+msgstr "Не знайдено пов'язаних із цим номером телефону контактів"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:107
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:136
@@ -1335,9 +1305,8 @@ msgstr "Ніяких контактів матч телефон"
 #: /wa-apps/crm/templates/actions/deal/DealId.html:112
 #: /wa-apps/crm/lib/actions/deal/crmDealList.action.php:239
 #: /wa-apps/crm/lib/models/crmDeal.model.php:435
-#, fuzzy
 msgid "Won"
-msgstr "Виграв"
+msgstr "Виграно"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:107
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:136
@@ -1347,20 +1316,17 @@ msgstr "Виграв"
 #: /wa-apps/crm/templates/actions/deal/DealId.html:120
 #: /wa-apps/crm/lib/actions/deal/crmDealList.action.php:243
 #: /wa-apps/crm/lib/models/crmDeal.model.php:437
-#, fuzzy
 msgid "Lost"
-msgstr "Втратили"
+msgstr "Програно"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:123
-#, fuzzy
 msgid "There is no deals for this contact."
-msgstr "Немає знижки на контакт."
+msgstr "Немає угод із цим контактом."
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:138
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:127
-#, fuzzy
 msgid "New incoming call"
-msgstr "Новий вхідний дзвінок"
+msgstr "Новий вхідний виклик"
 
 #: /wa-apps/crm/templates/actions/pbx/PbxIfrLayout.html:91
 msgid "%d other contact with same phone"
@@ -1372,7 +1338,6 @@ msgstr[2] "%d інших контактів із тим же номером те
 #: /wa-apps/crm/templates/actions/invoice/InvoiceSidebar.html:13
 #: /wa-apps/crm/templates/actions/deal/DealList.html:428
 #: /wa-apps/crm/templates/actions/deal/DealList.html:253
-#, fuzzy
 msgid "Loading"
 msgstr "Завантаження"
 
@@ -1383,19 +1348,16 @@ msgstr "Завантаження"
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:189
 #: /wa-apps/crm/templates/actions/deal/DealId.html:285
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:19
-#, fuzzy
 msgid "Invoices"
-msgstr "Рахунки-фактури"
+msgstr "Рахунки"
 
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:16
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:57
-#, fuzzy
 msgid "Newest"
 msgstr "Найновіші"
 
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:20
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:61
-#, fuzzy
 msgid "Updated"
 msgstr "Оновлено"
 
@@ -1406,19 +1368,16 @@ msgstr "Оновлено"
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:65
 #: /wa-apps/crm/lib/classes/crmInvoice.class.php:9
 #: /wa-apps/crm/lib/config/search/search_crm.php:109
-#, fuzzy
 msgid "Paid"
-msgstr "Платні"
+msgstr "Сплачені"
 
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:45
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:81
-#, fuzzy
 msgid "New invoice"
 msgstr "Новий рахунок"
 
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:50
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:91
-#, fuzzy
 msgid "Find by number"
 msgstr "Знайти за номером"
 
@@ -1427,25 +1386,22 @@ msgstr "Знайти за номером"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:88
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:91
 #: /wa-apps/crm/templates/actions/invoice/Invoice.html:128
-#, fuzzy
 msgid "Order by:"
-msgstr "Замовлення:"
+msgstr "Сортувати за:"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceContactAdd.html:6
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:75
 #: /wa-apps/crm/templates/actions/deal/DealId.html:303
 #: /wa-apps/crm/templates/actions/deal/DealId.html:263
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:45
-#, fuzzy
 msgid "Set client"
-msgstr "Набір клієнта"
+msgstr "Встановити клієнта"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceContactAdd.html:28
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:241
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:199
-#, fuzzy
 msgid "Client contact data required"
-msgstr "Контактні дані клієнта вимагається"
+msgstr "Потребуються контактні дані клієнта"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:1
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:25
@@ -1453,9 +1409,8 @@ msgstr "Контактні дані клієнта вимагається"
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:10
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:29
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:38
-#, fuzzy
 msgid "Invoice"
-msgstr "Рахунок-фактура"
+msgstr "Рахунок"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:25
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:161
@@ -1476,7 +1431,6 @@ msgstr "Рахунок-фактура"
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:98
 #: /wa-apps/crm/templates/actions/log/LogLiveTimeline.html:86
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:84
-#, fuzzy
 msgid "#"
 msgstr "#"
 
@@ -1485,28 +1439,24 @@ msgstr "#"
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:29
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:59
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:16
-#, fuzzy
 msgid "issued on"
 msgstr "виданий на"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:37
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:33
-#, fuzzy
 msgid "Expires in"
 msgstr "Закінчується"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:40
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:170
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:36
-#, fuzzy
 msgid "days"
 msgstr "дні"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:47
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:43
-#, fuzzy
 msgid "clear due date"
-msgstr "чітка дата"
+msgstr "закінчити на дату"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:51
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:118
@@ -1521,7 +1471,6 @@ msgstr "чітка дата"
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:80
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:48
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:123
-#, fuzzy
 msgid "Company"
 msgstr "Компанія"
 
@@ -1538,7 +1487,6 @@ msgstr "змінити клієнта"
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:90
 #: /wa-apps/crm/lib/classes/deal/crmDealsExporter.class.php:273
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:60
-#, fuzzy
 msgid "Currency"
 msgstr "Валюта"
 
@@ -1556,7 +1504,6 @@ msgstr "Назва товару чи послуги"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:116
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:158
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:191
-#, fuzzy
 msgid "without"
 msgstr "без"
 
@@ -1567,9 +1514,8 @@ msgstr "без"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:67
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:117
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:100
-#, fuzzy
 msgid "Product or service"
-msgstr "Продукту або послуги"
+msgstr "Товар або послуга"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:163
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:88
@@ -1579,7 +1525,6 @@ msgstr "Продукту або послуги"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:68
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:118
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:102
-#, fuzzy
 msgid "Qty"
 msgstr "Кількість"
 
@@ -1587,7 +1532,6 @@ msgstr "Кількість"
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:190
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:136
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:126
-#, fuzzy
 msgid "Tax"
 msgstr "Податок"
 
@@ -1600,7 +1544,6 @@ msgstr "Податок"
 #: /wa-apps/crm/templates/actions/deal/DealList.html:136
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:119
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:103
-#, fuzzy
 msgid "Price"
 msgstr "Ціна"
 
@@ -1614,9 +1557,8 @@ msgstr "Ціна"
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:120
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:104
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:84
-#, fuzzy
 msgid "Amount"
-msgstr "Сума"
+msgstr "Кількість"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:183
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:119
@@ -1626,7 +1568,6 @@ msgstr "Сума"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:107
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:149
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:119
-#, fuzzy
 msgid "Subtotal"
 msgstr "Підсумок"
 
@@ -1639,15 +1580,13 @@ msgstr "Підсумок"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:135
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:177
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:138
-#, fuzzy
 msgid "Total"
-msgstr "Усього"
+msgstr "Сума"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:212
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:147
-#, fuzzy
 msgid "Type your comment here"
-msgstr "Введіть Ваш коментар тут"
+msgstr "Введіть ваш коментар тут"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:216
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:226
@@ -1662,39 +1601,33 @@ msgstr "Введіть Ваш коментар тут"
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:185
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:152
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:123
-#, fuzzy
 msgid "Create"
 msgstr "Створити"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:237
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:227
-#, fuzzy
 msgid "Recalculate prices"
-msgstr "Перераховувати ціни"
+msgstr "Перерахувати ціни"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:240
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:230
-#, fuzzy
 msgid "You have changed the invoice currency."
 msgstr "Ви змінили валюту рахунку."
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:240
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:230
-#, fuzzy
 msgid "Recalculate the prices of items at the appropriate rate?"
-msgstr "Перерахування цін товарів за відповідною ставкою?"
+msgstr "Перерахувати ціни товарів за відповідною ставкою?"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:244
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:234
-#, fuzzy
 msgid "Recalculate"
 msgstr "Перерахувати"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:245
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:235
-#, fuzzy
 msgid "Do not change prices"
-msgstr "Не змінювали ціни"
+msgstr "Не змінювати ціни"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:301
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:133
@@ -1703,7 +1636,6 @@ msgstr "Не змінювали ціни"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:121
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:163
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:190
-#, fuzzy
 msgid "tax"
 msgstr "податок"
 
@@ -1714,51 +1646,43 @@ msgstr "податок"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:118
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:160
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:191
-#, fuzzy
 msgid "including"
 msgstr "в тому числі"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:305
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:193
-#, fuzzy
 msgid "Contact is required"
-msgstr "Контакт вимагається"
+msgstr "Необхідно вказати контакт"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceListByContact.html:7
 #: /wa-apps/crm/templates/actions/deal/DealId.html:354
 #: /wa-apps/crm/templates/actions/deal/DealId.html:303
 #: /wa-apps/crm/templates/actions/invoice/InvoiceListByContact.html:5
-#, fuzzy
 msgid "Add invoice"
-msgstr "Додати рахунок-фактуру"
+msgstr "Додати рахунок"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceListByContact.html:85
 #: /wa-apps/crm/templates/actions/invoice/InvoiceListByContact.html:40
-#, fuzzy
 msgid "No invoices for this customer"
-msgstr "Немає рахунку цього клієнта"
+msgstr "Для цього клієнта немає рахунків"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceRefundDialog.html:6
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:219
-#, fuzzy
 msgid "Refund payment for invoice"
-msgstr "Повернення платежу за накладною"
+msgstr "Повернути оплату за цим рахунком"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceRefundDialog.html:10
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:220
-#, fuzzy
 msgid "Operation can not be undone."
 msgstr "Операція не може бути скасована."
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceRefundDialog.html:23
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:219
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:143
-#, fuzzy
 msgid "Refund"
-msgstr "Повернення"
+msgstr "Повернути"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:21
-#, fuzzy
 msgid "Create copy"
 msgstr "Створити копію"
 
@@ -1768,21 +1692,18 @@ msgstr "Створити копію"
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldFormRow.html:45
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:17
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:18
-#, fuzzy
 msgid "Edit"
 msgstr "Редагувати"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:30
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:23
-#, fuzzy
 msgid "Archive"
 msgstr "Архів"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:39
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:32
-#, fuzzy
 msgid "Restore"
-msgstr "Відновити"
+msgstr "Відновлення"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:49
 #: /wa-apps/crm/templates/actions/log/Log.html:303
@@ -1790,47 +1711,40 @@ msgstr "Відновити"
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:95
 #: /wa-apps/crm/templates/actions/deal/DealId.html:82
 #: /wa-apps/crm/templates/actions/deal/DealId.html:61
-#, fuzzy
 msgid "Created at"
 msgstr "Створений в"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:54
-#, fuzzy
 msgid "Valid through"
-msgstr "Діє через"
+msgstr "Дійсний до"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:76
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:85
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:101
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:62
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:78
-#, fuzzy
 msgid "Created by"
-msgstr "Створюється"
+msgstr "Створений"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:96
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:100
-#, fuzzy
 msgid "Public link"
 msgstr "Публічне посилання"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:105
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:109
-#, fuzzy
 msgid "A settlement required for invoice publication."
-msgstr "Поселення, необхідних для публікації рахунку-фактури."
+msgstr "Поселення необхідне для публікації рахунку."
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:107
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:111
-#, fuzzy
 msgid "Use site application to configure settlement for CRM."
-msgstr "Використовувати сайт і додаток для настройки розрахунків для CRM."
+msgstr "Використовуйте додаток «Сайт» для налаштування поселення CRM."
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:154
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:78
-#, fuzzy
 msgid "Deal not shown due to access rights restrictions."
-msgstr "Справа не показано через обмеження прав доступу."
+msgstr "Угоду не показано через обмеження прав доступу."
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:170
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:149
@@ -1838,57 +1752,48 @@ msgid "Payment date"
 msgstr "Дата оплати"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:180
-#, fuzzy
 msgid "Payment transactions"
 msgstr "Платіжні операції"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:216
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:140
-#, fuzzy
 msgid "Accept payment"
-msgstr "Приймаємо оплату"
+msgstr "Прийняти оплату"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:217
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:141
-#, fuzzy
 msgid "Refuse payment"
-msgstr "Відмовити у виплаті"
+msgstr "Відхилити оплату"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:221
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:145
-#, fuzzy
 msgid "Cancel payment"
-msgstr "Скасувати платіж"
+msgstr "Скасувати оплату"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:224
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:148
-#, fuzzy
 msgid "Mark as paid"
-msgstr "Відзначити як оплачений"
+msgstr "Позначити як оплачений"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:225
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:149
-#, fuzzy
 msgid "Return to draft"
-msgstr "Повернутися до проекту"
+msgstr "Повернутися до чернетки"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:227
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:151
-#, fuzzy
 msgid "Activate"
 msgstr "Активувати"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:241
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:216
-#, fuzzy
 msgid "Delete invoice"
-msgstr "Видалення рахунку"
+msgstr "Видалити рахунок"
 
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:242
 #: /wa-apps/crm/templates/actions/invoice/InvoiceId.html:217
-#, fuzzy
 msgid "Invoice deletion cannot be undone."
-msgstr "Видалення рахунок-фактура не може бути скасовано."
+msgstr "Видалення рахунку неможливо відмінити."
 
 #: /wa-apps/crm/templates/actions/email/EmailPersonalSettingsDialog.html:7
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:15
@@ -1896,7 +1801,6 @@ msgstr "Видалення рахунок-фактура не може бути 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:45
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:35
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:16
-#, fuzzy
 msgid "Personal settings"
 msgstr "Особисті налаштування"
 
@@ -1919,12 +1823,10 @@ msgstr "Особисті налаштування"
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:45
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:16
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:11
-#, fuzzy
 msgid "Name"
-msgstr "Имя"
+msgstr "Ім'я"
 
 #: /wa-apps/crm/templates/actions/email/EmailPersonalSettingsDialog.html:21
-#, fuzzy
 msgid "Signature"
 msgstr "Підпис"
 
@@ -1933,23 +1835,20 @@ msgstr "Підпис"
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:42
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:48
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:63
-#, fuzzy
 msgid "Billed To"
-msgstr "На Рахунок"
+msgstr "Рахунок на ім'я"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:52
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:61
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:82
-#, fuzzy
 msgid "Date of Issue"
 msgstr "Дата випуску"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:58
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:67
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:88
-#, fuzzy
 msgid "Due Date"
-msgstr "Термін"
+msgstr "Термін дії"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:67
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:76
@@ -1960,23 +1859,20 @@ msgstr "Номер накладної"
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:75
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:84
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:105
-#, fuzzy
 msgid "Amount Due"
-msgstr "Сума, Що Належить"
+msgstr "Виставлена сума"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/template1.html:158
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:129
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_a.html:167
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:146
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:188
-#, fuzzy
 msgid "Comment"
 msgstr "Коментар"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:32
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:41
 #: /wa-apps/crm/templates/actions/frontend/invoice/template2.html:62
-#, fuzzy
 msgid "Provider"
 msgstr "Постачальник"
 
@@ -1987,43 +1883,37 @@ msgstr "Постачальник"
 #: /wa-apps/crm/templates/actions/settings/Settings.html:36
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:197
 #: /wa-apps/crm/templates/actions/settings/Settings.html:31
-#, fuzzy
 msgid "Payment"
-msgstr "Платіжні системи"
+msgstr "Оплата"
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/payment.section.inc.html:29
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:222
-#, fuzzy
 msgid ""
 "Oops! We are sorry, but <strong>we can not offer any payment option for your "
 "order</strong>. Checkout can not be completed."
 msgstr ""
-"Вибачте, замовлення не може бути оформлене: ми <strong>не можемо "
-"запропонувати жодного способу оплати для вашого замовлення</strong>."
+"Вибачте, але ми <strong>не можемо запропонувати жодного способу оплати для "
+"вашого замовлення</strong>. Завершити оформлення неможливо."
 
 #: /wa-apps/crm/templates/actions/frontend/invoice/payment.section.inc.html:34
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:227
-#, fuzzy
 msgid "Pay"
-msgstr "Платити"
+msgstr "Сплатити"
 
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:18
-#, fuzzy
 msgid "Invoice has been canceled and no longer valid"
-msgstr "Рахунок-фактура був скасований і вже не діє"
+msgstr "Рахунок був скасований і вже не діє"
 
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:25
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:34
-#, fuzzy
 msgid "Invoice is paid"
-msgstr "Рахунок оплачується"
+msgstr "Рахунок сплачено"
 
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:29
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:34
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:38
-#, fuzzy
 msgid "Payment is in process"
-msgstr "Оплата в процес"
+msgstr "Оплата в процесі обробки"
 
 #: /wa-apps/crm/templates/actions/frontend/FrontendInvoice.html:39
 msgid "Payment error"
@@ -2036,7 +1926,6 @@ msgstr "Помилка оплати"
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:201
 #: /wa-apps/crm/templates/actions/deal/DealId.html:252
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:21
-#, fuzzy
 msgid "Contacts"
 msgstr "Контакти"
 
@@ -2046,7 +1935,6 @@ msgstr "Контакти"
 #: /wa-apps/crm/lib/handlers/contacts.profile.tab.handler.php:46
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:195
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:20
-#, fuzzy
 msgid "Deals"
 msgstr "Угоди"
 
@@ -2054,45 +1942,38 @@ msgstr "Угоди"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:1
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:171
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:16
-#, fuzzy
 msgid "Reminders"
 msgstr "Нагадування"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:60
 #: /wa-apps/crm/templates/actions/Sidebar.html:56
-#, fuzzy
 msgid "Live"
-msgstr "Жити"
+msgstr "Задіяно"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:81
 #: /wa-apps/crm/templates/actions/report/Report.html:1
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:1
 #: /wa-apps/crm/templates/actions/Sidebar.html:70
-#, fuzzy
 msgid "Reports"
 msgstr "Звіти"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:92
 #: /wa-apps/crm/templates/actions/Sidebar.html:80
-#, fuzzy
 msgid "Search"
 msgstr "Пошук"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:95
 #: /wa-apps/crm/templates/actions/Sidebar.html:83
-#, fuzzy
 msgid "Advanced contact search"
 msgstr "Розширений пошук контактів"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:102
 #: /wa-apps/crm/templates/actions/Sidebar.html:86
-#, fuzzy
 msgid "Recent"
 msgstr "Останні"
 
 #: /wa-apps/crm/templates/actions/Sidebar.html:160
 #: /wa-apps/crm/templates/actions/Sidebar.html:151
-#, fuzzy
 msgid "Plugins"
 msgstr "Плагіни"
 
@@ -2102,7 +1983,6 @@ msgstr "Плагіни"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:28
 #: /wa-apps/crm/templates/actions/settings/Settings.html:1
 #: /wa-apps/crm/templates/actions/Sidebar.html:154
-#, fuzzy
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -2112,9 +1992,8 @@ msgstr "Налаштування"
 #: /wa-apps/crm/templates/actions/report/Report.html:296
 #: /wa-apps/crm/templates/actions/report/Report.html:337
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:165
-#, fuzzy
 msgid "Lost deals"
-msgstr "Втратила пропозиції"
+msgstr "Програні угоди"
 
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:9
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:51
@@ -2122,9 +2001,8 @@ msgstr "Втратила пропозиції"
 #: /wa-apps/crm/templates/actions/report/Report.html:299
 #: /wa-apps/crm/templates/actions/report/Report.html:340
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:168
-#, fuzzy
 msgid "Won deals"
-msgstr "Угоди"
+msgstr "Виграні угоди"
 
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:14
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:54
@@ -2132,9 +2010,8 @@ msgstr "Угоди"
 #: /wa-apps/crm/templates/actions/report/Report.html:302
 #: /wa-apps/crm/templates/actions/report/Report.html:343
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:171
-#, fuzzy
 msgid "Paid invoices"
-msgstr "Оплачених рахунків-фактур"
+msgstr "Оплачені рахунки"
 
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:22
 #: /wa-apps/crm/templates/actions/report/ReportMenu.inc.html:57
@@ -2149,7 +2026,6 @@ msgstr "Етапи угоди"
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:32
 #: /wa-apps/crm/templates/actions/log/LogLive.html:105
 #: /wa-apps/crm/templates/actions/report/Report.html:26
-#, fuzzy
 msgid "All time"
 msgstr "Увесь час"
 
@@ -2158,7 +2034,6 @@ msgstr "Увесь час"
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:39
 #: /wa-apps/crm/templates/actions/log/LogLive.html:111
 #: /wa-apps/crm/templates/actions/report/Report.html:32
-#, fuzzy
 msgid "Select dates..."
 msgstr "Обрати дати..."
 
@@ -2169,7 +2044,6 @@ msgstr "Обрати дати..."
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:110
 #: /wa-apps/crm/templates/actions/report/Report.html:118
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:117
-#, fuzzy
 msgid " from"
 msgstr " від"
 
@@ -2180,15 +2054,13 @@ msgstr " від"
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:113
 #: /wa-apps/crm/templates/actions/report/Report.html:121
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:120
-#, fuzzy
 msgid " to"
-msgstr " для"
+msgstr " до"
 
 #: /wa-apps/crm/templates/actions/report/Report.html:138
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:122
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:131
 #: /wa-apps/crm/templates/actions/log/LogLive.html:133
-#, fuzzy
 msgid "by day"
 msgstr "по днях"
 
@@ -2196,7 +2068,6 @@ msgstr "по днях"
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:123
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:132
 #: /wa-apps/crm/templates/actions/log/LogLive.html:134
-#, fuzzy
 msgid "by month"
 msgstr "по місяцях"
 
@@ -2214,14 +2085,12 @@ msgstr "по місяцях"
 #: /wa-apps/crm/templates/actions/report/Report.html:119
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:48
 #: /wa-apps/crm/js/search/period.dialog.js:42
-#, fuzzy
 msgid "Apply"
 msgstr "Застосувати"
 
 #: /wa-apps/crm/templates/actions/report/Report.html:176
 #: /wa-apps/crm/templates/actions/report/Report.html:278
 #: /wa-apps/crm/templates/actions/report/Report.html:145
-#, fuzzy
 msgid "Total won amount"
 msgstr "Загальна виграна сума"
 
@@ -2233,9 +2102,8 @@ msgstr "Загальна виграна сума"
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:60
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:67
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:57
-#, fuzzy
 msgid "WON"
-msgstr "Виграв"
+msgstr "ВИГРАНО"
 
 #: /wa-apps/crm/templates/actions/report/Report.html:239
 #: /wa-apps/crm/templates/actions/settings/SettingsLostReasons.html:3
@@ -2250,21 +2118,18 @@ msgstr "Причини програшу угоди"
 #: /wa-apps/crm/lib/config/crmConfig.class.php:318
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:14
 #: /wa-apps/crm/templates/actions/report/Report.html:204
-#, fuzzy
 msgid "Other"
 msgstr "Інше"
 
 #: /wa-apps/crm/templates/actions/report/Report.html:247
 #: /wa-apps/crm/templates/actions/report/Report.html:206
-#, fuzzy
 msgid "Not specified"
 msgstr "Не вказано"
 
 #: /wa-apps/crm/templates/actions/report/Report.html:312
 #: /wa-apps/crm/templates/actions/report/Report.html:232
-#, fuzzy
 msgid "There are no closed deals for specified period."
-msgstr "Немає закритих угод за вказаний період."
+msgstr "За вказаний період немає закритих угод."
 
 #: /wa-apps/crm/templates/actions/report/Report.html:10
 #: /wa-apps/crm/templates/actions/report/Report.html:17
@@ -2316,15 +2181,13 @@ msgstr[2] "%d угод програно"
 
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:158
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:156
-#, fuzzy
 msgid "Total paid amount"
 msgstr "Загальна сума оплати"
 
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:185
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:198
-#, fuzzy
 msgid "There are no paid invoices for specified period."
-msgstr "Немає оплачених рахунків-фактур за вказаний період."
+msgstr "За вказаний період немає оплачених рахунків."
 
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:158
 #: /wa-apps/crm/templates/actions/report/ReportInvoices.html:156
@@ -2335,14 +2198,12 @@ msgstr[1] "накладні сплачено"
 msgstr[2] "накладних сплачено"
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:166
-#, fuzzy
 msgid "deals closed."
-msgstr "угоди закриті."
+msgstr "угод закрито."
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:169
-#, fuzzy
 msgid "Average deal lifetime: "
-msgstr "Звичайна справа життя: "
+msgstr "Середня тривалість укладання угоди: "
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:177
 msgid "deals count in stages now"
@@ -2350,23 +2211,19 @@ msgstr "кількість угод на етапах зараз"
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:183
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:206
-#, fuzzy
 msgid "There are no data for report."
 msgstr "Немає даних для звіту."
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:209
-#, fuzzy
 msgid "average timeout for deal in stage"
-msgstr "середній час очікування для інтернет-у стадії"
+msgstr "середній час очікування для угоди на етапі"
 
 #: /wa-apps/crm/templates/actions/report/ReportStages.html:212
-#, fuzzy
 msgid "There are no stages."
 msgstr "Немає ніяких етапів."
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:3
 #: /wa-apps/crm/lib/actions/message/crmMessageConversationId.action.php:279
-#, fuzzy
 msgid "Deleted contact"
 msgstr "Видалені контакти"
 
@@ -2378,16 +2235,14 @@ msgstr "немає тексту повідомлення"
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:74
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:111
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:19
-#, fuzzy
 msgid "Back"
 msgstr "Назад"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:96
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:517
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:513
-#, fuzzy
 msgid "Delete conversation"
-msgstr "Видалити листування"
+msgstr "Видалити розмову"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:143
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:35
@@ -2398,21 +2253,18 @@ msgstr "Видалити листування"
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:68
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:71
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:58
-#, fuzzy
 msgid "LOST"
-msgstr "Втратили"
+msgstr "ПРОГРАНО"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:166
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:142
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:139
-#, fuzzy
 msgid "Typing deal name.."
-msgstr "Вводити ім'я інтернет.."
+msgstr "Набрати назву угоди..."
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:167
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:143
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:140
-#, fuzzy
 msgid "Cancel creation"
 msgstr "Скасувати створення"
 
@@ -2443,7 +2295,6 @@ msgstr "Скасувати створення"
 #: /wa-apps/crm/lib/config/search/search.php:417
 #: /wa-apps/crm/lib/config/search/search.php:448
 #: /wa-apps/crm/lib/config/search/search.php:470
-#, fuzzy
 msgid "Empty"
 msgstr "Пусто"
 
@@ -2473,14 +2324,12 @@ msgstr "Ім'я користувача"
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:94
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:105
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:128
-#, fuzzy
 msgid "Copy"
 msgstr "Копія"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:339
-#, fuzzy
 msgid "BCC"
-msgstr "БЦК"
+msgstr "Прихована копія"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:386
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:18
@@ -2488,33 +2337,28 @@ msgstr "БЦК"
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:52
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:41
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:71
-#, fuzzy
 msgid "Forward message"
-msgstr "Надіслати повідомлення"
+msgstr "Переслати повідомлення"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:391
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:82
 #: /wa-apps/crm/templates/actions/log/LogLoadMessage.html:55
 #: /wa-apps/crm/templates/actions/log/LogMessage.inc.html:16
-#, fuzzy
 msgid "Download original"
-msgstr "Завантажити Оригінал"
+msgstr "Завантажити оригінал"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:464
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:460
-#, fuzzy
 msgid "Write an answer"
 msgstr "Написати відповідь"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:496
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:492
-#, fuzzy
 msgid "Source not found"
-msgstr "Джерело не знайшли"
+msgstr "Джерело не знайдено"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:507
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:503
-#, fuzzy
 msgid "Conversation with"
 msgstr "Розмова з"
 
@@ -2523,15 +2367,13 @@ msgstr "Розмова з"
 #: /wa-apps/crm/templates/actions/deal/DealId.html:517
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:173
 #: /wa-apps/crm/templates/actions/deal/DealId.html:494
-#, fuzzy
 msgid "Remove owner"
 msgstr "Видалити власника"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:520
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:516
-#, fuzzy
 msgid "Remove owner <strong>%s</strong> from the conversation?"
-msgstr "Видалити власником <сильний>%</сильний> з розмови?"
+msgstr "Видалити власника<strong>%s</strong> з розмови?"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:521
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:362
@@ -2543,39 +2385,33 @@ msgstr "Видалити власником <сильний>%</сильний> �
 #: /wa-apps/crm/templates/form/fields/frontend/field.special.deal_attachments.html:14
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:240
 #: /wa-apps/crm/templates/actions/deal/DealId.html:427
-#, fuzzy
 msgid "Remove"
 msgstr "Видалити"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.html:525
 #: /wa-apps/crm/templates/actions/message/MessageBodyDialog.html:298
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:6
-#, fuzzy
 msgid "Add deal"
-msgstr "Додати інтернет"
+msgstr "Додати угоду"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationAssociateDealDialog.html:11
-#, fuzzy
 msgid "Associate conversation with a deal"
-msgstr "Зв'язати розмова з інтернет"
+msgstr "Пов'язати розмову з угодою"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:12
 msgid "Write message"
 msgstr "Написати повідомлення"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:14
-#, fuzzy
 msgid "Reply on message"
 msgstr "Відповідь на повідомлення"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:16
 #: /wa-apps/crm/templates/actions/deal/DealMessageDialog.html:6
-#, fuzzy
 msgid "Send message to"
 msgstr "Надіслати повідомлення"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:38
-#, fuzzy
 msgid "Start typing a name"
 msgstr "Почніть вводити ім'я"
 
@@ -2584,34 +2420,29 @@ msgstr "Почніть вводити ім'я"
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:49
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:234
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:339
-#, fuzzy
 msgid "Remove from CC"
-msgstr "Видалити з ЦК"
+msgstr "Видалити з копії"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:78
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:59
-#, fuzzy
 msgid "Name or email"
-msgstr "Ім'я або адресу електронної пошти"
+msgstr "Ім'я або адреса електронної пошти"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:84
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:65
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:81
-#, fuzzy
 msgid "Participants in the deal"
 msgstr "Учасники угоди"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:129
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:119
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:126
-#, fuzzy
 msgid "via"
 msgstr "через"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:138
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:129
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:135
-#, fuzzy
 msgid "personal settings"
 msgstr "персональні налаштування"
 
@@ -2629,14 +2460,12 @@ msgstr "персональні налаштування"
 #: /wa-apps/crm/templates/actions/deal/DealMessageDialog.html:24
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:182
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:118
-#, fuzzy
 msgid "Subject"
 msgstr "Тема"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:268
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:147
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:207
-#, fuzzy
 msgid "Write a message"
 msgstr "Написати повідомлення"
 
@@ -2644,7 +2473,6 @@ msgstr "Написати повідомлення"
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:153
 #: /wa-apps/crm/templates/actions/log/Log.html:354
 #: /wa-apps/crm/templates/actions/log/Log.html:137
-#, fuzzy
 msgid "Attach file"
 msgstr "Прикріпити файл"
 
@@ -2659,29 +2487,25 @@ msgstr "Перетягніть сюди файл"
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:166
 #: /wa-apps/crm/templates/actions/log/Log.html:366
 #: /wa-apps/crm/templates/actions/log/Log.html:149
-#, fuzzy
 msgid "File successful added"
-msgstr "Файл успішно додано"
+msgstr "Файл додано"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:296
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:177
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:274
-#, fuzzy
 msgid "Attach existed files:"
-msgstr "Прикріпіть існує файли:"
+msgstr "Прикріпіть існуючі файли:"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:314
 #: /wa-apps/crm/templates/actions/deal/DealMessageDialog.html:35
-#, fuzzy
 msgid "Send email"
-msgstr "Відправити по електронній пошті"
+msgstr "Надіслати листа електронною поштою"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:361
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:237
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:337
-#, fuzzy
 msgid "File is too large or another upload error occurred."
-msgstr "Файл занадто великий або інша помилка завантаження сталася."
+msgstr "Файл занадто великий або сталася інша помилка завантаження."
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:364
 #: /wa-apps/crm/templates/actions/message/MessageConversationId.replyEmail.inc.html:233
@@ -2703,15 +2527,13 @@ msgstr "Назва типу"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:369
 #: /wa-apps/crm/templates/actions/message/MessageSendEmailDialog.html:344
-#, fuzzy
 msgid "Edit recipient"
-msgstr "Редагувати одержувачів"
+msgstr "Редагувати одержувача"
 
 #: /wa-apps/crm/templates/actions/message/MessageByClientDialog.html:21
 #: /wa-apps/crm/templates/actions/message/MessageByDealDialog.html:38
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:103
 #: /wa-apps/crm/templates/actions/settings/SettingsNotificationsEdit.html:97
-#, fuzzy
 msgid "Sender"
 msgstr "Відправник"
 
@@ -2721,7 +2543,6 @@ msgstr "Відправник"
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:140
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:93
 #: /wa-apps/crm/templates/actions/message/MessageList.html:133
-#, fuzzy
 msgid "Type"
 msgstr "Тип"
 
@@ -2732,7 +2553,6 @@ msgstr "Тип"
 #: /wa-apps/crm/templates/actions/message/MessageByDealDialog.html:88
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:240
 #: /wa-apps/crm/templates/actions/log/LogMessage.inc.html:1
-#, fuzzy
 msgid "no subject"
 msgstr "без теми"
 
@@ -2740,7 +2560,6 @@ msgstr "без теми"
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:18
 #: /wa-apps/crm/templates/actions/message/MessageList.html:16
 #: /wa-apps/crm/templates/actions/message/MessageListByDeal.html:15
-#, fuzzy
 msgid "Write"
 msgstr "Писати"
 
@@ -2748,7 +2567,6 @@ msgstr "Писати"
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:75
 #: /wa-apps/crm/templates/actions/message/MessageList.html:95
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:80
-#, fuzzy
 msgid "Minimize by conversations"
 msgstr "Мінімізувати розмови"
 
@@ -2756,7 +2574,6 @@ msgstr "Мінімізувати розмови"
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:80
 #: /wa-apps/crm/templates/actions/message/MessageList.html:87
 #: /wa-apps/crm/templates/actions/message/MessageListByDeal.html:54
-#, fuzzy
 msgid "All messages"
 msgstr "Усі повідомлення"
 
@@ -2765,23 +2582,20 @@ msgstr "Усі повідомлення"
 #: /wa-apps/crm/templates/actions/message/MessageListByClient.html:98
 #: /wa-apps/crm/templates/actions/message/MessageListByDeal.html:81
 #: /wa-apps/crm/templates/actions/message/MessageList.html:112
-#, fuzzy
 msgid "No message sourses configured."
-msgstr "Повідомлення джерела налаштований."
+msgstr "Не налаштовано джерел повідомлень."
 
 #: /wa-apps/crm/templates/actions/message/MessageList.html:244
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:298
 #: /wa-apps/crm/templates/actions/message/MessageList.html:235
 #: /wa-apps/crm/templates/actions/message/MessageListByDeal.html:194
-#, fuzzy
 msgid "No messages"
 msgstr "Немає повідомлень"
 
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:281
 #: /wa-apps/crm/templates/actions/message/MessageListByConversation.html:283
-#, fuzzy
 msgid "no owner"
-msgstr "немає господаря"
+msgstr "немає власника"
 
 #: /wa-apps/crm/templates/actions/message/MessageConversationContact.inc.html:47
 #: /wa-apps/crm/templates/actions/message/MessageConversationContact.inc.html:55
@@ -2795,19 +2609,16 @@ msgstr "Передача права власності"
 #: /wa-apps/crm/templates/actions/message/MessageConversationContact.inc.html:50
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:62
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:78
-#, fuzzy
 msgid "Clear ownership"
-msgstr "Зрозуміло власності"
+msgstr "Очистити власників"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendSmsDialog.html:12
-#, fuzzy
 msgid "Reply on SMS"
-msgstr "Відповідь на СМС"
+msgstr "Відповісти на SMS"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendSmsDialog.html:14
-#, fuzzy
 msgid "Write SMS"
-msgstr "Пишіть СМС"
+msgstr "Написати SMS"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendSmsDialog.html:49
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:230
@@ -2816,7 +2627,6 @@ msgstr "Пишіть СМС"
 #: /wa-apps/crm/templates/actions/deal/DealMessageDialog.html:29
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:188
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:125
-#, fuzzy
 msgid "Text"
 msgstr "Текст"
 
@@ -2825,12 +2635,10 @@ msgid "Type SMS here"
 msgstr "Наберіть SMS"
 
 #: /wa-apps/crm/templates/actions/message/MessageSendSmsDialog.html:59
-#, fuzzy
 msgid "Send SMS"
-msgstr "Відправити SMS"
+msgstr "Надіслати SMS"
 
 #: /wa-apps/crm/templates/actions/log/LogMessage.inc.html:2
-#, fuzzy
 msgid "show the message"
 msgstr "показати повідомлення"
 
@@ -2838,7 +2646,6 @@ msgstr "показати повідомлення"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:154
 #: /wa-apps/crm/templates/actions/log/Log.html:37
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:97
-#, fuzzy
 msgid "Add reminder"
 msgstr "Додати нагадування"
 
@@ -2848,7 +2655,6 @@ msgstr "Додати нагадування"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:367
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:86
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:52
-#, fuzzy
 msgid "set time"
 msgstr "встановити час"
 
@@ -2858,7 +2664,6 @@ msgstr "встановити час"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:370
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:89
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:55
-#, fuzzy
 msgid "Time"
 msgstr "Час"
 
@@ -2868,9 +2673,8 @@ msgstr "Час"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:371
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:90
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:56
-#, fuzzy
 msgid "clear time"
-msgstr "чітке час"
+msgstr "очистити час"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:140
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:223
@@ -2878,9 +2682,8 @@ msgstr "чітке час"
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:108
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:220
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:71
-#, fuzzy
 msgid "Assign another user"
-msgstr "Призначити користувачу"
+msgstr "Призначити іншого користувача"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:143
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:226
@@ -2888,17 +2691,15 @@ msgstr "Призначити користувачу"
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:112
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:223
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:74
-#, fuzzy
 msgid "Choose a user"
-msgstr "Вибір користувачів"
+msgstr "Вибрати користувача"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:204
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:302
 #: /wa-apps/crm/templates/actions/log/Log.html:70
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:147
-#, fuzzy
 msgid "mark as done"
-msgstr "знак, як це зроблено"
+msgstr "позначити як виконаний"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:311
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:411
@@ -2909,21 +2710,18 @@ msgstr "знак, як це зроблено"
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:171
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:73
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:14
-#, fuzzy
 msgid "edit"
 msgstr "редагувати"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:349
 #: /wa-apps/crm/templates/actions/log/Log.html:132
-#, fuzzy
 msgid "Add note"
-msgstr "Додати примітка"
+msgstr "Додати примітку"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:381
 #: /wa-apps/crm/templates/actions/log/Log.html:164
-#, fuzzy
 msgid "Send to timeline"
-msgstr "Відправити на таймлайн"
+msgstr "Відправити у хронологію"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:433
 #: /wa-apps/crm/templates/actions/deal/DealList.html:119
@@ -2931,15 +2729,13 @@ msgstr "Відправити на таймлайн"
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:97
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:136
 #: /wa-apps/crm/templates/actions/log/Log.html:301
-#, fuzzy
 msgid "Show all"
-msgstr "Показати усе"
+msgstr "Показати усі"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:453
 #: /wa-apps/crm/templates/actions/log/Log.html:211
-#, fuzzy
 msgid "Bad datetime"
-msgstr "Погано датачас помилка джерела"
+msgstr "Невірні дата або час"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:454
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:156
