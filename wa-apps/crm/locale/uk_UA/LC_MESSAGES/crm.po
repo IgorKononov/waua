@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -2741,22 +2741,19 @@ msgstr "Невірні дата або час"
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:156
 #: /wa-apps/crm/templates/actions/log/Log.html:212
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:122
-#, fuzzy
 msgid "Required field is empty"
-msgstr "Обов'язкове поле буде порожнім"
+msgstr "Не заповнене обов'язкове поле"
 
 #: /wa-apps/crm/templates/actions/log/Log.html:455
 #: /wa-apps/crm/templates/actions/log/Log.html:213
-#, fuzzy
 msgid "File is too large or another upload error occured."
-msgstr "Файл занадто великий або інша помилка завантаження сталася."
+msgstr "Файл занадто великий або сталася інша помилка завантаження."
 
 #: /wa-apps/crm/templates/actions/log/LogLive.html:40
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:104
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:14
 #: /wa-apps/crm/lib/actions/message/crmMessageList.action.php:133
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:12
-#, fuzzy
 msgid "All users"
 msgstr "Усі користувачі"
 
@@ -2764,7 +2761,6 @@ msgstr "Усі користувачі"
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:102
 #: /wa-apps/crm/templates/actions/log/LogLiveTimeline.html:62
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:60
-#, fuzzy
 msgid "unknown user"
 msgstr "невідомий користувач"
 
@@ -2772,7 +2768,6 @@ msgstr "невідомий користувач"
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:290
 #: /wa-apps/crm/templates/actions/log/LogLiveTimeline.html:132
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:180
-#, fuzzy
 msgid "Loading..."
 msgstr "Завантаження..."
 
@@ -2790,17 +2785,14 @@ msgstr "Завантаження..."
 #: /wa-apps/crm/lib/actions/settings/payment/crmSettingsPaymentSort.controller.php:7
 #: /wa-apps/crm/lib/classes/crmJsonController.class.php:43
 #: /wa-apps/crm/lib/classes/crmViewAction.class.php:28
-#, fuzzy
 msgid "Access denied"
 msgstr "Доступ заборонено"
 
 #: /wa-apps/crm/templates/actions/DialogErrorAccessDenied.html:3
-#, fuzzy
 msgid "You have no permission to access this page."
-msgstr "У вас немає прав для доступу до цієї сторінки."
+msgstr "У вас немає прав доступу до цієї сторінки"
 
 #: /wa-apps/crm/templates/actions/DialogErrorAccessDenied.html:3
-#, fuzzy
 msgid "Please refer to your system administrator."
 msgstr "Будь ласка, зверніться до вашого системного адміністратора."
 
@@ -2812,18 +2804,16 @@ msgstr "Будь ласка, зверніться до вашого систем
 #: /wa-apps/crm/lib/actions/frontend/form/crmFrontendForm.actions.php:489
 #: /wa-apps/crm/lib/classes/crmJsonController.class.php:34
 #: /wa-apps/crm/lib/classes/crmViewAction.class.php:23
-#, fuzzy
 msgid "Page not found"
-msgstr "Сторінка не знайдена"
+msgstr "Сторінку не знайдено"
 
 #: /wa-apps/crm/templates/actions/DialogErrorNotFound.html:3
-#, fuzzy
 msgid ""
 "<p>The requested URL was not found on this server.</p><p>Please contact app "
 "developer.</p>"
 msgstr ""
-"<Р>запитаний url не знайдено на цьому сервері.</п><p>будь ласка, зв'яжіться "
-"з розробником програми.</п>"
+"<p>Запитаний URL не знайдено на цьому сервері.</p><p>Будь ласка, зв'яжіться "
+"з розробником програми.</p>"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:24
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:23
@@ -2832,97 +2822,80 @@ msgstr "Показувати тільки мої нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:29
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:28
-#, fuzzy
 msgid "Show all reminders"
 msgstr "Показати всі нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:35
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:34
-#, fuzzy
 msgid "Show reminders assigned to users from selected groups"
 msgstr "Показувати нагадування, призначені користувачам вибраної групи"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:56
-#, fuzzy
 msgid "Notify me"
 msgstr "Повідомити мене"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:68
-#, fuzzy
 msgid "Daily recap on what’s up next"
-msgstr "Щоденний резюме про те, що наступний"
+msgstr "Щоденне резюме про те, що далі"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:71
-#, fuzzy
 msgid "for today"
 msgstr "на сьогодні"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:72
-#, fuzzy
 msgid "for today and tomorrow"
 msgstr "на сьогодні і завтра"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:79
-#, fuzzy
 msgid "Popup "
 msgstr "Спливаюче вікно "
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:81
-#, fuzzy
 msgid "minutes before due time"
 msgstr "хвилин до закінчення часу"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:82
-#, fuzzy
 msgid "Enter the number of minutes"
 msgstr "Введіть кількість хвилин"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:88
-#, fuzzy
 msgid "When someone assigns me a reminder"
 msgstr "Коли хтось призначає мені нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderSettings.html:94
-#, fuzzy
 msgid "When someone marks my reminder as done"
 msgstr "Коли хтось відзначає моє нагадування як виконане"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:14
-#, fuzzy
 msgid "Any type"
 msgstr "Будь-який тип"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:29
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:8
-#, fuzzy
 msgid "Search to-dos"
-msgstr "Пошук завдання"
+msgstr "Пошук завдань"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:58
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:104
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:37
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:82
-#, fuzzy
 msgid "My reminders"
 msgstr "Мої нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:470
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:229
-#, fuzzy
 msgid "Unsaved reminder"
 msgstr "Незбережені нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:471
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:230
-#, fuzzy
 msgid ""
 "You are about to leave this page without saving your input. Are you sure?"
-msgstr "Ви збираєтеся покинути сторінку без збереження введення. Ви впевнені?"
+msgstr "Ви збираєтеся покинути сторінку без збереження. Ви впевнені?"
 
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:472
 #: /wa-apps/crm/templates/layouts/Default.html:167
 #: /wa-apps/crm/templates/actions/reminder/Reminder.html:231
-#, fuzzy
 msgid "Leave"
 msgstr "Залишити"
 
@@ -2936,9 +2909,8 @@ msgstr[2] "Показати %d виконаних нагадувань"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:51
 #: /wa-apps/crm/templates/actions/reminder/ReminderCompleted.html:49
-#, fuzzy
 msgid "Reopen reminder"
-msgstr "Відкрийте нагадування"
+msgstr "Відкрити нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:118
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:84
@@ -2947,7 +2919,6 @@ msgstr "Текст нагадування"
 
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:124
 #: /wa-apps/crm/templates/actions/reminder/ReminderFormEdit.inc.html:90
-#, fuzzy
 msgid "Create reminder"
 msgstr "Створити нагадування"
 
@@ -2963,7 +2934,6 @@ msgstr[2] "%d вкладень"
 #: /wa-apps/crm/lib/actions/crmPopup.controller.php:42
 #: /wa-apps/crm/lib/config/crmConfig.class.php:313
 #: /wa-apps/crm/lib/config/crmConfig.class.php:274
-#, fuzzy
 msgid "Message"
 msgstr "Повідомлення"
 
@@ -2974,35 +2944,30 @@ msgstr "Повідомлення"
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:142
 #: /wa-apps/crm/templates/actions/deal/DealList.html:210
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:61
-#, fuzzy
 msgid "No reminders assigned"
-msgstr "Ніяких нагадувань про призначених"
+msgstr "Не призначено жодного нагадування"
 
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:103
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:105
-#, fuzzy
 msgid "No deals"
-msgstr "Ніяких угод"
+msgstr "Немає угод"
 
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:111
 #: /wa-apps/crm/templates/actions/deal/DealListByContact.html:113
-#, fuzzy
 msgid "Some deals may not show due to access rights restrictions."
-msgstr "Деякі угоди можуть не показати через обмеження прав доступу."
+msgstr "Деякі угоди може бути не показано через обмеження прав доступу."
 
 #: /wa-apps/crm/templates/actions/deal/DealMoveShopDialog.html:5
 #: /wa-apps/crm/lib/actions/deal/crmDealCreate.controller.php:58
 #: /wa-apps/crm/lib/classes/crmShop.class.php:106
 #: /wa-apps/crm/lib/actions/deal/crmDealCreate.controller.php:30
 #: /wa-apps/crm/lib/classes/crmShop.class.php:52
-#, fuzzy
 msgid "Order"
 msgstr "Замовлення"
 
 #: /wa-apps/crm/templates/actions/deal/DealMoveShopDialog.html:12
 #: /wa-apps/crm/templates/actions/deal/DealChangeClient.html:21
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:15
-#, fuzzy
 msgid "Submit"
 msgstr "Відправити"
 
@@ -3027,20 +2992,17 @@ msgstr "Змінити етап"
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:6
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:338
 #: /wa-apps/crm/templates/actions/deal/DealList.html:391
-#, fuzzy
 msgid "Change the owner"
 msgstr "Змінити власника"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeResponsible.html:15
-#, fuzzy
 msgid "choose user"
-msgstr "вибрати користувача"
+msgstr "обрати користувача"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeResponsible.html:38
 #: /wa-apps/crm/templates/actions/deal/DealMoveNoRights.html:19
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:99
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrenciesPrimary.html:29
-#, fuzzy
 msgid "Change"
 msgstr "Змінити"
 
@@ -3053,33 +3015,28 @@ msgstr[2] "Передати %d угод до"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:29
 #: /wa-apps/crm/templates/actions/deal/DealId.html:34
-#, fuzzy
 msgid "Edit deal"
-msgstr "Інтернет редагування"
+msgstr "Редагувати угоду"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:29
 #: /wa-apps/crm/templates/actions/deal/DealList.html:13
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:14
-#, fuzzy
 msgid "New deal"
-msgstr "Новий курс"
+msgstr "Нова угода"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:34
-#, fuzzy
 msgid "Any deal changes will not affect the order."
-msgstr "Будь-які зміни не вплинуть на порядок."
+msgstr "Будь-які зміни в угоді не вплинуть на замовлення."
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:122
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:322
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:115
-#, fuzzy
 msgid "Estimated amount"
 msgstr "Розрахункова сума"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:133
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:333
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:126
-#, fuzzy
 msgid "Estimated close date"
 msgstr "Орієнтовна дата закриття"
 
@@ -3096,21 +3053,18 @@ msgstr "Розширені дані про угоду"
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:167
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:76
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:64
-#, fuzzy
 msgid "Hide extended fields"
 msgstr "Приховати додаткові поля"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:202
 #: /wa-apps/crm/templates/actions/deal/DealChangeClient.html:9
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:163
-#, fuzzy
 msgid "Edit contact data"
 msgstr "Редагування контактних даних"
 
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:203
 #: /wa-apps/crm/templates/actions/deal/DealChangeClient.html:10
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:164
-#, fuzzy
 msgid "Switch to another contact"
 msgstr "Переключитися на інший контакт"
 
@@ -3119,111 +3073,93 @@ msgstr "Переключитися на інший контакт"
 #: /wa-apps/crm/lib/actions/deal/crmDealSave.controller.php:67
 #: /wa-apps/crm/lib/actions/deal/crmDealSave.controller.php:63
 #: /wa-apps/crm/lib/actions/deal/crmDealSave.controller.php:66
-#, fuzzy
 msgid "Invalid value"
 msgstr "Неприпустиме значення"
 
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:57
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:66
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:51
-#, fuzzy
 msgid "me"
 msgstr "я"
 
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:185
 #: /wa-apps/crm/templates/actions/deal/DealContact.html:174
-#, fuzzy
 msgid "Remove contact"
 msgstr "Видалити контакт"
 
 #: /wa-apps/crm/templates/actions/deal/DealOperationAssignTags.html:5
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignTags.html:8
-#, fuzzy
 msgid "Assign tags"
 msgstr "Призначити теги"
 
 #: /wa-apps/crm/templates/actions/deal/DealOperationAssignTags.html:13
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignTags.html:16
 #: /wa-apps/crm/templates/actions/contact/ContactAssignTags.html:5
-#, fuzzy
 msgid "Add tag"
 msgstr "Додати тег"
 
 #: /wa-apps/crm/templates/actions/deal/DealOperationAssignTags.html:18
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignTags.html:21
-#, fuzzy
 msgid "Popular tags"
 msgstr "Популярні теги"
 
 #: /wa-apps/crm/templates/actions/deal/DealOperationAssignTags.html:29
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignTags.html:32
-#, fuzzy
 msgid "Assign"
 msgstr "Призначити"
 
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:1
-#, fuzzy
 msgid "Deals merge"
-msgstr "Угоди злиття"
+msgstr "Об'єднати угоди"
 
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:9
-#, fuzzy
 msgid "Choose a master deal that will be retained after merging."
-msgstr "Вибрати майстер-угоду, яка буде збережена після злиття."
+msgstr "Оберіть основну угоду, яку буде збережено після злиття."
 
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:10
-#, fuzzy
 msgid "Other deals will be deleted during this merging operation."
-msgstr "Інші пропозиції будуть видалені під час цієї операції об'єднання."
+msgstr "Під час операції об'єднання інші угоди буде видалено."
 
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:25
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:24
-#, fuzzy
 msgid "Selected as the main deal"
-msgstr "Обраний в якості основного інтернет"
+msgstr "Обрати основною угодою"
 
 #: /wa-apps/crm/templates/actions/deal/DealMerge.html:108
 #: /wa-apps/crm/templates/actions/deal/DealList.html:390
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:337
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:87
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:9
-#, fuzzy
 msgid "Merge"
-msgstr "Злити"
+msgstr "Об'єднати"
 
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:36
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:234
-#, fuzzy
 msgid "Deal in CRM"
 msgstr "Угоди в CRM"
 
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:46
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:244
-#, fuzzy
 msgid "Create new deal"
 msgstr "Створити нову угоду"
 
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:122
-#, fuzzy
 msgid "Bind"
 msgstr "Прив'язати"
 
 #: /wa-apps/crm/templates/actions/deal/DealCreateDialog.html:158
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:173
-#, fuzzy
 msgid "Funnel:"
 msgstr "Воронка:"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:96
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:74
-#, fuzzy
 msgid "Filter"
 msgstr "Фільтр"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:151
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:129
 #: /wa-apps/crm/lib/config/search/search_crm.php:20
-#, fuzzy
 msgid "Tag"
 msgstr "Тег"
 
@@ -3246,7 +3182,6 @@ msgstr "Вид переліку"
 #: /wa-apps/crm/lib/actions/deal/crmDealList.action.php:442
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:155
 #: /wa-apps/crm/templates/actions/deal/DealList.html:163
-#, fuzzy
 msgid "Unread messages"
 msgstr "Непрочитані повідомлення"
 
@@ -3270,13 +3205,11 @@ msgstr "сортувати за стовпцем"
 #: /wa-apps/crm/lib/config/search/search_crm.php:70
 #: /wa-apps/crm/templates/actions/deal/DealList.html:115
 #: /wa-apps/crm/lib/config/search/search_crm.php:76
-#, fuzzy
 msgid "Stage"
 msgstr "Етап"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:333
 #: /wa-apps/crm/templates/actions/deal/DealList.html:223
-#, fuzzy
 msgid "Date created"
 msgstr "Дата створення"
 
@@ -3287,14 +3220,12 @@ msgstr "Дата створення"
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:13
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:12
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:87
-#, fuzzy
 msgid "Tags"
 msgstr "Теги"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:387
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:334
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:8
-#, fuzzy
 msgid "Export"
 msgstr "Експорт"
 
@@ -3302,67 +3233,58 @@ msgstr "Експорт"
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:31
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:343
 #: /wa-apps/crm/templates/actions/deal/DealList.html:285
-#, fuzzy
 msgid "Change funnel / stage"
-msgstr "Зміна воронка / етап"
+msgstr "Змінити воронку / етап"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:416
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:311
 #: /wa-apps/crm/templates/actions/deal/DealList.html:408
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:309
-#, fuzzy
 msgid "No deals found for given conditions"
-msgstr "Немає пропозиції знайдено за заданими умовами"
+msgstr "За заданими умовами угод не знайдено"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:434
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:320
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:171
 #: /wa-apps/crm/templates/actions/deal/DealList.html:307
-#, fuzzy
 msgid "Welcome to your new funnel!"
-msgstr "Ласкаво просимо в нову лійку!"
+msgstr "Ласкаво просимо до нової воронки!"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:435
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:321
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:172
 #: /wa-apps/crm/templates/actions/deal/DealList.html:308
-#, fuzzy
 msgid "Start by creating your first deal"
 msgstr "Почніть зі створення вашої першої угоди"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:451
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:373
 #: /wa-apps/crm/templates/actions/deal/DealList.html:318
-#, fuzzy
 msgid "Delete %s deals"
 msgstr "Видалити %s угод"
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:452
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:374
 #: /wa-apps/crm/templates/actions/deal/DealList.html:319
-#, fuzzy
 msgid "Contacts of deal participants will not be deleted."
-msgstr "Контакти учасників угоди не будуть видалені."
+msgstr "Контакти учасників угоди не буде видалено."
 
 #: /wa-apps/crm/templates/actions/deal/DealList.html:452
 #: /wa-apps/crm/templates/actions/deal/DealFunnel.html:374
 #: /wa-apps/crm/templates/actions/deal/DealList.html:319
-#, fuzzy
 msgid "Deal deletion cannot be undone."
-msgstr "Видалення угоду не можна скасувати."
+msgstr "Видалення угоди не можна скасувати."
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:85
 #: /wa-apps/crm/templates/actions/contact/ContactAssignTags.html:5
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:63
-#, fuzzy
 msgid "Edit tags"
 msgstr "Редагувати теги"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:85
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:63
-#, fuzzy
 msgid "Add tags"
 msgstr "Додати теги"
 
@@ -3370,33 +3292,28 @@ msgstr "Додати теги"
 #: /wa-apps/crm/templates/actions/deal/DealId.html:89
 #: /wa-apps/crm/templates/actions/deal/DealId.html:65
 #: /wa-apps/crm/templates/actions/deal/DealId.html:68
-#, fuzzy
 msgid "Expected close date"
-msgstr "Очікувана дата закриття"
+msgstr "Орієнтовна дата закриття"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:91
 #: /wa-apps/crm/templates/actions/deal/DealId.html:70
-#, fuzzy
 msgid "Set expected close date"
-msgstr "Набір очікувана дата закриття"
+msgstr "Встановити орієнтовну дату закриття"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:102
 #: /wa-apps/crm/templates/actions/deal/DealId.html:81
-#, fuzzy
 msgid "Closed at"
-msgstr "Закрито за"
+msgstr "Закрито на"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:111
 #: /wa-apps/crm/templates/actions/deal/DealId.html:90
-#, fuzzy
 msgid "Reopen deal"
-msgstr "Відкрити інтернет"
+msgstr "Знову відкрити угоду"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:236
 #: /wa-apps/crm/templates/actions/deal/DealId.html:215
-#, fuzzy
 msgid "Set estimated amount"
-msgstr "Набір розрахункова сума"
+msgstr "Вказати орієнтовну суму"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:261
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:39
@@ -3404,12 +3321,10 @@ msgstr "Набір розрахункова сума"
 #: /wa-apps/crm/lib/classes/deal/crmDealsExporter.class.php:276
 #: /wa-apps/crm/lib/config/search/search_crm.php:80
 #: /wa-apps/crm/templates/actions/deal/DealId.html:240
-#, fuzzy
 msgid "Lost reason"
-msgstr "Втратив розум"
+msgstr "Причина програшу"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:301
-#, fuzzy
 msgid "No client"
 msgstr "Немає клієнта"
 
@@ -3417,15 +3332,13 @@ msgstr "Немає клієнта"
 #: /wa-apps/crm/templates/actions/deal/DealAddParticipant.html:8
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:7
 #: /wa-apps/crm/templates/actions/deal/DealId.html:277
-#, fuzzy
 msgid "Add contact"
 msgstr "Додати контакт"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:351
 #: /wa-apps/crm/templates/actions/deal/DealId.html:311
-#, fuzzy
 msgid "No invoices in this deal"
-msgstr "Немає рахунку в цій угоді"
+msgstr "У цій угоді немає рахунків"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:362
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:205
@@ -3433,7 +3346,6 @@ msgstr "Немає рахунку в цій угоді"
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:165
 #: /wa-apps/crm/templates/actions/deal/DealId.html:311
 #: /wa-apps/crm/lib/actions/log/crmLog.action.php:18
-#, fuzzy
 msgid "Files"
 msgstr "Файли"
 
@@ -3447,13 +3359,11 @@ msgstr "Файли"
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:238
 #: /wa-apps/crm/templates/actions/deal/DealId.html:334
 #: /wa-apps/crm/templates/actions/deal/DealId.html:425
-#, fuzzy
 msgid "Remove file"
 msgstr "Видалити файл"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:407
 #: /wa-apps/crm/templates/actions/deal/DealId.html:356
-#, fuzzy
 msgid "Participants"
 msgstr "Учасники"
 
@@ -3462,28 +3372,24 @@ msgstr "Учасники"
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:303
 #: /wa-apps/crm/lib/models/crmLog.model.php:496
 #: /wa-apps/crm/lib/models/crmLog.model.php:502
-#, fuzzy
 msgid "No owner"
-msgstr "Немає господаря"
+msgstr "Немає власника"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:419
 #: /wa-apps/crm/templates/actions/deal/DealId.html:366
-#, fuzzy
 msgid "Assign me"
-msgstr "Призначте мене"
+msgstr "Призначити мене"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:443
 #: /wa-apps/crm/templates/actions/settings/SettingsPBX.html:88
 #: /wa-apps/crm/templates/actions/deal/DealId.html:390
-#, fuzzy
 msgid "Add user"
 msgstr "Додати користувача"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:452
 #: /wa-apps/crm/templates/actions/deal/DealId.html:414
-#, fuzzy
 msgid "Copy to clipboard"
-msgstr "Копіювати в буфер обміну"
+msgstr "Копіювати у буфер обміну"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:453
 #: /wa-apps/crm/templates/actions/deal/DealId.html:415
@@ -3494,68 +3400,58 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:456
 #: /wa-apps/crm/templates/actions/deal/DealId.html:418
-#, fuzzy
 msgid "copied to clipboard"
-msgstr "копіювати в буфер обміну"
+msgstr "скопійовано у буфер обміну"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:459
 #: /wa-apps/crm/templates/actions/deal/DealId.html:421
-#, fuzzy
 msgid ""
 "Add this address to the “CC” field when sending a message to the client to "
 "get the message copy saved in the deal history."
 msgstr ""
-"Додати цю адресу в полі \"копія\" при надсиланні повідомлення клієнту, щоб "
-"отримати копію повідомлення зберігаються в історії інтернет."
+"Додати цю адресу до поля \"Копія\" при надсиланні повідомлення клієнту, аби "
+"копію повідомлення було збережено до історії угоди."
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:518
 #: /wa-apps/crm/templates/actions/deal/DealId.html:495
-#, fuzzy
 msgid "Remove owner <strong>%s</strong> from the deal?"
-msgstr "Видалити власником <сильний>%</сильний> від угоди?"
+msgstr "Видалити власника <strong>%s</strong> з угоди?"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:520
 #: /wa-apps/crm/templates/actions/deal/DealId.html:422
-#, fuzzy
 msgid "Exclude contact"
 msgstr "Виключити контакт"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:521
 #: /wa-apps/crm/templates/actions/deal/DealId.html:422
-#, fuzzy
 msgid "Exclude <strong>%s</strong> from the deal?"
-msgstr "Виключити <сильний>%</сильний> від угоди?"
+msgstr "Виключити <strong>%s</strong> з угоди?"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:522
 #: /wa-apps/crm/templates/actions/deal/DealId.html:424
-#, fuzzy
 msgid "Exclude"
 msgstr "Виключити"
 
 #: /wa-apps/crm/templates/actions/deal/DealId.html:527
 #: /wa-apps/crm/templates/actions/deal/DealId.html:428
-#, fuzzy
 msgid "Are you sure to delete this deal?"
 msgstr "Ви впевнені, що хочете видалити цю угоду?"
 
 #: /wa-apps/crm/templates/actions/deal/DealMoveNoRights.html:11
-#, fuzzy
 msgid ""
 "You have no access rights to handle Shop-Script orders. Order will remain "
 "unchanged."
 msgstr ""
-"У вас немає прав доступу до управління магазином-скрипт замовлень. "
-"Замовлення залишиться незмінною."
+"У вас немає прав доступу до керування замовленнями у Shop-Script. Замовлення "
+"залишиться незмінним."
 
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:7
 #: /wa-apps/crm/lib/actions/crmAutocomplete.controller.php:215
 #: /wa-apps/crm/lib/actions/crmAutocomplete.controller.php:154
-#, fuzzy
 msgid "Add new contact"
 msgstr "Додати новий контакт"
 
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:12
-#, fuzzy
 msgid "Find existing contact"
 msgstr "Знайти існуючий контакт"
 
@@ -3565,7 +3461,6 @@ msgstr "Знайти існуючий контакт"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:60
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:44
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:46
-#, fuzzy
 msgid "First name"
 msgstr "Ім'я"
 
@@ -3575,9 +3470,8 @@ msgstr "Ім'я"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:66
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:50
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:52
-#, fuzzy
 msgid "Middle name"
-msgstr "По батькові"
+msgstr "По-батькові"
 
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:45
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:48
@@ -3585,7 +3479,6 @@ msgstr "По батькові"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:72
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:56
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:58
-#, fuzzy
 msgid "Last name"
 msgstr "Прізвище"
 
@@ -3594,12 +3487,10 @@ msgstr "Прізвище"
 #: /wa-apps/crm/lib/models/crmLog.model.php:620
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:166
 #: /wa-apps/crm/lib/models/crmLog.model.php:310
-#, fuzzy
 msgid "Contact"
 msgstr "Контакт"
 
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:70
-#, fuzzy
 msgid "Enter name, email or phone"
 msgstr "Введіть ім'я, адресу електронної пошти або телефон"
 
@@ -3617,13 +3508,11 @@ msgid "Role label"
 msgstr "Мітка ролі"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:91
-#, fuzzy
 msgid "Bulk stage change will not affect to corresponding orders."
-msgstr "Масове зміна не вплине на відповідні замовлення."
+msgstr "Масова зміна етапів не вплине на відповідні замовлення."
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:92
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:35
-#, fuzzy
 msgid "Orders will remain unchanged."
 msgstr "Замовлення залишаться незмінними."
 
@@ -3644,51 +3533,44 @@ msgstr[1] "%d обрані угоди пов'язано із замовленн�
 msgstr[2] "%d обраних угод пов'язано із замовленнями Shop-Script"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:8
-#, fuzzy
 msgid "Export deals"
-msgstr "Експортних операцій"
+msgstr "Експортувати угоди"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:17
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:42
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:17
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:37
-#, fuzzy
 msgid "Separator:"
-msgstr "Сепаратор:"
+msgstr "Роздільник:"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:27
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:27
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:26
-#, fuzzy
 msgid "Encoding:"
 msgstr "Кодування:"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:41
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:37
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:37
-#, fuzzy
 msgid "Export fields name"
-msgstr "Експорт поля ім'я"
+msgstr "Експортувати назви полів"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:50
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:50
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:43
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:43
-#, fuzzy
 msgid "Do not export empty columns"
-msgstr "Не експортувати порожні стовпці"
+msgstr "Не експортувати порожні колонки"
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:58
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:58
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:39
-#, fuzzy
 msgid "Exporting now. Please wait..."
-msgstr "Експорт зараз. Будь ласка, зачекайте..."
+msgstr "Виконується експорт. Зачекайте, будь ласка..."
 
 #: /wa-apps/crm/templates/actions/deal/DealExport.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:51
-#, fuzzy
 msgid "Start export"
 msgstr "Почати експорт"
 
@@ -3700,64 +3582,53 @@ msgstr[1] "%d обрані угоди буде експортовано до CSV
 msgstr[2] "%d обраних угод буде експортовано до CSV-файлу"
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:8
-#, fuzzy
 msgid "One-time configuration required"
-msgstr "Разова налаштування потрібно"
+msgstr "Потрібне разове налаштування"
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:9
-#, fuzzy
 msgid "Please set up at least one funnel before using Deals section."
 msgstr ""
-"Будь ласка, встановити принаймні одну воронку перед використанням розділу "
-"пропозиції."
+"Будь ласка, налаштуйте принаймні одну воронку перед використанням розділу "
+"угод."
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:12
-#, fuzzy
 msgid "Create automatically"
 msgstr "Створити автоматично"
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:14
-#, fuzzy
 msgid "proceed to manual set up"
-msgstr "приступити до ручне налаштування"
+msgstr "перейти до ручного налаштування"
 
 #: /wa-apps/crm/templates/actions/deal/DealNoFunnel.html:17
-#, fuzzy
 msgid "Full application rights are required to proceed."
-msgstr "Всі права додатки повинні діяти."
+msgstr "Для продовження потрібні повні права доступу до додатку."
 
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:14
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:14
-#, fuzzy
 msgid "Other reason"
 msgstr "Інша причина"
 
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:25
-#, fuzzy
 msgid "Close the deal"
-msgstr "Закрити операцію"
+msgstr "Закрити угоду"
 
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:32
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:40
-#, fuzzy
 msgid "Specify the deal closing status."
-msgstr "Вкажіть Інтернет-статус закриття."
+msgstr "Вкажіть статус закриття угоди."
 
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:49
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:57
 #: /wa-apps/crm/templates/actions/deal/DealCloseDialog.html:46
-#, fuzzy
 msgid "Your lost reason"
-msgstr "Втрачені причини"
+msgstr "Ваша причина програшу"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeClient.html:39
 #: /wa-apps/crm/templates/actions/deal/DealChangeClient.html:38
-#, fuzzy
 msgid "Switch"
 msgstr "Переключити"
 
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:11
-#, fuzzy
 msgid "Unknown state"
 msgstr "Невідомий статус"
 
@@ -3766,38 +3637,32 @@ msgstr "Невідомий статус"
 #: /wa-apps/crm/lib/actions/invoice/crmInvoiceNew.action.php:68
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:9
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:122
-#, fuzzy
 msgid "Shipping"
 msgstr "Доставка"
 
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:24
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:16
-#, fuzzy
 msgid "Preferred shipping time:"
 msgstr "Бажаний час доставки:"
 
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:43
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:35
-#, fuzzy
 msgid "Shipment tracking number"
 msgstr "Номер відправлення"
 
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:114
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:106
-#, fuzzy
 msgid "Order content is unknown"
 msgstr "Зміст наказу невідомий"
 
 #: /wa-apps/crm/templates/actions/deal/Deal.order.inc.html:120
 #: /wa-apps/crm/lib/config/search/search_shop.php:143
-#, fuzzy
 msgid "Discount"
 msgstr "Знижка"
 
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:34
-#, fuzzy
 msgid "Bulk deal close will not affect to corresponding orders."
-msgstr "Навальний закрити операцію не вплине на відповідні замовлення."
+msgstr "Масове закриття угод не вплине на відповідні замовлення."
 
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:26
 msgid "Close %d deal"
@@ -3807,9 +3672,8 @@ msgstr[1] "Закрити %d угоди"
 msgstr[2] "Закрити %d угод"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchPeriodDialog.inc.html:5
-#, fuzzy
 msgid "Choose period"
-msgstr "Вибрати період"
+msgstr "Обрати період"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentAddContacts.html:11
 msgid "Add contacts to segment \"%s\""
@@ -3817,14 +3681,12 @@ msgstr "Додати контакти до сегменту \"%s\""
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentAddContacts.html:16
 #: /wa-apps/crm/templates/actions/contact/ContactUpdateDialog.html:13
-#, fuzzy
 msgid "Find contact"
 msgstr "Знайти контакт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:12
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:162
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:125
-#, fuzzy
 msgid "Merge duplicates"
 msgstr "Злиття дублікатів"
 
