@@ -3525,7 +3525,6 @@ msgstr[2] "Перемістити %d угод до"
 
 #: /wa-apps/crm/templates/actions/deal/DealChangeFunnel.html:90
 #: /wa-apps/crm/templates/actions/deal/DealMassClose.html:33
-#, fuzzy
 msgid "%d selected deal are linked to Shop-Script orders."
 msgid_plural "%d selected deals are linked to Shop-Script orders."
 msgstr[0] "%d обрану угоду пов'язано із замовленнями Shop-Script"
@@ -3691,7 +3690,6 @@ msgid "Merge duplicates"
 msgstr "Злиття дублікатів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:15
-#, fuzzy
 msgid ""
 "Duplicates are the contacts actually representing the same person or company "
 "though existing as two or more separate records in your database. This may "
@@ -3705,31 +3703,27 @@ msgid ""
 "well as links from other apps (Shop, Helpdesk, Mailer, and etc.) will be "
 "modified to refer the only unique contact left after merging."
 msgstr ""
-"Дублікати контактів насправді є ті самі особи або компанії, існуючих у двох "
-"або більше окремих записів в базі даних. Це може статися, якщо ви "
-"використовуєте кілька сценаріїв, щоб зібрати ваші контакти, наприклад, "
-"зареєструватися на вашому сайті, підписка на розсилку, додавання контактів в "
-"інтерфейсі, і т. д. Незалежно від причин, що викликають появу дублікатів, "
-"вони є небажаними, оскільки не дозволяють зібрати під той же унікальний "
-"профіль клієнта, їх діяльності та історії спілкування. Злиття дублікатів "
-"усуває цю проблему. Дві або більше контактні записи будуть об'єднані в одну. "
-"Контактна інформація (номери телефонів, адресу електронної пошти тощо) "
-"будуть консолідовані, а також посилання з інших додатків (магазин, служба "
-"підтримки, поштовик, тощо). буде змінено, щоб передати тільки унікальні "
-"контакти, що залишилися після об'єднання."
+"Дублікати — це контакти, які насправді представляють ту ж особу або компанію "
+"через існуючі дві або більше записів у вашій базі даних. Це може траплятися "
+"через те, що ви використовуєте декілька сценаріїв збору контактів: "
+"наприклад, реєстрацію на сайті, підписування на розсилку по email, додавання "
+"контактів через бекенд та інші. Які б не були причини створення дублікатів, "
+"вони є небажаними, так як не дозволяють реєструвати профіль, активність "
+"клієнта та історію його повідомлень. Об'єднання дублікатів вирішує цб "
+"проблему. Два або більше контактів можна об'єднати в один. Контактна "
+"інформація (номери телефонів, адреси email, інше) буде об'єднано, також "
+"зв'язки з іншими додатками (Магазин, Підтримка, Розсилання, інше) буде "
+"оновлено таким чином, що після об'єднання залишиться один унікальний контакт."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:19
-#, fuzzy
 msgid "New search"
 msgstr "Новий пошук"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:34
-#, fuzzy
 msgid "Merge all groups automatically"
-msgstr "Об'єднати всі групи автоматично"
+msgstr "Автоматично об'єднати всі групи"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:41
-#, fuzzy
 msgid ""
 "As a master contact in every group we will choose contact with the latest "
 "creation date. Other contacts will be deleted during this merging operation. "
@@ -3737,56 +3731,49 @@ msgid ""
 "added to master contact. Links to deleted contacts from other applications "
 "will be updated to link to master contact."
 msgstr ""
-"Як господар контакт у кожній групі ми виберемо контакт з самою останньою "
-"датою створення. Інші контакти будуть видалені під час цієї операції "
-"об'єднання. Контакти контакти повинні бути видалені, за винятком унікальних "
-"полів, будуть додані до основного контакту. Посилання на віддалені контакти "
-"з інших додатків буде оновлюватися посилання на майстер контакт."
+"У якості основного контакту у кожній групі ми виберемо контакт з самою "
+"останньою датою створення. Інші контакти будуть видалені під час операції "
+"об'єднання. Контактну інформацію буде видалено з контактів за винятком "
+"унікальних полів, які буде додано до основного контакту. Посилання на "
+"видалені контакти з інших додатків буде оновлено посиланнями на основний "
+"контакт."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:44
-#, fuzzy
 msgid "<strong>IMPORTANT NOTE:</strong> Merging operation is irreversible."
-msgstr "<Strong>важливо:</strong> для злиття операція необоротна."
+msgstr "<strong>ВАЖЛИВО:</strong> Відмінити операцію об'єднання неможливо."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:45
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:74
-#, fuzzy
 msgid "Merging complete."
-msgstr "Повне злиття."
+msgstr "Об'єднання завершено."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:46
-#, fuzzy
 msgid "Start auto merging"
-msgstr "Запустити автоматичне злиття"
+msgstr "Запустити автоматичне об'єднання"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:47
-#, fuzzy
 msgid "Pause merging"
-msgstr "Призупинити злиття"
+msgstr "Призупинити об'єднання"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:48
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:76
-#, fuzzy
 msgid "Resume merging"
-msgstr "Відновити злиття"
+msgstr "Відновити об'єднання"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:65
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:61
-#, fuzzy
 msgid "Merge this group"
 msgstr "Об'єднати цю групу"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:78
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:79
-#, fuzzy
 msgid "Duplicates not found."
-msgstr "Дублікатів не знайдено."
+msgstr "Дублікати не знайдено."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:85
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:86
-#, fuzzy
 msgid "Search duplicates by"
-msgstr "Пошук дублікатів"
+msgstr "Шукати дублікати за"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:88
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:89
@@ -3795,7 +3782,6 @@ msgstr "Повне ім'я персони"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:94
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:95
-#, fuzzy
 msgid "Start search"
 msgstr "Почати пошук"
 
@@ -3831,15 +3817,13 @@ msgstr[2] "%d дублікатів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:117
 #: /wa-apps/crm/templates/actions/contact/ContactMergeDuplicates.html:122
-#, fuzzy
 msgid "Processed %s%% (%s of %s group(s))"
-msgstr "Оброблені %з%% (%S з %S-групи(с))"
+msgstr "Оброблено %s%% (%s з %s груп(и))"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.companyAddForm.html:5
 #: /wa-apps/crm/templates/actions/contact/Contact.companyAddForm.html:7
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:41
 #: /wa-apps/crm/templates/actions/invoice/InvoiceEdit.html:25
-#, fuzzy
 msgid "Company name"
 msgstr "Назва компанії"
 
@@ -3848,7 +3832,6 @@ msgstr "Назва компанії"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:159
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:106
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:145
-#, fuzzy
 msgid "other"
 msgstr "інший"
 
@@ -3860,24 +3843,20 @@ msgstr "інший"
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:186
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:133
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:172
-#, fuzzy
 msgid "Add another"
 msgstr "Додати ще"
 
 #: /wa-apps/crm/templates/actions/contact/ContactColumns.html:17
-#, fuzzy
 msgid "Contact name"
-msgstr "Контактне ім'я"
+msgstr "Ім'я контакту"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:2
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:35
-#, fuzzy
 msgid "Advanced search"
 msgstr "Розширений пошук"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:7
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:58
-#, fuzzy
 msgid "Find"
 msgstr "Знайти"
 
@@ -3893,13 +3872,11 @@ msgstr "Обрати параметри пошуку"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:58
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:50
-#, fuzzy
 msgid "Choose search parameters in the sidebar"
-msgstr "Вибрати параметри пошуку в бічній панелі"
+msgstr "Вказати параметри пошуку в бічній панелі"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:92
 #: /wa-apps/crm/templates/actions/contact/ContactSearch.html:80
-#, fuzzy
 msgid "Searching..."
 msgstr "Пошук..."
 
@@ -3907,72 +3884,59 @@ msgstr "Пошук..."
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:7
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:29
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:24
-#, fuzzy
 msgid "Add person"
-msgstr "Додати людини"
+msgstr "Додати персону"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:11
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:109
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:9
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:31
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:26
-#, fuzzy
 msgid "Add company"
 msgstr "Додати компанію"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:24
-#, fuzzy
 msgid "Create person"
-msgstr "Створити людину"
+msgstr "Створити персону"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:29
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:52
-#, fuzzy
 msgid "Open extended form"
-msgstr "Відкрийте розширену форму"
+msgstr "Відкрити розширену форму"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAdd.html:47
-#, fuzzy
 msgid "Create company"
 msgstr "Створити компанію"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:42
-#, fuzzy
 msgid "30 days"
 msgstr "30 днів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:43
-#, fuzzy
 msgid "90 days"
 msgstr "90 днів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:44
-#, fuzzy
 msgid "180 days"
 msgstr "180 днів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:45
-#, fuzzy
 msgid "365 days"
 msgstr "365 днів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:46
-#, fuzzy
 msgid "Enter date..."
 msgstr "Введіть дату..."
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:49
-#, fuzzy
 msgid "Over %s ago"
 msgstr "Більше %s тому"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:55
-#, fuzzy
 msgid "or earlier"
 msgstr "або раніше"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchShopItem.html:56
-#, fuzzy
 msgid "or later"
 msgstr "або пізніше"
 
@@ -3986,37 +3950,32 @@ msgstr "Імпорт контактів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:17
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:12
-#, fuzzy
 msgid ""
 "You must select at least one of the following fields: First name, Last name, "
 "Company name, Email."
 msgstr ""
-"Ви повинні вибрати щонайменше одну з наступних полів: ім'я, прізвище, назву "
-"компанії, адресу електронної пошти."
+"Ви маєте обрати щонайменше одне з наступних полів: Ім'я, Прізвище, Назва "
+"компанії, email."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:23
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:18
-#, fuzzy
 msgid "Please specify fields matching these columns."
-msgstr "Будь ласка, вкажіть поля, відповідні цим стовпцями."
+msgstr "Будь ласка, вкажіть поля, відповідні цим стовпцям."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:34
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:29
-#, fuzzy
 msgid "field...?"
 msgstr "поле...?"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:63
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:58
-#, fuzzy
 msgid "Total lines"
-msgstr "Загальна кількість рядків"
+msgstr "Усього рядків"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:67
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:62
-#, fuzzy
 msgid "Import first line"
-msgstr "Імпорт першої лінії"
+msgstr "Імпортувати перший рядок"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:65
