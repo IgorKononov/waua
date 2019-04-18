@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -3979,7 +3979,6 @@ msgstr "Імпортувати перший рядок"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:70
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:65
-#, fuzzy
 msgid "Enable validation control (required and unique fields and data format)"
 msgstr ""
 "Увімкнути перевірку даних (обов'язкових та унікальних полів, а також формату "
@@ -3987,9 +3986,8 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:73
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:68
-#, fuzzy
 msgid "Create deals"
-msgstr "Створити пропозиції"
+msgstr "Створити угоди"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:94
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:151
@@ -3997,36 +3995,31 @@ msgstr "Створити пропозиції"
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:7
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAddToSegments.html:7
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:120
-#, fuzzy
 msgid "Add to segments"
-msgstr "Додати в сегментах"
+msgstr "Додати до сегментів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:106
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:59
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:91
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:77
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:91
-#, fuzzy
 msgid "Import"
 msgstr "Імпорт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:128
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:113
-#, fuzzy
 msgid "Done! No contacts were imported due to validation errors."
-msgstr "Молодець! Не контакти були імпортовані з-за помилки перевірки."
+msgstr "Виконано! Контакти не було імпортовано через помилки валідації."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:129
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:114
-#, fuzzy
 msgid "Done! Some contacts were not imported due to validation errors."
-msgstr "Молодець! Деякі контакти не були імпортовані з-за помилки перевірки."
+msgstr "Виконано! Деякі контакти не було імпортовано через помилки валідації."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:130
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:115
-#, fuzzy
 msgid "Done! All contacts imported successfully."
-msgstr "Молодець! Всі контакти успішно імпортовані."
+msgstr "Виконано! Усі контакти успішно імпортовано."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImportUpload.html:13
 msgid "We have found %d column in imported data."
@@ -4044,73 +4037,61 @@ msgid "Open extended form for contact creation"
 msgstr "Відкрити розширену форму створення контакту"
 
 #: /wa-apps/crm/templates/actions/contact/ContactCreateSettings.html:24
-#, fuzzy
 msgid "Set me as owner when I create a contact"
-msgstr "Поклади мене, як власника, коли я створюю контакт"
+msgstr "Встановити мене власником, коли я створюю контакт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:51
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:29
-#, fuzzy
 msgid "Change photo"
 msgstr "Змінити фото"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:96
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:286
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:74
-#, fuzzy
 msgid "@"
 msgstr "@"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:103
-#, fuzzy
 msgid "Add company contact"
-msgstr "Додати компанію контакти"
+msgstr "Додати контакт компанії"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:118
-#, fuzzy
 msgid "No employees."
 msgstr "Немає співробітників."
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:120
 #: /wa-apps/crm/templates/actions/contact/ContactAddEmployee.html:5
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:89
-#, fuzzy
 msgid "Add employee"
 msgstr "Додати співробітника"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:126
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:95
-#, fuzzy
 msgid "Segments"
-msgstr "Сегментів"
+msgstr "Сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:146
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:115
-#, fuzzy
 msgid "Show dynamic segments"
-msgstr "Показати динамічних сегментів"
+msgstr "Показати динамічні сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:151
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:120
-#, fuzzy
 msgid "Edit segments"
-msgstr "Редагування сегментів"
+msgstr "Редагувати сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:251
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:211
-#, fuzzy
 msgid "Full contact info"
 msgstr "Повна контактна інформація"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:256
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:216
-#, fuzzy
 msgid "Reduce contact info"
-msgstr "Зменшити контактна інформація"
+msgstr "Показати менше контактної інформації"
 
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:353
 #: /wa-apps/crm/templates/actions/contact/ContactId.html:241
-#, fuzzy
 msgid "No dynamic segments"
 msgstr "Немає динамічних сегментів"
 
@@ -4122,54 +4103,45 @@ msgstr[1] "%d співробітника."
 msgstr[2] "%d співробітників."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:12
-#, fuzzy
 msgid "Merge contacts"
-msgstr "Об'єднання контактів"
+msgstr "Об'єднати контакти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:15
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:104
-#, fuzzy
 msgid "Choose a master contact that will be retained after merging."
-msgstr "Оберіть головний контакт, який залишиться після об'єднання."
+msgstr "Оберіть основний контакт, який залишиться після об'єднання."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:16
-#, fuzzy
 msgid "Other contacts will be deleted during this merging operation."
-msgstr ""
-"Інші контакти в результаті виконання процедури об'єднання буде видалено."
+msgstr "Інші контакти буде видалено в результаті процедури об'єднання."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:17
-#, fuzzy
 msgid ""
 "Contact info from the contacts to be deleted, except unique fields, will be "
 "added to master contact."
 msgstr ""
-"Контактна інформація з контактів, що видаляються, за винятком унікальних "
-"полів, буде додана в головний контакт."
+"Контактну інформацію з контактів, що видаляються, за винятком унікальних "
+"полів, буде додано у головний контакт."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:18
-#, fuzzy
 msgid ""
 "Links to deleted contacts from other applications will be updated to link to "
 "master contact."
 msgstr ""
-"Посилання на контакти, що видаляються, які є в інших додатках, будуть "
-"змінені на головний контакт."
+"Посилання на видалені контакти будуть змінені у інших додатках на головний "
+"контакт."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:39
-#, fuzzy
 msgid "selected as a master contact"
-msgstr "обрано як головний контакт"
+msgstr "обрано як основний контакт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:53
-#, fuzzy
 msgid "ID"
 msgstr "Ідентифікатор"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:54
 #: /wa-apps/crm/templates/actions/log/LogLiveTimeline.html:146
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:194
-#, fuzzy
 msgid "Added"
 msgstr "Додано"
 
@@ -4177,17 +4149,14 @@ msgstr "Додано"
 #: /wa-apps/crm/lib/config/search/search.php:491
 #: /wa-apps/crm/templates/actions/log/LogLiveTimeline.html:186
 #: /wa-apps/crm/templates/actions/log/LogTimeline.html:234
-#, fuzzy
 msgid "Method"
 msgstr "Метод"
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:61
-#, fuzzy
 msgid "%s has been selected as a master contact."
 msgstr "%s обрано як головний контакт."
 
 #: /wa-apps/crm/templates/actions/contact/ContactMerge.html:74
-#, fuzzy
 msgid ""
 "However, there are no contacts to be merged with %s, by the reasons "
 "designated above."
@@ -4214,7 +4183,6 @@ msgid "The customer owner"
 msgstr "Власник клієнта"
 
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:13
-#, fuzzy
 msgid "Set the owner for the customer"
 msgstr "Встановити власника для клієнта"
 
@@ -4223,7 +4191,6 @@ msgstr "Встановити власника для клієнта"
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:77
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignResponsible.html:30
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:75
-#, fuzzy
 msgid "remove"
 msgstr "видалити"
 
@@ -4232,33 +4199,28 @@ msgstr "видалити"
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:85
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignResponsible.html:37
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:31
-#, fuzzy
 msgid "Start typing user name..."
 msgstr "Почніть вводити ім'я користувача..."
 
 #: /wa-apps/crm/templates/actions/contact/ContactResponsibleDialog.html:80
-#, fuzzy
 msgid "Clear"
-msgstr "Зрозуміло"
+msgstr "Очистити"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.html:45
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:150
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:119
-#, fuzzy
 msgid "Delete segment?"
 msgstr "Видалити сегмент?"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.html:46
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:151
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:120
-#, fuzzy
 msgid "Do you really want to delete this list?"
 msgstr "Ви дійсно хочете видалити цей перелік?"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.html:46
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:151
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:120
-#, fuzzy
 msgid "Contacts will NOT be deleted."
 msgstr "Контакти НЕ буде видалено."
 
