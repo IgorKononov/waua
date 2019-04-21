@@ -4229,7 +4229,6 @@ msgstr "Контакти НЕ буде видалено."
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:22
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:14
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:26
-#, fuzzy
 msgid "Actions"
 msgstr "Дії"
 
@@ -4238,9 +4237,8 @@ msgstr "Дії"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:35
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:27
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:39
-#, fuzzy
 msgid "Add contacts to segment"
-msgstr "Додавання контактів в сегменті"
+msgstr "Додати контакти до сегменту"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:44
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:38
@@ -4254,7 +4252,6 @@ msgstr "Змініть умови фільтрації"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:53
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:36
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:48
-#, fuzzy
 msgid "Restore from archive"
 msgstr "Відновити з архіву"
 
@@ -4268,7 +4265,6 @@ msgstr "Відновити з архіву"
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:44
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:52
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:56
-#, fuzzy
 msgid "Move to archive"
 msgstr "Перемістити в архів"
 
@@ -4286,7 +4282,6 @@ msgstr "Видалити сегмент"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:78
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:30
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:39
-#, fuzzy
 msgid "Change search conditions"
 msgstr "Змінити умови пошуку"
 
@@ -4295,7 +4290,6 @@ msgstr "Змінити умови пошуку"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:79
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:31
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:40
-#, fuzzy
 msgid "Save as filter"
 msgstr "Зберегти як фільтр"
 
@@ -4304,23 +4298,20 @@ msgstr "Зберегти як фільтр"
 #: /wa-apps/crm/lib/classes/contact/crmContact.class.php:312
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:44
 #: /wa-apps/crm/lib/classes/crmContact.class.php:91
-#, fuzzy
 msgid "Last activity"
 msgstr "Остання активність"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:84
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:84
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:45
-#, fuzzy
 msgid "Name "
-msgstr "Назва "
+msgstr "Ім’я "
 
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:85
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:85
 #: /wa-apps/crm/lib/classes/contact/crmContact.class.php:311
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:46
 #: /wa-apps/crm/lib/classes/crmContact.class.php:90
-#, fuzzy
 msgid "Signed up"
 msgstr "Зареєстрований"
 
@@ -4329,7 +4320,6 @@ msgstr "Зареєстрований"
 #: /wa-apps/crm/templates/actions/contact/Contact.thumb-list.html:131
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:217
 #: /wa-apps/crm/templates/actions/contact/Contact.thumbs.html:89
-#, fuzzy
 msgid "No contacts."
 msgstr "Немає контактів."
 
@@ -4339,7 +4329,6 @@ msgstr "Немає контактів."
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:40
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:84
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:146
-#, fuzzy
 msgid "another..."
 msgstr "інший..."
 
@@ -4349,56 +4338,47 @@ msgstr "інший..."
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:42
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:88
 #: /wa-apps/crm/templates/actions/contact/ContactNew.extendedFields.inc.html:149
-#, fuzzy
 msgid "what?"
 msgstr "що?"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:36
-#, fuzzy
 msgid "Update existing contact"
-msgstr "Оновлення існуючого контакту"
+msgstr "Оновити існуючий контакт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:71
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:59
-#, fuzzy
 msgid "Extended contact data"
-msgstr "Розширені контакти"
+msgstr "Розширені дані про контакт"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:91
-#, fuzzy
 msgid "Manage access "
 msgstr "Управління доступом "
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:99
-#, fuzzy
 msgid "Who can see profile and timeline"
-msgstr "Хто може переглядати профіль і графік"
+msgstr "Хто може переглядати профіль і хронологію"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:110
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:20
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:19
-#, fuzzy
 msgid "Only users with access to vault"
 msgstr "Тільки користувачі, що мають доступ до сховища"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:144
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:57
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:22
-#, fuzzy
 msgid "Selected users only"
-msgstr "Деякі користувачі тільки"
+msgstr "Тільки обрані користувачі"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:193
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAddToSegments.html:11
-#, fuzzy
 msgid "Shared segments"
-msgstr "Загальна сегментів"
+msgstr "Спільні сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:193
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAddToSegments.html:11
-#, fuzzy
 msgid "My segments"
-msgstr "Мій сегментів"
+msgstr "Мої сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:345
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:13
@@ -4406,49 +4386,40 @@ msgstr "Мій сегментів"
 #: /wa-apps/crm/lib/classes/deal/crmDealsExporter.class.php:270
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:137
 #: /wa-apps/crm/templates/actions/deal/DealEdit.html:139
-#, fuzzy
 msgid "Description"
 msgstr "Опис"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:375
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:227
-#, fuzzy
 msgid "Contact name required"
-msgstr "Контактне ім'я вимагається"
+msgstr "Необхідно вказати ім'я контакта"
 
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:376
 #: /wa-apps/crm/templates/actions/contact/ContactNew.html:228
-#, fuzzy
 msgid "Deal name required"
-msgstr "Назва угоди вимагається"
+msgstr "Необхідно вказати назву угоди"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:16
-#, fuzzy
 msgid "Contact deletion cannot be undone."
-msgstr "Контакти будуть видалені без можливості відновлення."
+msgstr "Видалення контакта неможливо скасувати"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:18
-#, fuzzy
 msgid "You have no access rights to delete selected contacts."
 msgstr "У вас немає прав доступу для видалення обраних контактів."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:26
-#, fuzzy
 msgid "IMPORTANT NOTE:"
-msgstr "УВАГА:"
+msgstr "ВАЖЛИВА ПРИМІТКА:"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:28
-#, fuzzy
 msgid "All selected contacts have links to other applications."
-msgstr "Усі обрані контакти мають зв'язок з іншими додатками."
+msgstr "Усі обрані контакти мають зв'язки з іншими додатками."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:33
-#, fuzzy
 msgid "Deletion of these contacts is allowed to Administrator only."
-msgstr "Видалення цих контактів дозволено тільки Адміністратору."
+msgstr "Видалення цих контактів дозволено тільки адміністратору."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:35
-#, fuzzy
 msgid ""
 "After deletion of these contacts other applications will refer to not "
 "existing contacts."
@@ -4458,9 +4429,8 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:75
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:73
-#, fuzzy
 msgid "Delete anyway"
-msgstr "Видалити все одно"
+msgstr "Все одно видалити"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:51
 #: /wa-apps/crm/lib/actions/contact/merge/crmContactMerge.action.php:75
@@ -4472,12 +4442,10 @@ msgstr[1] "%d посилання"
 msgstr[2] "%d посилань"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:13
-#, fuzzy
 msgid "Delete contacts (%d)"
-msgstr "Видалення контактів (%д)"
+msgstr "Видалення контактів (%d)"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:30
-#, fuzzy
 msgid ""
 "%d of %d selected contacts shown below have links to other applications."
 msgstr ""
@@ -4485,7 +4453,6 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:73
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDelete.html:71
-#, fuzzy
 msgid "Delete %d of %d selected"
 msgstr "Видалити %d з %d обраних"
 
@@ -4493,115 +4460,97 @@ msgstr "Видалити %d з %d обраних"
 #: /wa-apps/crm/templates/actions/contact/ContactSearchCondition.inc.html:184
 #: /wa-apps/crm/templates/actions/contact/ContactSearchCondition.inc.html:209
 #: /wa-apps/crm/templates/actions/contact/ContactSearchCondition.inc.html:231
-#, fuzzy
 msgid "Hide"
 msgstr "Сховати"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSearchCondition.inc.html:203
 #: /wa-apps/crm/lib/classes/search/crmContactsSearchHelper.class.php:1468
 #: /wa-apps/crm/lib/classes/search/crmContactsSearchHelper.class.php:1507
-#, fuzzy
 msgid "Not"
-msgstr "Не"
+msgstr "Ні"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:20
-#, fuzzy
 msgid "Import from file"
 msgstr "Імпорт з файлу"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:21
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:57
-#, fuzzy
 msgid "Import from text"
-msgstr "Імпорт з текстового"
+msgstr "Імпорт з тексту"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:30
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:20
-#, fuzzy
 msgid "Import from CSV or TXT file"
-msgstr "Імпорт CSV або txt"
+msgstr "Імпорт з CSV- або TXT-файлу"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:32
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:29
-#, fuzzy
 msgid "Encoding"
 msgstr "Кодування"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:52
-#, fuzzy
 msgid "File"
 msgstr "Файл"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:71
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:65
-#, fuzzy
 msgid ""
 "Copy and paste or simply type in names and other contact data for import."
 msgstr ""
-"Скопіюйте та вставте або просто введіть назви та інші контактні дані для "
-"імпорту."
+"Для імпорту скопіюйте та вставте або просто введіть імена та інші контактні "
+"дані."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:72
-#, fuzzy
 msgid ""
 "Fields must be delimited by comma (,), semicolon (;) or tab. Different "
 "contacts on separate lines."
 msgstr ""
-"Поля повинні бути розділені комами (,), крапка з комою (;) або вкладку. "
-"Різні контакти на різних рядках."
+"Поля повинні бути розділені комами (,), крапкою з комою (;) або табуляцією. "
+"Різні контакти вказуйте на різних рядках."
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:73
-#, fuzzy
 msgid "sample:"
 msgstr "зразок:"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:75
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:69
-#, fuzzy
 msgid "John, Smith, john@domain.com"
-msgstr "Джон Сміт, john@domain.com"
+msgstr "Тарас, Шевченко, taras@domain.ua"
 
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:75
 #: /wa-apps/crm/templates/actions/contact/ContactImport.html:70
-#, fuzzy
 msgid "Sue, Miller, sue@domain.com"
-msgstr "Сью Міллер sue@domain.com"
+msgstr "Леся, Українка, lesya@domain.ua"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:6
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:8
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:4
-#, fuzzy
 msgid "New contact"
 msgstr "Новий контакт"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:14
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:9
-#, fuzzy
 msgid "All contacts"
 msgstr "Усі контакти"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:18
 #: /wa-apps/crm/lib/actions/contact/crmContactSelected.action.php:15
-#, fuzzy
 msgid "Selected contacts"
 msgstr "Обрані контакти"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:26
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:17
-#, fuzzy
 msgid "My lists"
 msgstr "Мої списки"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:64
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:62
-#, fuzzy
 msgid "Hide archived segments"
-msgstr "Приховати архівних сегментів"
+msgstr "Приховати архівні сегменти"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:99
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAddToSegments.html:41
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:75
-#, fuzzy
 msgid "New segment"
 msgstr "Новий сегмент"
 
@@ -4610,24 +4559,20 @@ msgstr "Новий сегмент"
 #: /wa-apps/crm/templates/actions/settings/Settings.html:46
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:97
 #: /wa-apps/crm/templates/actions/settings/Settings.html:61
-#, fuzzy
 msgid "Vaults"
-msgstr "Склепіння"
+msgstr "Сховища"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:131
 #: /wa-apps/crm/lib/actions/contact/crmContactVaultId.action.php:16
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:113
-#, fuzzy
 msgid "My own"
-msgstr "Мій власний"
+msgstr "Мої власні"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:139
-#, fuzzy
 msgid "Responsibles"
 msgstr "Відповідальні"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.sidebar.html:159
-#, fuzzy
 msgid "Operations"
 msgstr "Операції"
 
@@ -4640,7 +4585,6 @@ msgstr[1] "Показати %d архівованих сегмента"
 msgstr[2] "Показати %d архівованих сегментів"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExport.html:8
-#, fuzzy
 msgid "Export contacts"
 msgstr "Експорт контактів"
 
@@ -4657,9 +4601,8 @@ msgstr[2] "%d обраних контактів буде експортован�
 
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:128
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:74
-#, fuzzy
 msgid "At least one owner must be selected."
-msgstr "Принаймні, один власник повинен бути вибраний."
+msgstr "Має бути обраний хоча б один власник."
 
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:100
 #: /wa-apps/crm/templates/actions/contact/ContactAccessDialog.html:51
@@ -4671,34 +4614,28 @@ msgstr[1] "%d співробітники"
 msgstr[2] "%d співробітників"
 
 #: /wa-apps/crm/templates/actions/contact/ContactUpdateDialog.html:16
-#, fuzzy
 msgid "Enter name or email"
-msgstr "Введіть ім'я користувача або адресу електронної пошти"
+msgstr "Введіть ім'я або email"
 
 #: /wa-apps/crm/templates/actions/contact/ContactUpdateDialog.html:8
-#, fuzzy
 msgid "Add phone %s to contact"
-msgstr "Додати телефон %S для контакту"
+msgstr "Додати телефон %s для контакту"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:11
 #: /wa-apps/crm/templates/actions/contact/Contact.list.operations.inc.html:12
-#, fuzzy
 msgid "Exclude from the list"
-msgstr "Виключити зі списку"
+msgstr "Виключити з переліку"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:82
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:36
-#, fuzzy
 msgid "Columns"
-msgstr "Стовпці"
+msgstr "Колонки"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationDeleteCheckingDialog.inc.html:9
-#, fuzzy
 msgid "Checking links to other applications..."
 msgstr "Пошук зв'язків з іншими додатками..."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationAssignResponsible.html:66
-#, fuzzy
 msgid "The error in the appointment of"
 msgstr "Помилка в призначенні"
 
@@ -4713,28 +4650,23 @@ msgstr[2] "Відповідальність за %d обраних контак�
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:90
 #: /wa-apps/crm/templates/actions/contact/ContactForm.inc.html:93
 #: /wa-apps/crm/templates/actions/deal/DealContactForm.inc.html:89
-#, fuzzy
 msgid "Job"
-msgstr "Робота"
+msgstr "Посада"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAddCompanyContactDialog.html:11
-#, fuzzy
 msgid "Add company for"
-msgstr "Додати компанію"
+msgstr "Додати компанію для"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAddCompanyContactDialog.html:27
-#, fuzzy
 msgid "Change company"
-msgstr "Міняти компанію"
+msgstr "Змінити компанію"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAddCompanyContactDialog.html:31
-#, fuzzy
 msgid "A new company will be created"
-msgstr "Нова компанія буде створена"
+msgstr "Будет створено нову компанію"
 
 #: /wa-apps/crm/templates/actions/contact/ContactAddCompanyContactDialog.html:41
 #: /wa-apps/crm/templates/actions/contact/ContactAddEmployee.html:19
-#, fuzzy
 msgid "Add"
 msgstr "Додати"
 
@@ -4743,22 +4675,18 @@ msgid "Edit segment"
 msgstr "Редагувати сегмент"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:17
-#, fuzzy
 msgid "Create segment"
 msgstr "Створити сегмент"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:40
-#, fuzzy
 msgid "Static list"
-msgstr "Статичний список"
+msgstr "Статичний перелік"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:42
-#, fuzzy
 msgid "manually selected contacts"
 msgstr "обрані контакти вручну"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:45
-#, fuzzy
 msgid "Dynamic filter"
 msgstr "Динамічний фільтр"
 
@@ -4768,7 +4696,6 @@ msgstr "розширені результати пошуку"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:58
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:35
-#, fuzzy
 msgid "Icon"
 msgstr "Іконка"
 
@@ -4778,87 +4705,75 @@ msgstr "Іконка"
 #: /wa-apps/crm/lib/config/search/search.php:644
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:49
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:31
-#, fuzzy
 msgid "Access"
-msgstr "Доступ до"
+msgstr "Доступ"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:74
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:51
-#, fuzzy
 msgid "only me"
-msgstr "тільки мені"
+msgstr "тільки для мене"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:75
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:52
-#, fuzzy
 msgid "all users"
 msgstr "усім користувачам"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:82
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:59
-#, fuzzy
 msgid "This list is the search result:"
-msgstr "Цей список-результат пошуку:"
+msgstr "Цей список — результат пошуку:"
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:91
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:68
-#, fuzzy
 msgid ""
 "This list is based on a category transferred from the standard version of "
 "the Contacts app."
 msgstr ""
-"Цей список заснований на категорію передані від стандартної версії додатка "
-"Контакти."
+"Цей перелік заснований на категорії, яку було перенесено зі стандартної "
+"версії додатка «Контакти»."
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:92
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:69
-#, fuzzy
 msgid ""
 "Contact entries in this category are created and updated automatically by "
 "the %s app."
 msgstr ""
-"Контакти в цій категорії створюються і автоматично оновлено %s додатки."
+"Контакти у цій категорії створюються і автоматично оновлюються додатком %s."
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:96
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:73
-#, fuzzy
 msgid "This list is based on a category created in the %s app."
-msgstr "Цей список заснований на створеній у %додаток."
+msgstr "Цей перелік заснований на категорії, створеній у додатку %s."
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:97
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:74
-#, fuzzy
 msgid ""
 "To change settings or delete this category use appropriate tools of the %s "
 "app."
 msgstr ""
-"Щоб змінити налаштування або видалити цей розділ, використовувати відповідні "
-"кошти з %S додатки."
+"Аби змінити налаштування чи видалити цей розділ, скористайтесь відповідними "
+"інструментами додатку %s."
 
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:100
 #: /wa-apps/crm/templates/actions/contact/ContactSegmentEdit.html:77
-#, fuzzy
 msgid ""
 "This list consists of selected contacts. To add/remove contacts use "
 "\"Actions with selected\" menu."
 msgstr ""
-"Цей список складається з обраних контактів. Щоб додати/видалити контакти "
-"\"дії з обраним меню\"."
+"Цей перелік складається з обраних контактів. Аби додати/видалити контакти, "
+"скористайтесь меню «Дії з обраними»."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExcludeFromSegment.html:8
-#, fuzzy
 msgid "Exclude from list"
-msgstr "Виключити зі списку"
+msgstr "Виключити з переліку"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExcludeFromSegment.html:18
-#, fuzzy
 msgid "Excluding now. Please wait..."
-msgstr "Крім зараз. Будь ласка, зачекайте..."
+msgstr "Йде виключення. Зачекайте, будь ласка..."
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExcludeFromSegment.html:23
-#, fuzzy
 msgid "Start exclude"
-msgstr "Почніть виключати"
+msgstr "Почати виключення"
 
 #: /wa-apps/crm/templates/actions/contact/ContactOperationExcludeFromSegment.html:13
 msgid "%d selected contact will be excluded from list \"%s\""
@@ -4869,112 +4784,93 @@ msgstr[2] "%d обраних контактів буде виключено з �
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:1
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:6
-#, fuzzy
 msgid "Countries & regions"
 msgstr "Країни та регіони"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:13
 #: /wa-apps/crm/lib/actions/settings/field/crmSettingsFieldFormRow.action.php:59
-#, fuzzy
 msgid "Country"
 msgstr "Країна"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:20
-#, fuzzy
 msgid "Select a country"
 msgstr "Оберіть країну"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:30
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:60
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:63
-#, fuzzy
 msgid "Clone on top of the list"
 msgstr "Дублювати на початку списку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:40
-#, fuzzy
 msgid "Regions"
 msgstr "Регіони"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:46
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:55
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:82
-#, fuzzy
 msgid "Region name"
 msgstr "Назва регіону"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:47
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:56
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:83
-#, fuzzy
 msgid "Region code"
 msgstr "Код регіону"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:71
-#, fuzzy
 msgid "No regions (states, provinces) are defined for this country."
 msgstr "Для цієї країни не визначено жодного регіону (штату, провінції)."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:77
-#, fuzzy
 msgid "Add region"
 msgstr "Додати регіон"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:94
-#, fuzzy
 msgid "Click “Save” button below to commit the delete."
 msgstr "Натисніть на кнопку «Зберегти», аби підтвердити видалення."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsRegions.html:120
-#, fuzzy
 msgid "Regions are not saved. Are you sure you want to leave current page?"
 msgstr "Регіони не збережено. Залишити поточну сторінку?"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrenciesPrimary.html:5
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:61
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:55
-#, fuzzy
 msgid "Change primary currency"
 msgstr "Змінити основну валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrenciesPrimary.html:10
-#, fuzzy
 msgid "New primary currency"
 msgstr "Нова основна валюта"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrenciesPrimary.html:15
-#, fuzzy
 msgid "Select primary currency"
-msgstr "Виберіть основну валюту"
+msgstr "Оберіть основну валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrenciesPrimary.html:22
-#, fuzzy
 msgid "Currency list is empty"
-msgstr "Список валют порожня"
+msgstr "Перелік валют порожній"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:17
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:12
-#, fuzzy
 msgid "Primary currency"
 msgstr "Основна валюта"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:35
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:30
-#, fuzzy
 msgid "Edit currency"
-msgstr "Редагування валюти"
+msgstr "Редагувати валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:36
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:31
-#, fuzzy
 msgid "Remove currency"
-msgstr "Зняти валюту"
+msgstr "Видалити валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:57
 #: /wa-apps/crm/templates/actions/settings/Settings.html:31
 #: /wa-apps/crm/templates/actions/settings/Settings.html:26
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:52
-#, fuzzy
 msgid "Currencies"
 msgstr "Валюти"
 
@@ -4987,47 +4883,39 @@ msgid "Copy Shop-Script currency settings"
 msgstr "Скопіювати налаштування валюти з Shop-Script"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:72
-#, fuzzy
 msgid ""
 "Currency exchange rates changed in Shop-Script settings are updated in CRM "
 "in 1 minute."
 msgstr ""
-"Курси обміну валют міняли в магазині-скрипт налаштування оновлюються в CRM "
-"протягом 1 хвилини."
+"Змінені у Shop-Script курси валют оновлюються в CRM протягом 1 хвилини."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:84
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:67
-#, fuzzy
 msgid "Add currency"
 msgstr "Додати валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:102
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:99
-#, fuzzy
 msgid "New main currency rate"
-msgstr "Новий головний валютний курс"
+msgstr "Новий курс основної валюти"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:126
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:80
-#, fuzzy
 msgid "Delete currency"
 msgstr "Видалити валюту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:127
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:81
-#, fuzzy
 msgid ""
 "After deletion it will be not possible to set deal and invoice amount in "
 "that currency."
 msgstr ""
-"Після вилучення буде неможливо налаштувати інтернет і суми рахунку-фактури в "
-"цій валюті."
+"Після видалення буде неможливо налаштувати угоди та рахунки у цій валюті."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:127
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:81
-#, fuzzy
 msgid "Currency in existing deals and invoices will not be affected."
-msgstr "Валюти в існуючих угод і рахунки-фактури не будуть порушені."
+msgstr "Валюти в існуючих угодах і рахунках не буде порушено."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCurrencies.html:131
 msgid "Copy settings"
@@ -5043,71 +4931,62 @@ msgid "OneSignal User Auth Key"
 msgstr "Ключ авторизації користувача OneSignal"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:25
-#, fuzzy
 msgid ""
 "A OneSignal account is required to notify backend users about incoming calls."
 msgstr ""
-"Обліковий запис OneSignal зобов'язаний повідомляти користувачів бекенду про "
+"Обліковий запис OneSignal потрібен, аби повідомляти користувачів бекенду про "
 "вхідні дзвінки."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:32
-#, fuzzy
 msgid ""
 "Each domain used by your backend users has to be configured separately in "
 "OneSignal account."
 msgstr ""
-"Кожен домен користувачами бекенда повинен бути налаштований окремо в рахунку "
-"OneSignal."
+"Кожен домен, який використовується у якості бекенду, повинен бути "
+"налаштований окремо у обліковому записі OneSignal."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:40
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:42
-#, fuzzy
 msgid "Connected"
-msgstr "Підключений"
+msgstr "Підключено"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:43
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:45
-#, fuzzy
 msgid "Not connected"
 msgstr "Не підключено"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:44
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:46
-#, fuzzy
 msgid "Connect domain to OneSignal"
-msgstr "Домен, підключення до OneSignal"
+msgstr "Підключити домен до OneSignal"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:50
 #: /wa-apps/crm/templates/actions/settings/SettingsPbxApiDialog.html:34
-#, fuzzy
 msgid "To add a different domain, open Webasyst backend on that domain."
-msgstr "Щоб додати інший домен, відкрити бек-ендом на цьому домені."
+msgstr "Аби додати інший домен, увійдіть до бекенду Webasyst на цьому домені."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormParagraphEdit.inc.html:5
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:549
-#, fuzzy
 msgid "Text paragraph"
-msgstr "Текст пункту"
+msgstr "Параграф тексту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:8
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:9
-#, fuzzy
 msgid ""
 "No <tt>cron</tt> job required for automated email capture and execution of "
 "deals."
 msgstr ""
-"Немає <ТТ>крон</TT> роботи, необхідні для автоматизованого введення "
-"електронної пошти та виконання угод."
+"Не налаштовано завдання <tt>cron</tt>, яке необхідне для автоматичного "
+"отримання електронних листів та виконання угод."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:12
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:13
-#, fuzzy
 msgid ""
 "Without a <tt>cron</tt> job set up, new mail is captured and deals are "
 "executed only as long as you keep CRM open in your browser."
 msgstr ""
-"<ТТ>крон</TT> налаштування роботи, захоплений новою поштою і пропозиції "
-"виконуються тільки до тих пір, як ви тримаєте в CRM відкриється в браузері."
+"Без налаштованого завдання <tt>cron</tt>, нова пошта отримується, а угоди "
+"виконуються, доки ви тримаєте CRM відкритим у браузері."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:23
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:31
@@ -5125,18 +5004,16 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:32
 #: /wa-apps/crm/templates/actions/settings/SettingsCronNotificationBirthday.inc.html:20
 #: /wa-apps/crm/templates/actions/settings/SettingsCronNotificationBirthday.inc.html:28
-#, fuzzy
 msgid "Last execution time:"
-msgstr "Останнім часом виконання:"
+msgstr "Останній час виконання:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:30
-#, fuzzy
 msgid ""
 "<tt>Cron</tt> job required for automated email capture and execution of "
 "deals is set up properly."
 msgstr ""
-"<ТТ>крон</TT> роботи, необхідні для автоматизованого введення електронної "
-"пошти та виконання угод встановлюється належним чином."
+"Завдання <tt>cron</tt> необхідне для автоматичного отримання електронних "
+"листів та виконання угод."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:17
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:37
@@ -5154,38 +5031,33 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/settings/SettingsCronEmailSource.inc.html:38
 #: /wa-apps/crm/templates/actions/settings/SettingsCronNotificationBirthday.inc.html:14
 #: /wa-apps/crm/templates/actions/settings/SettingsCronNotificationBirthday.inc.html:34
-#, fuzzy
 msgid "http://www.webasyst.com/framework/docs/server/cron/"
-msgstr "http://www.webasyst.ru/developers/docs/tips/cron/"
+msgstr "https://developers.webasyst.ru/docs/installation/tips/cron/"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:52
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:42
-#, fuzzy
 msgid ""
 "Allows your subscriber to create a password for further authorization on "
 "your site and log in to their customer portal. Requires Email field in the "
 "form."
 msgstr ""
 "Дозволяє абоненту створити пароль для подальшої авторизації на вашому сайті "
-"і увійти в свій клієнтський портал. Вимагає полі email формі."
+"входу в особистий кабінет. Потребує полe для адреси email у формі."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:60
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:42
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:26
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:50
-#, fuzzy
 msgid "New form"
 msgstr "Нова форма"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:60
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:50
-#, fuzzy
 msgid "Form name"
 msgstr "Назва форми"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:83
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:67
-#, fuzzy
 msgid "Add fields"
 msgstr "Додати поля"
 
@@ -5195,108 +5067,92 @@ msgstr "Додати поля"
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:104
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:105
 #: /wa-apps/crm/templates/form/form.html:42
-#, fuzzy
 msgid "Sign up"
-msgstr "Зареєструйтеся"
+msgstr "Зареєструватися"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:162
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:113
-#, fuzzy
 msgid "Form width (200-600px)"
 msgstr "Ширина форми (200-600 пікселів)"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:170
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:121
-#, fuzzy
 msgid "After form submission"
 msgstr "Після відправки форми"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:173
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:124
-#, fuzzy
 msgid ""
 "This setting will redirect clients to any specified URL or display any text "
 "message after the form is submitted."
 msgstr ""
-"Ця установка дозволяє після заповнення форми та відправлення запиту "
-"перенаправляти клієнтів на будь-яку вказану статтю або показувати на місці "
-"форми повідомлення."
+"Ця установка дозволяє перенаправляти клієнтів після заповнення форми та "
+"відправлення запиту на будь-яку вказану URL або показувати повідомлення на "
+"місці форми."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:174
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:125
-#, fuzzy
 msgid "After successfull submission:"
 msgstr "Після успішного відправлення:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:192
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:140
-#, fuzzy
 msgid "Display text instead of the form"
 msgstr "Показати вказаний текст замість форми"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:196
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:142
-#, fuzzy
 msgid "Thanks for subscribing!"
 msgstr "Дякуємо за підписку!"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:205
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:150
-#, fuzzy
 msgid "Confirm registration"
 msgstr "Підтвердити реєстрацію"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:217
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:162
-#, fuzzy
 msgid "To enable this option, your form must contain Email field."
 msgstr ""
-"Щоб включити цю опцію, ваша форма повинна містити поле адреси електронної "
+"Аби включити цю опцію, ваша форма повинна містити поле адреси електронної "
 "пошти."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:219
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:164
-#, fuzzy
 msgid ""
 "An automatic notification will be sent to a subscriber‘s email address, with "
 "a special link to be clicked for a client to confirm registration. You may "
 "add extra instructions for your clients to the notification text."
 msgstr ""
-"Автоматичне повідомлення буде відправлено на адресу абонента електронної "
-"пошти, зі спеціальною посиланням, щоб бути натиснута для клієнта, щоб "
-"підтвердити реєстрацію. Ви можете додати додаткові інструкції для клієнтів в "
-"текст повідомлення."
+"Автоматичне повідомлення зі спеціальним посиланням для підтвердження "
+"реєстрації буде відправлено на адресу електронної пошти підписувача. У "
+"тексті повідомлення ви можете вказати додаткові інструкції для клієнтів."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:226
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:184
-#, fuzzy
 msgid "Please confirm your email"
-msgstr "Будь ласка, підтвердіть вашу адресу електронної пошти"
+msgstr "Підтвердіть, будь ласка, вашу адресу електронної пошти"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:235
 #: /wa-apps/crm/templates/actions/settings/SettingsEmailEditor.inc.html:108
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:132
-#, fuzzy
 msgid "WYSIWYG"
 msgstr "Візуальний редактор"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:303
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:250
-#, fuzzy
 msgid "Publication"
-msgstr "Публікації"
+msgstr "Публікація"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:306
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:253
-#, fuzzy
 msgid "To publish this form on your website use this code:"
-msgstr "Опублікувати цю форму на свій сайт цей код:"
+msgstr "Аби опублікувати цю форму на вашому сайті, скористайтеся цим кодом:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:310
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:299
-#, fuzzy
 msgid "Will be available after saving"
-msgstr "Буде доступний після збереження"
+msgstr "Буде доступно після збереження"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:315
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:258
