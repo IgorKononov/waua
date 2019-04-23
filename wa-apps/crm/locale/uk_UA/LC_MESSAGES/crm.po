@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -5156,68 +5156,56 @@ msgstr "Буде доступно після збереження"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:315
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:258
-#, fuzzy
 msgid "To publish the form on external site use this code:"
-msgstr "Щоб опублікувати форму на зовнішні використовувати сайт цей код:"
+msgstr "Для публікації форми на сайті використовуйте цей код:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:338
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:280
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceId.html:217
-#, fuzzy
 msgid "Delete this form"
 msgstr "Видалити цю форму"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:242
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:214
-#, fuzzy
 msgid "Please follow this link to confirm your registration:"
 msgstr "Будь ласка, перейдіть за цим посиланням для підтвердження реєстрації:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormConstructor.inc.html:244
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:216
-#, fuzzy
 msgid "Thank you!"
 msgstr "Дякуємо!"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:9
-#, fuzzy
 msgid "Enter available options for %s depending on it’s parent field value."
 msgstr ""
 "Заповніть списки значень поля «%s» залежно від значення його батьківського "
 "поля."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:9
-#, fuzzy
 msgid "http://www.shop-script.com/help/conditional-contact-fields/"
 msgstr "https://support.webasyst.ru/shop-script/7/conditional-contact-fields/"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:9
-#, fuzzy
 msgid "Get help"
 msgstr "Допомога"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:13
-#, fuzzy
 msgid "<strong>IF</strong> parent field"
 msgstr "<strong>IF</strong> батьківське поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:33
-#, fuzzy
 msgid "Prompt to select %s from the following list:"
-msgstr "Пропонувати вибрати %s з таких варіантів:"
+msgstr "Пропонувати обрати %s з таких варіантів:"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:51
-#, fuzzy
 msgid "Add option"
 msgstr "Додати варіант"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:61
-#, fuzzy
 msgid "Add rule"
 msgstr "Додати правило"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:65
-#, fuzzy
 msgid ""
 "<strong>ELSE</strong>, in case parent field value does not match any of the "
 "listed above"
@@ -5226,43 +5214,38 @@ msgstr ""
 "жодним варіантом"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:68
-#, fuzzy
 msgid "Display &lt;input&gt; (custom text) field for %s"
 msgstr "Показати для %s поле &lt;input&gt; для введення довільного тексту"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldValues.html:69
-#, fuzzy
 msgid "Do not prompt for %s"
 msgstr "Не запитувати поле %s"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronDealStagesOverDue.inc.html:10
-#, fuzzy
 msgid "<tt>Cron</tt> job required for deal stages overdue is set up properly."
 msgstr ""
-"<ТТ>крон</TT> роботи, необхідні для етапу інтернет-прострочені налаштований "
-"правильно."
+"Завдання <tt>cron</tt> для коректного обрахування прострочених угод "
+"налаштоване."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronDealStagesOverDue.inc.html:33
-#, fuzzy
 msgid "<tt>Cron</tt> job required for deal stages overdue."
-msgstr "<ТТ>крон</TT> роботи, необхідні для етапів угоди прострочені."
+msgstr ""
+"Для коректного обрахування прострочених угод потрібно налаштувати завдання "
+"<tt>cron</tt>."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCron.html:2
 #: /wa-apps/crm/templates/actions/settings/Settings.html:102
 #: /wa-apps/crm/templates/actions/settings/Settings.html:93
-#, fuzzy
 msgid "Cron Jobs"
-msgstr "Хрон Робочих Місць"
+msgstr "Завдання cron"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:7
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:6
-#, fuzzy
 msgid "Edit vault"
-msgstr "Редагування сховища"
+msgstr "Редагувати сховище"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:7
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:6
-#, fuzzy
 msgid "Create vault"
 msgstr "Створити сховище"
 
@@ -5274,21 +5257,18 @@ msgstr "Назва сховища"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:18
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:17
-#, fuzzy
 msgid "Style"
 msgstr "Стиль"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:26
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:25
-#, fuzzy
 msgid "background color"
 msgstr "колір фону"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:37
-#, fuzzy
 msgid "Select user groups which you want to be able to access this vault."
 msgstr ""
-"Виберіть групи користувачів, яким ви хочете бути в змозі отримати доступ до "
+"Оберіть групи користувачів, яким ви хочете бути в змозі надати доступ до "
 "цього сховища."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:45
@@ -5300,9 +5280,8 @@ msgstr "Повний доступ до додатку CRM"
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:47
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:165
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:140
-#, fuzzy
 msgid "No access to CRM app yet"
-msgstr "Немає доступу до CRM додаток ще"
+msgstr "Ще немає доступу до додатку CRM"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:64
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:201
@@ -5317,12 +5296,11 @@ msgid "Hide groups without access to CRM app"
 msgstr "Приховати групи без доступу до додатку CRM"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:103
-#, fuzzy
 msgid ""
 "Vault deleting cause free access to this contacts data for all backend users."
 msgstr ""
-"Сховище видалення викликати безкоштовний доступ до даних контактів для всіх "
-"користувачів бекенду."
+"Видалення сховища призведе до вільного доступу до даних цих контактів усіма "
+"користувачами бекенду."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsVaultDialog.html:103
 msgid "There are %d contact in vault \"%%s\"."
@@ -5332,10 +5310,10 @@ msgstr[1] "Знайдено %d контакти у сховищі \"%%s\"."
 msgstr[2] "Знайдено %d контактів у сховищі \"%%s\"."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronCurrenciesCopy.inc.html:10
-#, fuzzy
 msgid "<tt>Cron</tt> job required for currencies copy is set up properly."
 msgstr ""
-"<ТТ>крон</TT> роботи, необхідні для валют копію налаштований правильно."
+"Завдання <tt>cron</tt> для коректного обрахування прострочених угод "
+"налаштоване."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronCurrenciesCopy.inc.html:33
 #, fuzzy
