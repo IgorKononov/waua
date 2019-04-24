@@ -5316,34 +5316,29 @@ msgstr ""
 "налаштоване."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronCurrenciesCopy.inc.html:33
-#, fuzzy
 msgid "<tt>Cron</tt> job required for currencies copy."
-msgstr "<ТТ>крон</TT> роботи, необхідні для валют копію."
+msgstr "Для копіювання валют необхідно налаштувати завдання <tt>cron</tt>."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormAgreementCheckboxEdit.inc.html:5
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:555
 #: /wa-apps/crm/lib/classes/form/crmForm.class.php:865
 #: /wa-apps/crm/lib/classes/form/crmForm.class.php:875
-#, fuzzy
 msgid "Consent to terms"
 msgstr "Згода з умовами"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormAgreementCheckboxEdit.inc.html:11
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:12
-#, fuzzy
 msgid "Field"
 msgstr "Поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormAgreementCheckboxEdit.inc.html:15
-#, fuzzy
 msgid "Terms description"
-msgstr "Умови опис"
+msgstr "Опис умов"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFormAgreementCheckboxEdit.inc.html:25
 #: /wa-apps/crm/templates/actions/settings/SettingsFormAgreementCheckboxEdit.inc.html:21
-#, fuzzy
 msgid "Checked by default"
-msgstr "Перевірив за замовчуванням"
+msgstr "Відмічене за замовчуванням"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldRow.inc.html:9
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldRow.inc.html:17
@@ -5352,7 +5347,6 @@ msgstr "Перевірив за замовчуванням"
 #: /wa-apps/crm/templates/actions/settings/SettingsNotifications.html:27
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:35
 #: /wa-apps/crm/templates/actions/settings/SettingsNotifications.html:19
-#, fuzzy
 msgid "disabled"
 msgstr "вимкнено"
 
@@ -5360,7 +5354,6 @@ msgstr "вимкнено"
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldRow.inc.html:19
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:14
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:37
-#, fuzzy
 msgid "person"
 msgstr "особа"
 
@@ -5368,32 +5361,27 @@ msgstr "особа"
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldRow.inc.html:20
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:15
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:38
-#, fuzzy
 msgid "company"
 msgstr "компанія"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldRow.inc.html:13
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:39
-#, fuzzy
 msgid "deal"
-msgstr "справа"
+msgstr "угода"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:3
 #: /wa-apps/crm/templates/actions/settings/Settings.html:16
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:5
-#, fuzzy
 msgid "General settings"
 msgstr "Загальні налаштування"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:10
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:52
-#, fuzzy
 msgid "Contact name edit form"
-msgstr "Контакт ім'я змінити форму"
+msgstr "Форма редагування імені контакта"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:13
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:55
-#, fuzzy
 msgid "One field for contact name"
 msgstr "Одне поле для імені контакту"
 
@@ -5413,7 +5401,6 @@ msgstr "Формат імені контакту"
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:69
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:73
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:147
-#, fuzzy
 msgid "Lastname"
 msgstr "Прізвище"
 
@@ -5423,7 +5410,6 @@ msgstr "Прізвище"
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:69
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:73
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:145
-#, fuzzy
 msgid "Firstname"
 msgstr "Ім'я"
 
@@ -5433,18 +5419,16 @@ msgstr "Ім'я"
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:69
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:73
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:146
-#, fuzzy
 msgid "Middlename"
-msgstr "По батькові"
+msgstr "По-батькові"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:2
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:2
 #: /wa-apps/crm/templates/actions/settings/Settings.html:94
 #: /wa-apps/crm/templates/actions/settings/Settings.html:86
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:1
-#, fuzzy
 msgid "Shop-Script integration"
-msgstr "Магазин-скрипт інтеграції"
+msgstr "Інтеграція з Shop-Script"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:7
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:7
@@ -5458,47 +5442,41 @@ msgstr "Синхронізація воронки"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:22
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:5
-#, fuzzy
 msgid "Create deals from orders in your online store!"
-msgstr "Створити пропозиції замовлень у вашому інтернет-магазині!"
+msgstr "Створуйте угоди із замовлень у вашому онлайн-магазині!"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:23
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:6
-#, fuzzy
 msgid ""
 "Set up <i>automatic</i> creation of deals upon execution of various order "
 "actions, individually for each of your storefronts."
 msgstr ""
-"Налаштування <я>автоматичне</> створення пропозиції для виконання різних "
-"дій, індивідуально для кожного з ваших магазинів."
+"Налаштуйте <i>автоматичне</i> створення угод шляхом виконання дій зі "
+"статусами — окремо для кожної з ваших вітрин."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:24
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:7
-#, fuzzy
 msgid ""
 "Or <i>manually</i> create deals in the online store backend, regardless of "
 "the settings on this page."
 msgstr ""
-"Або <I>вручну</I> створювати пропозиції інтернет-сховища, незалежно від "
-"налаштувань на цій сторінці."
+"Або ж <i>вручну</i> створюйте угоди у бекенді онлайн-магазину, без "
+"залежності від налаштувань на цій сторінці."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:43
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:26
-#, fuzzy
 msgid "Create deal when"
-msgstr "Створити інтернет коли"
+msgstr "Створити угоду, коли"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:49
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:32
-#, fuzzy
 msgid "Order was placed"
-msgstr "Замовлення оформлене"
+msgstr "Оформлене замовлення"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:55
 #: /wa-apps/crm/templates/actions/settings/SettingsShop.html:38
-#, fuzzy
 msgid "Order was confirmed and accepted for processing"
-msgstr "Замовлення підтверджене і прийнято в обробку"
+msgstr "Замовлення було підтверджене і прийнято в обробку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsMessagesBlock.html:20
 #: /wa-apps/crm/templates/actions/settings/SettingsMessagesBlock.html:46
@@ -5519,33 +5497,29 @@ msgstr "Відправити ще одне повідомлення електр
 #: /wa-apps/crm/templates/actions/settings/SettingsFormId.html:14
 #: /wa-apps/crm/templates/actions/settings/Settings.html:71
 #: /wa-apps/crm/templates/actions/settings/Settings.html:66
-#, fuzzy
 msgid "Web forms"
-msgstr "Веб-форм"
+msgstr "Веб-форми"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:35
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:39
-#, fuzzy
 msgid "Forms are used to set up customer subscription on your website."
-msgstr "Форми використовуються для налаштування передплати на вашому сайті."
+msgstr ""
+"Форми використовуються для налаштування підписки клієнтів на вашому сайті."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:36
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:40
-#, fuzzy
 msgid ""
 "Create a form, publish it on your website, and visitors will be able to "
 "subscribe themselves."
 msgstr ""
-"Створіть форму, опублікуйте його на вашому сайті, і відвідувачі зможуть "
+"Створіть форму, опублікуйте її на вашому сайті, і відвідувачі зможуть "
 "підписатися самі."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:50
-#, fuzzy
 msgid "Captcha settings"
 msgstr "Налаштування CAPTCHA"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.html:52
-#, fuzzy
 msgid "Select Webasyst default captcha or Google reCAPTCHA"
 msgstr "Оберіть стандартну капчу Webasyst або Google reCAPTCHA"
 
@@ -5558,23 +5532,20 @@ msgstr "Оберіть стандартну капчу Webasyst або Google re
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:5
 #: /wa-apps/crm/lib/actions/settings/notifications/crmSettingsNotifications.action.php:20
 #: /wa-apps/crm/lib/actions/settings/notifications/crmSettingsNotificationsEdit.action.php:28
-#, fuzzy
 msgid "SMS"
-msgstr "СМС"
+msgstr "SMS"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:11
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:54
-#, fuzzy
 msgid ""
 "Once connection to a gateway is set up, add SMS notifications in “<a href="
 "\"%s\">Notifications</a>” settings."
 msgstr ""
-"Після підключення до шлюзу встановлено, додайте SMS-повідомлення \"<а href="
-"\"%з\">повідомлення</A>\" параметри."
+"Після того, як підключення до шлюзу налаштоване, додайте повідомлення SMS у "
+"розділі «<a href=\"%s\">Повідомлення</a>»."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:13
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:56
-#, fuzzy
 msgid "<a href=\"%s\" target=\"_blank\">See documentation</a> for details."
 msgstr ""
 "<a href=\"%s\" target=\"_blank\">Перегляньте документацію</a>, аби дізнатися "
@@ -5582,19 +5553,16 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:13
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:56
-#, fuzzy
 msgid "https://support.webasyst.com/22505/crm-sms-notifications/"
-msgstr "https://support.webasyst.com/22505/crm-sms-notifications/"
+msgstr "https://support.webasyst.ru/22149/crm-sms-notifications/"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:26
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:23
-#, fuzzy
 msgid "Sender IDs"
 msgstr "ID відправників"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:33
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:30
-#, fuzzy
 msgid ""
 "Enter Sender IDs to use with this SMS gateway (Sender ID is either your "
 "phone number or up-to-11-characters text label). Enter * to use default "
@@ -5606,7 +5574,6 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:62
 #: /wa-apps/crm/templates/actions/settings/SettingsSms.html:65
-#, fuzzy
 msgid ""
 "To enable SMS message sending, install and configure sending plugin for your "
 "preferred SMS gateway.<br /> <a href=\"%s\">Browse for SMS gateway plugins</"
@@ -5622,7 +5589,6 @@ msgstr ""
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:29
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:46
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:30
-#, fuzzy
 msgid "Next"
 msgstr "Далі"
 
@@ -5633,22 +5599,18 @@ msgstr "Далі"
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:47
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:207
 #: /wa-apps/crm/templates/actions/settings/SettingsCompanies.html:31
-#, fuzzy
 msgid "Before"
 msgstr "Перед"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:40
-#, fuzzy
 msgid "Add payment option"
-msgstr "Додати спосіб оплати"
+msgstr "Додати варіант оплати"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:60
-#, fuzzy
 msgid "Browse payment plugins..."
 msgstr "Пошук плагінів оплати..."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:62
-#, fuzzy
 msgid ""
 "Multiple instances of every payment option with custom settings can be "
 "created."
@@ -5657,30 +5619,25 @@ msgstr ""
 "налаштуваннями."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:97
-#, fuzzy
 msgid "Configure"
 msgstr "Налаштувати"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:110
-#, fuzzy
 msgid "No payment options are defined."
 msgstr "Не визначено жодного способу оплати."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:127
-#, fuzzy
 msgid "Delete %payment"
-msgstr "Видалити %оплати"
+msgstr "Видалити %payment"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsPayment.html:128
 #: /wa-apps/crm/templates/actions/settings/SettingsPaymentEdit.html:110
-#, fuzzy
 msgid "This will permanently delete this payment option. Are you sure?"
-msgstr "Цей спосіб оплати буде остаточно видалено. Продовжити?"
+msgstr "Цей варіант оплати буде видалено остаточно. Продовжити?"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:1
-#, fuzzy
 msgid "Create invoice template"
-msgstr "Створити шаблон накладної"
+msgstr "Створити шаблон рахунку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:3
 msgid "Edit invoice template"
@@ -5692,12 +5649,10 @@ msgid "Invoice templates"
 msgstr "Шаблони накладної"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:19
-#, fuzzy
 msgid "New template"
 msgstr "Новий шаблон"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:42
-#, fuzzy
 msgid "Add new template"
 msgstr "Додати новий шаблон"
 
@@ -5706,12 +5661,10 @@ msgid "Template name"
 msgstr "Назва шаблона"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:54
-#, fuzzy
 msgid "Custom variables"
 msgstr "Користувальницькі змінні"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:55
-#, fuzzy
 msgid ""
 "Set up custom variables to show extra company-related data on an invoice; e."
 "g., payment details, contact information, business license number, etc. Save "
@@ -5719,16 +5672,14 @@ msgid ""
 "variables to an invoice template."
 msgstr ""
 "Налаштування користувацьких змінних для відображення додаткових "
-"корпоративних даних у накладну; наприклад, платіжні реквізити, контактна "
-"інформація, бізнес-ліцензії і т. д. Зберегти відповідні значення своїх "
-"змінних у налаштуваннях кожної компанії і додайте змінні в шаблон рахунок-"
-"фактури."
+"корпоративних даних у рахунку; наприклад, платіжні реквізити, контактна "
+"інформація, номер ліцензії та інше. Збережіть відповідні значення змінних у "
+"налаштуваннях кожної компанії і додайте змінні в шаблон рахунок-фактури."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:60
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:92
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:29
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldFormRow.html:27
-#, fuzzy
 msgid "Field name"
 msgstr "Назва поля"
 
@@ -5736,18 +5687,15 @@ msgstr "Назва поля"
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:94
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:53
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:30
-#, fuzzy
 msgid "Placeholder"
 msgstr "Заповнювач"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:75
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:95
-#, fuzzy
 msgid "Code"
 msgstr "Код"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:113
-#, fuzzy
 msgid "Add variable"
 msgstr "Додати змінну"
 
@@ -5756,25 +5704,21 @@ msgid "Reset changes"
 msgstr "Скинути зміни"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:141
-#, fuzzy
 msgid "Preview"
 msgstr "Попередній перегляд"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:192
-#, fuzzy
 msgid "Variable code may not start with a digit"
 msgstr "Код змінної не може починатися з цифри"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:193
-#, fuzzy
 msgid "Variable code may only contain digits, latin symbols and underscore"
 msgstr ""
 "Змінна код може містити тільки цифри, латинські символи та знак підкреслення"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:194
-#, fuzzy
 msgid "Variable codes sould be unique"
-msgstr "Змінні коди повинні бути унікальними"
+msgstr "Коди змінних мають бути унікальними"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:195
 msgid ""
@@ -5784,16 +5728,16 @@ msgstr ""
 "Видалення шаблону заборонене. Шаблон пов'язаний з {$company_count} компаніями"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronDailyRecap.inc.html:10
-#, fuzzy
 msgid "<tt>Cron</tt> job required for daily recap is set up properly."
 msgstr ""
-"<ТТ>крон</TT> роботи, необхідні для повсякденного Recap налаштований "
-"правильно."
+"Завдання <tt>cron</tt>, необхідне для коректного надсилання щоденних "
+"нагадувань, налаштоване."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsCronDailyRecap.inc.html:33
-#, fuzzy
 msgid "<tt>Cron</tt> job required for daily recap."
-msgstr "<ТТ>крон</TT> роботи, необхідні для повсякденного Recap."
+msgstr ""
+"Для коректного надсилання щоденних нагадувань необхідно налаштувати завдання "
+"<tt>cron</tt>."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:1
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:6
