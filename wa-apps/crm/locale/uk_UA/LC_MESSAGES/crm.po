@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -5741,13 +5741,11 @@ msgstr ""
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:1
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:6
-#, fuzzy
 msgid "Create funnel"
 msgstr "Створити воронку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:3
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:6
-#, fuzzy
 msgid "Edit funnel"
 msgstr "Редагувати воронку"
 
@@ -5755,29 +5753,25 @@ msgstr "Редагувати воронку"
 #: /wa-apps/crm/templates/actions/settings/Settings.html:56
 #: /wa-apps/crm/templates/actions/settings/Settings.html:46
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:3
-#, fuzzy
 msgid "Funnels"
-msgstr "Лійки"
+msgstr "Воронки"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:20
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:29
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:11
-#, fuzzy
 msgid "New funnel"
 msgstr "Нова воронка"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:41
 #: /wa-apps/crm/templates/actions/settings/SettingsShopWorkflow.html:50
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:36
-#, fuzzy
 msgid "Add new funnel"
-msgstr "Додати новий воронку"
+msgstr "Додати нову воронку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:50
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:11
-#, fuzzy
 msgid "Funnel name"
-msgstr "Воронка ім'я"
+msgstr "Назва воронки"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:104
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:65
@@ -5786,7 +5780,6 @@ msgstr "Назва етапу"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:104
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:65
-#, fuzzy
 msgid "New stage"
 msgstr "Новий етап"
 
@@ -5796,13 +5789,11 @@ msgstr "додати обмеження по часу"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:135
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:79
-#, fuzzy
 msgid "Stages"
 msgstr "Етапи"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:153
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnelEdit.html:94
-#, fuzzy
 msgid "Add stage"
 msgstr "Додати етап"
 
@@ -5811,7 +5802,6 @@ msgstr "Додати етап"
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:39
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:64
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:31
-#, fuzzy
 msgid "Full access"
 msgstr "Повний доступ"
 
@@ -5819,24 +5809,21 @@ msgstr "Повний доступ"
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:36
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:62
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:29
-#, fuzzy
 msgid "No access"
 msgstr "Немає доступу"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:181
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:37
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:30
-#, fuzzy
 msgid "Only own deals"
-msgstr "Тільки власні пропозиції"
+msgstr "Тільки власні угоди"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:182
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:38
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:157
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:33
-#, fuzzy
 msgid "Own and unassigned deals"
-msgstr "Власні і непризначені пропозиції"
+msgstr "Власні і непризначені угоди"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFunnels.html:128
 msgid "%d deal in stage"
@@ -5854,64 +5841,55 @@ msgstr[1] "%d угоди у воронці"
 msgstr[2] "%d угод у воронці"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:39
-#, fuzzy
 msgid "Add item"
 msgstr "Додати елемент"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:56
-#, fuzzy
 msgid "Radio selector advanced settings"
 msgstr "Розширені налаштування поля-перемикача"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:57
-#, fuzzy
 msgid ""
 "Depending on the current radio selector value, other contact form fields may "
 "be set to be omitted (become hidden). Manage form fields visibility settings "
 "using checkboxes below for each radio selector value."
 msgstr ""
 "Залежно від обраного значення поля-перемикача інші поля форми для введення "
-"контактної інформації можуть бути позначені як приховані (будуть пропущені). "
-"Для кожного із значень поля-перемикача відзначте галочками ті поля форми "
-"введення контактної інформації, які повинні бути запитані у користувача."
+"контактної інформації можуть бути позначені як такі, що потрібно пропустити "
+"(їх буде приховано). Для кожного із значень поля-перемикача позначте "
+"галочками ті поля форми введення контактної інформації, які повинні бути "
+"запитані у користувача."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:66
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:68
 #: /wa-apps/crm/templates/actions/settings/SettingsFormFieldEdit.inc.html:37
-#, fuzzy
 msgid "Required"
 msgstr "Обов'язкове"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:130
-#, fuzzy
 msgid "Please specify options for multiple choice field."
 msgstr "Вкажіть можливі значення для поля з варіантами вибору."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:153
-#, fuzzy
 msgid "Manage conditions"
 msgstr "Налаштувати умови"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:155
-#, fuzzy
 msgid "Click “Save” button below to commit changes."
 msgstr "Натисніть на кнопку «Зберегти», аби підтвердити зміни."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:166
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:200
-#, fuzzy
 msgid "This field is required."
 msgstr "Це поле є обов'язковим."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEditor.html:182
-#, fuzzy
 msgid "This field can be invisible in some cases, so it may not be required."
 msgstr ""
 "Це поле в деяких випадках стає невидимим, і тому не може бути обов'язковим."
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:21
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:26
-#, fuzzy
 msgid "Edit field"
 msgstr "Редагувати поле"
 
@@ -5919,55 +5897,46 @@ msgstr "Редагувати поле"
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:31
 #: /wa-apps/crm/templates/actions/settings/SettingsField.html:45
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:26
-#, fuzzy
 msgid "New field"
 msgstr "Нове поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:56
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:60
-#, fuzzy
 msgid "Add name in another language"
 msgstr "Додати ім'я в іншій мові"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:72
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:76
-#, fuzzy
 msgid "Field ID"
 msgstr "ID поля"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:83
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:87
-#, fuzzy
 msgid "Type of field"
 msgstr "Тип поля"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:98
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:102
-#, fuzzy
 msgid "List items"
-msgstr "Перелік"
+msgstr "Перелік елементів"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:100
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:104
-#, fuzzy
 msgid "Enter each new item on new line"
-msgstr "Введіть значення кожне з нового рядка"
+msgstr "Введіть кожне значення з нового рядка"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:106
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:110
-#, fuzzy
 msgid "Applied to"
 msgstr "Застосовується до"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:113
 #: /wa-apps/crm/lib/config/search/search.php:147
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:117
-#, fuzzy
 msgid "Person"
-msgstr "Особа"
+msgstr "Особи"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:136
-#, fuzzy
 msgid "Address fields"
 msgstr "Поля адреси"
 
@@ -5977,24 +5946,20 @@ msgstr "Поля адреси"
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:36
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:33
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:143
-#, fuzzy
 msgid "Delete field"
 msgstr "Видалити поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:179
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:146
-#, fuzzy
 msgid "Enable field"
 msgstr "Увімкнути поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:181
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:148
-#, fuzzy
 msgid "Disable field"
 msgstr "Вимкнути поле"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldEdit.html:198
-#, fuzzy
 msgid ""
 "This will remove field and all its data from all existing contacts. Are you "
 "sure?"
@@ -6002,12 +5967,10 @@ msgstr ""
 "Буде видалено це поле і пов'язані з ним дані в усіх контактах. Видалити?"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:18
-#, fuzzy
 msgid "No data in the field"
 msgstr "У полі немає даних"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsFieldDeleteConfirm.html:19
-#, fuzzy
 msgid "Deleting this field will not cause a loss of any contact information."
 msgstr "Видалення цього поля не призведе до втрати інформації про контакти."
 
