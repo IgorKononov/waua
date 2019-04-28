@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -7475,7 +7475,6 @@ msgstr[2] "Знайдено %d дублікатів цього поля"
 
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:233
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:171
-#, fuzzy
 msgid "Unknown locale: %s"
 msgstr "Невідома локаль: %s"
 
@@ -7483,188 +7482,158 @@ msgstr "Невідома локаль: %s"
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:252
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:179
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:189
-#, fuzzy
 msgid "Required field"
 msgstr "Обов'язкове поле"
 
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:256
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:193
-#, fuzzy
 msgid "Only English alphanumeric, hyphen and underline symbols are allowed"
 msgstr ""
-"Можна використовувати тільки букви, цифри, знак переносу і підкреслювання"
+"Можна використовувати тільки латинські букви, цифри, знак переносу і "
+"підкреслювання"
 
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:262
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:199
-#, fuzzy
 msgid "This ID is already in use"
 msgstr "ID вже використовується"
 
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:293
 #: /wa-apps/crm/lib/classes/crmFieldConstructor.class.php:230
-#, fuzzy
 msgid "Unknown field type:"
 msgstr "Невідомий тип поля:"
 
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:535
 #: /wa-apps/crm/lib/classes/form/crmForm.class.php:812
-#, fuzzy
 msgid "Attachments"
 msgstr "Вкладення"
 
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:542
-#, fuzzy
 msgid "Horizontal rule"
 msgstr "Горизонтальна лінійка"
 
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:560
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:513
-#, fuzzy
 msgid ""
 "I agree to <a class=\"c-agreement-checkbox-link\" href=\"%s\" target=\"_blank"
 "\">personal data protection policy</a>"
 msgstr ""
-"Я згоден, щоб <клас=\"Сі-угода-прапорець-посилання\" href=\"%s\" таргет="
-"\"розділ налаштувань\">захист персональних даних</A>"
+"Я згоден з умовами <a class=\"c-agreement-checkbox-link\" href=\"%s\" target="
+"\"_blank\">політики захисту персональних даних</a>"
 
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:561
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:563
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:514
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:516
-#, fuzzy
 msgid "---INSERT A LINK HERE!---"
 msgstr "---ВСТАВИТИ ПОСИЛАННЯ!---"
 
 #: /wa-apps/crm/lib/classes/form/crmFormConstructor.class.php:568
 #: /wa-apps/crm/templates/actions/settings/SettingsGeneral.html:14
-#, fuzzy
 msgid "Captcha"
 msgstr "CAPTCHA"
 
 #: /wa-apps/crm/lib/classes/form/crmFormValidator.class.php:108
 #: /wa-apps/crm/lib/actions/frontend/form/crmFrontendForm.actions.php:390
-#, fuzzy
 msgid "At least one of these fields must be filled."
 msgstr "Принаймні одне з цих полів має бути заповнене."
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:93
-#, fuzzy
 msgid "Show %s records on a page"
 msgstr "Показати %s записів на сторінці"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:108
-#, fuzzy
 msgid "Pages"
 msgstr "Сторінки"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:126
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:139
-#, fuzzy
 msgid "of"
-msgstr "із"
+msgstr "з"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:130
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:48
-#, fuzzy
 msgid "prev"
 msgstr "назад"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:133
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:70
-#, fuzzy
 msgid "next"
 msgstr "далі"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:162
-#, fuzzy
 msgid "%s deal"
-msgstr "%з інтернет"
+msgstr "%s угода"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:303
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:251
-#, fuzzy
 msgid "B"
 msgstr "Б"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:306
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:254
-#, fuzzy
 msgid "KB"
 msgstr "КБ"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:308
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:256
-#, fuzzy
 msgid "MB"
 msgstr "МБ"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:522
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:720
-#, fuzzy
 msgid "unknown number"
 msgstr "невідоме число"
 
 #: /wa-apps/crm/lib/classes/crmHelper.class.php:608
 #: /wa-apps/crm/templates/actions/call/Call.html:162
 #: /wa-apps/crm/lib/models/crmLog.model.php:487
-#, fuzzy
 msgid "Listen to the recorded conversation"
 msgstr "Послухати запис розмови"
 
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:36
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:36
-#, fuzzy
 msgid "Total:"
 msgstr "Усього:"
 
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:39
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:39
-#, fuzzy
 msgid "Folders:"
 msgstr "Каталоги:"
 
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:42
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:42
-#, fuzzy
 msgid "Files:"
 msgstr "Файли:"
 
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:45
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:45
-#, fuzzy
 msgid "Page:"
 msgstr "Сторінка:"
 
 #: /wa-apps/crm/lib/classes/view/crmViewHelper.class.php:161
 #: /wa-apps/crm/lib/classes/crmViewHelper.class.php:139
-#, fuzzy
 msgid "no name"
 msgstr "без імені"
 
 #: /wa-apps/crm/lib/classes/reminder/crmRemindersRecap.class.php:121
-#, fuzzy
 msgid "Reminders daily recap"
-msgstr "Нагадування щоденний огляд"
+msgstr "Щоденний огляд нагадувань"
 
 #: /wa-apps/crm/lib/classes/deal/field/crmDealStringField.class.php:13
-#, fuzzy
 msgid "Not a string"
 msgstr "Не рядок"
 
 #: /wa-apps/crm/lib/classes/deal/field/crmDealSelectField.class.php:65
-#, fuzzy
 msgid "Unknown value"
 msgstr "Невідоме значення"
 
 #: /wa-apps/crm/lib/classes/deal/crmDealsExporter.class.php:267
 #: /wa-apps/crm/lib/actions/deal/export/crmDealExportProcess.controller.php:547
-#, fuzzy
 msgid "Create datetime"
-msgstr "Створити датачас помилка джерела"
+msgstr "Створити дату та час"
 
 #: /wa-apps/crm/lib/classes/deal/crmDealsExporter.class.php:271
 #: /wa-apps/crm/lib/actions/deal/export/crmDealExportProcess.controller.php:551
-#, fuzzy
 msgid "Expected date"
 msgstr "Очікувана дата"
 
@@ -7675,7 +7644,6 @@ msgstr "Очікувана дата"
 #: /wa-apps/crm/lib/config/search/search.php:662
 #: /wa-apps/crm/lib/config/search/search_crm.php:65
 #: /wa-apps/crm/lib/config/search/search_crm.php:105
-#, fuzzy
 msgid "Status"
 msgstr "Статус"
 
@@ -7687,23 +7655,19 @@ msgstr "Дата закриття"
 #: /wa-apps/crm/lib/classes/crmTemplates.class.php:50
 #: /wa-apps/crm/lib/config/data/templates.php:10
 #: /wa-apps/crm/lib/config/data/templates.php:23
-#, fuzzy
 msgid "Color"
 msgstr "Колір"
 
 #: /wa-apps/crm/lib/classes/crmTemplates.class.php:53
-#, fuzzy
 msgid "Image"
 msgstr "Зображення"
 
 #: /wa-apps/crm/lib/classes/crmTemplates.class.php:59
-#, fuzzy
 msgid "String"
 msgstr "Рядок"
 
 #: /wa-apps/crm/lib/classes/notification/crmNotificationInvoice.class.php:123
 #: /wa-apps/crm/lib/classes/crmNotification.class.php:658
-#, fuzzy
 msgid "An array containing information about the invoice"
 msgstr "Масив, що містить інформацію про рахунок"
 
@@ -7714,15 +7678,13 @@ msgstr "Масив, що містить відомості про товари �
 
 #: /wa-apps/crm/lib/classes/notification/crmNotificationInvoice.class.php:128
 #: /wa-apps/crm/lib/classes/crmNotification.class.php:661
-#, fuzzy
 msgid "Field %s of invoice"
-msgstr "Поле %з рахунку-фактури"
+msgstr "Поле %s рахунку-фактури"
 
 #: /wa-apps/crm/lib/classes/notification/crmNotificationInvoice.class.php:383
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:855
-#, fuzzy
 msgid "Field %s of company"
-msgstr "Поле %S від компанії"
+msgstr "Поле %s компанії"
 
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:398
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:746
@@ -7732,7 +7694,6 @@ msgstr "Системний за замовчуванням"
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:401
 #: /wa-apps/crm/templates/actions/settings/SettingsForm.inc.html:173
 #: /wa-apps/crm/templates/actions/settings/SettingsSourceEmailEditor.inc.html:99
-#, fuzzy
 msgid "Specified"
 msgstr "Вказаний"
 
@@ -7754,70 +7715,58 @@ msgstr "Вказаний"
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:902
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:903
 #: /wa-apps/crm/lib/classes/notification/crmNotification.class.php:909
-#, fuzzy
 msgid "Field %s of customer"
-msgstr "Поле %з клієнта"
+msgstr "Поле %s клієнта"
 
 #: /wa-apps/crm/lib/classes/notification/crmNotificationDeal.class.php:351
 #: /wa-apps/crm/lib/classes/notification/crmNotificationDeal.class.php:326
-#, fuzzy
 msgid "An array containing information about the deal"
 msgstr "Масив, що містить інформацію про угоду"
 
 #: /wa-apps/crm/lib/classes/notification/crmNotificationDeal.class.php:362
 #: /wa-apps/crm/lib/classes/notification/crmNotificationDeal.class.php:360
-#, fuzzy
 msgid "Field %s of deal"
-msgstr "Поле %S з інтернет"
+msgstr "Поле %s угоди"
 
 #: /wa-apps/crm/lib/config/app.php:3
 #: /wa-apps/crm/lib/config/search/search_crm.php:4
-#, fuzzy
 msgid "CRM"
-msgstr "CRM-системи"
+msgstr "CRM"
 
 #: /wa-apps/crm/lib/config/app.php:4
-#, fuzzy
 msgid "Webasyst CRM is excellent for managing your clients database and sales."
-msgstr "В Webasyst CRM є зручне для управління клієнтською базою та продажами."
+msgstr ""
+"Webasyst CRM — чудова для управління вашою клієнтською базою та продажами."
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:4
-#, fuzzy
 msgid "Mailer"
 msgstr "Розсилання"
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:7
-#, fuzzy
 msgid "Received campaigns"
 msgstr "Отримані кампанії"
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:15
-#, fuzzy
 msgid "Campaign"
 msgstr "Розсилка"
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:31
-#, fuzzy
 msgid "Bounced"
 msgstr "Відмови"
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:33
-#, fuzzy
 msgid "Read"
 msgstr "Прочитано"
 
 #: /wa-apps/crm/lib/config/search/search_mailer.php:34
-#, fuzzy
 msgid "Unsubscribed"
-msgstr "Отписались"
+msgstr "Відписались"
 
 #: /wa-apps/crm/lib/config/search/search_crm.php:7
-#, fuzzy
 msgid "Tagged"
-msgstr "Мічений"
+msgstr "Призначено тег"
 
 #: /wa-apps/crm/lib/config/search/search_crm.php:39
-#, fuzzy
 msgid "Participates in deals"
 msgstr "Бере участь в угодах"
 
@@ -7831,7 +7780,6 @@ msgstr "Бере участь в угодах"
 #: /wa-apps/crm/lib/config/search/search_shop.php:19
 #: /wa-apps/crm/lib/config/search/search_shop.php:79
 #: /wa-apps/crm/lib/config/search/search_crm.php:92
-#, fuzzy
 msgid "Period"
 msgstr "Період"
 
@@ -7844,70 +7792,57 @@ msgstr "Період"
 #: /wa-apps/crm/lib/config/search/search.php:503
 #: /wa-apps/crm/lib/config/search/search.php:628
 #: /wa-apps/crm/lib/config/search/search_crm.php:95
-#, fuzzy
 msgid "select a period"
 msgstr "оберіть період"
 
 #: /wa-apps/crm/lib/config/search/search_crm.php:87
 #: /wa-apps/crm/lib/config/search/search_crm.php:83
-#, fuzzy
 msgid "Has invoices"
-msgstr "Має накладні"
+msgstr "Має рахунки"
 
 #: /wa-apps/crm/lib/config/search/search_helpdesk.php:4
-#, fuzzy
 msgid "Helpdesk"
 msgstr "Служба підтримки"
 
 #: /wa-apps/crm/lib/config/search/search_helpdesk.php:7
-#, fuzzy
 msgid "Wrote requests"
 msgstr "Писав запити"
 
 #: /wa-apps/crm/lib/config/search/search_helpdesk.php:30
-#, fuzzy
 msgid "Current status"
 msgstr "Поточний стан"
 
 #: /wa-apps/crm/lib/config/search/search_helpdesk.php:44
-#, fuzzy
 msgid "Performed an action with requests"
-msgstr "Виконується дію з проханнями"
+msgstr "Виконав дію із запитами"
 
 #: /wa-apps/crm/lib/config/search/search_helpdesk.php:66
 #: /wa-apps/crm/lib/config/search/search.php:528
 #: /wa-apps/crm/lib/config/search/search.php:565
-#, fuzzy
 msgid "Action"
 msgstr "Дія"
 
 #: /wa-apps/crm/lib/config/search/search_blog.php:4
-#, fuzzy
 msgid "Blog"
 msgstr "Блог"
 
 #: /wa-apps/crm/lib/config/search/search_blog.php:7
-#, fuzzy
 msgid "Wrote posts"
-msgstr "Писав пости"
+msgstr "Написав пости"
 
 #: /wa-apps/crm/lib/config/search/search_blog.php:15
-#, fuzzy
 msgid "Lifetime"
 msgstr "Все життя"
 
 #: /wa-apps/crm/lib/config/search/search_blog.php:29
-#, fuzzy
 msgid "Wrote comments"
-msgstr "Написав комент"
+msgstr "Написав коментарі"
 
 #: /wa-apps/crm/lib/config/search/search_blog.php:37
-#, fuzzy
 msgid "To post"
 msgstr "Розміщувати"
 
 #: /wa-apps/crm/lib/config/search/search.php:5
-#, fuzzy
 msgid "Contact info"
 msgstr "Контактна інформація"
 
@@ -7929,108 +7864,88 @@ msgstr "Контактна інформація"
 #: /wa-apps/crm/lib/config/search/search.php:421
 #: /wa-apps/crm/lib/config/search/search.php:452
 #: /wa-apps/crm/lib/config/search/search.php:474
-#, fuzzy
 msgid "Not empty"
 msgstr "Не порожній"
 
 #: /wa-apps/crm/lib/config/search/search.php:143
-#, fuzzy
 msgid "Contact type"
 msgstr "Тип контакту"
 
 #: /wa-apps/crm/lib/config/search/search.php:288
-#, fuzzy
 msgid "today"
 msgstr "сьогодні"
 
 #: /wa-apps/crm/lib/config/search/search.php:292
-#, fuzzy
 msgid "today or tomorrow"
 msgstr "сьогодні або завтра"
 
 #: /wa-apps/crm/lib/config/search/search.php:296
-#, fuzzy
 msgid "in the nearest week"
 msgstr "у найближчий тиждень"
 
 #: /wa-apps/crm/lib/config/search/search.php:303
-#, fuzzy
 msgid "in the nearest month"
 msgstr "у найближчий місяць"
 
 #: /wa-apps/crm/lib/config/search/search.php:487
-#, fuzzy
 msgid "Creating method and date"
-msgstr "Створення методу і дата"
+msgstr "Метод створення та дата"
 
 #: /wa-apps/crm/lib/config/search/search.php:518
-#, fuzzy
 msgid "Activity"
 msgstr "Діяльність"
 
 #: /wa-apps/crm/lib/config/search/search.php:521
-#, fuzzy
 msgid "Performed an action"
-msgstr "Виконувані дії"
+msgstr "Виконав дію"
 
 #: /wa-apps/crm/lib/config/search/search.php:533
 #: /wa-apps/crm/lib/config/search/search.php:570
-#, fuzzy
 msgid "any action"
 msgstr "будь-яка дія"
 
 #: /wa-apps/crm/lib/config/search/search.php:557
-#, fuzzy
 msgid "Applied an action to"
-msgstr "Застосовувати дію для"
+msgstr "Застосовував дію до"
 
 #: /wa-apps/crm/lib/config/search/search.php:597
 msgid "Event participants"
 msgstr "Учасники заходу"
 
 #: /wa-apps/crm/lib/config/search/search.php:648
-#, fuzzy
 msgid "Forbidden"
 msgstr "Заборонено"
 
 #: /wa-apps/crm/lib/config/search/search.php:652
-#, fuzzy
 msgid "Customer portal only"
 msgstr "Лише особистий кабінет"
 
 #: /wa-apps/crm/lib/config/search/search.php:666
-#, fuzzy
 msgid "Online"
 msgstr "Онлайн"
 
 #: /wa-apps/crm/lib/config/search/search.php:676
-#, fuzzy
 msgid "Offline"
 msgstr "Офлайн"
 
 #: /wa-apps/crm/lib/config/search/search.php:681
-#, fuzzy
 msgid "Never logged in"
 msgstr "Ще не заходив"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:4
-#, fuzzy
 msgid "Shop"
 msgstr "Магазин"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:15
-#, fuzzy
 msgid "Placed orders"
-msgstr "Розміщені замовлення"
+msgstr "Розмістив замовлення"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:32
 #: /wa-apps/crm/lib/config/search/search_shop.php:101
-#, fuzzy
 msgid "Current state"
 msgstr "Поточний стан"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:41
-#, fuzzy
 msgid "Payment method"
 msgstr "Спосіб оплати"
 
@@ -8039,79 +7954,64 @@ msgid "Shipment method"
 msgstr "Варіант доставки"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:75
-#, fuzzy
 msgid "Purchased product"
-msgstr "Придбаний товар"
+msgstr "Придбав товар"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:92
-#, fuzzy
 msgid "Product"
 msgstr "Товар"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:116
-#, fuzzy
 msgid "Total spent"
-msgstr "Сума замовлень"
+msgstr "Усього витратив"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:120
-#, fuzzy
 msgid "Count only paid orders"
-msgstr "Зараховуються тільки сплачені замовлення"
+msgstr "Враховувати тільки сплачені замовлення"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:129
-#, fuzzy
 msgid "Number of orders"
 msgstr "Кількість замовлень"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:133
-#, fuzzy
 msgid "Last order"
-msgstr "Останні замовлення"
+msgstr "Останнє замовлення"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:138
-#, fuzzy
 msgid "First order"
 msgstr "Перше замовлення"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:147
-#, fuzzy
 msgid "Referer"
 msgstr "Реферер"
 
 #: /wa-apps/crm/lib/config/search/search_shop.php:151
-#, fuzzy
 msgid "Storefront"
 msgstr "Вітрина"
 
 #: /wa-apps/crm/lib/config/logs.php:5
-#, fuzzy
 msgid "added a new contact"
 msgstr "додав новий контакт"
 
 #: /wa-apps/crm/lib/config/logs.php:9
-#, fuzzy
 msgid "deleted contact"
 msgstr "видалив контакт"
 
 #: /wa-apps/crm/lib/config/logs.php:12
-#, fuzzy
 msgid "edited contact"
 msgstr "відредагував контакт"
 
 #: /wa-apps/crm/lib/config/logs.php:16
-#, fuzzy
 msgid "merged contacts"
 msgstr "об'єднав контакти"
 
 #: /wa-apps/crm/lib/config/logs.php:22
-#, fuzzy
 msgid "changed stage"
-msgstr "змінено етапі"
+msgstr "змінив етап"
 
 #: /wa-apps/crm/lib/config/logs.php:25
-#, fuzzy
 msgid "added contact to a deal"
-msgstr "додав контакт в інтернет"
+msgstr "додав контакт до угоди"
 
 #: /wa-apps/crm/lib/config/logs.php:28
 msgid "excluded deal participant"
@@ -8122,112 +8022,92 @@ msgid "remove deal owner"
 msgstr "видалив власника угоди"
 
 #: /wa-apps/crm/lib/config/logs.php:34 /wa-apps/crm/lib/config/logs.php:31
-#, fuzzy
 msgid "reopened deal"
-msgstr "відновлено справу"
+msgstr "відновив угоду"
 
 #: /wa-apps/crm/lib/config/logs.php:37 /wa-apps/crm/lib/config/logs.php:34
-#, fuzzy
 msgid "closed deal as won"
-msgstr "закриті угоди як ув'язненої"
+msgstr "закрив угоду як виграну"
 
 #: /wa-apps/crm/lib/config/logs.php:40 /wa-apps/crm/lib/config/logs.php:37
-#, fuzzy
 msgid "closed deal as lost"
-msgstr "закриті угоди як втратив"
+msgstr "закрив угоду як програно"
 
 #: /wa-apps/crm/lib/config/logs.php:43 /wa-apps/crm/lib/config/logs.php:40
-#, fuzzy
 msgid "edited deal"
-msgstr "редагувати операцію"
+msgstr "відредагував угоду"
 
 #: /wa-apps/crm/lib/config/logs.php:46 /wa-apps/crm/lib/config/logs.php:43
-#, fuzzy
 msgid "changed deal contact"
-msgstr "змінився інтернет-контакт"
+msgstr "змінив контакт в угоді"
 
 #: /wa-apps/crm/lib/config/logs.php:49
 msgid "changed deal owner"
 msgstr "змінив власника угоди"
 
 #: /wa-apps/crm/lib/config/logs.php:52 /wa-apps/crm/lib/config/logs.php:49
-#, fuzzy
 msgid "added reminder"
-msgstr "додано нагадування"
+msgstr "додав нагадування"
 
 #: /wa-apps/crm/lib/config/logs.php:55 /wa-apps/crm/lib/config/logs.php:52
-#, fuzzy
 msgid "marked reminder as done"
-msgstr "помітне нагадування як виконане"
+msgstr "помітив нагадування як виконане"
 
 #: /wa-apps/crm/lib/config/logs.php:58 /wa-apps/crm/lib/config/logs.php:55
-#, fuzzy
 msgid "marked reminder as active"
-msgstr "помітне нагадування як активний"
+msgstr "помітне нагадування як активне"
 
 #: /wa-apps/crm/lib/config/logs.php:61 /wa-apps/crm/lib/config/logs.php:58
-#, fuzzy
 msgid "added note"
-msgstr "додано Примітка"
+msgstr "додав примітку"
 
 #: /wa-apps/crm/lib/config/logs.php:64 /wa-apps/crm/lib/config/logs.php:61
-#, fuzzy
 msgid "edited note"
-msgstr "редагувати Примітка"
+msgstr "відредагував примітку"
 
 #: /wa-apps/crm/lib/config/logs.php:67 /wa-apps/crm/lib/config/logs.php:64
-#, fuzzy
 msgid "deleted note"
-msgstr "видаляються Примітка"
+msgstr "видалив примітку"
 
 #: /wa-apps/crm/lib/config/logs.php:70 /wa-apps/crm/lib/config/logs.php:67
-#, fuzzy
 msgid "added file"
 msgstr "додав файл"
 
 #: /wa-apps/crm/lib/config/logs.php:73 /wa-apps/crm/lib/config/logs.php:70
-#, fuzzy
 msgid "deleted file"
 msgstr "видалив файл"
 
 #: /wa-apps/crm/lib/config/logs.php:76 /wa-apps/crm/lib/config/logs.php:73
-#, fuzzy
 msgid "added funnel"
-msgstr "додано воронка"
+msgstr "додав воронку"
 
 #: /wa-apps/crm/lib/config/logs.php:79 /wa-apps/crm/lib/config/logs.php:76
-#, fuzzy
 msgid "edited funnel"
-msgstr "редагувати воронку"
+msgstr "відредагував воронку"
 
 #: /wa-apps/crm/lib/config/logs.php:82 /wa-apps/crm/lib/config/logs.php:79
-#, fuzzy
 msgid "added invoice"
-msgstr "додано накладної"
+msgstr "додав рахунок"
 
 #: /wa-apps/crm/lib/config/logs.php:85 /wa-apps/crm/lib/config/logs.php:82
-#, fuzzy
 msgid "issued invoice"
-msgstr "виставлений рахунок-фактуру"
+msgstr "виставив рахунок"
 
 #: /wa-apps/crm/lib/config/logs.php:88 /wa-apps/crm/lib/config/logs.php:85
 msgid "created signup form"
 msgstr "створив форму реєстрації"
 
 #: /wa-apps/crm/lib/config/logs.php:91 /wa-apps/crm/lib/config/logs.php:88
-#, fuzzy
 msgid "filled form"
-msgstr "заповнена форма"
+msgstr "заповнив форму"
 
 #: /wa-apps/crm/lib/config/logs.php:95 /wa-apps/crm/lib/config/logs.php:92
-#, fuzzy
 msgid "sent message"
-msgstr "надіслане повідомлення"
+msgstr "надіслав повідомлення"
 
 #: /wa-apps/crm/lib/config/logs.php:98 /wa-apps/crm/lib/config/logs.php:95
-#, fuzzy
 msgid "called"
-msgstr "називається"
+msgstr "подзвонив"
 
 #: /wa-apps/crm/lib/config/logs.php:101
 msgid "changed contact owner"
@@ -8242,32 +8122,28 @@ msgstr[1] "%d години"
 msgstr[2] "%d годин"
 
 #: /wa-apps/crm/lib/config/data/templates/invoice.template_b.html:38
-#, fuzzy
 msgid "issued at"
-msgstr "виданий на"
+msgstr "видано на"
 
 #: /wa-apps/crm/lib/config/data/templates/reminder_daily.en_US.html:1
 msgid "Hi %s,"
 msgstr "Привіт, %s,"
 
 #: /wa-apps/crm/lib/config/data/templates/reminder_daily.en_US.html:2
-#, fuzzy
 msgid ""
 "Here is your <a href=\"%swebasyst/crm/reminder/\">daily recap</a> for %s:"
 msgstr ""
-"Ось вам <а href=\"%swebasyst/УВП/нагадування/\">щоденний огляд</a> для % - "
-"ов:"
+"Ось ваш <a href=\"%swebasyst/crm/reminder/\">щоденний огляд нагадувань</a> "
+"для %s:"
 
 #: /wa-apps/crm/lib/config/data/templates/reminder_daily.en_US.html:7
-#, fuzzy
 msgid "<strong>%s</strong> on %s"
-msgstr "<сильний>%</сильний> %S"
+msgstr "<strong>%s</strong> на %s"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:6
 #: /wa-apps/crm/lib/config/crmConfig.class.php:15
-#, fuzzy
 msgid "Invoice issued"
-msgstr "Рахунок-фактура виданий"
+msgstr "Рахунок виставлено"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:14
 #: /wa-apps/crm/lib/config/crmConfig.class.php:16
@@ -8276,129 +8152,108 @@ msgstr "Оплата накладної"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:22
 #: /wa-apps/crm/lib/config/crmConfig.class.php:17
-#, fuzzy
 msgid "Invoice canceled"
 msgstr "Рахунок анульований"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:30
 #: /wa-apps/crm/lib/config/crmConfig.class.php:18
-#, fuzzy
 msgid "Invoice expired"
-msgstr "Накладної минув"
+msgstr "Рахунок сплив"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:38
 msgid "Customer birthday"
 msgstr "День народження клієнта"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:46
-#, fuzzy
 msgid "Deal stage overdue"
-msgstr "Етапі угоди прострочені"
+msgstr "Етап угоди прострочено"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:55
-#, fuzzy
 msgid "Deal create"
-msgstr "Інтернет-створення"
+msgstr "Створити угоду"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:64
 msgid "Deal move"
 msgstr "Перемістити угоду"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:73
-#, fuzzy
 msgid "Deal won"
-msgstr "Угоди виграли"
+msgstr "Угоду виграно"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:82
-#, fuzzy
 msgid "Deal lost"
-msgstr "Угода"
+msgstr "Угоду програно"
 
 #: /wa-apps/crm/lib/config/data/notifications.php:91
-#, fuzzy
 msgid "Deal restore"
-msgstr "Справа відновлення"
+msgstr "Угоду відновлено"
 
 #: /wa-apps/crm/lib/config/data/templates.php:5
-#, fuzzy
 msgid "Variant A"
-msgstr "Варіант"
+msgstr "Варіант А"
 
 #: /wa-apps/crm/lib/config/data/templates.php:18
-#, fuzzy
 msgid "Variant B"
 msgstr "Варіант Б"
 
 #: /wa-apps/crm/lib/config/data/template_info.php:73
 #: /wa-apps/crm/lib/config/data/template_info.php:58
-#, fuzzy
 msgid "non-working_public_link"
-msgstr "не working_public_link"
+msgstr "non-working_public_link"
 
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:23
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:17
-#, fuzzy
 msgid "Can edit or delete contacts added by other users"
 msgstr "Може редагувати або видаляти контакти, додані іншими користувачами"
 
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:32
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:25
-#, fuzzy
 msgid "Access to funnels"
 msgstr "Доступ до воронок"
 
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:50
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:45
-#, fuzzy
 msgid "Access to vaults"
 msgstr "Доступ до сховищ"
 
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:60
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:52
-#, fuzzy
 msgid "Can manage invoices"
-msgstr "Можете керувати фактури"
+msgstr "Може керувати рахунками"
 
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:63
 #: /wa-apps/crm/lib/config/crmRightConfig.class.php:62
-#, fuzzy
 msgid "Only own invoices"
-msgstr "Тільки власні рахунки-фактури"
+msgstr "Тільки власні рахунки"
 
 #: /wa-apps/crm/lib/config/crmConfig.class.php:339
 #: /wa-apps/crm/lib/classes/crmInstaller.class.php:197
-#, fuzzy
 msgid "Lead In"
-msgstr "Привести У"
+msgstr "Первинний контакт"
 
 #: /wa-apps/crm/lib/config/crmConfig.class.php:340
 #: /wa-apps/crm/lib/classes/crmInstaller.class.php:198
-#, fuzzy
 msgid "Needs Defining"
-msgstr "Визначення Потреб"
+msgstr "Визначення потреб"
 
 #: /wa-apps/crm/lib/config/crmConfig.class.php:341
 #: /wa-apps/crm/lib/classes/crmInstaller.class.php:199
-#, fuzzy
 msgid "Working with objections"
 msgstr "Робота з запереченнями"
 
 #: /wa-apps/crm/lib/config/crmConfig.class.php:342
 #: /wa-apps/crm/lib/classes/crmInstaller.class.php:200
-#, fuzzy
 msgid "Proposal Making"
-msgstr "Пропозиція Робити"
+msgstr "Пропозиція"
 
 #: /wa-apps/crm/lib/config/crmConfig.class.php:343
 #: /wa-apps/crm/lib/classes/crmInstaller.class.php:201
-#, fuzzy
 msgid "Conditions Approval"
-msgstr "Умови Затвердження"
+msgstr "Затвердження умов"
 
 #: /wa-apps/crm/templates/actions/call/Call.html:5
-#, fuzzy
 msgid "Раздел в стадии разработки"
-msgstr "Розділ в стадії розробки"
+msgstr "Розділ у стадії розробки"
 
 #: /wa-apps/crm/templates/actions/contact/Contact.list.html:208
 #, fuzzy
