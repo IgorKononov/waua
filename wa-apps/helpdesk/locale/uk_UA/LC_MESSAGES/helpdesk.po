@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /wa-apps/helpdesk/templates/layouts/Mobile.html:6
 #: /wa-apps/helpdesk/templates/layouts/Backend.html:5
@@ -622,62 +622,52 @@ msgstr "Зворотній зв'язок в одне торкання"
 
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:171
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:191
-#, fuzzy
 msgid "Add a snippet in your email template that will allow recipient with just one click to select a value for pull down or checkbox field. This field must exist in your Helpdesk app (refer to the Field constructor section) and be available for clients in their customer portals. Recipients will be redirected to their customer portals. This option can be used for quick evaluation of the request reply by your customers."
-msgstr "Додати фрагмент коду в ваш шаблон електронної пошти, який дозволить одержувачу за допомогою лише одного кліка, щоб вибрати значення для тяги вниз або прапорець. Це поле повинно існувати в додатку в службу підтримки (див. розділ конструктор полів) і бути доступними для клієнтів у клієнтських порталів. Одержувачі будете перенаправлені на своїх клієнтських порталів. Ця опція може бути використана для швидкої оцінки запиту відповісти на ваші клієнти."
+msgstr "Додайте фрагмент у вашому шаблоні електронної пошти, який дозволить одержувачу обрати значення селектора або пропорця лише одним клацанням миші. Це поле має існувати у додатку «Підтримка» (див. конструктор полів) і бути доступним для клієнтів у їх особистих кабінетах. Одержувачів буде перенаправлено до їх особистих кабінетів. Ця опція може бути застосована для швидкої оцінки відповіді на запити вашими клієнтами."
 
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:189
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:206
-#, fuzzy
 msgid "There are no appropriate fields"
 msgstr "Немає відповідних полів"
 
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:205
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:171
-#, fuzzy
 msgid "Include attachments"
 msgstr "Включати вкладення"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:2
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:1
-#, fuzzy
 msgid "Add a new action"
-msgstr "Додати нове дія"
+msgstr "Додати нову дію"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:13
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:8
-#, fuzzy
 msgid "Add existing actions from other states, which are not used in the current state:"
-msgstr "Додати існуючі дії з боку інших держав, які не використовуються в поточному стані:"
+msgstr "Додати існуючі дії з інших статусів, які не використовуються у поточному статусі:"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:30
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:29
-#, fuzzy
 msgid "Create a new action to be performed by user"
-msgstr "Створіть нове завдання, яке буде виконано користувачем"
+msgstr "Створіть нову дію, яка буде виконуватись користувачем"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:33
 #: /wa-apps/helpdesk/lib/workflow/templates/choose_action_type.include.html:9
-#, fuzzy
 msgid "Users perform this action manually on the request's page or in their Customer portals."
-msgstr "Ця операція виконується вручну за запитом або у їх клієнтських порталів."
+msgstr "Ця операція виконується користувачем вручну на сторінці запиту у його особистому кабінеті."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:40
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:38
-#, fuzzy
 msgid "Create a new action to be performed automatically"
-msgstr "Створіть нову дію, яка виконуватиметься автоматично"
+msgstr "Створити нову дію, яка виконуватиметься автоматично"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:43
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:7
 #: /wa-apps/helpdesk/lib/workflow/templates/choose_action_type.include.html:17
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:76
-#, fuzzy
 msgid "This action will be triggered automatically (by time-out) if no other actions are performed with request during a certain period of time."
-msgstr "Це дія буде викликаний автоматично (по часу), якщо ніякі інші дії виконуються з проханням протягом певного періоду часу."
+msgstr "Це дія буде викликана автоматично (по часу), якщо ніякі інші дії із запитом не виконуються протягом певного періоду часу."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:117
-#, fuzzy
 msgid "Proceed"
 msgstr "Продовжити"
 
@@ -687,7 +677,6 @@ msgstr "Продовжити"
 #: /wa-apps/helpdesk/lib/actions/editor/helpdeskEditorNewaction.action.php:129
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:66
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:571
-#, fuzzy
 msgid "Delete this action"
 msgstr "Видалити цю дію"
 
@@ -695,29 +684,24 @@ msgstr "Видалити цю дію"
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:755
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:66
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:561
-#, fuzzy
 msgid "The action will be eliminated only for the state &ldquo;%s&rdquo;. For other states this action will stay available."
-msgstr "Акції будуть виключені тільки для держави і ldquo;%S&raquo;. Для інших держав ця дія буде залишатися доступною."
+msgstr "Дію буде виключено тільки для статусу &ldquo;%s&rdquo;. У інших статусах ця дія буде залишатися доступною."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorPalette.html:13
-#, fuzzy
 msgid "more..."
 msgstr "детальніше..."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:2
-#, fuzzy
 msgid "Create new state"
-msgstr "Створити нову державу"
+msgstr "Створити статус"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:4
-#, fuzzy
 msgid "Edit state"
-msgstr "Редагувати держави"
+msgstr "Редагувати статус"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:12
 #: /wa-apps/helpdesk/templates/actions/filters/FiltersDialog.html:9
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:13
-#, fuzzy
 msgid "Name "
 msgstr "Назва "
 
@@ -727,13 +711,11 @@ msgstr "Назва "
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:46
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:58
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:17
-#, fuzzy
 msgid "ID:"
 msgstr "Ідентифікатор:"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:22
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:23
-#, fuzzy
 msgid "ID "
 msgstr "Ідентифікатор "
 
@@ -745,29 +727,24 @@ msgstr "Ідентифікатор "
 #: /wa-apps/helpdesk/lib/config/install.php:46
 #: /wa-apps/helpdesk/lib/sources/helpdeskCustomerportalSourceType.class.php:9
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:97
-#, fuzzy
 msgid "Customer portal"
-msgstr "Клієнтський портал"
+msgstr "Особистий кабінет"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:38
-#, fuzzy
 msgid "If enabled, requests in this status are available for clients in their Customer Portal."
-msgstr "Якщо увімкнено, запити в даному статусі доступні для клієнтів у клієнтський портал."
+msgstr "Якщо увімкнено, запити в даному статусі доступні клієнтам у їх особистих кабінетах."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:42
-#, fuzzy
 msgid "Name of this state in the Customer Portal:"
-msgstr "Назва цієї держави портал підтримки:"
+msgstr "Назва цього статусу у особистому кабінеті:"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:50
-#, fuzzy
 msgid "Color"
 msgstr "Колір"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:56
-#, fuzzy
 msgid "Selected color will be used to display this state name."
-msgstr "Вибраний колір буде використовуватися для відображення цього стану ім'я."
+msgstr "Обраний колір буде використовуватися для відображення назви цього стану."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:66
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:209
@@ -776,47 +753,40 @@ msgstr "Вибраний колір буде використовуватися 
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:646
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:64
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:102
-#, fuzzy
 msgid "Actions"
 msgstr "Дії"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:76
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:74
-#, fuzzy
 msgid "Action buttons will be shown in this order on request page."
-msgstr "Кнопки дія буде показано в такому порядку на сторінці запиту."
+msgstr "Кнопки з діями буде показано на сторінці запиту в такому порядку."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:77
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:75
-#, fuzzy
 msgid "To change the order simply drag action names in the list."
 msgstr "Для зміни порядку просто перетягніть назви дій у списку."
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:80
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:78
-#, fuzzy
 msgid "No actions are specified for this state"
-msgstr "Ніякі дії не зазначений в цьому стані"
+msgstr "Для цього статусу не призначено дій"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:197
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:194
-#, fuzzy
 msgid "Delete this state"
-msgstr "Видаліть цього стану"
+msgstr "Видалити цей статус"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:235
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:410
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:232
-#, fuzzy
 msgid "Off"
-msgstr "Від"
+msgstr "Вимкнено"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:236
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:409
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:233
-#, fuzzy
 msgid "On"
-msgstr "На"
+msgstr "Увімкнено"
 
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:198
 #: /wa-apps/helpdesk/templates/actions/editor/EditorState.html:195
@@ -837,7 +807,6 @@ msgstr "назад"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:9
 #: /wa-apps/helpdesk/js/wa.grid.js:399 /wa-apps/helpdesk/js/wa.grid.js:407
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:6
-#, fuzzy
 msgid "of"
 msgstr "з"
 
@@ -846,7 +815,6 @@ msgstr "з"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:9
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:47
 #: /wa-apps/helpdesk/js/wa.grid.js:212
-#, fuzzy
 msgid "next"
 msgstr "далі"
 
@@ -863,7 +831,6 @@ msgstr "далі"
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:44
 #: /wa-apps/helpdesk/js/wa.grid.js:142
 #: /wa-apps/helpdesk/themes/default/my.requestlist.html:32
-#, fuzzy
 msgid "Status"
 msgstr "Статус"
 
@@ -875,7 +842,6 @@ msgstr "Статус"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:159
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:161
 #: /wa-apps/helpdesk/lib/classes/helpdeskHelper.class.php:401
-#, fuzzy
 msgid "Assigned:"
 msgstr "Призначено:"
 
@@ -889,7 +855,6 @@ msgstr "Призначено:"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:161
 #: /wa-apps/helpdesk/lib/actions/backend/helpdeskBackendSidebar.action.php:201
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:246
-#, fuzzy
 msgid "group"
 msgstr "група"
 
@@ -898,15 +863,13 @@ msgstr "група"
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:51
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:1258
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:31
-#, fuzzy
 msgid "Follow"
-msgstr "Слідуйте"
+msgstr "Стежити"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:86
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:35
-#, fuzzy
 msgid "unmark"
-msgstr "зняти"
+msgstr "зняти помітку"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:116
 #: /wa-apps/helpdesk/js/wa.grid.js:620 /wa-apps/helpdesk/js/wa.grid.js:641
@@ -914,7 +877,6 @@ msgstr "зняти"
 #: /wa-apps/helpdesk/js/wa.grid.js:549 /wa-apps/helpdesk/js/wa.grid.js:570
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:58
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:59
-#, fuzzy
 msgid "ago"
 msgstr "тому"
 
@@ -924,28 +886,24 @@ msgstr "тому"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:53
 #: /wa-apps/helpdesk/js/wa.grid.js:551
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:58
-#, fuzzy
 msgid "via"
 msgstr "через"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:129
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:84
-#, fuzzy
 msgid "Click to edit subject"
-msgstr "Натисніть, щоб змінити тему"
+msgstr "Натисніть, аби редагувати тему"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:155
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:1407
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:58
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:70
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:204
-#, fuzzy
 msgid "<no name>"
-msgstr "<без імені>"
+msgstr "<немає імені>"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:188
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:81
-#, fuzzy
 msgid "no link to contact"
 msgstr "немає посилання на контакт"
 
@@ -953,25 +911,21 @@ msgstr "немає посилання на контакт"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:355
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:152
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:213
-#, fuzzy
 msgid "Download original email"
-msgstr "Завантажити оригінальне лист"
+msgstr "Завантажити оригінальний email"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:279
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:203
-#, fuzzy
 msgid "Old subject"
-msgstr "Стару тему"
+msgstr "Стара тема"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:284
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:252
-#, fuzzy
 msgid "New subject"
-msgstr "Нову тему"
+msgstr "Нова тема"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:290
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:256
-#, fuzzy
 msgid "Old workflow"
 msgstr "Старий робочий процес"
 
@@ -979,7 +933,6 @@ msgstr "Старий робочий процес"
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:292
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflowEdit.html:7
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:208
-#, fuzzy
 msgid "New workflow"
 msgstr "Новий робочий процес"
 
