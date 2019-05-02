@@ -938,7 +938,6 @@ msgstr "Новий робочий процес"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:330
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:280
-#, fuzzy
 msgid "Message sent:"
 msgstr "Повідомлення надіслано:"
 
@@ -946,35 +945,30 @@ msgstr "Повідомлення надіслано:"
 #: /wa-apps/helpdesk/lib/classes/helpdeskSendMessages.class.php:392
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequest.class.php:942
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:302
-#, fuzzy
 msgid "creates request"
 msgstr "створює запит"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:420
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:344
-#, fuzzy
 msgid "Request has been changed"
-msgstr "Запит був змінений"
+msgstr "Запит було змінено"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:421
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:243
-#, fuzzy
 msgid "Please <a>reload the page</a>."
-msgstr "Будь ласка, <a>оновити сторінку</a>."
+msgstr "Будь ласка <a>, оновіть сторінку</a>."
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:435
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:1214
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:376
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:873
-#, fuzzy
 msgid "All tags"
-msgstr "Всі теги"
+msgstr "Усі теги"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:436
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:377
-#, fuzzy
 msgid "Select tags for this request"
-msgstr "Виберіть теги для даного запиту"
+msgstr "Оберіть теги для даного запиту"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:748
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:751
@@ -982,15 +976,13 @@ msgstr "Виберіть теги для даного запиту"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:327
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:330
 #: /wa-apps/helpdesk/themes/default/my.requestpage.html:124
-#, fuzzy
 msgid "Display original message"
-msgstr "Відображення вихідного повідомлення"
+msgstr "Показати вихідне повідомлення"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:754
 #: /wa-apps/helpdesk/themes/default/my.requestpage.html:197
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:333
 #: /wa-apps/helpdesk/themes/default/my.requestpage.html:127
-#, fuzzy
 msgid "Hide original message"
 msgstr "Приховати вихідне повідомлення"
 
@@ -998,17 +990,15 @@ msgstr "Приховати вихідне повідомлення"
 #: /wa-apps/helpdesk/js/wa.controller.js:490
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:611
 #: /wa-apps/helpdesk/js/wa.controller.js:483
-#, fuzzy
 msgid "Follow mark"
-msgstr "Слідкуйте за Марка"
+msgstr "Відмітка стеження"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:859
 #: /wa-apps/helpdesk/js/wa.controller.js:492
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:611
 #: /wa-apps/helpdesk/js/wa.controller.js:485
-#, fuzzy
 msgid "After you set \"Follow\" mark, next time someone performs an action with this request it will appear as \"Unread\" for you and you will receive email notification about this action. So you will be able to follow all further activity related to this request."
-msgstr "Після установки \"слідувати\" Марк, наступного разу хтось виконує дію з цим проханням він буде виглядати як \"непрочитані\" для вас і ви отримуватимете повідомлення електронною поштою цієї акції. Так ви зможете стежити за всі подальші дії, пов'язані з цим запитом."
+msgstr "Після установки відмітки стеження , коли наступного разу хтось виконає дію з цим запитом, для вас його буде помічено як \"непрочитаний\" і ви отримаєте повідомлення про цю дію електронною поштою. Так ви зможете стежити за усіма подальшими діями, що пов'язані із цим запитом."
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:860
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:543
@@ -1017,28 +1007,24 @@ msgstr "Більше не показувати це повідомлення"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:865
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:548
-#, fuzzy
 msgid "Set mark"
-msgstr "Набір Марк"
+msgstr "Встановити помітку"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:902
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:431
-#, fuzzy
 msgid "Are you sure to remove this request from database completely?"
-msgstr "Ви впевнені, що хочете видалити цей запит з бази даних?"
+msgstr "Ви впевнені, що хочете повністю видалити цей запит з бази даних?"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:1175
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:518
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:725
-#, fuzzy
 msgid "Add tag"
 msgstr "Додати тег"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:1229
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:991
-#, fuzzy
 msgid "Rotate left"
-msgstr "Поворот наліво"
+msgstr "Повернути вліво"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:1230
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:992
@@ -1048,7 +1034,6 @@ msgstr "Повернути вправо"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:184
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:297
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:78
-#, fuzzy
 msgid "Anonymous"
 msgstr "Анонімний"
 
@@ -1056,15 +1041,13 @@ msgstr "Анонімний"
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:73
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:40
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:2
-#, fuzzy
 msgid "Advanced search"
 msgstr "Розширений пошук"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:17
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:13
-#, fuzzy
 msgid "New filter is easy to create using search function. To do so, use <strong>Save as filter</strong> option on the search results page."
-msgstr "Новий фільтр легко створити за допомогою функції пошуку. Для цього використовуйте <сильний>Зберегти як фільтр</strong> на сторінці результатів пошуку."
+msgstr "Новий фільтр легко створити за допомогою функції пошуку. Для цього використовуйте опцію <strong>Зберегти як фільтр</strong> на сторінці результатів пошуку."
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:20
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:533
@@ -1083,7 +1066,6 @@ msgstr "Ідентифікатор запиту"
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:441
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:444
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:450
-#, fuzzy
 msgid "Create date"
 msgstr "Дата створення"
 
@@ -1096,16 +1078,14 @@ msgstr "Ім'я клієнта"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:61
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:512
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:32
-#, fuzzy
 msgid "Client email"
-msgstr "Клієнт електронної пошти"
+msgstr "Email клієнта"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:67
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:70
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:851
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsInfo.html:30
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:38
-#, fuzzy
 msgid "Source"
 msgstr "Джерело"
 
@@ -1126,15 +1106,13 @@ msgstr "Джерело"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:137
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:161
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:443
-#, fuzzy
 msgid "select"
-msgstr "виберіть"
+msgstr "оберіть"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:87
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:53
-#, fuzzy
 msgid "Search requests that were added via selected sources"
-msgstr "Пошукові запити, які були додані через обраних джерел"
+msgstr "Пошукові запити, які були додані через обрані джерела"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:93
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:97
@@ -1145,52 +1123,45 @@ msgstr "Пошукові запити, які були додані через �
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:77
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:192
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:201
-#, fuzzy
 msgid "State"
-msgstr "Держава"
+msgstr "Статус"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:124
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:153
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:88
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:106
-#, fuzzy
 msgid "Search requests that are currently in selected states"
-msgstr "Пошукові запити, які в даний час в окремих державах"
+msgstr "Пошукові запити, які на даний час знаходяться у обраних статусах"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:160
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:163
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:1028
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:1034
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:96
-#, fuzzy
 msgid "Assigned to"
-msgstr "Призначені"
+msgstr "Призначено користувачеві"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:180
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:117
-#, fuzzy
 msgid "Search by users who have open assignments now"
-msgstr "Пошук по користувачам, які мають відкриті завдання зараз"
+msgstr "Пошук по користувачам, які наразі мають відкриті призначення"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:186
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:189
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:584
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:122
-#, fuzzy
 msgid "Actor"
-msgstr "Актор"
+msgstr "Діюча особа"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:203
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:139
-#, fuzzy
 msgid "Search by users who performed actions with requests"
 msgstr "Пошук по користувачам, які виконували дії з запитами"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:235
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:187
-#, fuzzy
 msgid "Search requests that were ever subjected to selected actions"
-msgstr "Пошукових запитів, які коли-небудь були піддані деякі дії"
+msgstr "Пошукові запити, які коли-небудь були піддані обраним діям"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:241
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:244
@@ -1202,46 +1173,39 @@ msgstr "Пошукових запитів, які коли-небудь були
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:618
 #: /wa-apps/helpdesk/lib/classes/helpdeskHelper.class.php:743
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:131
-#, fuzzy
 msgid "Tags"
 msgstr "Теги"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:258
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:210
-#, fuzzy
 msgid "Search requests that have selected tags assigned"
-msgstr "Пошукові запити, які мають вибрані теги призначається"
+msgstr "Пошукові запити, яким призначено обрані теги"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:264
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:119
-#, fuzzy
 msgid "Words"
 msgstr "Слова"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:270
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:176
-#, fuzzy
 msgid "Search in request subject"
-msgstr "Пошук за запитом суб'єкта"
+msgstr "Шукати у темі запиту"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:273
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:125
-#, fuzzy
 msgid "Search in request subject and text"
-msgstr "Пошук за запитом тема і текст"
+msgstr "Шукати у темі та тексті запиту"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:276
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:128
-#, fuzzy
 msgid "Search in discussion, comments and response to client"
-msgstr "Пошук в обговореннях, коментарях і відповідь клієнту"
+msgstr "Пошук в обговореннях, коментарях та відповідях клієнтам"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:305
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflow.class.php:622
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:447
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:267
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:445
-#, fuzzy
 msgid "Yes"
 msgstr "Так"
 
@@ -1250,13 +1214,11 @@ msgstr "Так"
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:447
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:268
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestsCollection.class.php:445
-#, fuzzy
 msgid "No"
-msgstr "Немає"
+msgstr "Ні"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:322
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:140
-#, fuzzy
 msgid "Search"
 msgstr "Пошук"
 
@@ -1264,9 +1226,8 @@ msgstr "Пошук"
 #: /wa-apps/helpdesk/js/wa.history.js:26
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:54
 #: /wa-apps/helpdesk/js/wa.history.js:24
-#, fuzzy
 msgid "Clear"
-msgstr "Зрозуміло"
+msgstr "Очистити"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:490
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:496
