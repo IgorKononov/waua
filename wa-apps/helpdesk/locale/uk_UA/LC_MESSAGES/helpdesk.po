@@ -1233,15 +1233,13 @@ msgstr "Очистити"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:496
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:325
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:331
-#, fuzzy
 msgid "Words to search must be %d or more characters each"
-msgstr "Слова для пошуку потрібно %D символів"
+msgstr "У словах для пошуку має бути %d символів або більше"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:620
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:536
-#, fuzzy
 msgid "No options available"
-msgstr "Немає варіантів"
+msgstr "Немає доступних варіантів"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsAdd.html:9
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:5
@@ -1255,17 +1253,14 @@ msgstr "Немає варіантів"
 #: /wa-apps/helpdesk/themes/default/home.html:3
 #: /wa-apps/helpdesk/themes/default/my.newrequest.html:5
 #: /wa-apps/helpdesk/themes/default/my.requestlist.html:23
-#, fuzzy
 msgid "New request"
 msgstr "Новий запит"
 
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsAdd.html:34
-#, fuzzy
 msgid "select another form"
-msgstr "виберіть іншу форму"
+msgstr "оберіть іншу форму"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendAdditionalFields.html:3
-#, fuzzy
 msgid "Additional request parameters:"
 msgstr "Додаткові параметри запиту:"
 
@@ -1278,7 +1273,6 @@ msgstr "форма за замовчуванням"
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:43
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:111
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:29
-#, fuzzy
 msgid "Unread "
 msgstr "Непрочитані "
 
@@ -1291,61 +1285,52 @@ msgstr "Непрочитані "
 #: /wa-apps/helpdesk/lib/actions/backend/helpdeskBackendSidebar.action.php:156
 #: /wa-apps/helpdesk/lib/actions/settings/helpdeskSettingsSidebar.action.php:115
 #: /wa-apps/helpdesk/lib/config/install.php:95
-#, fuzzy
 msgid "All requests"
 msgstr "Усі запити"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:71
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:38
-#, fuzzy
 msgid "search by request, name, or email"
-msgstr "пошук за запитом, імені або адресу електронної пошти"
+msgstr "пошук за запитом, іменем або адресою електронної пошти"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:72
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:39
-#, fuzzy
 msgid "History"
 msgstr "Історія"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:135
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:126
-#, fuzzy
 msgid "No states available."
-msgstr "Ніяка держава не доступний."
+msgstr "Немає доступних статусів."
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:191
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:76
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:137
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:135
-#, fuzzy
 msgid "My filters"
 msgstr "Мої фільтри"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:220
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:95
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:154
-#, fuzzy
 msgid "New filter"
 msgstr "Новий фільтр"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:235
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:178
-#, fuzzy
 msgid "Admin"
-msgstr "Адмін"
+msgstr "Адміністратор"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:256
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:176
-#, fuzzy
 msgid "Design"
 msgstr "Дизайн"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:262
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:4
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:155
-#, fuzzy
 msgid "Cron Job"
-msgstr "Хрон"
+msgstr "Завдання cron"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:269
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:205
@@ -1354,21 +1339,18 @@ msgstr "Конструктор полів"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:272
 #: /wa-apps/helpdesk/themes/default/header.html:10
-#, fuzzy
 msgid "FAQ"
-msgstr "Чаво"
+msgstr "FAQ"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:277
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:205
-#, fuzzy
 msgid "Workflows"
 msgstr "Робочі процеси"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:279
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:297
-#, fuzzy
 msgid "Sources, states and actions with requests are customized separately for every workflow."
-msgstr "Джерел, станів і дій з проханнями налаштовуються окремо для кожного робочого процесу."
+msgstr "Джерела, стани та дії із запитами налаштовуються окремо для кожного робочого процесу."
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:4
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:14
@@ -1378,14 +1360,12 @@ msgid "Change state"
 msgstr "Змінити стан"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:11
-#, fuzzy
 msgid "Selected state will be set for %s requests."
-msgstr "Вибране стан буде встановити для %S запити."
+msgstr "Обраний стан буде встановлено для %s запитів."
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:28
-#, fuzzy
 msgid "Selected assignment will be set for %s requests."
-msgstr "Вибране завдання буде встановити для %S запити."
+msgstr "Обране призначення буде встановлено для %s запитів."
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:54
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:860
@@ -1401,57 +1381,48 @@ msgstr "Вибране завдання буде встановити для %S 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendBulk.html:52
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:66
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:128
-#, fuzzy
 msgid "Are you sure?"
 msgstr "Ви впевнені?"
 
 #: /wa-apps/helpdesk/templates/actions/backend/BackendContactInfo.html:15
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:36
-#, fuzzy
 msgid "Show all fields"
 msgstr "Показати всі поля"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:12
-#, fuzzy
 msgid "No <tt>cron</tt> job required for automated email capture and execution of auto actions in your workflow is set up for your account."
-msgstr "Немає <ТТ>крон</TT> роботи, необхідні для автоматизованого введення електронної пошти та виконання автоматичних дій в робочий процес налаштований на ваш рахунок."
+msgstr "У вашому акаунті не налаштоване завдання <tt>cron</tt>, яке потрібне для автоматичного отримання email та виконання автоматичних дій у вашому робочому процесі."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:16
-#, fuzzy
 msgid "Without a <tt>cron</tt> job set up, new mail is captured and new requests are received only as long as you keep Helpdesk open in your browser. Auto actions in your workflow are not triggered in this case."
-msgstr "<ТТ>крон</TT> налаштування роботи, захоплюють нові повідомлення, і нові запити приймаються тільки до тих пір, як ви тримаєте довідкової служби відкрито у вашому браузері. Автоматичні дії в робочому процесі не спрацьовує у цьому випадку."
+msgstr "Без налаштованого завдання <tt>cron</tt>, отримання нових email та запитів виконується тільки коли «Підтримку» відкрито у вашому браузері. Автоматичні дії у робочому процесі у цьому разі не виконуються."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:29
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:37
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:27
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:35
-#, fuzzy
 msgid "Last execution time:"
-msgstr "Останнім часом виконання:"
+msgstr "Останній час виконання:"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:36
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:34
-#, fuzzy
 msgid "<tt>cron</tt> job is set up properly."
-msgstr "<ТТ>крон</TT> завдання правильно."
+msgstr "Завдання <tt>cron</tt> налаштоване правильно."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:21
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:43
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsCron.html:41
-#, fuzzy
 msgid "http://www.webasyst.com/framework/docs/server/cron/"
-msgstr "http://www.webasyst.com/framework/docs/server/cron/"
+msgstr "https://developers.webasyst.ru/docs/installation/tips/cron/"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:10
-#, fuzzy
 msgid "Customer Portal is a personal page available for clients sending requests to your Helpdesk. On this page customers can see all their requests, check status of any request, add a new request, and etc. Clients must log in to your website to access their customer portal."
-msgstr "Портал клієнта є персональній сторінці доступний для клієнтів, які надсилають запити до служби підтримки. На цій сторінці користувачі можуть бачити всі свої запити, перевірити стан запиту, додати новий запит, і т. д. Клієнтам необхідно увійти в свій сайт доступ до порталу підтримки."
+msgstr "Особистий кабінет — це персональна сторінка, доступна клієнтам, які надсилають запити до вашої «Підтримки». На цій сторінці клієнти можуть бачити усі свої запити, перевіряти стан кожного запиту, створювати нові запити та інше. Аби отримати доступ до персональної сторінки, клієнти мають авторизуватись."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:13
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:14
-#, fuzzy
 msgid "Customer Portal address:"
-msgstr "Адреса порталу підтримки:"
+msgstr "Адреса особистого кабінету:"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:23
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflowEdit.html:12
@@ -1462,14 +1433,12 @@ msgstr "Адреса порталу підтримки:"
 #: /wa-apps/helpdesk/templates/actions/requests/RequestsSearch.html:57
 #: /wa-apps/helpdesk/js/wa.grid.js:139
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflow.class.php:119
-#, fuzzy
 msgid "Workflow"
 msgstr "Робочий процес"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:36
-#, fuzzy
 msgid "The selected state will be automatically set for new requests received via customer portal."
-msgstr "Деякі держави будуть автоматично встановлені на нові запити, що надійшли через портал підтримки."
+msgstr "Обраний статус буде автоматично встановлено для нових запитів, отриманих через особистий кабінет."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:37
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:319
@@ -1477,7 +1446,6 @@ msgstr "Деякі держави будуть автоматично встан
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:57
 #: /wa-apps/helpdesk/lib/sources/templates/backend_settings.html:27
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:102
-#, fuzzy
 msgid "Your choice will be shown by an arrow in the workflow setup diagram."
 msgstr "Ваш вибір буде показано стрілкою на схемі установки робочого процесу."
 
@@ -1487,30 +1455,25 @@ msgstr "Ваш вибір буде показано стрілкою на схе
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:342
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:233
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:69
-#, fuzzy
 msgid "Assignment"
 msgstr "Призначення"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:48
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:73
-#, fuzzy
 msgid "no assignment"
 msgstr "немає призначення"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:54
-#, fuzzy
 msgid "Select the user or user group who should be automatically assigned to requests received via customer portal."
-msgstr "Виберіть користувача або групи користувачів, які мають бути автоматично призначені на запити, отримані через портал підтримки."
+msgstr "Виберіть користувача або групу користувачів, які мають бути автоматично призначені на запити, отримані через особистий кабінет."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:65
-#, fuzzy
 msgid "States"
-msgstr "Держави"
+msgstr "Статуси"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:69
-#, fuzzy
 msgid "Specify which statuses (states) are available to the customer. The status names as they appear to the customer may be changed here. For example, if you are discussing a request with your support team, you may choose to display “Processing” at the status seen by the customer in his/her Customer Portal."
-msgstr "Вкажіть, які статуси (стану) доступні замовнику. Імена стану, як вони з'являються перед замовником може бути змінена. Наприклад, якщо ви обговорюєте запит в службу підтримки, ви можете обрати дисплей \"в обробці\" на статус видно клієнту в його/її підтримки портал."
+msgstr "Вкажіть, які статуси (стани) доступні замовнику. Назви статусів, які бачить клієнт, можна змінити тут. Наприклад, якщо ви обговорюєте запит із своєю командою підтримки, ви можете показати клієнту у його особистому кабінеті статус запиту «В обробці»."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:90
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:125
@@ -1520,20 +1483,17 @@ msgstr "Вкажіть, які статуси (стану) доступні за
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:55
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:82
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:101
-#, fuzzy
 msgid "Not available"
-msgstr "Не доступний"
+msgstr "Не доступно"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:107
-#, fuzzy
 msgid "Specify which actions customized in your workflow are available to the customer. You may hide some internal actions performed by your support team (e.g. adding comments, or forwarding request to experts for discussion). Other actions may be set up as read-only for customers, and you may make certain actions available for the customer to perform."
-msgstr "Вказати, які дії налаштовані в робочому процесі доступні замовнику. Ви можете приховати якісь внутрішні дії, що виконуються службою підтримки (наприклад, додавання коментарів або відправивши запит на експертів для обговорення). Інші дії можуть бути встановлені тільки для читання для клієнтів, і ви можете зробити певні дії, доступні для виконання клієнтом."
+msgstr "Вказати, які дії, налаштовані в робочому процесі доступні клієнту. Ви можете приховати деякі внутрішні дії, що виконуються службою підтримки (наприклад, додавання коментарів або пересилання запиту експертам для обговорення). Інші дії можуть бути встановлені у режим тільки читання для клієнтів, ви також можете зробити певні дії доступними для виконання клієнтом."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:126
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:141
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:83
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:106
-#, fuzzy
 msgid "Only personal"
 msgstr "Тільки особисті"
 
@@ -1541,17 +1501,15 @@ msgstr "Тільки особисті"
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:142
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:84
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:111
-#, fuzzy
 msgid "All available for read only"
-msgstr "Усе доступно тільки для читання"
+msgstr "Усі доступні тільки для читання"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:128
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:143
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:85
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:116
-#, fuzzy
 msgid "All available for read and action"
-msgstr "Все доступно для читання і дій"
+msgstr "Усі доступні для читання і виконання дій"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:140
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:152
