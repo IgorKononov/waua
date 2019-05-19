@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/helpdesk/templates/layouts/Mobile.html:6
 #: /wa-apps/helpdesk/templates/layouts/Backend.html:5
@@ -1523,7 +1523,6 @@ msgstr "Клієнти не бачать будь-яку інформацію, �
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:141
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:140
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:107
-#, fuzzy
 msgid "Customer can perform the action but can not see these actions performed by other users"
 msgstr "Клієнт може виконати дію, але не зможе побачити ці дії, виконувані іншими користувачами"
 
@@ -1533,61 +1532,52 @@ msgstr "Клієнт може виконати дію, але не зможе п
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:124
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:110
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:112
-#, fuzzy
 msgid "Clients can see this action record and it's description (except assignments info) in their Customer Portal"
-msgstr "Клієнти можуть побачити це дійство записати і це опис (за винятком призначення інформація) в їх клієнтський портал"
+msgstr "Клієнти можуть побачити цю дію та її опис (за винятком інформації про призначення) у своєму особистому кабінеті."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsPortal.html:143
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:145
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:117
-#, fuzzy
 msgid "Clients can perform this action from their Customer Portal (except assignments if they are set up for the action)"
-msgstr "Клієнти можуть виконувати цю дію від їх Портал клієнта (за винятком доручень, якщо вони налаштовані для дій)"
+msgstr "Клієнти можуть виконувати цю дію зі свого особистого кабінету (за винятком призначень, якщо вони налаштовані для цієї дії)."
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:16
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:5
-#, fuzzy
 msgid "Delete workflow"
-msgstr "Видалення робочого процесу"
+msgstr "Видалити робочий процес"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:33
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:18
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:18
-#, fuzzy
 msgid "New source"
-msgstr "Новий джерело"
+msgstr "Нове джерело"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:51
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:34
-#, fuzzy
 msgid "New state"
-msgstr "Нова держава"
+msgstr "Новий статус"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:401
 #: /wa-apps/helpdesk/templates/actions/editor/EditorNewaction.html:1
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:353
-#, fuzzy
 msgid "Add an action"
-msgstr "Додати дія"
+msgstr "Додати нову дію"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:637
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:626
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:19
-#, fuzzy
 msgid "d"
 msgstr "д"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:640
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflow.html:626
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:26
-#, fuzzy
 msgid "h"
 msgstr "год"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflowEdit.html:7
-#, fuzzy
 msgid "Edit workflow"
-msgstr "Редагування робочого процесу"
+msgstr "Редагувати робочий процес"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsWorkflowEdit.html:10
 msgid "Workflow name"
@@ -1595,13 +1585,11 @@ msgstr "Назва робочого процесу "
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:45
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:104
-#, fuzzy
 msgid "Rename"
 msgstr "Перейменувати"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:48
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:107
-#, fuzzy
 msgid "delete"
 msgstr "видалити"
 
@@ -1612,7 +1600,6 @@ msgstr "Панель навігації"
 
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:61
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:120
-#, fuzzy
 msgid "Common filters"
 msgstr "Загальні фільтри"
 
@@ -1620,7 +1607,6 @@ msgstr "Загальні фільтри"
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:77
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:121
 #: /wa-apps/helpdesk/templates/actions/settings/SettingsSidebar.html:136
-#, fuzzy
 msgid "Add"
 msgstr "Додати"
 
@@ -1636,9 +1622,8 @@ msgstr "Завантажити журнал помилок"
 
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:45
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:27
-#, fuzzy
 msgid "Delete this source"
-msgstr "Видалити цей джерело"
+msgstr "Видалити це джерело"
 
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:142
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:160
@@ -1646,49 +1631,42 @@ msgstr "Видалити цей джерело"
 #: /wa-apps/helpdesk/js/wa.controller.js:1844
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:144
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesEditor.html:128
-#, fuzzy
 msgid "Unsaved changes will be lost if you leave this page now."
 msgstr "Незбережені зміни будуть втрачені, якщо ви залишите цю сторінку зараз."
 
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:50
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:64
-#, fuzzy
 msgid "Add fields"
 msgstr "Додати поля"
 
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:64
-#, fuzzy
 msgid "Allows your subscriber to create a password for further authorization on your site and log in to their customer portal. Requires Email field in the form."
-msgstr "Дозволяє абоненту створити пароль для подальшої авторизації на вашому сайті і увійти в свій клієнтський портал. Вимагає полі email формі."
+msgstr "Дозволяє абоненту створити пароль для подальшої авторизації на вашому сайті та входу у особистий кабінет. Потребує полe для адреси email у формі."
 
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:76
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:77
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_backend.html:113
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:76
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:77
-#, fuzzy
 msgid "Sign up"
-msgstr "Зареєструйтеся"
+msgstr "Зареєструватися"
 
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:76
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:163
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:181
-#, fuzzy
 msgid "Edit button label"
-msgstr "Кнопку Редагувати мітки"
+msgstr "Редагувати назву кнопки"
 
 #: /wa-apps/helpdesk/templates/actions/sources/includeFormConstructor.html:85
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_constructor.html:60
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:192
-#, fuzzy
 msgid "Form width (200-600px)"
-msgstr "Ширина форма (200-600 пікселів)"
+msgstr "Ширина форми (200-600 пікселів)"
 
 #: /wa-apps/helpdesk/templates/actions/sources/SourcesFormPreview.html:4
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:72
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:91
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:15
-#, fuzzy
 msgid "Preview"
 msgstr "Попередній перегляд"
 
@@ -1705,19 +1683,16 @@ msgstr "Видалити поле"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorFieldDeleteConfirm.html:11
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorDeleteConfirm.html:11
-#, fuzzy
 msgid "No data in the field"
-msgstr "Немає даних у полі"
+msgstr "У полі немає даних"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorFieldDeleteConfirm.html:12
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorDeleteConfirm.html:12
-#, fuzzy
 msgid "Deleting this field will not cause a loss of any data."
-msgstr "Видалення цієї області не призведе до втрати даних."
+msgstr "Видалення цього поля не призведе до втрати даних."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorFieldDeleteConfirm.html:15
 #: /wa-apps/helpdesk/templates/actions/constructor/ConstructorDeleteConfirm.html:15
-#, fuzzy
 msgid "Deleting this field will cause a loss of these data."
 msgstr "Видалення цього поля призведе до втрати цих даних."
 
@@ -1731,14 +1706,12 @@ msgstr[2] "У %d запитів є дані у полі:"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:36
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:31
-#, fuzzy
 msgid "Yes/No"
 msgstr "Так/Ні"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:45
-#, fuzzy
 msgid "Remove this field from the heading area."
-msgstr "Видалити поле з області заголовка."
+msgstr "Видалити це поле з області заголовка."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:56
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:504
@@ -1750,7 +1723,6 @@ msgstr "Запитати конструктор полів "
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:68
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:81
-#, fuzzy
 msgid "Number"
 msgstr "Кількість"
 
@@ -1759,9 +1731,8 @@ msgstr "Кількість"
 #: /wa-apps/helpdesk/lib/sources/helpdeskCommonST.class.php:517
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:275
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:299
-#, fuzzy
 msgid "Request subject"
-msgstr "Запит суб'єкта"
+msgstr "Тема запиту"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:93
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:107
@@ -1770,7 +1741,6 @@ msgstr "Ім'я замовника"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:95
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:109
-#, fuzzy
 msgid "9 days ago"
 msgstr "9 днів тому"
 
@@ -1781,46 +1751,39 @@ msgstr "Джерело запита"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:117
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:58
-#, fuzzy
 msgid "Add a field to the heading area"
-msgstr "Додати поле в області заголовка"
+msgstr "Додати поле до області заголовка"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:127
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:126
-#, fuzzy
 msgid "All available fields are already added."
-msgstr "Всі доступні поля вже додані."
+msgstr "Усі доступні поля вже додано."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:137
-#, fuzzy
 msgid "NOTE: You can drag and drop fields to change its position in the heading area of request page."
-msgstr "Примітка: Ви можете перетягувати поля, щоб змінити свою позицію в області заголовка сторінки запиту."
+msgstr "Примітка: Ви можете перетягувати поле, аби змінити його позицію у області заголовка сторінки запиту."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:148
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:25
-#, fuzzy
 msgid "Additional fields"
 msgstr "Додаткові поля"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:149
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:26
-#, fuzzy
 msgid "Additional fields allow you to add a number of multiple parameters to requests content. These parameters essentially depend on a type of product and services you deliver to your customers. For example, if you accept requests to repair household appliances, you may wish to know some manufacturing details, e.g. model name, and etc. Additional fields can be added to the request form to be submitted by your client, or be available on the request page for your Helpdesk app users manipulations."
-msgstr "Додаткові поля дозволяють додати декілька параметрів запити контенту. Ці параметри істотно залежать від типу продукту і послуги доставки до ваших клієнтів. Наприклад, якщо ви приймаєте заявки по ремонту побутової техніки, вам потрібно знати деякі виробничі деталі, наприклад, назву моделі, і т. д. Додаткові поля можуть бути додані в бланк запиту, який повинен бути представлений ваш клієнт, або бути доступний на сторінці запит до служби підтримки маніпуляцій користувачів додатку."
+msgstr "Додаткові поля дозволяють додати декілька параметрів до вмісту запиту. Ці параметри істотно залежать від типу товару і послуг, які ви надаєте клієнтам . Наприклад, якщо ви приймаєте заявки по ремонту побутової техніки, вам потрібно знати деякі виробничі деталі, наприклад, назву моделі, і т. д. Додаткові поля можуть бути додані до форми запиту, яку повинен заповнити клієнт, або бути доступними на сторінці запиту для маніпуляції із ними службою підтримки."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:162
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:327
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:78
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:399
-#, fuzzy
 msgid "New field"
 msgstr "Нове поле"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:282
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:233
-#, fuzzy
 msgid "Checking data in this field"
-msgstr "Перевірка даних в цій області"
+msgstr "Перевірка даних у цій області"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:329
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:402
@@ -1834,13 +1797,11 @@ msgstr "Назва поля "
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:623
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:631
-#, fuzzy
 msgid "Field ID"
-msgstr "Поле id"
+msgstr "ID поля"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:630
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:638
-#, fuzzy
 msgid "Type of field"
 msgstr "Тип поля"
 
