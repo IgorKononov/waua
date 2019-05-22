@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /wa-apps/helpdesk/templates/layouts/Mobile.html:6
 #: /wa-apps/helpdesk/templates/layouts/Backend.html:5
@@ -1812,15 +1812,13 @@ msgstr "Елементи переліку"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:642
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:649
-#, fuzzy
 msgid "Enter each new item on new line"
 msgstr "Вводити кожен новий елемент на новому рядку"
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:649
 #: /wa-apps/helpdesk/lib/sources/templates/form_constructor.html:153
-#, fuzzy
 msgid "If enabled, data in this field are available for clients in their Customer portal."
-msgstr "Якщо увімкнено, то дані в цій області доступні для клієнтів у клієнтський портал."
+msgstr "Якщо увімкнено, то дані у цьому полі доступні клієнтам у особистому кабінеті."
 
 #: /wa-apps/helpdesk/templates/actions/constructor/Constructor.html:68
 #: /wa-apps/helpdesk/js/wa.grid.js:586
@@ -1834,7 +1832,6 @@ msgstr[2] "№№"
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:16
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:32
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:12
-#, fuzzy
 msgid "search"
 msgstr "пошук"
 
@@ -1842,42 +1839,36 @@ msgstr "пошук"
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:54
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:36
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:42
-#, fuzzy
 msgid "show all"
-msgstr "показати всі"
+msgstr "показати усе"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:46
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:49
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:56
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:59
 #: /wa-apps/helpdesk/templates/actions/backend/includeSnippets.html:25
-#, fuzzy
 msgid "more"
 msgstr "більше"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:74
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:64
-#, fuzzy
 msgid "No search results."
-msgstr "Немає результатів пошуку."
+msgstr "Пошук не дав результатів."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:76
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSnippets.html:66
-#, fuzzy
 msgid "No questions in this category."
 msgstr "Немає питань у цій категорії."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSearch.html:31
 #: /wa-apps/helpdesk/templates/actions/faq/FaqSearch.html:29
-#, fuzzy
 msgid "No search results"
-msgstr "Немає результатів пошуку"
+msgstr "Пошук не дав результатів."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:7
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:16
 #: /wa-apps/helpdesk/templates/actions/faq/includeCategory.html:48
 #: /wa-apps/helpdesk/templates/actions/faq/includeCategory.html:51
-#, fuzzy
 msgid "New question"
 msgstr "Нове запитання"
 
@@ -1885,41 +1876,35 @@ msgstr "Нове запитання"
 #: /wa-apps/helpdesk/lib/actions/frontend/helpdeskFrontendFaq.action.php:23
 #: /wa-apps/helpdesk/themes/default/home.html:5
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:10
-#, fuzzy
 msgid "Categories"
 msgstr "Категорії"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:41
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:21
-#, fuzzy
 msgid "Categories help you to arrange questions and answers by themes to simplify naviagation and search, e.g.: Common questions, How to.., and etc."
-msgstr "Категорії допоможуть вам організувати питання та відповіді по темам для спрощення розділі екскурсії, і пошук, наприклад: загальні питання, як.. і т. д."
+msgstr "Категорії допоможуть вам організувати питання та відповіді по темам для спрощення навігації по темам та пошуку, наприклад: загальні питання, як зробити і т. д."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:56
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:22
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:332
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:24
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:11
-#, fuzzy
 msgid "New category"
-msgstr "Нові категорії"
+msgstr "Нова категорія"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:69
 #: /wa-apps/helpdesk/templates/actions/faq/includeList.html:175
-#, fuzzy
 msgid "Please <a href=\"#/faq/category/new\">create a category</a> first, to start adding questions and answers."
-msgstr "Будь ласка, <а href=\"#/часті питання/категорії/Нова\">виберіть категорію</A> і перше, щоб почати додавати запитання й відповіді."
+msgstr "Будь ласка,<a href=\"#/faq/category/new\">створіть категорію</a>, а потім почніть додавати запитання та відповіді."
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:21
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:23
-#, fuzzy
 msgid "Category"
 msgstr "Категорія"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:34
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:41
 #: /wa-apps/helpdesk/templates/actions/faq/includeList.html:41
-#, fuzzy
 msgid "Visibility"
 msgstr "Видимість"
 
@@ -1929,42 +1914,36 @@ msgstr "Видимість"
 #: /wa-apps/helpdesk/lib/config/install.php:34
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:33
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:25
-#, fuzzy
 msgid "Backend"
-msgstr "Бекенда"
+msgstr "Бекенд"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:40
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:26
-#, fuzzy
 msgid "Users can see this question and answer when they reply to client requests"
 msgstr "Користувачі можуть бачити це питання і відповідь, коли вони відповідають на запити клієнтів"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:46
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:35
-#, fuzzy
 msgid "Comment for users"
 msgstr "Коментар для користувачів"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:48
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:47
-#, fuzzy
 msgid "Write a brief instruction here that may help users to select this answer when they work on a client's request."
-msgstr "Написати стислу інструкцію тут, які можуть допомогти користувачам вибрати цей відповідь, коли вони працюють за запитом клієнта."
+msgstr "Напишіть стислу інструкцію, яка допоможе користувачам обрати цю відповідь, коли вони опрацьовують запит клієнта."
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:58
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:54
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:14
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:40
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:32
-#, fuzzy
 msgid "Site"
 msgstr "Сайт"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:59
 #: /wa-apps/helpdesk/templates/actions/faq/includeList.html:112
-#, fuzzy
 msgid "Visible in the public category"
-msgstr "Чільне місце у суспільному категорії"
+msgstr "Видиме у публічній категорії"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:66
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:123
@@ -1974,79 +1953,67 @@ msgstr "URL сторінки"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:100
 #: /wa-apps/helpdesk/templates/actions/faq/includeCategory.html:64
-#, fuzzy
 msgid "Delete this question & answer"
-msgstr "Видалити це питання і відповідь"
+msgstr "Видалити ці питання і відповідь"
 
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:278
 #: /wa-apps/helpdesk/templates/actions/faq/Faq.html:250
-#, fuzzy
 msgid "Write an answer here"
-msgstr "Написати відповідь тут"
+msgstr "Напишіть відповідь тут"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:26
 #: /wa-apps/helpdesk/templates/actions/faq/includeCategory.html:19
-#, fuzzy
 msgid "Icons"
 msgstr "Значки"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:47
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:34
-#, fuzzy
 msgid "Users can see questions and answers from this category when they reply to client requests"
-msgstr "Користувачі можуть бачити питання та відповіді з цієї категорії, коли вони відповідають на запити клієнтів"
+msgstr "Користувачі можуть бачити питання та відповіді з цієї категорії, коли вони опрацьовують запити клієнтів"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:57
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:41
-#, fuzzy
 msgid "Category is visible in the public part of your site"
-msgstr "Категорія видно в публічній частині вашого сайту"
+msgstr "Категорія є видимою у публічній частині вашого сайту"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:60
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:61
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:58
-#, fuzzy
 msgid "Helpdesk app is not settled on any site. Use %s app to manage settlements."
-msgstr "Додаток Helpdesk-це не осіли на якомусь сайті. Використовувати %s додатки для управління поселень."
+msgstr "Додаток \"Підтримка\" не поселено на жодному сайті. Використовуйте додаток %s, аби керувати поселеннями."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:77
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:75
-#, fuzzy
 msgid "All sites"
-msgstr "Всі сайти"
+msgstr "Усі сайти"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:83
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:81
-#, fuzzy
 msgid "Only selected sites"
 msgstr "Тільки обрані сайти"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:104
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:107
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:101
-#, fuzzy
 msgid "Shown above are only sites where Helpdesk app is settled. Use %s app to manage settlements."
-msgstr "Показано вище, є лише сайти, де додаток Helpdesk-це вирішено. Використовувати %s додатки для управління поселень."
+msgstr "Вище наведені тільки ті сайти, де поселено додаток \"Підтримка\". Використовуйте додаток %s для керування поселеннями."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:134
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:27
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:48
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:66
-#, fuzzy
 msgid "View"
 msgstr "Вид"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:139
 #: /wa-apps/helpdesk/templates/actions/faq/includeList.html:78
-#, fuzzy
 msgid "All answers on one page"
-msgstr "Всі відповіді на одній сторінці"
+msgstr "Усі відповіді на одній сторінці"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:143
 #: /wa-apps/helpdesk/templates/actions/faq/includeList.html:70
-#, fuzzy
 msgid "Every answer on separate page"
-msgstr "Кожен відповідь на окремій сторінці"
+msgstr "Кожна відповідь на окремій сторінці"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:155
 #: /wa-apps/helpdesk/templates/actions/faq/includeCategory.html:36
@@ -2055,36 +2022,31 @@ msgstr "Видалити категорію"
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:189
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:120
-#, fuzzy
 msgid "There are no records in this category."
-msgstr "Немає записів у цій категорії."
+msgstr "У цій категорії немає записів."
 
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:384
 #: /wa-apps/helpdesk/lib/classes/helpdeskHelper.class.php:1069
 #: /wa-apps/helpdesk/templates/actions/faq/FaqLayout.html:17
 #: /wa-apps/helpdesk/templates/actions/faq/FaqCategory.html:8
-#, fuzzy
 msgid "draft"
-msgstr "проект"
+msgstr "чернетка"
 
 #: /wa-apps/helpdesk/templates/actions/handlers/HandlersProfiletab.html:8
 #: /wa-apps/helpdesk/themes/default/my.requestlist.html:27
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:44
 #: /wa-apps/helpdesk/js/wa.grid.js:136
 #: /wa-apps/helpdesk/themes/default/my.requestlist.html:29
-#, fuzzy
 msgid "ID"
 msgstr "Ідентифікатор"
 
 #: /wa-apps/helpdesk/templates/actions/handlers/HandlersProfiletab.html:9
-#, fuzzy
 msgid "Created"
-msgstr "Створений"
+msgstr "Створено"
 
 #: /wa-apps/helpdesk/templates/actions/handlers/HandlersProfiletab.html:10
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:44
 #: /wa-apps/helpdesk/js/wa.grid.js:138
-#, fuzzy
 msgid "Updated"
 msgstr "Оновлено"
 
@@ -2093,21 +2055,18 @@ msgstr "Оновлено"
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequestPageConstructor.class.php:170
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:44
 #: /wa-apps/helpdesk/js/wa.grid.js:143
-#, fuzzy
 msgid "Assigned"
-msgstr "Призначені"
+msgstr "Призначено"
 
 #: /wa-apps/helpdesk/js/redactor.faq.js:6
 #: /wa-apps/helpdesk/js/redactor.faq.js:69
 #: /wa-apps/helpdesk/templates/actions/backend/BackendSidebar.html:200
-#, fuzzy
 msgid "Questions & Answers"
-msgstr "Питання І Відповіді"
+msgstr "Питання і відповіді"
 
 #: /wa-apps/helpdesk/js/redactor.faq.js:27
 #: /wa-apps/helpdesk/js/redactor.faq.js:55
 #: /wa-apps/helpdesk/js/redactor.faq.js:57
-#, fuzzy
 msgid "Loading"
 msgstr "Завантаження"
 
@@ -2115,100 +2074,84 @@ msgstr "Завантаження"
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:221
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:318
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:135
-#, fuzzy
 msgid "Close"
-msgstr "Поруч"
+msgstr "Закрити"
 
 #: /wa-apps/helpdesk/js/wa.controller.js:106
-#, fuzzy
 msgid "Empty response from server"
-msgstr "Порожній відповідь від сервера"
+msgstr "Порожня відповідь сервера"
 
 #: /wa-apps/helpdesk/js/wa.controller.js:485
 #: /wa-apps/helpdesk/js/wa.controller.js:478
-#, fuzzy
 msgid "What is this?"
 msgstr "Що це?"
 
 #: /wa-apps/helpdesk/js/wa.controller.js:498
 #: /wa-apps/helpdesk/js/wa.controller.js:491
-#, fuzzy
 msgid "Ok"
 msgstr "ОК"
 
 #: /wa-apps/helpdesk/js/wa.controller.js:1328
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:28
 #: /wa-apps/helpdesk/js/wa.controller.js:941
-#, fuzzy
 msgid "Error delivering messages from:"
 msgstr "Помилка доставки повідомлень від:"
 
 #: /wa-apps/helpdesk/js/redactor.codeblock.js:6
 #: /wa-apps/helpdesk/js/redactor.codeblock.js:21
 #: /wa-apps/helpdesk/js/redactor.codeblock.js:20
-#, fuzzy
 msgid "Insert code block"
-msgstr "Вставити код блоку"
+msgstr "Вставити блок коду"
 
 #: /wa-apps/helpdesk/js/redactor.codeblock.js:30
 #: /wa-apps/helpdesk/js/redactor.codeblock.js:27
-#, fuzzy
 msgid "Insert"
 msgstr "Вставити"
 
 #: /wa-apps/helpdesk/js/wa.grid.js:358
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:45
 #: /wa-apps/helpdesk/js/wa.grid.js:174
-#, fuzzy
 msgid "Requests:"
 msgstr "Запити:"
 
 #: /wa-apps/helpdesk/js/wa.grid.js:372
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:46
 #: /wa-apps/helpdesk/js/wa.grid.js:186
-#, fuzzy
 msgid "Show %s records on a page"
-msgstr "Показати на %S записів на сторінці"
+msgstr "Показати %s записів на сторінці"
 
 #: /wa-apps/helpdesk/js/wa.grid.js:386
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:46
 #: /wa-apps/helpdesk/js/wa.grid.js:196
-#, fuzzy
 msgid "Pages"
 msgstr "Сторінки"
 
 #: /wa-apps/helpdesk/js/wa.grid.js:404 /wa-apps/helpdesk/js/wa.grid.js:379
-#, fuzzy
 msgid "No requests."
-msgstr "Ніяких прохань."
+msgstr "Немає запитів."
 
 #: /wa-apps/helpdesk/js/wa.grid.js:641 /wa-apps/helpdesk/js/wa.grid.js:570
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:59
-#, fuzzy
 msgid "Last action"
-msgstr "Останню дію"
+msgstr "Остання дія"
 
 #: /wa-apps/helpdesk/js/wa.grid.js:645 /wa-apps/helpdesk/js/wa.grid.js:574
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:59
-#, fuzzy
 msgid "No actions with this request."
-msgstr "Ніяких дій з цим проханням."
+msgstr "Із цим проханням дії не виконувались."
 
 #: /wa-apps/helpdesk/js/wa.grid.js:666 /wa-apps/helpdesk/js/wa.grid.js:630
 #: /wa-apps/helpdesk/js/compiled/helpdesk.js:2358
-#, fuzzy
 msgid "#%s"
 msgstr "#%s"
 
 #: /wa-apps/helpdesk/js/wf_actions.js:12
-#, fuzzy
 msgid "To select an action you should select state first (above)."
-msgstr "Щоб вибрати дію, яку ви повинні вибрати спочатку (зверху)."
+msgstr "Аби обрати дію, ви маєте спочатку вказати статус (вище)."
 
 #: /wa-apps/helpdesk/js/wf_actions.js:15
-#, fuzzy
 msgid "Only actions for the selected state (above) are available."
-msgstr "Доступні тільки дії для вибраного стану (вище)."
+msgstr "Доступні тільки дії для вказаного вище стану."
 
 #: /wa-apps/helpdesk/lib/fields/helpdeskRequestFields.class.php:77
 #: /wa-apps/helpdesk/lib/fields/helpdeskRequestFields.class.php:68
@@ -2223,9 +2166,8 @@ msgstr "Значення поля \"%s\""
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequest.class.php:578
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequest.class.php:584
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowAction.class.php:215
-#, fuzzy
 msgid "performs action"
-msgstr "виконує дії"
+msgstr "виконує дію"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflow.class.php:630
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflow.class.php:548
@@ -2235,100 +2177,86 @@ msgstr "Доступні значення для \"%s\""
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:75
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:75
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:176
-#, fuzzy
 msgid "After this action is executed"
 msgstr "Після цього виконується дія"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:83
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:83
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:184
-#, fuzzy
 msgid "Leave request in the same state"
-msgstr "Залишити заявку в одній державі"
+msgstr "Залишити запит у тому ж статусі"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:87
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:87
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:188
-#, fuzzy
 msgid "Forward request to state"
-msgstr "Направити запит у державний"
+msgstr "Перевести запит до статусу"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:105
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:105
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:206
-#, fuzzy
 msgid "When a user performs this action the request state will be changed to the state you select here. Your choice will be shown by an arrow in the workflow setup diagram."
-msgstr "Коли користувач виконує цю дію стан запиту зміниться на стан вашого вибору. Ваш вибір буде показано стрілкою на схемі установки робочого процесу."
+msgstr "Коли користувач виконує цю дію, стан запиту зміниться на обраний тут. Ваш вибір буде показано стрілкою на схемі установки робочого процесу."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:118
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:92
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:99
-#, fuzzy
 msgid "clear previous assignment"
-msgstr "зрозуміло попереднє призначення"
+msgstr "очистити попереднє призначення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:119
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:93
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:100
-#, fuzzy
 msgid "keep previous assignment"
-msgstr "підтримую попереднього завдання"
+msgstr "залишити попереднє призначення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:136
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:114
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:232
-#, fuzzy
 msgid "Customer"
 msgstr "Клієнт"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:142
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:120
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:238
-#, fuzzy
 msgid "Choose if this action is available for customer (request's originator) in their customer portal."
-msgstr "Якщо вибрати ця дія доступна для замовника (ініціатора запиту) в їх клієнтський портал."
+msgstr "Оберіть, чи має бути ця дія доступною клієнтові (ініціатору запиту) у його особистому кабінеті."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:156
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:134
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:252
-#, fuzzy
 msgid "Available for viewing only"
-msgstr "Доступний тільки для перегляду"
+msgstr "Доступне тільки для перегляду"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:165
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:153
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:271
-#, fuzzy
 msgid "Advanced settings"
 msgstr "Додаткові параметри"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:173
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:161
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:279
-#, fuzzy
 msgid "Revoke all access rights for customer"
-msgstr "Позбавляти всіх прав доступу для клієнта"
+msgstr "Позбавити клієнта усіх прав доступу"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:176
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:164
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:282
-#, fuzzy
 msgid "If you turn on this option, then execution of this action will automatically cause a complete banning of the contact who sent you this request."
-msgstr "Якщо ви включите цю опцію, то виконання цієї дії буде автоматично викличе повний відмова від контакту, який відправив вам це прохання."
+msgstr "Якщо ви увімкнете цю опцію, виконання цієї дії автоматично заблокує контакт, який відправив вам це прохання."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:177
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:165
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:283
-#, fuzzy
 msgid "The contact will not be able to log in to your site and customer portal anymore, and all further requests from this contact will be bounced."
-msgstr "Контакт не зможете увійти в свій сайт і клієнтський портал, і всі наступні запити від цього контакту будуть отскочены."
+msgstr "Контакт не зможе увійти на ваш сайт і до свого особистого кабінету, усі наступні запити від цього контакту буде відхилено."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:178
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:166
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:284
-#, fuzzy
 msgid "This option can be used for banning contacts for spam or other illegal actions."
-msgstr "Ця опція може використовуватися для заборони контактів для спаму або інших протиправних дій."
+msgstr "Ця опція може використовуватися для блокування контактів через спам або інші протиправні дії."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:189
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:177
@@ -2336,9 +2264,8 @@ msgstr "Ця опція може використовуватися для за�
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:237
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:125
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:124
-#, fuzzy
 msgid "Messages"
-msgstr "Повідомлень"
+msgstr "Повідомлення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:203
 #: /wa-apps/helpdesk/lib/workflow/templates/BasicAuto_settings.html:228
@@ -2378,54 +2305,46 @@ msgstr "назва дії"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:13
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:7
-#, fuzzy
 msgid "Time-out"
 msgstr "Тайм-аут"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:19
-#, fuzzy
 msgid "days"
 msgstr "днів"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/timer_settings.include.html:26
-#, fuzzy
 msgid "hours"
 msgstr "годин"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:139
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:257
-#, fuzzy
 msgid "Available for execution only"
-msgstr "Доступно для виконання тільки"
+msgstr "Доступно тільки для виконання"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:144
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:262
-#, fuzzy
 msgid "Available for viewing and execution"
-msgstr "Доступний для перегляду та виконання"
+msgstr "Доступне для перегляду та виконання"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:30
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal/customerportal.html:28
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:60
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal.html:27
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:45
-#, fuzzy
 msgid "Attach:"
-msgstr "Додати:"
+msgstr "Прикріпити:"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:47
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings_rtr.html:14
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings_rtr.html:28
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:425
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:34
-#, fuzzy
 msgid "&lt;select&gt;"
-msgstr "&ЛТ;виберіть&ГТ;"
+msgstr "&lt;оберіть&gt;"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:75
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:100
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:82
-#, fuzzy
 msgid "Send message"
 msgstr "Надіслати повідомлення"
 
@@ -2437,21 +2356,18 @@ msgstr "Попередній перегляд повідомлення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:79
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:86
-#, fuzzy
 msgid "preview"
 msgstr "попередній перегляд"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:102
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:93
-#, fuzzy
 msgid "Send copy"
-msgstr "Відправити копію"
+msgstr "Надіслати копію"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:110
 #: /wa-apps/helpdesk/templates/actions/editor/email_template_editor.html:70
-#, fuzzy
 msgid "Search by name or email"
-msgstr "Пошук по назві або по електронній пошті"
+msgstr "Пошук за іменем або адресою електронної пошти"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:157
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:109
@@ -2462,9 +2378,8 @@ msgstr "Необхідно вказати призначення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:219
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:193
-#, fuzzy
 msgid "This message template is customized by administrator in workflow settings."
-msgstr "Цей шаблон листа налаштовується адміністратором у налаштуваннях робочого процесу."
+msgstr "Шаблон цього повідомлення встановлюється адміністратором у налаштуваннях робочого процесу."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:304
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:305
@@ -2474,7 +2389,6 @@ msgstr "Цей шаблон листа налаштовується адміні
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:298
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal.html:119
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic.html:155
-#, fuzzy
 msgid "remove"
 msgstr "видалити"
 
@@ -2482,15 +2396,13 @@ msgstr "видалити"
 #: /wa-apps/helpdesk/lib/sources/helpdeskFormSourceType.class.php:12
 #: /wa-apps/helpdesk/lib/config/install.php:56
 #: /wa-apps/helpdesk/lib/sources/helpdeskPublicfrontendSourceType.class.php:9
-#, fuzzy
 msgid "Form"
 msgstr "Форма"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:15
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:18
-#, fuzzy
 msgid "Customize form that appears for users when they perform this action. Choose required fields and set up their properties and location in the form."
-msgstr "Налаштувати форму, яка з'являється у користувачів, коли вони виконують цю дію. Вибрати необхідні поля та вкажіть їх властивості і розташування у формі."
+msgstr "Налаштувати форму, що з'являється у користувачів, коли вони виконують цю дію. Оберіть необхідні поля та вкажіть їх властивості та розташування у формі."
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:36
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:44
@@ -2502,59 +2414,50 @@ msgstr "Введіть текст за замовчуванням тут"
 #: /wa-apps/helpdesk/lib/config/install.php:60
 #: /wa-apps/helpdesk/lib/config/install.php:96
 #: /wa-apps/helpdesk/lib/sources/helpdeskFormConstructor.class.php:439
-#, fuzzy
 msgid "Attachments"
 msgstr "Вкладення"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:90
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:71
-#, fuzzy
 msgid "Default assignee:"
 msgstr "Призначення за замовчуванням:"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:94
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:101
-#, fuzzy
 msgid "assign user performing this action"
 msgstr "призначити користувача, що виконує цю дію"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:103
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:84
-#, fuzzy
 msgid "Allow to select assignee"
-msgstr "Дозволяють вибрати цесіонарій"
+msgstr "Дозволити обрати призначеного"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:139
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:206
-#, fuzzy
 msgid "This shows how this action's button will look like on request page in backend"
-msgstr "Це показує, як кнопки цієї дії буде виглядати на сторінці запиту в backend"
+msgstr "Демонстрація вигляду кнопок цієї дії на сторінці запиту у бекенді"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:140
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:149
-#, fuzzy
 msgid "Customize button color"
 msgstr "Налаштувати колір кнопки"
 
 #: /wa-apps/helpdesk/lib/workflow/templates/form_settings.include.html:226
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:408
-#, fuzzy
 msgid "Use color of the state %s where this button forwards request"
-msgstr "Використовувати колір держави %s де ця кнопка направляє запит"
+msgstr "Використовувати колір статусу %s, до якого ця кнопка переводить запит"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAutoAction.class.php:26
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAutoAction.class.php:31
 #: /wa-apps/helpdesk/lib/classes/helpdeskRequest.class.php:778
-#, fuzzy
 msgid "Auto action"
-msgstr "Авто дій"
+msgstr "Автоматична дія"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:90
 #: /wa-apps/helpdesk/lib/actions/editor/helpdeskEditorState.action.php:45
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:87
-#, fuzzy
 msgid "This field only allows Latin letters, numbers and underscores."
-msgstr "Це поле дозволяє тільки латинські літери, цифри та знак підкреслення."
+msgstr "Це поле дозволяє вводити тільки латинські літери, цифри та знак підкреслення."
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:94
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:91
