@@ -2461,57 +2461,48 @@ msgstr "Це поле дозволяє вводити тільки латинс�
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:94
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:91
-#, fuzzy
 msgid "Action with this ID already exists"
-msgstr "Акція з таким ідентифікатором вже існує"
+msgstr "Дія з таким ідентифікатором вже існує"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:113
 #: /wa-apps/helpdesk/lib/actions/editor/helpdeskEditorNewaction.action.php:51
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:110
-#, fuzzy
 msgid "Action with this name already exists"
-msgstr "Акція з такою назвою вже існує"
+msgstr "Дія з такою назвою вже існує"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:478
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:347
-#, fuzzy
 msgid "Sorry, the request status has been changed. To continue working with this request you have to refresh the page."
-msgstr "На жаль, статус запиту змінився. Щоб продовжити роботу з цим запитом вам доведеться оновити сторінку."
+msgstr "На жаль, статус запиту змінився. Аби продовжити роботу із цим запитом, вам доведеться оновити сторінку."
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:582
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:469
-#, fuzzy
 msgid "Assigned user or all members of assigned group"
-msgstr "Призначений користувач або всіх членів групи"
+msgstr "Призначений користувач або усі члени групи"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:588
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:475
-#, fuzzy
 msgid "All members of assigned group"
-msgstr "Всі члени групи"
+msgstr "Усі члени призначеної групи"
 
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:1190
 #: /wa-apps/helpdesk/lib/workflow/helpdeskWorkflowBasicAction.class.php:1055
 #: /wa-apps/helpdesk/lib/workflow/templates/Basic_settings.html:5
-#, fuzzy
 msgid "New action"
-msgstr "Нова акція"
+msgstr "Нова дія"
 
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend_settings.html:2
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend_settings.html:3
-#, fuzzy
 msgid "Specify default values for new request."
 msgstr "Вказати значення за замовчуванням для нового запиту."
 
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend_settings.html:20
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:70
-#, fuzzy
 msgid "Assign to"
 msgstr "Призначити"
 
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:6
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:6
-#, fuzzy
 msgid "New contact"
 msgstr "Новий контакт"
 
@@ -2526,18 +2517,15 @@ msgstr "знайти за іменем, адресою електронної п
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:279
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:9
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:151
-#, fuzzy
 msgid "Another contact"
 msgstr "Інший контакт"
 
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:65
-#, fuzzy
 msgid "Attach"
-msgstr "Прикріпіть"
+msgstr "Прикріпити"
 
 #: /wa-apps/helpdesk/lib/sources/templates/backend/backend.html:144
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:129
-#, fuzzy
 msgid "Contact not found"
 msgstr "Контакт не знайдено"
 
@@ -2545,9 +2533,8 @@ msgstr "Контакт не знайдено"
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal/customerportal.html:68
 #: /wa-apps/helpdesk/lib/sources/templates/backend.html:150
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal.html:67
-#, fuzzy
 msgid "An error occurred while processing your request. Please try again later."
-msgstr "Сталася помилка при обробці вашого запиту. Будь ласка, спробуйте ще раз пізніше."
+msgstr "При обробці вашого запиту сталася помилка. Будь ласка, спробуйте ще раз пізніше."
 
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal/customerportal.html:34
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_frontend.html:98
@@ -2558,19 +2545,16 @@ msgstr "Сталася помилка при обробці вашого зап�
 #: /wa-apps/helpdesk/lib/config/install.php:60
 #: /wa-apps/helpdesk/lib/sources/templates/customerportal.html:33
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:114
-#, fuzzy
 msgid "Send"
-msgstr "Відправити"
+msgstr "Надіслати"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_constructor_captcha.html:12
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_constructor_captcha.html:17
-#, fuzzy
 msgid "Refresh CAPTCHA"
-msgstr "Оновити капчу"
+msgstr "Оновити CAPTCHA"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_constructor.html:12
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:10
-#, fuzzy
 msgid "Add contact fields"
 msgstr "Додати поля контактів"
 
@@ -2582,30 +2566,26 @@ msgstr "Додати поля запиту"
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_frontend.html:65
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_backend.html:82
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend.html:77
-#, fuzzy
 msgid "Reload image"
 msgstr "Оновити зображення"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_frontend.html:246
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_frontend.html:252
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend.html:172
-#, fuzzy
 msgid "Thank you!"
-msgstr "Спасибі!"
+msgstr "Дякуємо!"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_paragraph_field_dialog.html:6
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:148
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:35
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor_preview.html:151
-#, fuzzy
 msgid "Text paragraph"
-msgstr "Текст пункту"
+msgstr "Параграф тексту"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_paragraph_field_dialog.html:13
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_agreement_checkbox_field_dialog.html:30
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:105
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:136
-#, fuzzy
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -2618,25 +2598,21 @@ msgstr "Параметри поля"
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_agreement_checkbox_field_dialog.html:9
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:9
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:99
-#, fuzzy
 msgid "Field"
 msgstr "Поле"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_agreement_checkbox_field_dialog.html:13
-#, fuzzy
 msgid "Terms description"
-msgstr "Умови опис"
+msgstr "Опис умов"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_agreement_checkbox_field_dialog.html:21
-#, fuzzy
 msgid "Checked by default"
-msgstr "Перевірив за замовчуванням"
+msgstr "Відмічене за замовчуванням"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:13
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:103
-#, fuzzy
 msgid "Label"
-msgstr "Мітки"
+msgstr "Мітка"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:19
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:109
@@ -2646,40 +2622,34 @@ msgstr "Розміщення мітки"
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:21
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:71
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:105
-#, fuzzy
 msgid "Left aligned"
 msgstr "Вирівнювання по лівому краю"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:22
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:72
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:106
-#, fuzzy
 msgid "Top aligned"
-msgstr "Топ-вирівняні"
+msgstr "Вирівнювання по верхньому краю"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:23
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:107
-#, fuzzy
 msgid "Do not show"
-msgstr "Не показують"
+msgstr "Не показувати"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:33
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:68
-#, fuzzy
 msgid "Plain text"
-msgstr "Звичайний текст"
+msgstr "Простий текст"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:39
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:69
-#, fuzzy
 msgid "Redactor"
 msgstr "Редактор"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:54
 #: /wa-apps/helpdesk/lib/actions/constructor/helpdeskConstructor.action.php:181
-#, fuzzy
 msgid "Drop down"
-msgstr "Падіння вниз"
+msgstr "Випадаючий перелік"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:60
 #: /wa-apps/helpdesk/lib/sources/templates/form_constructor.html:147
@@ -2688,39 +2658,33 @@ msgstr "Радіокнопки"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:69
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:117
-#, fuzzy
 msgid "Address labels placement"
-msgstr "Ярлики адреси розміщення"
+msgstr "Розміщення міток адрес"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:73
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:121
-#, fuzzy
 msgid "As a placeholder inside of field input"
 msgstr "В якості заповнювача всередині поля введення"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:77
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:117
-#, fuzzy
 msgid "Placeholder"
 msgstr "Заповнювач"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:84
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor.html:124
-#, fuzzy
 msgid "Required"
-msgstr "Потрібно"
+msgstr "Обов'язково"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:92
 #: /wa-apps/helpdesk/lib/sources/templates/form_constructor.html:140
-#, fuzzy
 msgid "Identification"
 msgstr "Ідентифікація"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_edit_field_dialog.html:96
 #: /wa-apps/helpdesk/lib/sources/templates/form_constructor.html:144
-#, fuzzy
 msgid "If enabled we shall search for an existing contact with the same phone number and associate request sent via this form with the contact found."
-msgstr "Якщо включена будемо шукати контакту з тим же номером телефону і зв'язати запит, відправлений через цю форму при контакті знайшов."
+msgstr "Якщо увімкнено, ми будемо шукати існуючий контакт із тим же номером телефону і пов'яжемо запит, відправлений через цю форму, із знайденим контактом."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:8
 msgid "Edit field settings"
@@ -2728,143 +2692,120 @@ msgstr "Редагувати параметри поля"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:63
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:54
-#, fuzzy
 msgid "Remove this field from the form"
-msgstr "Видалити це поле форми"
+msgstr "Видалити це поле з форми"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/include_form_constructor_preview.html:145
 #: /wa-apps/helpdesk/lib/sources/templates/include_form_constructor_preview.html:148
-#, fuzzy
 msgid "Horizontal rule"
 msgstr "Горизонтальне правило"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:54
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:18
-#, fuzzy
 msgid "This source enables you to receive new requests via a web form published in the frontend of any Webasyst app or anywhere on the Internet. Also this form can be used to add requests directly from your backend (\"New request\" button), or from your clients customer portals."
-msgstr "Це джерело дозволяє отримувати нові запити через веб-форму, опубліковані в інтерфейс програми Вебасист або де завгодно в Інтернеті. Також Ця форма може використовуватися, щоб додати запити прямо з вашого бекенда (\"новий запит\" кнопку), або від ваших клієнтів клієнтських порталів."
+msgstr "Це джерело дозволяє отримувати нові запити через веб-форму, опубліковані в інтерфейсі любого додатку Вебасист або де завгодно в Інтернеті. Також ця форма може бути використана, аби створювати запити прямо з вашого бекенду (кнопка \"новий запит\"), або з особистих кабінетів ваших контактів."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:57
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:118
-#, fuzzy
 msgid "Set up the appearance of the web form as it should be displayed on your website."
-msgstr "Налаштувати зовнішній вигляд веб-форми, яке буде відображатися на вашому сайті."
+msgstr "Налаштувати зовнішній вигляд веб-форми для відображення на сайті."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:82
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:80
-#, fuzzy
 msgid "Use this form on the site"
-msgstr "Використовуйте цю форму на сайті"
+msgstr "Використовувати цю форму на сайті"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:89
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:86
-#, fuzzy
 msgid "Form can be published on any page of the site."
 msgstr "Форми можуть бути опубліковані на будь-якій сторінці сайту."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:92
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:59
-#, fuzzy
 msgid "Edit CSS"
 msgstr "Редагувати CSS"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:104
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:14
-#, fuzzy
 msgid "To publish the form on your site use this code:"
-msgstr "Щоб опублікувати форму на вашому сайті, використовуйте цей код:"
+msgstr "Аби опублікувати цю форму на вашому сайті, скористайтеся цим кодом:"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:107
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:96
-#, fuzzy
 msgid "To publish the form on external site use this code:"
-msgstr "Щоб опублікувати форму на зовнішні використовувати сайт цей код:"
+msgstr "Для публікації форми на зовнішньому сайті використовуйте цей код:"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:108
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:237
-#, fuzzy
 msgid "iframe"
-msgstr "ифрейме"
+msgstr "iframe"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:115
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:73
-#, fuzzy
 msgid "After successful submission (if client is not authorized)"
-msgstr "Після успішної здачі (якщо клієнт не авторизований)"
+msgstr "Після успішної відправки (якщо клієнта не авторизовано)"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:116
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:74
-#, fuzzy
 msgid "This setting will redirect new clients (who are not yet authorized on your site) to any specified URL or display any text message after the form is submitted."
-msgstr "Цей параметр буде перенаправляти нових клієнтів (які ще не авторизований на вашому сайті) для будь-якого зазначеного URL-адреси або відображати будь текст повідомлення після відправки форми."
+msgstr "Цей параметр буде перенаправляти нових клієнтів (які ще не авторизовані на вашому сайті) після відправки форми до будь-якого зазначеного URL або відображати довільне повідомлення."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:121
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:179
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:131
-#, fuzzy
 msgid "Redirect to URL"
-msgstr "Перенаправлення URL-адресу"
+msgstr "Перенаправлення на URL"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:129
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:187
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:245
-#, fuzzy
 msgid "Display text instead of the form"
 msgstr "Показати текст замість форми"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:137
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:128
-#, fuzzy
 msgid "Send a request for confirmation"
-msgstr "Відправити запит на підтвердження"
+msgstr "Надіслати запит на підтвердження"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:142
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:90
-#, fuzzy
 msgid "To enable this option, your form must contain Email field."
-msgstr "Щоб включити цю опцію, ваша форма повинна містити поле адреси електронної пошти."
+msgstr "Аби увімкнути цю опцію, ваша форма повинна містити поле для адреси електронної пошти."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:146
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:93
-#, fuzzy
 msgid "After successful submission of this form an automatic notification will be sent to the sender's email address. This notification contains a special link which must be clicked to confirm the sending of the request. You may also add extra instructions for your clients to the notification text."
-msgstr "Після успішної відправки цієї форми автоматичне повідомлення буде відправлено на адресу електронної пошти відправника. У цьому повідомленні міститься спеціальна посилання, яку необхідно натиснути для підтвердження надіслання запиту. Ви також можете додати додаткові інструкції для клієнтів в текст повідомлення."
+msgstr "Після успішної відправки цієї форми автоматичне повідомлення буде відправлено на адресу електронної пошти відправника. У цьому повідомленні міститься спеціальне посилання, яке необхідно натиснути для підтвердження запиту. Ви також можете додати додаткові інструкції для клієнтів в текст повідомлення."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:151
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:108
-#, fuzzy
 msgid "NOTE: Request will be accepted and shows up in your request lists only after client clicks confirmation link in this message. It's probably a good idea to write about this in the text that appears on your web page after this form submission."
-msgstr "Примітка: заявка буде прийнята і з'явиться у вашому запиті перелічуються тільки після того, як людина клікає на посилання для підтвердження в повідомленні. Це, ймовірно, хороша ідея писати про це в тексті, який з'являється на веб-сторінці, після цього форму подачі."
+msgstr "Примітка: заявку буде прийнято і показано у вашому переліку запитів тільки після того, як клієнт натисне на посилання для підтвердження, направлене йому в повідомленні. Ймовірно, буде гарною ідеєю писати про це в тексті, який з'являється на веб-сторінці, після відправки форми."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:165
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:120
-#, fuzzy
 msgid "After successful submission (if client is authorized)"
-msgstr "Після успішної здачі (якщо клієнт авторизований)"
+msgstr "Після успішної відправки (якщо клієнта авторизовано)"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:167
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:122
-#, fuzzy
 msgid "For registered clients authorized on your site at the moment of this form submission, you can customize a different behaviour."
-msgstr "Для зареєстрованих клієнтів, уповноважених на вашому сайті в даний момент цієї форми подання, можна налаштувати різну поведінку."
+msgstr "Для зареєстрованих клієнтів, авторизованих на вашому сайті на момент надсилання форми, можна налаштувати окрему поведінку."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:172
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:158
-#, fuzzy
 msgid "Redirect to the request page in customer portal"
-msgstr "Перенаправлення на сторінку запиту в клієнтському порталі"
+msgstr "Перенаправити на сторінку запиту у особистому кабінеті"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:200
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:48
-#, fuzzy
 msgid "Use this form in backend"
-msgstr "Ця форма використовується у backend"
+msgstr "Використовувати цю форму у бекенді"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:205
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:213
-#, fuzzy
 msgid "Allows you to manually create new requests via this form in Helpdesk backend using the “New request” button. This option may be useful when a client cannot send you a request personally; e.g., during a telephone call."
-msgstr "Дозволяє вручну створювати нові запити через цю форму внутрішньої підтримки з допомогою кнопки \"новий запит\". Ця опція може бути корисна, коли клієнт не може надіслати вам запит особисто; наприклад, під час телефонної розмови."
+msgstr "Дозволяє вручну створювати нові запити через цю форму у бекенді \"Підтримки\" за допомогою кнопки Новий запит\". Ця опція може бути корисною, коли клієнт не може надіслати вам запит особисто; наприклад, під час телефонної розмови."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:213
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:61
@@ -2874,42 +2815,36 @@ msgstr "Використовуйте цю форму на порталі під�
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:305
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:190
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:133
-#, fuzzy
 msgid "Forwarding request to workflow"
 msgstr "Пересилання запиту в робочий процес"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:318
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:56
-#, fuzzy
 msgid "The selected state will be automatically set for new requests received via this form."
-msgstr "Деякі держави будуть автоматично встановлені на нові запити, отримані через цю форму."
+msgstr "Обраний стан буде автоматично встановлений для нових запитів, отриманих через цю форму."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:325
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:216
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:63
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:108
 #: /wa-apps/helpdesk/lib/handlers/contacts.search.config.handler.php:95
-#, fuzzy
 msgid "Action"
 msgstr "Дія"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:336
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:73
-#, fuzzy
 msgid "The selected action will be automatically performed with requests received via this form."
-msgstr "Вибрані дії будуть автоматично виконуватися з запити, отримані через цю форму."
+msgstr "Обраний стан буде автоматично встановлено для нових запитів, отриманих через цю форму."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:350
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:88
-#, fuzzy
 msgid "Select the user or user group who should be automatically assigned to requests received via this form."
-msgstr "Виберіть користувача або групи користувачів, які мають бути автоматично призначені на запити, отримані через цю форму."
+msgstr "Оберіть користувача або групи користувачів, які мають бути автоматично призначені на запити, отримані через цю форму."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:355
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:246
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:93
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:138
-#, fuzzy
 msgid "Language"
 msgstr "Мова"
 
@@ -2917,35 +2852,30 @@ msgstr "Мова"
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:254
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:102
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:147
-#, fuzzy
 msgid "For new clients who send their first request to your helpdesk service, a new contact record will be automatically created in your Contacts app."
-msgstr "Для нових клієнтів, які посилають перший запит на службу підтримки, нового запису контакту будуть автоматично створені в Контакти."
+msgstr "Для нових клієнтів, які посилають перший запит до служби підтримки. у додатку \"Контакти\" буде автоматично створено запис."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:364
 #: /wa-apps/helpdesk/lib/sources/templates/email/email_settings.html:255
 #: /wa-apps/helpdesk/lib/sources/templates/publicfrontend_settings.html:103
 #: /wa-apps/helpdesk/lib/sources/templates/email_settings.html:148
-#, fuzzy
 msgid "Select the default language for such new clients here."
-msgstr "Виберіть мову за замовчуванням для таких нових клієнтів."
+msgstr "Оберіть мову за замовчуванням для таких нових клієнтів."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:382
 #: /wa-apps/helpdesk/lib/sources/templates/form_settings.html:287
-#, fuzzy
 msgid "Custom CSS"
-msgstr "Користувальницькі CSS"
+msgstr "Користувальницький CSS"
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:396
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:356
-#, fuzzy
 msgid "You are using customized version of CSS."
-msgstr "Ви використовуєте настроювані версії CSS."
+msgstr "Ви використовуєте настроювану версію CSS."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:397
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:357
-#, fuzzy
 msgid "Revoke to default CSS."
-msgstr "Скасувати, щоб за замовчуванням CSS."
+msgstr "Повернути стандартний CSS."
 
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:400
 #: /wa-apps/helpdesk/lib/sources/templates/form/form_settings.html:360
