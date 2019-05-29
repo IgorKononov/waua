@@ -1,0 +1,1670 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: /wa-apps/files/templates/include.personal_warn_block.html:4
+msgid "This is your personal folder. No one but you has access here."
+msgstr "Це ваша особиста папка. Ніхто, крім вас, не має доступу до неї."
+
+#: /wa-apps/files/templates/include.personal_warn_block.html:6
+msgid "If you need to share files with someone else use folders with common access."
+msgstr "Якщо вам потрібно обмінюватися з кимось файлами, використовуйте папки зі спільним доступом."
+
+#: /wa-apps/files/templates/files/include.files.html:18
+msgid "Show more files"
+msgstr "Показати більше файлів"
+
+#: /wa-apps/files/templates/files/include.files.html:20
+msgid "Loading"
+msgstr "Завантаження"
+
+#: /wa-apps/files/templates/files/include.files.html:30
+#: /wa-apps/files/templates/actions/file/File.html:35
+msgid "Back"
+msgstr "Назад"
+
+#: /wa-apps/files/templates/files/include.files.html:35
+#: /wa-apps/files/templates/actions/file/File.html:45
+msgid "via %s (%s)"
+msgstr "через %s (%s)"
+
+#: /wa-apps/files/templates/files/include.files.html:41
+#: /wa-apps/files/templates/files/include.files.html:43
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:97
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:151
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:101
+msgid "Source authorization code is canceled or expired"
+msgstr "Код авторизації джерела скасовано або термін його дії сплив"
+
+#: /wa-apps/files/templates/files/include.files.html:50
+msgid "Do you really want to clean the trash and delete all files?"
+msgstr "Ви дійсно хочете очистити кошик і видалити файли?"
+
+#: /wa-apps/files/templates/files/include.files.html:51
+#: /wa-apps/files/templates/actions/statistics/include.body.storages.html:35
+msgid "Clear trash"
+msgstr "Очистити кошик"
+
+#: /wa-apps/files/templates/files/include.files.html:64
+#: /wa-apps/files/templates/files/include.files.html:68
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:5
+msgid "Sharing settings"
+msgstr "Параметри спільного доступу "
+
+#: /wa-apps/files/templates/files/include.files.html:66
+msgid "Share this folder"
+msgstr "Увімкнути спільний доступ до цієї папки"
+
+#: /wa-apps/files/templates/files/include.files.html:72
+#: /wa-apps/files/templates/actions/file/File.html:83
+msgid "Public link"
+msgstr "Публічне посилання"
+
+#: /wa-apps/files/templates/files/include.files.html:78
+msgid "Create subfolder"
+msgstr "Створити підпапку"
+
+#: /wa-apps/files/templates/files/include.files.html:115
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:30
+#: /wa-apps/files/templates/actions/upload/UploadNameConflict.html:17
+#: /wa-apps/files/templates/actions/rename/Rename.html:43
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: /wa-apps/files/templates/files/include.files.html:122
+#: /wa-apps/files/templates/actions/file/File.html:90
+#: /wa-apps/files/templates/actions/send/Send.html:21
+msgid "Send as attachement"
+msgstr "Відправити як вкладення"
+
+#: /wa-apps/files/templates/files/include.files.html:129
+msgid "Duplicate"
+msgstr "Дублікат"
+
+#: /wa-apps/files/templates/files/include.files.html:137
+#: /wa-apps/files/templates/actions/move/Move.html:27
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:10
+msgid "Move"
+msgstr "Перемістити"
+
+#: /wa-apps/files/templates/files/include.files.html:145
+#: /wa-apps/files/templates/actions/file/File.html:162
+#: /wa-apps/files/templates/actions/mark/Mark.html:12
+msgid "Mark"
+msgstr "Позначити"
+
+#: /wa-apps/files/templates/files/include.files.html:153
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:15
+#: /wa-apps/files/templates/actions/file/File.html:182
+msgid "Tags"
+msgstr "Теги"
+
+#: /wa-apps/files/templates/files/include.files.html:161
+#: /wa-apps/files/templates/actions/delete/Delete.html:21
+#: /wa-apps/files/templates/actions/delete/Delete.html:53
+#: /wa-apps/files/js/files.js:155
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:19
+msgid "Delete"
+msgstr "Видалити"
+
+#: /wa-apps/files/templates/files/include.files.html:169
+#: /wa-apps/files/templates/actions/move/Move.html:25
+msgid "Restore"
+msgstr "Відновити"
+
+#: /wa-apps/files/templates/files/include.files.html:177
+msgid "Delete permanently"
+msgstr "Видалити назавжди"
+
+#: /wa-apps/files/templates/files/include.files.html:210
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:24
+#: /wa-apps/files/templates/actions/storage/include.settings.html:8
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:15
+#: /wa-apps/files/lib/classes/filesCollection.class.php:376
+#: /wa-apps/files/themes/default/files.html:14
+msgid "Name"
+msgstr "Назва"
+
+#: /wa-apps/files/templates/files/include.files.html:218
+#: /wa-apps/files/templates/actions/file/File.html:155
+#: /wa-apps/files/themes/default/files.html:15
+msgid "Updated"
+msgstr "Оновлено"
+
+#: /wa-apps/files/templates/files/include.files.html:222
+#: /wa-apps/files/templates/actions/statistics/StatisticsFileTypes.html:10
+#: /wa-apps/files/templates/actions/statistics/StatisticsTrash.html:11
+#: /wa-apps/files/templates/actions/statistics/StatisticsStorages.html:10
+#: /wa-apps/files/templates/actions/statistics/StatisticsUsers.html:10
+#: /wa-apps/files/themes/default/files.html:16
+msgid "Size"
+msgstr "Розмір"
+
+#: /wa-apps/files/templates/files/include.files.html:17
+#: /wa-apps/files/templates/files/include.files.html:20
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d елемент"
+msgstr[1] "%d елементи"
+msgstr[2] "%d елементів"
+
+#: /wa-apps/files/templates/files/include.files.html:17
+msgid "of %d"
+msgstr "з %d"
+
+#: /wa-apps/files/templates/files/include.files.content.html:77
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:78
+msgid "Only you can access files in this folder"
+msgstr "Тільки ви можете отримати доступ до файлів у цій папці"
+
+#: /wa-apps/files/templates/files/include.files.content.html:79
+#: /wa-apps/files/templates/actions/file/File.html:41
+msgid "Only you can access this file"
+msgstr "Тільки ви можете отримати доступ до цього файлу"
+
+#: /wa-apps/files/templates/files/include.files.content.html:85
+msgid "download"
+msgstr "завантажити"
+
+#: /wa-apps/files/templates/files/include.files.content.html:92
+msgid "public link"
+msgstr "публічне посилання"
+
+#: /wa-apps/files/templates/files/include.files.content.html:128
+msgid "Created by %s"
+msgstr "Створено користувачем %s"
+
+#: /wa-apps/files/templates/files/include.files.content.html:128
+msgid "Uploaded by %s"
+msgstr "Завантажено користувачем %s"
+
+#: /wa-apps/files/templates/files/include.files.content.html:137
+msgid "favorites"
+msgstr "обране"
+
+#: /wa-apps/files/templates/files/include.files.content.html:109
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "%d коментар"
+msgstr[1] "%d коментарі"
+msgstr[2] "%d коментарів"
+
+#: /wa-apps/files/templates/layouts/Default.html:35
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:14
+#: /wa-apps/files/themes/default/files.html:46
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: /wa-apps/files/templates/layouts/Default.html:43
+msgid "Drop anywhere to upload"
+msgstr "Перетягніть файл у будь-яке місце для завантаження"
+
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:1
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:36
+msgid "Cron Tasks"
+msgstr "Завдання Cron"
+
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:7
+msgid "Without a <tt>cron</tt> job set up for copy task file copy process may complete at slower rate."
+msgstr "Без налаштованого для копіювання файлів завдання <tt>cron</tt> процес копіювання може виконуватися більш повільними темпами."
+
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:10
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:22
+msgid "Please set up a <tt>cron</tt> job (<a href=\"http://www.webasyst.com/framework/docs/server/cron/\" target=\"_blank\">view instructions</a>) using the command specified below in your web-hosting control panel:"
+msgstr "Налаштуйте завдання <tt>cron</tt> (<a href=\"http://developers.webasyst.ru/docs/installation/tips/cron/\" target=\"_blank\">переглянути інструкції</a>), використовуючи наведену нижче команду у контрольній панелі хостинга:"
+
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:19
+msgid "Without a <tt>cron</tt> job set up for external sourceы syncronization task sync process may complete at slower rate."
+msgstr "Без налаштованого для синхонізації із зовнішніми ресурсами завдання <tt>cron</tt> процес синхронізації може виконуватися більш повільними темпами."
+
+#: /wa-apps/files/templates/actions/backend/BackendCrontasks.html:30
+msgid "<tt>cron</tt> job is set up properly."
+msgstr "Завдання <tt>cron</tt> налаштоване правильно."
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:8
+msgid "Upload files"
+msgstr "Завантажити файли"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:12
+#: /wa-apps/files/lib/classes/filesCollection.class.php:183
+msgid "All files"
+msgstr "Усі файли"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:16
+#: /wa-apps/files/lib/classes/filesCollection.class.php:192
+msgid "Favorites"
+msgstr "Обране"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:54
+msgid "New filter"
+msgstr "Новий фільтр"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:59
+msgid "Release to create new filter"
+msgstr "Відпустіть, аби створити новий фільтр"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:69
+msgid "Search files"
+msgstr "Пошук файлів"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:78
+msgid "New storage"
+msgstr "Нове сховище"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:82
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:23
+#: /wa-apps/files/templates/actions/statistics/StatisticsTrash.html:10
+#: /wa-apps/files/templates/actions/statistics/StatisticsStorages.html:9
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:29
+msgid "Storage"
+msgstr "Сховище"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:94
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:111
+#: /wa-apps/files/templates/actions/statistics/include.body.storages.html:26
+msgid "Only you can access files in this storage"
+msgstr "Тільки ви маєте доступ до файлів у цьому сховищі"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:118
+msgid "Shared"
+msgstr "Суспільне"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:135
+msgid "New source"
+msgstr "Нове джерело"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:138
+msgid "Sources"
+msgstr "Джерела"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:173
+#: /wa-apps/files/lib/classes/filesCollection.class.php:217
+msgid "Trash"
+msgstr "Кошик"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:177
+#: /wa-apps/files/templates/actions/settings/Settings.html:19
+msgid "Settings"
+msgstr "Налаштування"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:182
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:16
+msgid "Plugins"
+msgstr "Плагіни"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:185
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:23
+msgid "Statistics"
+msgstr "Статистика"
+
+#: /wa-apps/files/templates/actions/backend/BackendSidebar.html:189
+#, fuzzy
+msgid "Cron tasks"
+msgstr "Завдання cron "
+
+#: /wa-apps/files/templates/actions/backend/BackendFiles.html:5
+#: /wa-apps/files/templates/actions/backend/BackendFiles.html:8
+msgid "Welcome to Files application!"
+msgstr "Ласкаво просимо у додаток Файли!"
+
+#: /wa-apps/files/templates/actions/backend/BackendFiles.html:9
+msgid "Start uploading files by clicking the link above or by dragging selected files anywhere on this page."
+msgstr "Розпочати завантаження файлів можна, натиснувши на посилання вище або шляхом перетягування обраних файлів у будь-якому місці на цій сторінці."
+
+#: /wa-apps/files/templates/actions/backend/BackendFiles.html:10
+msgid "Drag some photos anywhere on this page to start upload"
+msgstr "Перетягніть фотографії у будь-яке місце на цій сторінці, аби розпочати завантаження"
+
+#: /wa-apps/files/templates/actions/settings/Settings.html:23
+msgid "Notifications on new uploaded files"
+msgstr "Повідомлення про нові завантажені файли"
+
+#: /wa-apps/files/templates/actions/settings/Settings.html:35
+msgid "App icon badge count"
+msgstr "Лічильник на іконці додатку"
+
+#: /wa-apps/files/templates/actions/settings/Settings.html:47
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:47
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:74
+#: /wa-apps/files/templates/actions/share/Share.html:64
+msgid "Save"
+msgstr "Зберегти"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:16
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:37
+msgid "Create folder"
+msgstr "Створити папку"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:18
+msgid "No permissions to create a folder"
+msgstr "Немає прав на створення папки"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:20
+#: /wa-apps/files/templates/actions/rename/Rename.html:30
+#: /wa-apps/files/js/files_catalog.js:98 /wa-apps/files/js/files_file.js:49
+#: /wa-apps/files/lib/classes/filesController.class.php:190
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:22
+msgid "Sync is in process. No changes available until synchronization finish."
+msgstr "Синхронізація у процесі. До кінця синхронізації зміни не дозволені."
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:38
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:37
+#: /wa-apps/files/templates/actions/move/Move.html:65
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:34
+#: /wa-apps/files/templates/actions/copy/Copy.html:67
+#: /wa-apps/files/templates/actions/copy/Copy.html:73
+#: /wa-apps/files/templates/actions/upload/UploadChangePath.html:19
+#: /wa-apps/files/templates/actions/upload/Upload.html:20
+#: /wa-apps/files/templates/actions/upload/Upload.html:46
+#: /wa-apps/files/templates/actions/storage/StorageCreate.html:12
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:47
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:75
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:21
+#: /wa-apps/files/templates/actions/filter/FilterCreate.html:12
+#: /wa-apps/files/templates/actions/filter/FilterFiles.html:27
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:72
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:48
+#: /wa-apps/files/templates/actions/source/include.unmount.html:14
+#: /wa-apps/files/templates/actions/rename/Rename.html:44
+#: /wa-apps/files/templates/actions/send/Send.html:72
+#: /wa-apps/files/templates/actions/mark/Mark.html:54
+#: /wa-apps/files/templates/actions/tag/Tag.html:35
+#: /wa-apps/files/templates/actions/share/Share.html:65
+#: /wa-apps/files/templates/actions/delete/Delete.html:54
+#: /wa-apps/files/templates/include.dialogs.html:16
+#: /wa-apps/files/lib/classes/filesCollection.class.php:417
+msgid "or"
+msgstr "або"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:38
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:38
+#: /wa-apps/files/templates/actions/move/Move.html:65
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:34
+#: /wa-apps/files/templates/actions/copy/Copy.html:67
+#: /wa-apps/files/templates/actions/copy/Copy.html:74
+#: /wa-apps/files/templates/actions/upload/UploadChangePath.html:19
+#: /wa-apps/files/templates/actions/upload/Upload.html:20
+#: /wa-apps/files/templates/actions/upload/Upload.html:46
+#: /wa-apps/files/templates/actions/storage/StorageCreate.html:12
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:48
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:76
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:21
+#: /wa-apps/files/templates/actions/filter/FilterCreate.html:12
+#: /wa-apps/files/templates/actions/filter/FilterFiles.html:28
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:74
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:48
+#: /wa-apps/files/templates/actions/source/include.unmount.html:15
+#: /wa-apps/files/templates/actions/rename/Rename.html:44
+#: /wa-apps/files/templates/actions/send/Send.html:72
+#: /wa-apps/files/templates/actions/mark/Mark.html:54
+#: /wa-apps/files/templates/actions/tag/Tag.html:35
+#: /wa-apps/files/templates/actions/share/Share.html:65
+#: /wa-apps/files/templates/actions/delete/Delete.html:54
+#: /wa-apps/files/templates/include.dialogs.html:17
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:21
+msgid "cancel"
+msgstr "скасувати"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:45
+#: /wa-apps/files/templates/actions/file/FilePrivateLink.html:27
+#: /wa-apps/files/templates/actions/share/Share.html:62
+#: /wa-apps/files/templates/include.error.html:12
+#: /wa-apps/files/templates/include.error.html:26
+#: /wa-apps/files/js/jquery.fileupload-files.js:288
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:17
+msgid "Close"
+msgstr "Закрити"
+
+#: /wa-apps/files/templates/actions/folder/FolderCreate.html:81
+msgid "Couldn't create folder"
+msgstr "Не вдається створити папку"
+
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:18
+msgid "Are you sure you want move folder <strong>\"%s\"</strong> and all files in it to trash?"
+msgstr "Ви впевнені, що хочете перемістити папку <strong>\"%s\"</strong> і всі файли в ній до кошика?"
+
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:19
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:123
+#, fuzzy
+msgid "Delete folder"
+msgstr "Видалити Папку "
+
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:24
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:20
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:135
+#: /wa-apps/files/templates/actions/source/include.unmount.html:6
+msgid "Unmount source"
+msgstr "Відключити джерело"
+
+#: /wa-apps/files/templates/actions/folder/FolderFiles.html:148
+#: /wa-apps/files/templates/actions/move/Move.html:169
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:109
+#: /wa-apps/files/templates/actions/copy/Copy.html:225
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:160
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:167
+#: /wa-apps/files/templates/actions/rename/Rename.html:114
+#: /wa-apps/files/templates/actions/rename/Rename.html:119
+#: /wa-apps/files/templates/actions/send/Send.html:111
+#: /wa-apps/files/templates/actions/delete/Delete.html:102
+#: /wa-apps/files/js/files.js:49 /wa-apps/files/js/files.js:444
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:14
+#, fuzzy
+msgid "Server error"
+msgstr "Помилка сервера "
+
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:16
+msgid "Move files"
+msgstr "Перемістити файли"
+
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:26
+msgid "Move process may take several minutes."
+msgstr "Процес переміщення може зайняти кілька хвилин."
+
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:37
+#: /wa-apps/files/templates/actions/copy/Copy.html:73
+msgid "Continue in background"
+msgstr "Продовжити у фоновому режимі"
+
+#: /wa-apps/files/templates/actions/move/MoveProcessDialog.html:90
+#: /wa-apps/files/templates/actions/copy/Copy.html:132
+msgid "Cancel the copy process? All files that is not finished will be deleted"
+msgstr "Скасувати процес копіювання? Усі файли, які не закінчені, буде видалено"
+
+#: /wa-apps/files/templates/actions/move/Move.html:17
+msgid "Restore files and folders"
+msgstr "Відновити файли і папки"
+
+#: /wa-apps/files/templates/actions/move/Move.html:19
+msgid "Move files and folders"
+msgstr "Перемістити файли та папки"
+
+#: /wa-apps/files/templates/actions/move/Move.html:25
+msgid "Restore the rest"
+msgstr "Відновити решту"
+
+#: /wa-apps/files/templates/actions/move/Move.html:27
+msgid "Move the rest"
+msgstr "Перемістити решту"
+
+#: /wa-apps/files/templates/actions/move/Move.html:43
+#: /wa-apps/files/templates/actions/move/Move.html:54
+msgid "No permissions to move these files"
+msgstr "Немає дозволу на переміщення цих файлів"
+
+#: /wa-apps/files/templates/actions/move/Move.html:67
+#: /wa-apps/files/templates/actions/copy/Copy.html:69
+#: /wa-apps/files/templates/actions/rename/Rename.html:46
+#: /wa-apps/files/templates/actions/send/Send.html:75
+#: /wa-apps/files/templates/actions/share/Share.html:69
+#: /wa-apps/files/templates/actions/delete/Delete.html:56
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:12
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: /wa-apps/files/templates/actions/move/Move.html:167
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:107
+#: /wa-apps/files/lib/classes/filesTasksPerformer.class.php:336
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:15
+#: /wa-apps/files/lib/actions/move/filesMoveFiles.controller.php:180
+msgid "Files from the same place"
+msgstr "Файли з того ж місця"
+
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:13
+#: /wa-apps/files/templates/actions/upload/UploadNameConflict.html:3
+msgid "Files with the following names already exist in the specified folder"
+msgstr "Файли з такими іменами вже існують у зазначеній папці"
+
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:28
+#: /wa-apps/files/templates/actions/upload/UploadNameConflict.html:15
+msgid "Replace"
+msgstr "Замінити"
+
+#: /wa-apps/files/templates/actions/move/MoveNameConflict.html:31
+#: /wa-apps/files/templates/actions/upload/UploadNameConflict.html:18
+msgid "Skip"
+msgstr "Пропустити"
+
+#: /wa-apps/files/templates/actions/copy/Copy.html:21
+msgid "Copy files"
+msgstr "Скопіювати файли"
+
+#: /wa-apps/files/templates/actions/copy/Copy.html:27
+#: /wa-apps/files/templates/actions/copy/Copy.html:38
+msgid "No permissions to copy these files"
+msgstr "Немає дозволу на копіювання цих файлів"
+
+#: /wa-apps/files/templates/actions/copy/Copy.html:52
+msgid "Copy process may take several minutes."
+msgstr "Процес копіювання може зайняти кілька хвилин."
+
+#: /wa-apps/files/templates/actions/copy/Copy.html:66
+msgid "Copy"
+msgstr "Копіювати"
+
+#: /wa-apps/files/templates/actions/upload/UploadNameConflict.html:12
+msgid "Select an action to resolve the name conflict:"
+msgstr "Оберіть дію для усунення конфлікту імен:"
+
+#: /wa-apps/files/templates/actions/upload/UploadChangePath.html:9
+msgid "Change upload path"
+msgstr "Змінити шлях завантаження"
+
+#: /wa-apps/files/templates/actions/upload/UploadChangePath.html:18
+msgid "Change"
+msgstr "Змінити"
+
+#: /wa-apps/files/templates/actions/upload/UploadPath.html:3
+msgid "Upload to"
+msgstr "Завантажити до"
+
+#: /wa-apps/files/templates/actions/upload/UploadPath.html:20
+msgid "сhange"
+msgstr "змінити"
+
+#: /wa-apps/files/templates/actions/upload/UploadPath.html:26
+msgid "You have not enough rights to upload files"
+msgstr "У вас недостатньо прав для завантаження файлів"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:12
+msgid "Select files"
+msgstr "Оберіть файли"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:16
+#: /wa-apps/files/templates/actions/upload/Upload.html:18
+#, fuzzy
+msgid "or drag files here"
+msgstr "або перетягніть файли сюди "
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:25
+msgid "Upload files (%d)"
+msgstr "Завантажити файли (%d)"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:45
+msgid "Start upload"
+msgstr "Розпочати завантаження"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:51
+#: /wa-apps/files/js/jquery.fileupload-files.js:263
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:18
+msgid "Stop upload"
+msgstr "Зупинити завантаження"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:61
+msgid "Files uploaded with errors"
+msgstr "Файли, завантажені з помилками"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:125
+msgid "File size exceeds the limit"
+msgstr "Розмір файлу перевищує обмеження"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:127
+#, fuzzy
+msgid "Not allowed file type"
+msgstr "Не допускається тип файлу "
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:128
+msgid "Max number of files exceeded"
+msgstr "Перевищена максимальна кількість файлів"
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:129
+#, fuzzy
+msgid "Uploaded bytes exceed file size"
+msgstr "Завантажений байт перевищувати розмір файлу "
+
+#: /wa-apps/files/templates/actions/upload/Upload.html:130
+#: /wa-apps/files/templates/actions/upload/Upload.html:101
+msgid "Unidentified error"
+msgstr "Невизначена помилка"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:3
+#, fuzzy
+msgid "Access rights"
+msgstr "Права доступу "
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:13
+#, fuzzy
+msgid "Personal"
+msgstr "Особисті"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:14
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:32
+#, fuzzy
+msgid "Me only"
+msgstr "Мені тільки"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:24
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:42
+#, fuzzy
+msgid "Everyone"
+msgstr "Всі"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:25
+#: /wa-apps/files/templates/actions/share/include.share.html:3
+#, fuzzy
+msgid "All backend users"
+msgstr "Всі користувачі бекенда "
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:34
+#, fuzzy
+msgid "Limited"
+msgstr "Суспільства"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:35
+#, fuzzy
+msgid "Only certain backend users will be able to access this storage"
+msgstr "Тільки визначеним користувачам бекенда зможе отримати доступ до цього сховища"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:55
+#: /wa-apps/files/templates/actions/share/include.settings.html:14
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:60
+#, fuzzy
+msgid "Full access"
+msgstr "Повний доступ"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:74
+#: /wa-apps/files/templates/actions/share/include.settings.html:75
+#, fuzzy
+msgid "Selected users"
+msgstr "Обраним користувачам"
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:82
+#: /wa-apps/files/templates/actions/share/include.settings.html:69
+#, fuzzy
+msgid "There are no user groups in your Webasyst account. Add groups using Contacts app to be able to manage access to storage."
+msgstr "Немає групи користувачів у вашому акаунті Webasyst. Додавання груп через Контакти, щоб мати можливість керувати доступом до сховища."
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:133
+#: /wa-apps/files/templates/actions/share/include.settings.html:125
+#, fuzzy
+msgid "Start typing user name..."
+msgstr "Почніть вводити ім'я користувача..."
+
+#: /wa-apps/files/templates/actions/storage/include.access.settings.html:140
+#: /wa-apps/files/templates/actions/share/include.settings.html:140
+#, fuzzy
+msgid "Click “Save” button below to commit changes."
+msgstr "Натисніть кнопку \"Зберегти\" нижче, щоб здійснити зміни."
+
+#: /wa-apps/files/templates/actions/storage/include.settings.html:11
+#, fuzzy
+msgid "Storage name"
+msgstr "Ім'я сховища "
+
+#: /wa-apps/files/templates/actions/storage/include.settings.html:17
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:54
+#, fuzzy
+msgid "Icon"
+msgstr "Значок"
+
+#: /wa-apps/files/templates/actions/storage/StorageCreate.html:3
+#: /wa-apps/files/templates/actions/storage/StorageCreate.html:11
+#: /wa-apps/files/templates/actions/storage/StorageCreate.html:23
+#, fuzzy
+msgid "Create storage"
+msgstr "Створення сховища"
+
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:15
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:9
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:20
+#, fuzzy
+msgid "Delete storage"
+msgstr "Видаліть зберігання"
+
+#: /wa-apps/files/templates/actions/storage/StorageFiles.html:64
+#, fuzzy
+msgid "Share storage"
+msgstr "Спільне зберігання"
+
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:20
+#, fuzzy
+msgid "Delete storage and all files"
+msgstr "Вилучений і всі файли"
+
+#: /wa-apps/files/templates/actions/storage/StorageDeleteConfirm.html:12
+#, fuzzy
+msgid "This will permanently delete “%s”, and <strong>all %d files and folders</strong>. Are you sure?"
+msgstr "Це дозволить назавжди видалити \"%S\", і на <Strong>всі %D файлів і папок</сильний>. Ви впевнені?"
+
+#: /wa-apps/files/templates/actions/filter/FilterCreate.html:2
+#: /wa-apps/files/templates/actions/filter/FilterCreate.html:11
+#, fuzzy
+msgid "Create filter"
+msgstr "Створити фільтр"
+
+#: /wa-apps/files/templates/actions/filter/FilterFiles.html:27
+#, fuzzy
+msgid "Submit"
+msgstr "Уявити"
+
+#: /wa-apps/files/templates/actions/filter/FilterFiles.html:78
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:9
+#, fuzzy
+msgid "Delete filter"
+msgstr "Вилучити фільтр "
+
+#: /wa-apps/files/templates/actions/filter/FilterFiles.html:79
+#: /wa-apps/files/templates/actions/statistics/StatisticsTrash.html:24
+#, fuzzy
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: /wa-apps/files/templates/actions/filter/FilterSettings.html:25
+#, fuzzy
+msgid "Visibility"
+msgstr "Видимість"
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:3
+#, fuzzy
+msgid "Filter conditions"
+msgstr "Умови фільтру "
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:7
+#, fuzzy
+msgid "File name"
+msgstr "Ім'я файлу "
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:29
+#, fuzzy
+msgid "All storages"
+msgstr "Всі склади"
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:44
+#: /wa-apps/files/lib/classes/filesCollection.class.php:387
+#, fuzzy
+msgid "File type"
+msgstr "Тип файлу "
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:50
+#, fuzzy
+msgid "All types"
+msgstr "Всі види"
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:72
+#, fuzzy
+msgid "Custom file name extension"
+msgstr "Користувальницьке розширення імені файлу "
+
+#: /wa-apps/files/templates/actions/filter/include.search_settings.html:103
+#, fuzzy
+msgid "enter tags"
+msgstr "введіть теги"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:4
+#, fuzzy
+msgid "Source %s"
+msgstr "Джерело %з"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:10
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:20
+#, fuzzy
+msgid "Provider"
+msgstr "Постачальник"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:25
+#, fuzzy
+msgid "Account"
+msgstr "Рахунки"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:32
+#, fuzzy
+msgid "Owner"
+msgstr "Власник"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:49
+#, fuzzy
+msgid "Mounted"
+msgstr "Встановлений"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:59
+#, fuzzy
+msgid "Mount point"
+msgstr "Точка монтування"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:65
+#, fuzzy
+msgid "Mount as storage"
+msgstr "Кріплення для зберігання"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:66
+#, fuzzy
+msgid "Mount as subfolder"
+msgstr "Монтувати як папку"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:72
+#, fuzzy
+msgid "Mount"
+msgstr "Гора"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:87
+#, fuzzy
+msgid "Syncronization process may take several minutes."
+msgstr "Процес синхронізації може зайняти кілька хвилин."
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:88
+#, fuzzy
+msgid "Do not leave this page untill process finish."
+msgstr "Не покидайте цю сторінку до завершення процесу."
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:107
+#, fuzzy
+msgid "Renew authorization code"
+msgstr "Оновити код авторизації "
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:111
+#, fuzzy
+msgid "Authorization code renewal is not possible. You need to unlink the source and connect it again."
+msgstr "Авторизації коду продовження не можливий. Вам потрібно відключити джерело і знову підключіть його."
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:119
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:59
+#, fuzzy
+msgid "Load authorize page"
+msgstr "Навантаження дозволяють сторінки"
+
+#: /wa-apps/files/templates/actions/source/SourceInfo.html:125
+#: /wa-apps/files/js/files.js:47
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:23
+#, fuzzy
+msgid "Too many requests to external source service. Please try again in a few minutes."
+msgstr "Занадто багато запитів до зовнішнього джерела обслуговування. Будь ласка, спробуйте ще через кілька хвилин."
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:1
+#, fuzzy
+msgid "Connect new source"
+msgstr "Підключити новий джерело"
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:10
+#, fuzzy
+msgid "Register application on %s"
+msgstr "Заявка реєстрацію на %S"
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:12
+#, fuzzy
+msgid "Connect %s account:"
+msgstr "Записи Connect %з:"
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:35
+#, fuzzy
+msgid "specify settings"
+msgstr "вкажіть параметри"
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:46
+#, fuzzy
+msgid "Connect"
+msgstr "Підключення"
+
+#: /wa-apps/files/templates/actions/source/SourceCreate.html:193
+#, fuzzy
+msgid "You need to install any source plugin before connecting sources."
+msgstr "Вам потрібно встановити будь-плагін джерела перед підключенням джерел."
+
+#: /wa-apps/files/templates/actions/source/include.unmount.html:7
+#, fuzzy
+msgid "This will remove source and related folder from application. All files inside your source will remain unchanged."
+msgstr "Це дозволить видалити джерело і відповідні папки з програми. Всі файли всередині вашого джерела залишиться незмінною."
+
+#: /wa-apps/files/templates/actions/source/include.unmount.html:12
+#, fuzzy
+msgid "Unmount"
+msgstr "Відмонтувати"
+
+#: /wa-apps/files/templates/actions/file/FilePrivateLink.html:10
+#, fuzzy
+msgid "Private link"
+msgstr "Приватна ссылке"
+
+#: /wa-apps/files/templates/actions/file/FilePrivateLink.html:20
+#, fuzzy
+msgid "File is not visible in the public frontend because there are no routing rules for the Files app in your website settings. Use Site app (“Structure” section) to settle Files app on your website."
+msgstr "Файл не відображається в публічному інтерфейсі, тому що немає ніяких правил маршрутизації для програми файлів в налаштуваннях свого веб-сайту. Використовуйте додаток сайту (розділ\"структура\"), щоб врегулювати додатки Файли на ваш сайт."
+
+#: /wa-apps/files/templates/actions/file/FilePrivateLink.html:28
+#, fuzzy
+msgid "Remove link"
+msgstr "Видалити посилання"
+
+#: /wa-apps/files/templates/actions/file/File.html:12
+#, fuzzy
+msgid "First "
+msgstr "Перший "
+
+#: /wa-apps/files/templates/actions/file/File.html:17
+#, fuzzy
+msgid "Probably binary data in this file!"
+msgstr "Можливо, двійкові дані у файл!"
+
+#: /wa-apps/files/templates/actions/file/File.html:37
+#: /wa-apps/files/templates/actions/rename/Rename.html:27
+#, fuzzy
+msgid "You are going to change file extension. This may cause unavailability of file content. Are you sure?"
+msgstr "Ви збираєтеся змінити розширення файлу. Це може призвести до недоступності вмісту файлу. Ви впевнені?"
+
+#: /wa-apps/files/templates/actions/file/File.html:53
+#, fuzzy
+msgid "Edit share settings"
+msgstr "Зміна параметрів акцій "
+
+#: /wa-apps/files/templates/actions/file/File.html:53
+#, fuzzy
+msgid "Share this file"
+msgstr "Поділитися цей файл"
+
+#: /wa-apps/files/templates/actions/file/File.html:77
+#, fuzzy
+msgid "Download"
+msgstr "Завантажити"
+
+#: /wa-apps/files/templates/actions/file/File.html:97
+#, fuzzy
+msgid "Delete file"
+msgstr "Видалити файл "
+
+#: /wa-apps/files/templates/actions/file/File.html:138
+#, fuzzy
+msgid "Uploaded by"
+msgstr "Завантажені"
+
+#: /wa-apps/files/templates/actions/file/File.html:149
+#, fuzzy
+msgid "Uploaded"
+msgstr "Завантажений"
+
+#: /wa-apps/files/templates/actions/file/File.html:170
+#: /wa-apps/files/templates/actions/mark/Mark.html:37
+#, fuzzy
+msgid "None"
+msgstr "Немає"
+
+#: /wa-apps/files/templates/actions/file/File.html:184
+#: /wa-apps/files/templates/actions/tag/Tag.html:12
+#, fuzzy
+msgid "Add a tag"
+msgstr "Додати тег"
+
+#: /wa-apps/files/templates/actions/file/File.html:185
+#, fuzzy
+msgid "Saved"
+msgstr "Спас"
+
+#: /wa-apps/files/templates/actions/file/File.html:192
+#: /wa-apps/files/templates/actions/tag/Tag.html:18
+#, fuzzy
+msgid "Popular tags"
+msgstr "Популярні теги"
+
+#: /wa-apps/files/templates/actions/file/File.html:208
+#, fuzzy
+msgid "Comments"
+msgstr "Коментарі"
+
+#: /wa-apps/files/templates/actions/file/File.html:220
+#, fuzzy
+msgid "Remove"
+msgstr "Видалити"
+
+#: /wa-apps/files/templates/actions/file/File.html:237
+#: /wa-apps/files/templates/actions/file/File.html:249
+#, fuzzy
+msgid "Add comment"
+msgstr "Додати коментар"
+
+#: /wa-apps/files/templates/actions/file/File.html:250
+#, fuzzy
+msgid "Ctrl+Enter"
+msgstr "Поєднання Клавіш Ctrl+Enter"
+
+#: /wa-apps/files/templates/actions/rename/Rename.html:19
+#, fuzzy
+msgid "Rename file"
+msgstr "Перейменувати файл"
+
+#: /wa-apps/files/templates/actions/rename/Rename.html:19
+#, fuzzy
+msgid "Rename folder"
+msgstr "Папку, перейменувати "
+
+#: /wa-apps/files/templates/actions/rename/Rename.html:33
+#, fuzzy
+msgid "No permissions to rename this file"
+msgstr "Ніяких дозволів перейменувати цей файл"
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsFileTypes.html:7
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:6
+#, fuzzy
+msgid "File type statistics"
+msgstr "Файл статистики типу "
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsFileTypes.html:9
+#, fuzzy
+msgid "File extension"
+msgstr "Розширення файлу "
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsFileTypes.html:11
+#: /wa-apps/files/templates/actions/statistics/StatisticsTrash.html:12
+#: /wa-apps/files/templates/actions/statistics/StatisticsStorages.html:11
+#: /wa-apps/files/templates/actions/statistics/StatisticsUsers.html:11
+#, fuzzy
+msgid "Files"
+msgstr "Файли"
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsTrash.html:8
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:5
+#, fuzzy
+msgid "Trash summary"
+msgstr "Сміття резюме"
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsStorages.html:7
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:4
+#, fuzzy
+msgid "Storage summary"
+msgstr "Резюме зберігання "
+
+#: /wa-apps/files/templates/actions/statistics/include.body.users.html:16
+#: /wa-apps/files/templates/actions/statistics/include.body.file_types.html:15
+#: /wa-apps/files/templates/actions/statistics/include.body.storages.html:45
+#, fuzzy
+msgid "Total"
+msgstr "Загальна"
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsUsers.html:7
+#: /wa-apps/files/templates/actions/statistics/Statistics.html:7
+#, fuzzy
+msgid "User statistics"
+msgstr "Статистика користувачів "
+
+#: /wa-apps/files/templates/actions/statistics/StatisticsUsers.html:9
+#, fuzzy
+msgid "User"
+msgstr "Користувач"
+
+#: /wa-apps/files/templates/actions/statistics/include.body.storages.html:36
+#, fuzzy
+msgid "clear"
+msgstr "зрозуміло"
+
+#: /wa-apps/files/templates/actions/trash/TrashFiles.html:7
+#, fuzzy
+msgid "All delete files"
+msgstr "Видалити всі файли"
+
+#: /wa-apps/files/templates/actions/trash/TrashFiles.html:17
+#, fuzzy
+msgid "My private files"
+msgstr "Мої особисті файли"
+
+#: /wa-apps/files/templates/actions/send/Send.html:25
+#, fuzzy
+msgid "To:"
+msgstr "До:"
+
+#: /wa-apps/files/templates/actions/send/Send.html:30
+#, fuzzy
+msgid "One email per line or separated by a \";\""
+msgstr "Один лист на рядку або розділивши на \";\""
+
+#: /wa-apps/files/templates/actions/send/Send.html:35
+#, fuzzy
+msgid "Subject:"
+msgstr "Тема:"
+
+#: /wa-apps/files/templates/actions/send/Send.html:42
+#, fuzzy
+msgid "Text:"
+msgstr "Текст:"
+
+#: /wa-apps/files/templates/actions/send/Send.html:49
+#, fuzzy
+msgid "Attachements:"
+msgstr "Додатки:"
+
+#: /wa-apps/files/templates/actions/send/Send.html:59
+#, fuzzy
+msgid "File size exeeds the limit set for email messages."
+msgstr "Розмір файлу перевищує ліміт, встановлений для повідомлень електронної пошти."
+
+#: /wa-apps/files/templates/actions/send/Send.html:71
+#, fuzzy
+msgid "Send"
+msgstr "Відправити"
+
+#: /wa-apps/files/templates/actions/send/Send.html:51
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d file"
+msgstr[1] "%d files"
+msgstr[2] "%d файлів"
+
+#: /wa-apps/files/templates/actions/mark/Mark.html:12
+#, fuzzy
+msgid "Mark the rest"
+msgstr "Марк інші"
+
+#: /wa-apps/files/templates/actions/mark/Mark.html:21
+#, fuzzy
+msgid "Mark files"
+msgstr "Марк файлів"
+
+#: /wa-apps/files/templates/actions/mark/Mark.html:26
+#: /wa-apps/files/templates/actions/mark/Mark.html:44
+#, fuzzy
+msgid "No permissions to mark this files"
+msgstr "Ніяких дозволів, щоб позначити ці файли"
+
+#: /wa-apps/files/templates/actions/tag/Tag.html:9
+#, fuzzy
+msgid "Assign tags"
+msgstr "Призначити теги"
+
+#: /wa-apps/files/templates/actions/tag/Tag.html:34
+#, fuzzy
+msgid "Assign"
+msgstr "Призначити"
+
+#: /wa-apps/files/templates/actions/tag/Tag.html:47
+#, fuzzy
+msgid "Add tag"
+msgstr "Додати тег"
+
+#: /wa-apps/files/templates/actions/share/include.public_link.html:4
+#, fuzzy
+msgid "You need the settlement of Files to create public link. Use <a href=\"%s\">Site</a> to create new settlement."
+msgstr "Вам потрібні дозволи файлів, щоб створити публічну посилання. Використовуйте <а href=\"%з\">сайт</A>, щоб створити нове поселення."
+
+#: /wa-apps/files/templates/actions/share/include.public_link.html:13
+#, fuzzy
+msgid "Link to this file"
+msgstr "Посилання на цей файл"
+
+#: /wa-apps/files/templates/actions/share/include.public_link.html:13
+#, fuzzy
+msgid "Link to this folder"
+msgstr "Посилання на цю папку"
+
+#: /wa-apps/files/templates/actions/share/include.public_link.html:26
+#, fuzzy
+msgid "Right now this content is private and can be viewed by authorized backend users only. Enabling public link option will create a secret direct link that you can send to other people so they can access and download this content too."
+msgstr "Зараз цей контент є приватним і може розглядатися тільки уповноваженим користувачам інтерфейсі. Функція публічна посилання буде створити таємну прямой ссылке, які ви можете надіслати іншим людям, щоб вони могли відкрити і завантажити цей контент."
+
+#: /wa-apps/files/templates/actions/share/Share.html:13
+#, fuzzy
+msgid "Share file"
+msgstr "Файловий"
+
+#: /wa-apps/files/templates/actions/share/Share.html:13
+#, fuzzy
+msgid "Share folder"
+msgstr "Папки "
+
+#: /wa-apps/files/templates/actions/share/Share.html:15
+#, fuzzy
+msgid "Public link to"
+msgstr "Посилання"
+
+#: /wa-apps/files/templates/actions/share/Share.html:53
+#, fuzzy
+msgid "Insufficient access rights"
+msgstr "Недостатньо прав для доступу "
+
+#: /wa-apps/files/templates/actions/share/Share.html:185
+#, fuzzy
+msgid "Couldn't share folder"
+msgstr "Не зможу розділити папку"
+
+#: /wa-apps/files/templates/actions/share/include.share.html:3
+#: /wa-apps/files/templates/actions/share/include.share.html:9
+#, fuzzy
+msgid "Currenty shared with <strong>%s</strong>"
+msgstr "Даний спільно з <Strong>%</сильний>"
+
+#: /wa-apps/files/templates/actions/share/include.share.html:7
+#, fuzzy
+msgid "Share with the team"
+msgstr "Поділитися з командою"
+
+#: /wa-apps/files/templates/actions/share/include.share.html:10
+#, fuzzy
+msgid "Customize"
+msgstr "Налаштування"
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:26
+#, fuzzy
+msgid "No permissions to delete these files"
+msgstr "Немає дозволу на видалення файлів"
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:35
+#, fuzzy
+msgid "Files will be deleted PERMANENTLY without the ability to restore. Are you sure?"
+msgstr "Файли будуть вилучені назавжди без можливості відновлення. Ви впевнені?"
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:37
+#, fuzzy
+msgid "Files will be moved to trash. Are you sure?"
+msgstr "Файли будуть переміщені в корзину. Ви впевнені?"
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:43
+#, fuzzy
+msgid "You don’t have permissions to delete these files."
+msgstr "Ви не маєте права видаляти ці файли."
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:53
+#, fuzzy
+msgid "Delete the rest"
+msgstr "Видалити інші"
+
+#: /wa-apps/files/templates/actions/delete/Delete.html:39
+msgid "%d file will be deleted"
+msgid_plural "%d files will be deleted"
+msgstr[0] "%d файл буде видалено"
+msgstr[1] "%d файли буде видалено"
+msgstr[2] "%d файлів буде видалено"
+
+#: /wa-apps/files/templates/include.error.html:6
+#, fuzzy
+msgid "An error occurred"
+msgstr "Сталася помилка "
+
+#: /wa-apps/files/templates/include.dialogs.html:15
+#: /wa-apps/files/js/files.js:163
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:20
+#, fuzzy
+msgid "Yes"
+msgstr "Так"
+
+#: /wa-apps/files/js/jquery.fileupload-files.js:136
+#, fuzzy
+msgid "Empty result"
+msgstr "Порожній результат"
+
+#: /wa-apps/files/js/files.js:460
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:11
+#, fuzzy
+msgid "Couldn't save filter"
+msgstr "Не зміг зберегти фільтр"
+
+#: /wa-apps/files/js/files.js:499
+#: /wa-apps/files/lib/actions/backend/filesBackendLoc.action.php:13
+#, fuzzy
+msgid "Couldn't create storage"
+msgstr "Не можу створити сховище"
+
+#: /wa-apps/files/lib/config/site.php:7
+#, fuzzy
+msgid "Frontend type"
+msgstr "Тип фронтенду "
+
+#: /wa-apps/files/lib/config/site.php:11 /wa-apps/files/lib/config/site.php:12
+#, fuzzy
+msgid "Published files"
+msgstr "Опубліковано файлів"
+
+#: /wa-apps/files/lib/config/site.php:15 /wa-apps/files/lib/config/site.php:16
+#, fuzzy
+msgid "WebDav"
+msgstr "Протокол WebDAV"
+
+#: /wa-apps/files/lib/config/logs.php:4
+#, fuzzy
+msgid "uploaded"
+msgstr "завантажений"
+
+#: /wa-apps/files/lib/config/logs.php:5
+#, fuzzy
+msgid "created new folder"
+msgstr "створив нову папку"
+
+#: /wa-apps/files/lib/config/logs.php:6
+#, fuzzy
+msgid "created new storage"
+msgstr "створити нове сховище"
+
+#: /wa-apps/files/lib/config/logs.php:7
+#, fuzzy
+msgid "renamed"
+msgstr "перейменували"
+
+#: /wa-apps/files/lib/config/logs.php:8
+#, fuzzy
+msgid "moved"
+msgstr "переїхав"
+
+#: /wa-apps/files/lib/config/logs.php:9
+#, fuzzy
+msgid "duplicated"
+msgstr "дублюються"
+
+#: /wa-apps/files/lib/config/logs.php:10
+#, fuzzy
+msgid "deleted"
+msgstr "вилучений"
+
+#: /wa-apps/files/lib/config/logs.php:11
+#, fuzzy
+msgid "restored"
+msgstr "відновлені"
+
+#: /wa-apps/files/lib/config/data/file_types.php:5
+#, fuzzy
+msgid "Text"
+msgstr "Текст"
+
+#: /wa-apps/files/lib/config/data/file_types.php:76
+#: /wa-apps/files/lib/classes/filesInstaller.class.php:43
+#, fuzzy
+msgid "Documents"
+msgstr "Документи"
+
+#: /wa-apps/files/lib/config/data/file_types.php:154
+#: /wa-apps/files/lib/classes/filesInstaller.class.php:49
+#, fuzzy
+msgid "Images"
+msgstr "Зображення"
+
+#: /wa-apps/files/lib/config/data/file_types.php:174
+#, fuzzy
+msgid "Video"
+msgstr "Відео"
+
+#: /wa-apps/files/lib/config/data/file_types.php:204
+#, fuzzy
+msgid "Audio"
+msgstr "Аудіо"
+
+#: /wa-apps/files/lib/config/data/file_types.php:229
+#, fuzzy
+msgid "eBooks"
+msgstr "книги"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:341
+#, fuzzy
+msgid "Off"
+msgstr "Від"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:342
+#, fuzzy
+msgid "My favorite folders only"
+msgstr "Мій улюблений папки тільки"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:343
+#, fuzzy
+msgid "All folders"
+msgstr "Всі папки"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:356
+#, fuzzy
+msgid "New shared files and folders"
+msgstr "Нові спільних файлів і папок"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:357
+#, fuzzy
+msgid "New uploaded files (favorite folders only)"
+msgstr "Нові завантажені файли (папки обраних тільки)"
+
+#: /wa-apps/files/lib/config/filesConfig.class.php:358
+#, fuzzy
+msgid "New uploaded files (all folders)"
+msgstr "Нові завантажені файли (папки)"
+
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:26
+#, fuzzy
+msgid "Can create storage"
+msgstr "Можете створити сховище"
+
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:56
+#, fuzzy
+msgid "No access"
+msgstr "Немає доступу"
+
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:57
+#, fuzzy
+msgid "View only"
+msgstr "Вид тільки"
+
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:58
+#, fuzzy
+msgid "View and comment"
+msgstr "Переглядати та коментувати"
+
+#: /wa-apps/files/lib/config/filesRightConfig.class.php:59
+#, fuzzy
+msgid "Add new files"
+msgstr "Додати нові файли"
+
+#: /wa-apps/files/lib/classes/filesInstaller.class.php:33
+#, fuzzy
+msgid "Common files"
+msgstr "Загальні файли"
+
+#: /wa-apps/files/lib/classes/filesCopytaskProcessController.class.php:303
+#, fuzzy
+msgid "All files have been copied"
+msgstr "Всі файли були скопійовані"
+
+#: /wa-apps/files/lib/classes/filesCollection.class.php:330
+#, fuzzy
+msgid "Files IDs:"
+msgstr "Файли Ідентифікаторів:"
+
+#: /wa-apps/files/lib/classes/filesCollection.class.php:391
+#, fuzzy
+msgid "Extension"
+msgstr "Розширення"
+
+#: /wa-apps/files/lib/classes/filesCollection.class.php:430
+#, fuzzy
+msgid "Search results of"
+msgstr "Результати пошуку"
+
+#: /wa-apps/files/lib/classes/source/filesSourceProvider.class.php:454
+#, fuzzy
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: /wa-apps/files/lib/classes/source/filesSourceAppProvider.class.php:219
+#, fuzzy
+msgid "Insufficient file write permissions for folder %s."
+msgstr "Недостатнє файл права на запис теки \"%s\"."
+
+#: /wa-apps/files/lib/classes/source/filesSourceAppProvider.class.php:11
+#: /wa-apps/files/lib/classes/source/filesSourceAppProvider.class.php:16
+#, fuzzy
+msgid "Application"
+msgstr "Додаток"
+
+#: /wa-apps/files/lib/classes/filesApp.class.php:470
+#, fuzzy
+msgid "B"
+msgstr "Б"
+
+#: /wa-apps/files/lib/classes/filesApp.class.php:472
+#, fuzzy
+msgid "KB"
+msgstr "КБ"
+
+#: /wa-apps/files/lib/classes/filesApp.class.php:474
+#, fuzzy
+msgid "MB"
+msgstr "МБ"
+
+#: /wa-apps/files/lib/classes/filesApp.class.php:728
+#, fuzzy
+msgid "Access denied"
+msgstr "Доступ заборонений"
+
+#: /wa-apps/files/lib/classes/filesException.class.php:14
+#, fuzzy
+msgid "Please contact app developer."
+msgstr "Будь ласка, зв'яжіться з розробником програми."
+
+#: /wa-apps/files/lib/classes/filesStatistics.class.php:153
+#, fuzzy
+msgid "Deleted contact"
+msgstr "Видалені контакти"
+
+#: /wa-apps/files/lib/classes/filesController.class.php:176
+#, fuzzy
+msgid "Page not found"
+msgstr "Сторінка не знайдена"
+
+#: /wa-apps/files/lib/classes/filesRights.class.php:709
+#, fuzzy
+msgid "Group:"
+msgstr "Група:"
+
+#: /wa-apps/files/lib/classes/filesRights.class.php:739
+#: /wa-apps/files/lib/actions/storage/filesStorageFiles.action.php:81
+#: /wa-apps/files/lib/models/filesModel.class.php:135
+#, fuzzy
+msgid "User %s"
+msgstr "Користувач %s"
+
+#: /wa-apps/files/lib/actions/comment/filesCommentSave.controller.php:26
+#: /wa-apps/files/lib/actions/folder/filesFolderSave.controller.php:30
+#: /wa-apps/files/lib/actions/storage/filesStorageSave.controller.php:71
+#: /wa-apps/files/lib/actions/rename/filesRenameFile.controller.php:51
+#, fuzzy
+msgid "This field is required"
+msgstr "Це поле є обов'язковим"
+
+#: /wa-apps/files/lib/actions/folder/filesFolderSave.controller.php:39
+#, fuzzy
+msgid "There are forbidden characters."
+msgstr "Є заборонені символи."
+
+#: /wa-apps/files/lib/actions/folder/filesFolderSave.controller.php:54
+#, fuzzy
+msgid "Name is not unique. Try to rename."
+msgstr "Ім'я не є унікальним. Спробуй перейменувати."
+
+#: /wa-apps/files/lib/actions/folder/filesFolderDownload.controller.php:63
+#, fuzzy
+msgid "There are no files available to pack"
+msgstr "Немає файлів доступних для оновлення"
+
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:36
+#, fuzzy
+msgid "No available storages"
+msgstr "Немає доступних сховищ"
+
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:91
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:128
+#: /wa-apps/files/lib/actions/source/filesSourcePull.controller.php:342
+#, fuzzy
+msgid "Storage not found"
+msgstr "Зберігання не знайдено"
+
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:101
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:138
+#, fuzzy
+msgid "Access denied to storage"
+msgstr "Відмовлено в доступі до зберігання"
+
+#: /wa-apps/files/lib/actions/browser/filesBrowser.actions.php:123
+#: /wa-apps/files/lib/actions/source/filesSourcePull.controller.php:316
+#, fuzzy
+msgid "Folder not found"
+msgstr "Папку не знайшли"
+
+#: /wa-apps/files/lib/actions/upload/filesUploadFiles.controller.php:206
+#, fuzzy
+msgid "Saving error"
+msgstr "Помилка при збереженні "
+
+#: /wa-apps/files/lib/actions/upload/filesUploadFiles.controller.php:140
+#, fuzzy
+msgid "Excluded from upload because of name conflict."
+msgstr "Виключити з завантаження з-за конфлікту імен."
+
+#: /wa-apps/files/lib/actions/storage/filesStorageSave.controller.php:80
+#: /wa-apps/files/lib/actions/rename/filesRenameFile.controller.php:59
+#, fuzzy
+msgid "There are a forbidden symbols"
+msgstr "Є заборонені символи"
+
+#: /wa-apps/files/lib/actions/storage/filesStorageSave.controller.php:91
+#, fuzzy
+msgid "Not unique"
+msgstr "Не унікальний"
+
+#: /wa-apps/files/lib/actions/filter/filesFilterSave.controller.php:36
+#, fuzzy
+msgid "Incorrect data for saving"
+msgstr "Невірні дані для збереження"
+
+#: /wa-apps/files/lib/actions/source/filesSourceSave.controller.php:48
+#: /wa-apps/files/lib/actions/source/filesSourceAuthorize.controller.php:65
+#: /wa-apps/files/lib/actions/source/filesSourceAuthorize.controller.php:41
+#: /wa-apps/files/lib/actions/source/filesSourceInfo.action.php:33
+#: /wa-apps/files/lib/actions/source/filesSourcePull.controller.php:282
+#: /wa-apps/files/lib/actions/source/filesSourceDelete.controller.php:16
+#, fuzzy
+msgid "Source not found"
+msgstr "Джерело не знайшли"
+
+#: /wa-apps/files/lib/actions/source/filesSourceSave.controller.php:101
+#: /wa-apps/files/lib/actions/source/filesSourceSave.controller.php:105
+#, fuzzy
+msgid "Can't create storage"
+msgstr "Не можу створити сховище"
+
+#: /wa-apps/files/lib/actions/source/filesSourceSave.controller.php:141
+#, fuzzy
+msgid "Can't create folder"
+msgstr "Не можу створити папку"
+
+#: /wa-apps/files/lib/actions/source/filesSourceAuthorize.controller.php:11
+#, fuzzy
+msgid "Authorize failed"
+msgstr "Не вдалося авторизувати"
+
+#: /wa-apps/files/lib/actions/source/filesSourceAuthorize.controller.php:48
+#: /wa-apps/files/lib/actions/source/filesSourceAuthorize.controller.php:58
+#, fuzzy
+msgid "Source plugin not found"
+msgstr "Плагін джерело не знайдено"
+
+#: /wa-apps/files/lib/actions/source/filesSourcePull.controller.php:269
+#, fuzzy
+msgid "All files from remote source have been pulled"
+msgstr "Всі файли з віддаленого джерела були витяг"
+
+#: /wa-apps/files/lib/actions/send/filesSendFiles.controller.php:27
+#, fuzzy
+msgid "Please specify valid email address"
+msgstr "Будь ласка, введіть дійсну адресу електронної пошти "
+
+#: /wa-apps/files/lib/actions/send/filesSendFiles.controller.php:34
+#, fuzzy
+msgid "Invalid email address"
+msgstr "Неправильна адреса електронної пошти "
+
+#: /wa-apps/files/lib/models/filesStorage.model.php:128
+#: /wa-apps/files/lib/models/filesStorage.model.php:324
+#, fuzzy
+msgid "My files"
+msgstr "Мої файли"
+
+#: /wa-apps/files/lib/models/filesFile.model.php:1040
+#: /wa-apps/files/lib/models/filesFile.model.php:2520
+#, fuzzy
+msgid "Maximum amount of folders for one copy process is %s."
+msgstr "Максимальна кількість папок для одного процесу копіювання % - ів."
+
+#: /wa-apps/files/lib/models/filesModel.class.php:105
+#, fuzzy
+msgid "Group %s"
+msgstr "Група %з"
+
+#: /wa-apps/files/themes/default/files.html:46
+#, fuzzy
+msgid "Load more"
+msgstr "Навантаження більше"
