@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Mailer 1.0.19.42 UA translation v 0.2\n"
+"Project-Id-Version: Webasyst Mailer 1.0.20.46 UA translation v 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -872,16 +872,16 @@ msgstr "Виключити з цього переліку підписувачі
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:194
 msgid "Do you really want to eliminate contact %s from all subscribers?"
 msgid_plural "<span id=\"delete-contact-name-email\"></span>"
-msgstr[0] "Ви дійсно бажаєте виключити %s контакт з усіх підписок?"
-msgstr[1] "Ви дійсно бажаєте виключити %s контакти з усіх підписок?"
-msgstr[2] "Ви дійсно бажаєте виключити %s контактів з усіх підписок?"
+msgstr[0] "Do you really want to eliminate contact %s from all subscribers?"
+msgstr[1] "<span id=\"delete-contact-name-email\"></span>"
+msgstr[2] "<span id=\"delete-contact-name-email\"></span>"
 
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:197
 msgid "Do you really want to eliminate contact %s from this subscribers list?"
 msgid_plural "<span id=\"delete-contact-name-email\"></span>"
-msgstr[0] "Ви дійсно бажаєте виключити %s контакт з цього переліку підписувачів?"
-msgstr[1] "Ви дійсно бажаєте виключити %s контакти з цього переліку підписувачів?"
-msgstr[2] "Ви дійсно бажаєте виключити %s контактів з цього переліку підписувачів?"
+msgstr[0] "Do you really want to eliminate contact %s from this subscribers list?"
+msgstr[1] "<span id=\"delete-contact-name-email\"></span>"
+msgstr[2] "<span id=\"delete-contact-name-email\"></span>"
 
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersListold.html:99
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:195
@@ -1676,7 +1676,7 @@ msgstr "Ми виконаємо фінальну перевірку та зап�
 
 #: /wa-apps/mailer/templates/actions/schedule/ScheduleDialog.html:25
 msgid "current time is"
-msgstr "поточний час"
+msgstr "поточний час:"
 
 #: /wa-apps/mailer/templates/actions/schedule/ScheduleDialog.html:25
 msgid "format"
@@ -1957,7 +1957,7 @@ msgstr[2] "Для даного розсилання було обрано %s о�
 #: /wa-apps/mailer/templates/actions/campaigns/CampaignsReport.html:147
 msgid "However, not every one of them was actually included in the mailing list (see %s for details)"
 msgid_plural "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
-msgstr[0] "However, not every one of them was actually included in the mailing list (see %s for details)"
+msgstr[0] "Однак не усі вони були включені у перелік розсилання (дивись подробиці у %s )"
 msgstr[1] "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
 msgstr[2] "<a href=\"#\" rel=\"status=-3,-4\" class=\"show-recipients-link inline-link inline-link-notop\"><b>[`Exceptions`]</b></a>"
 
@@ -2858,3 +2858,8 @@ msgstr "назад"
 #: /wa-apps/mailer/templates/actions/subscribers/SubscribersList.html:150
 msgid "next"
 msgstr "далі"
+
+#: /wa-apps/mailer/lib/classes/mailerHelper.class.php:120
+#: /wa-apps/mailer/lib/actions/templates/mailerTemplatesEdit.action.php:38
+msgid "Deleted contact #%d"
+msgstr "Видалено контакт #%d"
