@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Site 2.5.5.171 UA translation v 0.2\n"
+"Project-Id-Version: Webasyst Site 2.5.8.185 UA translation v 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/site/templates/actions/snippets/Snippets.html:2
 #: /wa-apps/site/templates/actions/blocks/Blocks.html:2
@@ -2243,3 +2243,48 @@ msgstr "Ви успішно підтвердили адресу електрон
 #: /wa-apps/site/lib/siteCustomSignup.action.php:61
 msgid "Specified email is already in use."
 msgstr "Вказану адресу електронної пошти вже використовується."
+
+#: /wa-apps/site/templates/actions/routing/RoutingEdit.html:79
+msgid "Temporary redirecting"
+msgstr "Тимчасове перенаправлення"
+
+#: /wa-apps/site/templates/actions/routing/RoutingEdit.html:83
+msgid "Use server response code 302"
+msgstr "Використовувати код відповіді сервера 302"
+
+#: /wa-apps/site/templates/actions/routing/RoutingEdit.html:87
+msgid "Enable for <strong>temproray</strong> redirecting only, which you are planning to cancel in the future."
+msgstr "Увімкнути тільки для тимчасового перенаправлення, яке ви плануєте скасувати у майбутньому."
+
+#: /wa-apps/site/templates/actions/routing/RoutingEdit.html:88
+msgid "Disable for <strong>permanent</strong> redirecting with server response code 301, which is used to inform search engines that the new URL should be indexed instead of the old one."
+msgstr "Вимкніть для постійного перенаправлення з кодом відповіді сервера 301, який інформує пошукові системи про необхідність індексувати новий URL замість застарілого."
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:96
+msgid "A registered website visitor will be able to log in only with an email address or phone number confirmed."
+msgstr "Зареєстрований відвідувач сайту зможе авторизуватись тільки за адресою email або підтвердженим номером телефону."
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:293
+msgid "National direct-dialing code (NDD)"
+msgstr "Національній код прямого виклику (National direct-dialing code, NDD)"
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:301
+msgid "Enter the NDD code which is used for making calls within your country."
+msgstr "Вкажіть код прямого виклику, який використовується для дзвінків по вашій країні."
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:302
+msgid "The NDD, if specified, will be replaced with the country code in website visitors’ phone numbers."
+msgstr "Код прямого виклику, якщо вказано, буде замінено кодом країни у номерах телефонів користувачів сайту."
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:305
+msgid "Country code"
+msgstr "Код країни"
+
+#: /wa-apps/site/templates/actions/personal/PersonalSettingsHelpers.inc.html:310
+msgid "Enter your country’s phone number code to be used in website visitors’ phone numbers instead of the NDD."
+msgstr "Введіть телефонний код вашої країни, який буде використовуватись у номерах телефонів користувачів замість коду прямого виклику."
+
+#: /wa-apps/site/lib/actions/personal/sitePersonalSettingsSave.controller.php:57
+#: /wa-apps/site/lib/actions/personal/sitePersonalSettingsSave.controller.php:60
+msgid "Enter digits only"
+msgstr "Введіть тільки цифри"

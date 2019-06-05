@@ -1,16 +1,21 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: Webasyst Blog 1.4.1.24 UA translation v 0.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: Webasyst Blog 1.4.2.32 UA translation v 0.1\n"
+"Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2011-11-11 13:30+0300\n"
+"PO-Revision-Date: \n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
 
 #: /wa-apps/blog/templates/actions/backend/BackendComments.html:68
 msgid "Loading"
@@ -303,24 +308,96 @@ msgstr "Блоги"
 msgid "Name length should not exceed 255 symbols"
 msgstr "Ім'я не повинно бути довшим за 255 символів"
 
+#: /wa-apps/blog/templates/actions/backend/Backend.html:256
+#: /wa-apps/blog/templates/actions-mobile/backend/Backend.html:79
+#: /wa-apps/blog/themes/_webasystcom/stream.html:79
+#: /wa-apps/blog/themes/_webasystcom/stream.html:84
+#: /wa-apps/blog/themes/ascetic/sidebar.html:69
+#: /wa-apps/blog/themes/ascetic/stream.html:21
+#: /wa-apps/blog/themes/ascetic/stream.html:26
+#: /wa-apps/blog/themes/ascetic/stream_posts.html:64
+#: /wa-apps/blog/themes/ascetic/stream_search.html:20
+#: /wa-apps/blog/themes/clear/navigation.html:51
+#: /wa-apps/blog/themes/clear/stream.html:21
+#: /wa-apps/blog/themes/clear/stream.html:26
+#: /wa-apps/blog/themes/clear/stream_posts.html:70
+#: /wa-apps/blog/themes/clear/stream_search.html:20
+#: /wa-apps/blog/themes/custom/content.html:48
+#: /wa-apps/blog/themes/custom/stream.html:21
+#: /wa-apps/blog/themes/custom/stream.html:26
+#: /wa-apps/blog/themes/custom/stream_posts.html:70
+#: /wa-apps/blog/themes/custom/stream_search.html:20
+#: /wa-apps/blog/themes/default/main.html:81
+#: /wa-apps/blog/themes/default/stream.html:22
+#: /wa-apps/blog/themes/default/stream.html:27
+#: /wa-apps/blog/themes/default/stream_posts.html:72
+#: /wa-apps/blog/themes/default/stream_search.html:20
+#: /wa-apps/blog/themes/facebook/navigation.html:72
+#: /wa-apps/blog/themes/facebook/stream.html:21
+#: /wa-apps/blog/themes/facebook/stream.html:26
+#: /wa-apps/blog/themes/facebook/stream_posts.html:70
+#: /wa-apps/blog/themes/facebook/stream_search.html:20
+#: /wa-apps/blog/themes/nifty/navigation.html:48
+#: /wa-apps/blog/themes/nifty/stream.html:21
+#: /wa-apps/blog/themes/nifty/stream.html:26
+#: /wa-apps/blog/themes/nifty/stream_posts.html:70
+#: /wa-apps/blog/themes/nifty/stream_search.html:20
+#: /wa-apps/blog/themes/pinboard/navigation.html:56
+#: /wa-apps/blog/themes/pinboard/stream.html:21
+#: /wa-apps/blog/themes/pinboard/stream.html:26
+#: /wa-apps/blog/themes/pinboard/stream_posts.html:70
+#: /wa-apps/blog/themes/pinboard/stream_search.html:20
+#: /wa-apps/blog/themes/sidebar/content.html:62
+#: /wa-apps/blog/themes/sidebar/stream.html:21
+#: /wa-apps/blog/themes/sidebar/stream.html:26
+#: /wa-apps/blog/themes/sidebar/stream_posts.html:70
+#: /wa-apps/blog/themes/sidebar/stream_search.html:20
+#: /wa-apps/blog/themes/vk/navigation.html:72
+#: /wa-apps/blog/themes/vk/stream.html:21
+#: /wa-apps/blog/themes/vk/stream.html:26
+#: /wa-apps/blog/themes/vk/stream_posts.html:70
+#: /wa-apps/blog/themes/vk/stream_search.html:20
 msgid "%d post"
 msgid_plural "%d posts"
 msgstr[0] "%d запис"
 msgstr[1] "%d записи"
 msgstr[2] "%d записів"
 
+#: /wa-apps/blog/templates/actions/backend/Backend.html:251
+#: /wa-apps/blog/templates/actions-mobile/backend/Backend.html:75
 msgid "%d post of %d"
 msgid_plural "%d posts of %d"
 msgstr[0] "%d запис з %d"
 msgstr[1] "%d записи з %d"
 msgstr[2] "%d записів з %d"
 
+#: /wa-apps/blog/templates/actions/comments/Comments.html:57
 msgid "%d comment of %d (including deleted)"
 msgid_plural "%d comments of %d (including deleted)"
 msgstr[0] "%d коментар з %d (включно видалені)"
 msgstr[1] "%d коментарі з %d (включно видалені)"
 msgstr[2] "%d коментарів з %d (включно видалені)"
 
+#: /wa-apps/blog/templates/actions/backend/Backend.html:188
+#: /wa-apps/blog/templates/actions/backend/Backend.html:191
+#: /wa-apps/blog/themes/ascetic/comments.html:24
+#: /wa-apps/blog/themes/ascetic/stream_posts.html:34
+#: /wa-apps/blog/themes/clear/comments.html:24
+#: /wa-apps/blog/themes/clear/stream_posts.html:35
+#: /wa-apps/blog/themes/custom/comments.html:24
+#: /wa-apps/blog/themes/custom/stream_posts.html:35
+#: /wa-apps/blog/themes/default/comments.html:21
+#: /wa-apps/blog/themes/default/stream_posts.html:35
+#: /wa-apps/blog/themes/facebook/comments.html:24
+#: /wa-apps/blog/themes/facebook/stream_posts.html:35
+#: /wa-apps/blog/themes/nifty/comments.html:24
+#: /wa-apps/blog/themes/nifty/stream_posts.html:35
+#: /wa-apps/blog/themes/pinboard/comments.html:24
+#: /wa-apps/blog/themes/pinboard/stream_posts.html:35
+#: /wa-apps/blog/themes/sidebar/comments.html:24
+#: /wa-apps/blog/themes/sidebar/stream_posts.html:35
+#: /wa-apps/blog/themes/vk/comments.html:24
+#: /wa-apps/blog/themes/vk/stream_posts.html:35
 msgid "%d comment"
 msgid_plural "%d comments"
 msgstr[0] "%d коментар"
@@ -331,6 +408,7 @@ msgid "Editing post %s"
 msgstr "Редагування запису %s"
 
 #: /wa-apps/blog/templates/actions/backend/Backend.html:36
+#: /wa-apps/blog/templates/actions/backend/Backend.html:49
 msgid "Select posts"
 msgstr "Обрати записи"
 
@@ -463,6 +541,7 @@ msgid "Frontend settings"
 msgstr "Налаштування загальнодоступної частини"
 
 #: /wa-apps/blog/templates/actions/settings/Settings.html:63
+#: /wa-apps/blog/lib/config/site.php:76
 msgid "Homepage <title>"
 msgstr "Заголовок головної сторінки <title>"
 
@@ -666,7 +745,7 @@ msgstr "Всі блоги. Ієрархічні адреси (%s)"
 msgid "One blog"
 msgstr "Один блог"
 
-#: /wa-apps/blog/lib/config/site.php:32
+#: /wa-apps/blog/lib/config/site.php:32 /wa-apps/blog/lib/config/site.php:33
 msgid "Post URLs: <strong>%s</strong>"
 msgstr "Адреси записів: <strong>%s</strong>"
 
@@ -814,6 +893,7 @@ msgstr "Невірні дані"
 msgid "New comments"
 msgstr "Нові коментарі"
 
+#: /wa-apps/blog/lib/config/blogRightConfig.class.php:17
 msgid "Can edit pages"
 msgstr "Може редагувати сторінки"
 
@@ -860,10 +940,12 @@ msgid "Posts author"
 msgstr "Автор статей"
 
 #: /wa-apps/blog/themes/default/signup.html
+#: /wa-apps/blog/themes/default/signup.html:6
 msgid "Thank you!"
 msgstr "Спасибі!"
 
 #: /wa-apps/blog/themes/default/signup.html
+#: /wa-apps/blog/themes/default/signup.html:7
 msgid "You have successfully signed up."
 msgstr "Ви успішно зареєструвались."
 
@@ -887,10 +969,12 @@ msgstr "Для того, щоб залишити коментар, будь ла
 msgid "Logout"
 msgstr "Вийти"
 
+#: /wa-apps/blog/templates/actions/backend/Backend.html:55
 msgid "Search posts"
 msgstr "Знайти запис"
 
 #: /wa-apps/blog/templates/actions/post/PostEdit.html:177
+#: /wa-apps/blog/templates/actions/post/PostEdit.html:226
 msgid "Posts of this blog are not visible in the public frontend because there are no routing rules for the Blog app in your website settings. Use Site app (Routing section) to settle Blog app on your website and to start publishing."
 msgstr "Записи в цьому блозі невидимі для користувачів фронтенду, тому що для додатку «Блог» не задані достатні правила маршрутизації. Поселіть «Блог» в налаштуваннях маршрутизації додатку «Сайт», щоб розпочати публікувати записи нового блогу."
 
@@ -902,7 +986,7 @@ msgstr "Додатки"
 msgid "Cancel"
 msgstr "Відміна"
 
-#: /wa-apps/blog/js/postEdit.js:91
+#: /wa-apps/blog/js/postEdit.js:91 /wa-apps/blog/js/postEdit.js:86
 msgid "input_maxlength"
 msgstr "input_maxlength"
 
@@ -975,6 +1059,7 @@ msgid "There are no comments in this view."
 msgstr "Коментарі відсутні."
 
 #: /wa-apps/blog/templates/actions/comments/Comments.html:66
+#: /wa-apps/blog/templates/actions/comments/Comments.html:61
 msgid "Loading next %d comment..."
 msgid_plural "Loading next %d comments..."
 msgstr[0] "Завантаження наступного %d коментаря…"
@@ -1077,6 +1162,7 @@ msgid "No author tag"
 msgstr "Не вказуватитег author"
 
 #: /wa-apps/blog/js/elrte-blog.js:4
+#: /wa-apps/blog/templates/actions/post/PostEdit.html:360
 msgid "Post cut"
 msgstr "Кат"
 
@@ -1092,22 +1178,28 @@ msgstr "Вказати явно"
 #: /wa-apps/blog/themes/nifty/stream.html:21
 #: /wa-apps/blog/themes/sidebar/stream.html:21
 #: /wa-apps/blog/themes/vk/stream.html:21
+#: /wa-apps/blog/themes/ascetic/stream.html:21
+#: /wa-apps/blog/themes/default/stream.html:22
+#: /wa-apps/blog/themes/pinboard/stream.html:21
 msgid "of %d post"
 msgid_plural "of %d posts"
 msgstr[0] "з %d запису"
 msgstr[1] "з %d записів"
 msgstr[2] "з %d записів"
 
+#: /wa-apps/blog/templates/actions/settings/Settings.html:53
 msgid "Notifications"
 msgstr "Сповіщення"
 
 #: /wa-apps/blog/lib/cli/blogReminder.cli.php:82
+#: /wa-apps/blog/lib/cli/blogReminder.cli.php:89
 msgid "in %d day"
 msgid_plural "in %d days"
 msgstr[0] "через %d день"
 msgstr[1] "за %d дні"
 msgstr[2] "за %d днів"
 
+#: /wa-apps/blog/lib/actions/post/blogPostEdit.action.php:198
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "хвилину"
@@ -1118,14 +1210,17 @@ msgstr[2] "хвилин"
 msgid "You have following posts scheduled for publication in the <strong>%s</strong> blog:"
 msgstr "У вас є записи, заплановані до публікації в блозі «<strong>%s</strong>»:"
 
+#: /wa-apps/blog/lib/actions/post/blogPostEdit.action.php:204
 msgid "right now"
 msgstr "прямо зараз"
 
 #: /wa-apps/blog/lib/cli/blogReminder.cli.php:80
+#: /wa-apps/blog/lib/cli/blogReminder.cli.php:83
 msgid "today"
 msgstr "сьогодні"
 
 #: /wa-apps/blog/lib/cli/blogReminder.cli.php:55
+#: /wa-apps/blog/lib/cli/blogReminder.cli.php:50
 msgid "Scheduled blog posts"
 msgstr "Заплановані публікації в блозі"
 
@@ -1134,6 +1229,7 @@ msgid "Reminders will be sent to your <strong class=\"cron-command\">%s</strong>
 msgstr "Нагадування будуть відправлятись вам поштою за адресою <strong class=\"cron-command\">%s</strong> не частіше, ніж раз на день. CRON, необхідний для роботи нагадувань, увімкнений і працює. Час останнього запуску: <strong>%s</strong>"
 
 #: /wa-apps/blog/lib/cli/blogReminder.cli.php:71
+#: /wa-apps/blog/lib/cli/blogReminder.cli.php:74
 msgid "You have blog posts scheduled for publication on the %s blog:"
 msgstr "У вас є записи, заплановані до публікації в блозі «%s»:"
 
@@ -1181,6 +1277,7 @@ msgstr "Почніть зі створення запису в <a href=\"%s\">б
 msgid "published blog post"
 msgstr "опублікував запис"
 
+#: /wa-apps/blog/lib/config/logs.php:8
 msgid "unpublished blog post"
 msgstr "відмінив публікацію запису"
 
@@ -1277,21 +1374,28 @@ msgstr "Основний вміст, завантажений у відпові�
 msgid "0 for published, 1 for deleted"
 msgstr "0 для опублікованих, 1 для видалених"
 
+#: /wa-apps/blog/templates/actions/post/PostEdit.html:474
+#: /wa-apps/blog/js/postEdit.js:1354
 msgid "Upload"
 msgstr "Завантажити"
 
 msgid "Select"
 msgstr "Обрати"
 
+#: /wa-apps/blog/templates/actions/post/PostEdit.html:476
+#: /wa-apps/blog/js/postEdit.js:1389
 msgid "Insert"
 msgstr "Вставити"
 
+#: /wa-apps/blog/templates/actions/blog/BlogSettings.html:89
 msgid "This blog is not visible on your sites now, because there were no routing rules added for Blog app with this particular blog. To make this blog visible on your site, create a route using the form below or using <a href=\"%s\">Site app</a> routing settings."
 msgstr "Цей блог не видний на сайті, тому що для нього не задані правила маршрутизації. Щоб опублікувати блог на сайті, додайте правило маршрутизації за допомогою форми нижче або в розділі «<a href=\"%s\">Структура</a>» в додатку «Сайт»."
 
+#: /wa-apps/blog/templates/actions/blog/BlogSettings.html:97
 msgid "Specify the public URL for this new blog on your site:"
 msgstr "Введіть адресу для цього блогу на сайті:"
 
+#: /wa-apps/blog/templates/actions/blog/BlogSettings.html:101
 msgid "Do not publish this blog on the site just yet"
 msgstr "Поки не публікувати цей блог на сайті"
 
@@ -1397,6 +1501,7 @@ msgid "Photos from the attached album will be displayed here."
 msgstr "Тут будуть показані фотографії з прикріпленого фотоальбому."
 
 #: /wa-apps/blog/templates/actions/settings/Settings.html:112
+#: /wa-apps/blog/templates/actions/settings/Settings.html:113
 msgid "Select Webasyst default captcha or Google reCAPTCHA"
 msgstr "Оберіть стандартну CAPTCHA від Webasyst або reCAPTCHA від Google"
 
@@ -1406,3 +1511,32 @@ msgid_plural "posts"
 msgstr[0] "запис"
 msgstr[1] "записи"
 msgstr[2] "записів"
+
+#: /wa-apps/blog/js/compiled/plugin/import/settings.js:168
+msgid "If you leave this page now, the import process is likely to be interrupted. Leave the page?"
+msgstr "Якщо ви зараз покинете цю сторінку, процес імпорту, ймовірно, буде перервано. Залишити сторінку?"
+
+#: /wa-apps/blog/templates/actions/backend/Backend.html:36
+msgid "Manage posts"
+msgstr "Керувати записами"
+
+#: /wa-apps/blog/templates/actions/settings/Settings.html:63
+msgid "Homepage &lt;title&gt;"
+msgstr "&lt;title&ГТ; головної сторінки"
+
+#: /wa-apps/blog/lib/config/site.php:32
+msgid "Post URL format <u>%s</u> and <u>%s</u> for blog URL"
+msgstr "Формат URL запису <u>%s</u> та <u>%s</u> для URL блогу"
+
+#: /wa-apps/blog/themes/default/index.html:106
+msgid "We are using <a href=\"http://www.webasyst.com/apps/photos/\">Webasyst Blog</a>"
+msgstr "Ми використовуємо <а href=\"https://www.webasyst.ru/store/app/blog/\">Блог Webasyst</а>"
+
+#: /wa-apps/blog/themes/_webasystcom/stream.html:64
+msgid "Читать дальше →"
+msgstr "Читати далі →"
+
+#: /wa-apps/blog/templates/actions/settings/Settings.html:73
+#, fuzzy
+msgid "Reminders will be sent to your <strong class=\"cron-command\">%s</strong> email address. Cron for reminders is working properly. Latest execution time: %s"
+msgstr "Нагадування будуть відправлятись вам поштою за адресою <strong class=\"cron-command\">%s</strong> не частіше, ніж раз на день. CRON, необхідний для роботи нагадувань, увімкнений і працює. Час останнього запуску: <strong>%s</strong>"

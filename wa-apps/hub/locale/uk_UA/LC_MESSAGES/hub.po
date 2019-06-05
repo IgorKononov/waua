@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: Webasyst Hub 1.2.3.68 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst Hub 1.2.3.68 UA translation v 0.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
@@ -64,7 +64,7 @@ msgstr "Ласкаво просимо до вашого нового Хабу!"
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:26
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:25
 msgid "Hub is an app for organizing your knowledge base. Store your articles, answer questions, collect customer feedback and bug reports, discuss various topics — all in one place. A perfect self-help tool for your your customers."
-msgstr "Хаб — це програма для організації бази знань. Зберігайте ваші статті, відповідати на питання, збирати відгуки користувачів і звіти про помилки, обговорювати різні теми — все в одному місці. Ідеальний інструмент самодопомоги для ваших клієнтів."
+msgstr "Хаб — це програма для організації бази знань. Зберігайте ваші статті, відповідайте на питання, збирайте відгуки користувачів і звіти про помилки, обговорюйте різні теми — все в одному місці. Ідеальний інструмент самодопомоги для ваших клієнтів."
 
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:31
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:100
@@ -78,7 +78,7 @@ msgstr "Типи тем"
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:33
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:32
 msgid "Select what kind of information you would like to mix and manage in your knowledge hub:"
-msgstr "Оберіть, яку інформацію ви хотіли б перемішати та керувати у вашій базі знань:"
+msgstr "Оберіть, яку інформацію ви хотіли б бачити у вашій базі знань:"
 
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:47
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:46
@@ -88,7 +88,7 @@ msgstr "Ви зможете також налаштувати цей списо�
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:56
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:55
 msgid "Start using Hub app"
-msgstr "Почніть використовувати додаток «Хаб»"
+msgstr "Почати використовувати додаток «Хаб»"
 
 #: /wa-apps/hub/templates/actions/backend/BackendWelcome.html:56
 #: /wa-apps/hub/templates/actions/topics/include.delete_confirm.html:14
@@ -289,9 +289,8 @@ msgstr "скасувати"
 #: /wa-apps/hub/templates/actions/topics/TopicsInfo.html:6
 #: /wa-apps/hub/templates/actions/topics/Topics.html:37
 #: /wa-apps/hub/templates/actions/topics/Topics.html:6
-#, fuzzy
 msgid "Search topics"
-msgstr "Теми пошук "
+msgstr "Пошук по темах"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsInfo.html:20
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:72
@@ -336,9 +335,8 @@ msgstr "Без бейджика"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsInfo.html:106
 #: /wa-apps/hub/templates/actions/topics/TopicsInfo.html:97
-#, fuzzy
 msgid "Private hub topic"
-msgstr "Приватна тема-концентратор "
+msgstr "Приватна тема хабу"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsInfo.html:143
 #: /wa-apps/hub/templates/actions/topics/Topics.html:194
@@ -600,9 +598,8 @@ msgstr "Позначити як рішення"
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:41
 #: /wa-apps/hub/js/comments.js:286 /wa-apps/hub/themes/default/comment.html:49
 #: /wa-apps/hub/themes/default/comment.html:42
-#, fuzzy
 msgid "Unmark solution"
-msgstr "Рішення зняти "
+msgstr "Зняти відмітку про рішення"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:188
 #: /wa-apps/hub/templates/actions/topics/Topics.html:151
@@ -634,9 +631,8 @@ msgstr[2] "<span></span>"
 #: /wa-apps/hub/templates/actions/topics/Topics.html:163
 #: /wa-apps/hub/themes/default/list-topics.html:19
 #: /wa-apps/hub/templates/actions/topics/Topics.html:130
-#, fuzzy
 msgid "Unknown topic type"
-msgstr "Невідомий тип розділу "
+msgstr "Невідомий тип теми"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:20
 #: /wa-apps/hub/themes/default/author.html:38
@@ -681,9 +677,8 @@ msgstr "Хаб"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:106
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:90
-#, fuzzy
 msgid "Topic title"
-msgstr "Назва теми "
+msgstr "Назва теми"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:109
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:93
@@ -846,15 +841,13 @@ msgid "Any changes you made will be lost if you leave."
 msgstr "Будь-які зроблені вами зміни буде втрачено, якщо ви залишите сторінку."
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:23
-#, fuzzy
 msgid "Delete filter"
-msgstr "Вилучити фільтр "
+msgstr "Видалити фільтр"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:34
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:37
-#, fuzzy
 msgid "Filter name"
-msgstr "Назву фільтра "
+msgstr "Назва фільтра"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:42
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:57
@@ -876,9 +869,8 @@ msgstr "Усім"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:57
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:70
-#, fuzzy
 msgid "Limit visibility only to the selected user groups"
-msgstr "Обмежити видимість тільки у вибраній групі користувачів "
+msgstr "Обмежити видимість тільки вибраною групою користувачів"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:74
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:42
@@ -887,9 +879,8 @@ msgstr "Значок"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:88
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:84
-#, fuzzy
 msgid "Filter conditions"
-msgstr "Умови фільтру "
+msgstr "Умови фільтру"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:110
 #: /wa-apps/hub/templates/actions/settings/SettingsFilter.html:106
@@ -1003,27 +994,23 @@ msgid "Commenting"
 msgstr "Коментування"
 
 #: /wa-apps/hub/templates/actions/settings/types/page.html:16
-#, fuzzy
 msgid "Frontend posting"
-msgstr "Проведення фронтенду "
+msgstr "Публікація у фронтенді"
 
 #: /wa-apps/hub/templates/actions/settings/types/page.html:21
-#, fuzzy
 msgid "Topics of this type can be added by frontend users"
-msgstr "Теми такого типу можуть бути додані користувачами фронтенду "
+msgstr "Теми такого типу можуть бути додані користувачами фронтенду"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:27
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:275
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:258
-#, fuzzy
 msgid "Delete category"
-msgstr "Видалити категорію "
+msgstr "Видалити категорію"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:42
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:44
-#, fuzzy
 msgid "Category name"
-msgstr "Назва категорії "
+msgstr "Назва категорії"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:50
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:58
@@ -1032,9 +1019,8 @@ msgstr "URL-адреса фронтенду"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:68
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:49
-#, fuzzy
 msgid "Category summary"
-msgstr "Резюме категорії "
+msgstr "Опис категорії"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:78
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:77
@@ -1050,9 +1036,8 @@ msgstr "Видалити логотип категорії?"
 #: /wa-apps/hub/lib/actions/settings/hubSettingsCategorySave.controller.php:91
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:91
 #: /wa-apps/hub/lib/actions/settings/hubSettingsCategorySave.controller.php:88
-#, fuzzy
 msgid "Only PNG and JPEG images are allowed"
-msgstr "Дозволяється тільки PNG і JPEG "
+msgstr "Дозволене завантаження тільки файлів з розширенням *.png та *.jpg"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:99
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:92
@@ -1061,9 +1046,8 @@ msgstr "Логотип категорії буде опубліковано на
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:109
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:102
-#, fuzzy
 msgid "Category type"
-msgstr "Тип категорії "
+msgstr "Тип категорії"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:119
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:118
@@ -1092,7 +1076,7 @@ msgstr "Фільтрувати за тегами"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:158
 msgid "This option is not available because this hub does not have any tags yet."
-msgstr "Цей параметр недоступний, тому що у цьому хабі немає тегів"
+msgstr "Цей параметр недоступний, тому що у цьому хабі немає тегів."
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:160
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:151
@@ -1105,9 +1089,8 @@ msgstr "Дану категорію буде автоматично заповн
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:171
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:192
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:213
-#, fuzzy
 msgid "Default sort order"
-msgstr "Порядок сортування за замовчуванням "
+msgstr "Порядок сортування за замовчуванням"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:188
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:208
@@ -1220,9 +1203,8 @@ msgstr "геометричний малюнок на основі хешу ел�
 
 #: /wa-apps/hub/templates/actions/settings/Settings.html:76
 #: /wa-apps/hub/templates/actions/settings/Settings.html:77
-#, fuzzy
 msgid "a generated 'monster' with different colors, faces, etc"
-msgstr "створений \"монстр\" з різними квітами, обличчя і т. д."
+msgstr "згенеровані «монстри» із різними кольорами, обличчями, тощо"
 
 #: /wa-apps/hub/templates/actions/settings/Settings.html:77
 #: /wa-apps/hub/templates/actions/settings/Settings.html:78
@@ -1239,21 +1221,18 @@ msgstr "чудові згенеровані 8-битні піксельні об
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:129
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:105
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:132
-#, fuzzy
 msgid "Delete topic type"
-msgstr "Видалити тему типу "
+msgstr "Видалити тип тем"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:18
 #: /wa-apps/hub/templates/actions/settings/Sidebar.html:45
-#, fuzzy
 msgid "New topic type"
-msgstr "Новий тип теми "
+msgstr "Новий тип теми"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:24
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:27
-#, fuzzy
 msgid "Type name"
-msgstr "Ім'я типу "
+msgstr "Назва типу"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:32
 msgid "Glyph"
@@ -1283,9 +1262,8 @@ msgstr "Змінити тип цих тем на"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:117
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:120
-#, fuzzy
 msgid "Delete all %d topics permanently"
-msgstr "Видалити всі %, постійно д теми "
+msgstr "Назавжди видалити усі %d теми"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:121
 #: /wa-apps/hub/templates/actions/settings/SettingsType.html:124
@@ -1305,9 +1283,8 @@ msgstr "Новий хаб"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:25
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:28
-#, fuzzy
 msgid "Hub name"
-msgstr "Ім'я концентратора "
+msgstr "Назва хабу"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:34
 msgid "Privacy"
@@ -1391,15 +1368,13 @@ msgstr "+1 голос за коментар користувача, дає %s к
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:131
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:92
-#, fuzzy
 msgid "Topic popularity index"
-msgstr "Тему індекс популярності "
+msgstr "Індекс популярності теми"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:134
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:95
-#, fuzzy
 msgid "Overall user rating"
-msgstr "Загальний рейтинг користувача "
+msgstr "Загальний рейтинг користувача"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:137
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:98
@@ -1440,9 +1415,8 @@ msgstr "Перерахуйте ключових користувачів, які
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:166
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:127
-#, fuzzy
 msgid "User name"
-msgstr "Ім'я користувача "
+msgstr "Ім'я користувача"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:167
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:128
@@ -1461,9 +1435,8 @@ msgstr "Натисніть кнопку \"Зберегти\" нижче, аби 
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:212
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:173
-#, fuzzy
 msgid "Access rights"
-msgstr "Права доступу "
+msgstr "Права доступу"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:215
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:176
@@ -1472,9 +1445,8 @@ msgstr "Доступ до цього хабу буде обмежено лише
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:223
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:184
-#, fuzzy
 msgid "Hub color marker"
-msgstr "Колір маркера-концентратор "
+msgstr "Колір хабу"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:232
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:193
@@ -1483,15 +1455,13 @@ msgstr "Тільки бекенд. Усі теми цього хабу буде 
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:240
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:200
-#, fuzzy
 msgid "Allowed topic types"
-msgstr "Дозволені типи тему "
+msgstr "Дозволені типи тем"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:243
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:203
-#, fuzzy
 msgid "All topic types"
-msgstr "Всі типи тему "
+msgstr "Усі типи тему"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:246
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:206
@@ -1524,9 +1494,8 @@ msgid "Move topics"
 msgstr "Перемістити теми"
 
 #: /wa-apps/hub/templates/actions/dialog/DialogTopicsMove.html:17
-#, fuzzy
 msgid "Select hub category"
-msgstr "Виберіть категорію концентратор "
+msgstr "Оберіть категорію хаба"
 
 #: /wa-apps/hub/templates/actions/dialog/DialogCategories.html:7
 msgid "Categories"
@@ -1557,33 +1526,28 @@ msgstr "Усі хаби"
 
 #: /wa-apps/hub/templates/actions/authors/Authors.html:38
 #: /wa-apps/hub/templates/actions/authors/Authors.html:32
-#, fuzzy
 msgid "Upvotes"
-msgstr "Голоси"
+msgstr "Голоси за"
 
 #: /wa-apps/hub/templates/actions/authors/Authors.html:41
 #: /wa-apps/hub/templates/actions/authors/Authors.html:35
-#, fuzzy
 msgid "Downvotes"
-msgstr "Мінусами"
+msgstr "Голоси проти"
 
 #: /wa-apps/hub/templates/actions/authors/Authors.html:59
 #: /wa-apps/hub/templates/actions/authors/Authors.html:53
-#, fuzzy
 msgid "(missing contact)"
 msgstr "(відсутній контакт)"
 
 #: /wa-apps/hub/templates/actions/authors/Authors.html:79
 #: /wa-apps/hub/templates/actions/authors/Authors.html:73
-#, fuzzy
 msgid "No authors yet."
-msgstr "Немає авторів ще."
+msgstr "Ще немає авторів."
 
 #: /wa-apps/hub/templates/actions/authors/Authors.html:90
 #: /wa-apps/hub/templates/actions/comments/Comments.html:30
 #: /wa-apps/hub/templates/actions/authors/Authors.html:84
 #: /wa-apps/hub/templates/actions/comments/Comments.html:21
-#, fuzzy
 msgid "Loading"
 msgstr "Завантаження"
 
@@ -1626,24 +1590,20 @@ msgstr[2] "%d авторів"
 
 #: /wa-apps/hub/templates/actions/comments/Comments.html:28
 #: /wa-apps/hub/templates/actions/comments/Comments.html:19
-#, fuzzy
 msgid "Show more comments"
 msgstr "Показати більше коментарів"
 
 #: /wa-apps/hub/templates/actions/comments/Comments.html:27
 #: /wa-apps/hub/templates/actions/comments/Comments.html:18
-#, fuzzy
 msgid "of %d"
-msgstr "у %D"
+msgstr "з %d"
 
 #: /wa-apps/hub/templates/actions/comments/Comments.html:44
 #: /wa-apps/hub/templates/actions/comments/Comments.html:26
-#, fuzzy
 msgid "comments"
 msgstr "коментарі"
 
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:26
-#, fuzzy
 msgid "on topic"
 msgstr "по темі"
 
@@ -1651,30 +1611,25 @@ msgstr "по темі"
 #: /wa-apps/hub/themes/default/comment.html:86
 #: /wa-apps/hub/themes/default/comment.forum.html:29
 #: /wa-apps/hub/themes/default/comment.html:56
-#, fuzzy
 msgid "delete"
 msgstr "видалити"
 
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:35
-#, fuzzy
 msgid "restore"
-msgstr "відновлення"
+msgstr "відновити"
 
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:46
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:47
-#, fuzzy
 msgid "comment deleted"
 msgstr "коментар видалено"
 
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:47
-#, fuzzy
 msgid "comment restored"
 msgstr "коментар відновлено"
 
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:54
 #: /wa-apps/hub/themes/default/comment.html:65
 #: /wa-apps/hub/templates/actions/comments/include.comment.html:52
-#, fuzzy
 msgid "in reply to"
 msgstr "у відповідь на"
 
@@ -1684,9 +1639,8 @@ msgstr "у відповідь на"
 #: /wa-apps/hub/themes/_webasystcom/answer.html:36
 #: /wa-apps/hub/themes/_webasystcom/comment.html:35
 #: /wa-apps/hub/themes/default/comment.html:61
-#, fuzzy
 msgid "reply"
-msgstr "відповідь"
+msgstr "відповісти"
 
 #: /wa-apps/hub/templates/actions/comments/include.addComment.html:12
 #: /wa-apps/hub/themes/default/topic.custom.html:147
@@ -1700,116 +1654,94 @@ msgstr "відповідь"
 #: /wa-apps/hub/themes/default/topic.feedback.html:146
 #: /wa-apps/hub/themes/default/topic.forum.html:105
 #: /wa-apps/hub/themes/default/topic.page.html:170
-#, fuzzy
 msgid "Add comment"
 msgstr "Додати коментар"
 
 #: /wa-apps/hub/lib/config/site.php:15
-#, fuzzy
 msgid "Homepage default topic sort order"
-msgstr "Домашня сторінка тема за замовчуванням порядок сортування "
+msgstr "Сортування за замовчуванням на головній сторінці"
 
 #: /wa-apps/hub/lib/config/site.php:24 /wa-apps/hub/lib/config/site.php:15
-#, fuzzy
 msgid "Homepage title <title>"
-msgstr "Домашня сторінка назву <назва>"
+msgstr "<title> головної сторінки"
 
 #: /wa-apps/hub/lib/config/site.php:28 /wa-apps/hub/lib/config/site.php:19
-#, fuzzy
 msgid "Homepage META Keywords"
-msgstr "Домашня сторінка ключові слова"
+msgstr "META Keywords головної сторінки"
 
 #: /wa-apps/hub/lib/config/site.php:32 /wa-apps/hub/lib/config/site.php:23
-#, fuzzy
 msgid "Homepage META Description"
-msgstr "Домашня сторінка мета опис"
+msgstr "META Description головної сторінки"
 
 #: /wa-apps/hub/lib/config/site.php:41
-#, fuzzy
 msgid "Stuff as set up in hub settings."
-msgstr "Речі як налаштувати у налаштуваннях хаба."
+msgstr "Як встановлено у налаштуваннях хабу."
 
 #: /wa-apps/hub/lib/config/site.php:42
-#, fuzzy
 msgid "Categories of given hub. When $priority_topics is <em>true</em>, list of high-priority topics is returned for each category."
-msgstr "Категорії даного центру. Коли $priority_topics є <em>правда</em>, списком пріоритетних розділів повертається для кожної категорії."
+msgstr "Категорії вказаного хабу. Коли значення $priority_topics — <em>true</em>, для кожної категорії буде повернено перелік тем з високим пріоритетом."
 
 #: /wa-apps/hub/lib/config/logs.php:3
-#, fuzzy
 msgid "published a topic"
 msgstr "опублікував тему"
 
 #: /wa-apps/hub/lib/config/logs.php:4
-#, fuzzy
 msgid "unpublished a topic"
-msgstr "неопубліковані тему"
+msgstr "зняв темі у публікації"
 
 #: /wa-apps/hub/lib/config/logs.php:5
-#, fuzzy
 msgid "modified a published topic"
-msgstr "змінено опублікованій темі"
+msgstr "змінив опубліковану тему"
 
 #: /wa-apps/hub/lib/config/logs.php:6
-#, fuzzy
 msgid "added a comment"
-msgstr "доданий коментар"
+msgstr "додав коментар"
 
 #: /wa-apps/hub/lib/config/logs.php:7
-#, fuzzy
 msgid "modified a comment"
-msgstr "змінено коментар"
+msgstr "змінив коментар"
 
 #: /wa-apps/hub/lib/config/logs.php:8
-#, fuzzy
 msgid "deleted a comment"
 msgstr "видалив коментар"
 
 #: /wa-apps/hub/lib/config/logs.php:9
-#, fuzzy
 msgid "restored a comment"
-msgstr "відновлений коментар"
+msgstr "відновив коментар"
 
 #: /wa-apps/hub/lib/config/hubRightConfig.class.php:39
-#, fuzzy
 msgid "No access"
 msgstr "Немає доступу"
 
 #: /wa-apps/hub/lib/config/hubRightConfig.class.php:40
-#, fuzzy
 msgid "Read and comment"
 msgstr "Читати і коментувати"
 
 #: /wa-apps/hub/lib/config/hubRightConfig.class.php:41
-#, fuzzy
 msgid "Read, comment, and publish new articles"
 msgstr "Читати, коментувати і публікувати нові статті"
 
 #: /wa-apps/hub/lib/config/hubRightConfig.class.php:42
-#, fuzzy
 msgid "Full access"
 msgstr "Повний доступ"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:12
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:209
-#, fuzzy
 msgid "Newest topics on top"
 msgstr "Нові теми зверху"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:16
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:210
-#, fuzzy
 msgid "Top rated topics on top"
 msgstr "Найкращі за рейтингом теми зверху"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:19
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:12
-#, fuzzy
 msgid "Last updated"
-msgstr "Останнє оновлення"
+msgstr "Нещодавно оновлені"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:20
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:211
-#, fuzzy
 msgid "Last updated topics on top"
 msgstr "Останні оновлені теми зверху"
 
@@ -1821,71 +1753,59 @@ msgstr "Останні оновлені теми зверху"
 #: /wa-apps/hub/themes/_webasystcom/category.html:53
 #: /wa-apps/hub/themes/_webasystcom/home.html:134
 #: /wa-apps/hub/themes/_webasystcom/tag.html:32
-#, fuzzy
 msgid "Unanswered"
 msgstr "Без відповіді"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:24
-#, fuzzy
 msgid "Unanswered topics on top"
-msgstr "Безмовні теми зверху"
+msgstr "Теми без відповіді зверху"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:26
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:14
-#, fuzzy
 msgid "Most followed"
-msgstr "Більшість послідувало"
+msgstr "Найбільше відстежує"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:27
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:15
-#, fuzzy
 msgid "Most commented"
 msgstr "Найбільш коментовані"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:45
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:23
-#, fuzzy
 msgid "Page"
-msgstr "Сторінки"
+msgstr "Сторінка"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:47
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:25
-#, fuzzy
 msgid "Articles, guides, how-tos, tutorials and other materials that should be considered as static informational pages authored by a particular user."
 msgstr "Статті, гайди, інструкції, посібники та інші матеріали, які слід розглядати як статичні інформаційні сторінки, створені певним користувачем."
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:58
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:35
-#, fuzzy
 msgid "Forum thread (discussion)"
-msgstr "Гілці форуму (обговорення)"
+msgstr "Гілка форуму (обговорення)"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:59
-#, fuzzy
 msgid "Classic forum thread with plain comment list sorted chronologically."
-msgstr "Класичний гілці форуму з простого списку коментарів, відсортований у хронологічному порядку."
+msgstr "Класична гілка форуму з простого списку коментарів, відсортованих у хронологічному порядку."
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:65
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:42
-#, fuzzy
 msgid "Question & Answers"
-msgstr "Питання І Відповіді"
+msgstr "Питання та відповіді"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:66
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:43
-#, fuzzy
 msgid "Questions & Answers. The right topic type for getting user questions answered."
-msgstr "Питання Та Відповіді. Правильний тип теми для одержання запитання користувачів відповів."
+msgstr "Питання та відповіді. Правильний тип теми для відповідей на питання користувачів."
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:76
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:52
-#, fuzzy
 msgid "Feedback (+/-)"
 msgstr "Зворотній зв'язок (+/-)"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:77
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:53
-#, fuzzy
 msgid "Ideas, bug reports, thank-yous and other feedback."
 msgstr "Ідеї, повідомлення про помилки, подяки та інші відгуки."
 
@@ -1893,71 +1813,59 @@ msgstr "Ідеї, повідомлення про помилки, подяки �
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:87
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:61
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:62
-#, fuzzy
 msgid "Custom"
-msgstr "Замовлення"
+msgstr "Користувальницький"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:104
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:79
-#, fuzzy
 msgid "Pending"
 msgstr "В очікуванні"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:107
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:82
-#, fuzzy
 msgid "Accepted"
 msgstr "Прийнято"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:110
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:85
-#, fuzzy
 msgid "Confirmed"
-msgstr "Підтвердив"
+msgstr "Підтверджено"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:113
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:91
-#, fuzzy
 msgid "In progress"
-msgstr "В прогресі"
+msgstr "В процесі"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:116
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:88
-#, fuzzy
 msgid "Complete"
-msgstr "Повне"
+msgstr "Виконано"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:119
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:91
-#, fuzzy
 msgid "Fixed"
-msgstr "Виправлена"
+msgstr "Виправлено"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:122
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:94
-#, fuzzy
 msgid "Rejected"
 msgstr "Відхилено"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:490
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:415
-#, fuzzy
 msgid "[Incorrect video embed]"
-msgstr "[Помилкові вставки відео]"
+msgstr "[некоректна вставка відео]"
 
 #: /wa-apps/hub/lib/handlers/contacts.links.handler.php:33
-#, fuzzy
 msgid "Comment author"
-msgstr "Коментар автора "
+msgstr "Коментар автора"
 
 #: /wa-apps/hub/lib/handlers/contacts.links.handler.php:35
-#, fuzzy
 msgid "Topic author"
-msgstr "Автору теми "
+msgstr "Автору теми"
 
 #: /wa-apps/hub/lib/actions/backend/hubBackendWelcome.action.php:172
 #: /wa-apps/hub/lib/actions/backend/hubBackendWelcome.action.php:170
-#, fuzzy
 msgid "support"
 msgstr "підтримка"
 
@@ -1971,50 +1879,42 @@ msgstr "підтримка"
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCommentsAdd.controller.php:95
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCommentsAdd.controller.php:82
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendTopicEdit.action.php:28
-#, fuzzy
 msgid "Topic not found"
-msgstr "Тема не знайдено"
+msgstr "Тему не знайдено"
 
 #: /wa-apps/hub/lib/actions/settings/hubSettingsCategoryDelete.controller.php:29
-#, fuzzy
 msgid "Error when deleting"
 msgstr "Помилка при видаленні"
 
 #: /wa-apps/hub/lib/actions/settings/hubSettingsHubSave.controller.php:13
 #: /wa-apps/hub/lib/actions/settings/hubSettingsHubSave.controller.php:14
-#, fuzzy
 msgid "Hub added"
-msgstr "Додано концентратор "
+msgstr "Додано концентратор"
 
 #: /wa-apps/hub/lib/actions/settings/hubSettingsHubSave.controller.php:16
 #: /wa-apps/hub/lib/actions/settings/hubSettingsHubSave.controller.php:17
-#, fuzzy
 msgid "Hub settings saved"
-msgstr "Налаштування хаба спас"
+msgstr "Налаштування хаба збережено"
 
 #: /wa-apps/hub/lib/actions/comments/hubCommentsAdd.controller.php:65
 #: /wa-apps/hub/lib/actions/comments/hubCommentsAdd.controller.php:56
-#, fuzzy
 msgid "Error in adding comment"
 msgstr "Помилка під час додавання коментаря"
 
 #: /wa-apps/hub/lib/actions/comments/hubCommentsAdd.controller.php:147
 #: /wa-apps/hub/lib/actions/comments/hubCommentsAdd.controller.php:127
-#, fuzzy
 msgid "Unknown parent comment"
-msgstr "Невідомий батьківського коментаря"
+msgstr "Невідомий батьківський коментар"
 
 #: /wa-apps/hub/lib/actions/comments/hubCommentsChangeSolution.controller.php:11
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCommentsSolution.controller.php:11
-#, fuzzy
 msgid "Unknown comment"
 msgstr "Невідомий коментар"
 
 #: /wa-apps/hub/lib/actions/comments/hubCommentsChangeSolution.controller.php:15
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCommentsSolution.controller.php:22
-#, fuzzy
 msgid "Error occurs"
-msgstr "Виникає помилка "
+msgstr "Виникає помилка"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendTopicFollow.controller.php:29
 msgid "%s follower"
@@ -2024,64 +1924,54 @@ msgstr[1] "%d фоловери"
 msgstr[2] "%d фоловерів"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCategory.action.php:10
-#, fuzzy
 msgid "Category not found"
-msgstr "Категорія не знайдено"
+msgstr "Категорію не знайдено"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendVote.controller.php:79
-#, fuzzy
 msgid "Someone suggested on how to improve your article"
-msgstr "Хтось запропонував про те, як поліпшити свої статті"
+msgstr "Хтось вніс пропозицію щодо покращення вашої статті"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendMy.action.php:19
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendMy.action.php:29
-#, fuzzy
 msgid "My account"
-msgstr "Мій рахунок"
+msgstr "Мій акаунт"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendMy.action.php:19
-#, fuzzy
 msgid "My profile"
 msgstr "Мій профіль"
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:14
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:13
-#, fuzzy
 msgid "File could not be saved due to insufficient write permissions for the %s folder."
-msgstr "Файл не може бути збережений з-за недостатнього дозволу на запис для теки % - ів."
+msgstr "Файл не вдалося зберегти через недостатні права запису до папки «%s»."
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:48
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:53
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:45
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendUploadImage.controller.php:50
-#, fuzzy
 msgid "Failed to upload file %s."
 msgstr "Не вдалося завантажити файл %s."
 
 #: /wa-apps/hub/lib/actions/frontend/hubFrontendCommentsEdit.controller.php:30
 #: /wa-apps/hub/lib/models/hubComment.model.php:536
 #: /wa-apps/hub/lib/models/hubComment.model.php:538
-#, fuzzy
 msgid "Comment text can not be left blank"
-msgstr "Текст коментаря не може бути порожнім"
+msgstr "Коментар не може бути пустим"
 
 #: /wa-apps/hub/lib/actions/categories/hubCategoriesMove.controller.php:12
 #: /wa-apps/hub/lib/actions/categories/hubCategoriesMove.controller.php:13
-#, fuzzy
 msgid "Error when move"
-msgstr "Помилка при переміщення"
+msgstr "Помилка при переміщенні"
 
 #: /wa-apps/hub/lib/models/hubCategory.model.php:147
 #: /wa-apps/hub/lib/models/hubCategory.model.php:154
-#, fuzzy
 msgid "Url is in use"
-msgstr "URL-адреса використовується"
+msgstr "URL-адреса вже використовується"
 
 #: /wa-apps/hub/lib/models/hubComment.model.php:541
 #: /wa-apps/hub/lib/models/hubComment.model.php:553
-#, fuzzy
 msgid "You can not reply to a removed comment."
-msgstr "Ви не можете відповідати на віддалений коментар."
+msgstr "Ви не можете відповісти на видалений коментар."
 
 #: /wa-apps/hub/themes/default/main.html:12
 #: /wa-apps/hub/themes/default/main.html:32
@@ -2093,40 +1983,34 @@ msgstr "Ви не можете відповідати на віддалений 
 #: /wa-apps/hub/themes/default/author.html:7
 #: /wa-apps/hub/themes/default/main.html:22
 #: /wa-apps/hub/themes/default/main.html:45
-#, fuzzy
 msgid "My topics"
 msgstr "Мої теми"
 
 #: /wa-apps/hub/themes/default/main.html:35
 #: /wa-apps/hub/themes/default/author.html:24
-#, fuzzy
 msgid "My replies"
 msgstr "Мої відповіді"
 
 #: /wa-apps/hub/themes/default/main.html:47
 #: /wa-apps/hub/themes/default/main.html:54
-#, fuzzy
 msgid "Last comments"
 msgstr "Останні коментарі"
 
 #: /wa-apps/hub/themes/default/main.html:121
 #: /wa-apps/hub/themes/default/main.html:135
 #: /wa-apps/hub/themes/default/main.html:95
-#, fuzzy
 msgid "Welcome to your new hub!"
-msgstr "Ласкаво просимо в новий центр!"
+msgstr "Ласкаво просимо до вашого нового Хабу!"
 
 #: /wa-apps/hub/themes/default/main.html:122
 #: /wa-apps/hub/themes/default/main.html:118
-#, fuzzy
 msgid "Please complete the initial <a href=\"%s\">setup</a> in app backend."
-msgstr "Будь ласка, заповніть початковий <а href=\"%з\">налаштування</a> серверної частини програми."
+msgstr "Виконайте, будь ласка, первинне <a href=\"%s\">налаштування</a> у бекенді додатку."
 
 #: /wa-apps/hub/themes/default/main.html:136
 #: /wa-apps/hub/themes/default/main.html:96
-#, fuzzy
 msgid "Start by <a href=\"%s\">writing a topic</a>."
-msgstr "Початок на <а href=\"%s\">написанні розділу</а>."
+msgstr "Почніть зі <a href=\"%s\">створення теми</a>."
 
 #: /wa-apps/hub/themes/default/main.html:16
 #: /wa-apps/hub/themes/default/authors.html:16
@@ -2141,7 +2025,6 @@ msgstr[2] "%d лайків"
 #: /wa-apps/hub/themes/default/header.html:4
 #: /wa-apps/hub/themes/_webasystcom1/banner.html:4
 #: /wa-apps/hub/themes/default/banner.html:4
-#, fuzzy
 msgid "Find the answer"
 msgstr "Знайти відповідь"
 
@@ -2153,7 +2036,6 @@ msgstr "Знайти відповідь"
 #: /wa-apps/hub/themes/default/topic.feedback.html:46
 #: /wa-apps/hub/themes/default/topic.page.html:38
 #: /wa-apps/hub/themes/default/topic.question.html:34
-#, fuzzy
 msgid "Posted"
 msgstr "Опубліковано"
 
@@ -2170,7 +2052,6 @@ msgstr "Опубліковано"
 #: /wa-apps/hub/themes/default/topic.forum.html:49
 #: /wa-apps/hub/themes/default/topic.page.html:12
 #: /wa-apps/hub/themes/default/topic.question.html:56
-#, fuzzy
 msgid "You are about to delete this record. Are you sure?"
 msgstr "Ви збираєтеся видалити цей запис. Ви впевнені?"
 
@@ -2179,9 +2060,8 @@ msgstr "Ви збираєтеся видалити цей запис. Ви вп�
 #: /wa-apps/hub/themes/default/topic.custom.html:78
 #: /wa-apps/hub/themes/default/topic.feedback.html:90
 #: /wa-apps/hub/themes/default/topic.question.html:77
-#, fuzzy
 msgid "votes"
-msgstr "голосів"
+msgstr "голоси"
 
 #: /wa-apps/hub/themes/default/topic.custom.html:83
 #: /wa-apps/hub/themes/default/topic.question.html:87
@@ -2189,21 +2069,18 @@ msgstr "голосів"
 #: /wa-apps/hub/themes/default/topic.custom.html:81
 #: /wa-apps/hub/themes/default/topic.feedback.html:93
 #: /wa-apps/hub/themes/default/topic.question.html:80
-#, fuzzy
 msgid "newest"
-msgstr "нові"
+msgstr "найновіші"
 
 #: /wa-apps/hub/themes/default/topic.custom.html:140
 #: /wa-apps/hub/themes/default/topic.custom.html:138
-#, fuzzy
 msgid "New answers will be sent to you by email"
-msgstr "Нові відповіді будуть відправлені вам по електронній пошті"
+msgstr "Нові відповіді буде надіслано вам електронною поштою"
 
 #: /wa-apps/hub/themes/default/topic.custom.html:143
 #: /wa-apps/hub/themes/default/topic.custom.html:141
-#, fuzzy
 msgid "%d more users are following this topic"
-msgstr "%д більше користувачів цього розділу"
+msgstr "На %d більше користувачів стежать за цією темою"
 
 #: /wa-apps/hub/themes/default/topic.custom.html:151
 #: /wa-apps/hub/themes/default/topic.page.html:179
@@ -2215,9 +2092,8 @@ msgstr "%д більше користувачів цього розділу"
 #: /wa-apps/hub/themes/default/topic.forum.html:119
 #: /wa-apps/hub/themes/default/topic.page.html:174
 #: /wa-apps/hub/themes/default/topic.question.html:148
-#, fuzzy
 msgid "This topic is in the archive. Posting new comments is disabled."
-msgstr "Ця тема знаходиться в архіві. Розміщення нових коментарів ввімкнено."
+msgstr "Ця тема знаходиться в архіві. Розміщення нових коментарів вимкнено."
 
 #: /wa-apps/hub/themes/default/topic.custom.html:153
 #: /wa-apps/hub/themes/default/topic.page.html:181
@@ -2228,15 +2104,13 @@ msgstr "Ця тема знаходиться в архіві. Розміщенн
 #: /wa-apps/hub/themes/default/topic.forum.html:121
 #: /wa-apps/hub/themes/default/topic.page.html:176
 #: /wa-apps/hub/themes/default/topic.question.html:150
-#, fuzzy
 msgid "Posting new comments is disabled for this topic."
-msgstr "Розміщення нових коментарів відключено на цю тему."
+msgstr "Розміщення нових коментарів у цій темі вимкнено."
 
 #: /wa-apps/hub/themes/default/comment.html:46
 #: /wa-apps/hub/themes/default/comment.html:49
 #: /wa-apps/hub/themes/default/comment.html:39
 #: /wa-apps/hub/themes/default/comment.html:42
-#, fuzzy
 msgid "Solution"
 msgstr "Рішення"
 
@@ -2247,71 +2121,60 @@ msgstr "Рішення"
 #: /wa-apps/hub/themes/default/topic.feedback.html:80
 #: /wa-apps/hub/themes/default/topic.page.html:115
 #: /wa-apps/hub/themes/default/topic.question.html:94
-#, fuzzy
 msgid "You are following this topic"
-msgstr "Ви прямуєте цій темі"
+msgstr "Ви стежите за цією темою"
 
 #: /wa-apps/hub/themes/default/tag.html:12
 #: /wa-apps/hub/themes/_webasystcom/category.html:47
 #: /wa-apps/hub/themes/_webasystcom/home.html:124
 #: /wa-apps/hub/themes/_webasystcom/tag.html:26
-#, fuzzy
 msgid "Popular topics"
 msgstr "Популярні теми"
 
 #: /wa-apps/hub/themes/default/tag.html:15
 #: /wa-apps/hub/themes/_webasystcom/category.html:50
 #: /wa-apps/hub/themes/_webasystcom/tag.html:29
-#, fuzzy
 msgid "Most recent"
-msgstr "Самі останні"
+msgstr "Найсвіжіші"
 
 #: /wa-apps/hub/themes/default/topic.page.html:34
 #: /wa-apps/hub/themes/_webasystcom/topic.article.html:27
 #: /wa-apps/hub/themes/default/topic.page.html:35
-#, fuzzy
 msgid "Last update"
-msgstr "Останнє оновлення"
+msgstr "Нещодавно оновлені"
 
 #: /wa-apps/hub/themes/default/topic.page.html:66
-#, fuzzy
 msgid "Was this article helpful?"
 msgstr "Чи була ця стаття корисною?"
 
 #: /wa-apps/hub/themes/default/topic.page.html:67
-#, fuzzy
 msgid "Yes"
 msgstr "Так"
 
 #: /wa-apps/hub/themes/default/topic.page.html:68
-#, fuzzy
 msgid "No"
-msgstr "Немає"
+msgstr "Ні"
 
 #: /wa-apps/hub/themes/default/topic.page.html:74
 #: /wa-apps/hub/themes/default/comment.add.html:14
 #: /wa-apps/hub/themes/_webasystcom/comment_add.html:36
-#, fuzzy
 msgid "To add a comment please <a href=\"%s\">sign up</a> or <a href=\"%s\">login</a>"
-msgstr "Щоб додати коментар, будь ласка <а href=\"%з\">зареєструйтесь</A> або <А href=\"%з\">увійти</a>"
+msgstr "Аби додати коментар, будь ласка, <a href=\"%s\">зареєструйтесь</a> або <a href=\"%s\">увійдіть</a>"
 
 #: /wa-apps/hub/themes/default/topic.page.html:80
 #: /wa-apps/hub/themes/default/topic.page.html:91
 #: /wa-apps/hub/themes/default/topic.page.html:81
 #: /wa-apps/hub/themes/default/topic.page.html:92
-#, fuzzy
 msgid "Thank you for your feedback!"
-msgstr "Дякуємо за Ваш відгук!"
+msgstr "Дякуємо за ваш відгук!"
 
 #: /wa-apps/hub/themes/default/topic.page.html:84
-#, fuzzy
 msgid "In just few words, tell us what you did not like about this article?"
-msgstr "В кількох словах, розкажіть, що вам не подобається в цій статті?"
+msgstr "У кількох словах, розкажіть, що вам не подобається в цій статті?"
 
 #: /wa-apps/hub/themes/default/topic.page.html:87
-#, fuzzy
 msgid "Send"
-msgstr "Відправити"
+msgstr "Надіслати"
 
 #: /wa-apps/hub/themes/default/topic.page.html:114
 #: /wa-apps/hub/themes/default/topic.question.html:98
@@ -2319,9 +2182,8 @@ msgstr "Відправити"
 #: /wa-apps/hub/themes/default/topic.feedback.html:77
 #: /wa-apps/hub/themes/default/topic.page.html:112
 #: /wa-apps/hub/themes/default/topic.question.html:91
-#, fuzzy
 msgid "New comments will be sent to you by email"
-msgstr "Нові коментарі будуть відправлені вам по електронній пошті"
+msgstr "Нові коментарі буде надіслано вам електронною поштою"
 
 #: /wa-apps/hub/themes/default/topic.page.html:118
 #: /wa-apps/hub/themes/default/topic.question.html:102
@@ -2329,277 +2191,226 @@ msgstr "Нові коментарі будуть відправлені вам �
 #: /wa-apps/hub/themes/default/topic.feedback.html:81
 #: /wa-apps/hub/themes/default/topic.page.html:116
 #: /wa-apps/hub/themes/default/topic.question.html:95
-#, fuzzy
 msgid "Unfollow"
-msgstr "Варто"
+msgstr "Відписатися"
 
 #: /wa-apps/hub/themes/default/topic.question.html:84
 #: /wa-apps/hub/themes/default/topic.question.html:80
-#, fuzzy
 msgid "popular"
 msgstr "популярні"
 
 #: /wa-apps/hub/themes/default/topic.question.html:154
 #: /wa-apps/hub/themes/_webasystcom/comment_add.html:28
 #: /wa-apps/hub/themes/default/topic.question.html:144
-#, fuzzy
 msgid "Add answer"
 msgstr "Додати відповідь"
 
 #: /wa-apps/hub/themes/default/authors.html:8
 #: /wa-apps/hub/themes/default/author.html:9
-#, fuzzy
 msgid "%username%"
-msgstr "%ім'я користувача%"
+msgstr "%username%"
 
 #: /wa-apps/hub/themes/default/authors.html:20
 #: /wa-apps/hub/themes/default/authors.html:16
-#, fuzzy
 msgid "%d topics, %d answers, and %d comments"
-msgstr "%д теми, %д, відповіді, коментарі %D"
+msgstr "%d тем, %d відповідей, and %d коментарів"
 
 #: /wa-apps/hub/themes/default/add.html:8
 #: /wa-apps/hub/themes/default/add.html:5
-#, fuzzy
 msgid "To add new topic please <a href=\"%s\">sign up</a> or <a href=\"%s\">log in</a>"
-msgstr "Щоб додати нову тему, будь ласка, <а href=\"%s\">зареєструйтесь</A> або <А href=\"%s\">увійти</a>"
+msgstr "Аби додати нову тему, будь ласка, <a href=\"%s\">зареєструйтеся</a> або <a href=\"%s\">увійдіть</a>"
 
 #: /wa-apps/hub/themes/default/add.html:36
 #: /wa-apps/hub/themes/default/add.html:33
-#, fuzzy
 msgid "Your topic title"
-msgstr "Ваш заголовок теми "
+msgstr "Ваш заголовок теми"
 
 #: /wa-apps/hub/themes/default/add.html:75
 #: /wa-apps/hub/themes/default/add.html:72
-#, fuzzy
 msgid "Submit topic"
-msgstr "Представити тему"
+msgstr "Відправити тему"
 
 #: /wa-apps/hub/themes/default/add.html:76
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:135
 #: /wa-apps/hub/themes/default/add.html:73
-#, fuzzy
 msgid "Preview"
 msgstr "Попередній перегляд"
 
 #: /wa-apps/hub/themes/default/author.html:2
-#, fuzzy
 msgid "All authors"
-msgstr "Всі автори"
+msgstr "Усі автори"
 
 #: /wa-apps/hub/themes/default/author.html:38
-#, fuzzy
 msgid "%s did not post any comments yet."
-msgstr "%S Не пост жодного коментаря."
+msgstr "%s ще не залишав коментарів."
 
 #: /wa-apps/hub/themes/default/topic.forum.html:95
-#, fuzzy
 msgid "Add reply"
 msgstr "Додати відповідь"
 
 #: /wa-apps/hub/themes/default/topic.forum.html:96
 #: /wa-apps/hub/themes/default/topic.forum.html:94
-#, fuzzy
 msgid "To add a comment please <a href=\"%s\">sign up</a> or <a href=\"%s\">log in</a>"
-msgstr "Щоб додати коментар, будь ласка <а href=\"%з\">зареєструйтесь</A> або <А href=\"%s\">увійти</a>"
+msgstr "Аби додати коментар, будь ласка, <a href=\"%s\">зареєструйтесь</a> або <a href=\"%s\">увійдіть</a>"
 
 #: /wa-apps/hub/themes/default/comment.add.html:24
 #: /wa-apps/hub/themes/_webasystcom/comment_add.html:54
-#, fuzzy
 msgid "Your name"
 msgstr "Ваше ім'я"
 
 #: /wa-apps/hub/themes/default/comment.add.html:26
 #: /wa-apps/hub/themes/_webasystcom/comment_add.html:60
-#, fuzzy
 msgid "log out"
 msgstr "вийти"
 
 #: /wa-apps/hub/themes/default/comment.add.html:29
 #: /wa-apps/hub/themes/_webasystcom/comment_add.html:62
-#, fuzzy
 msgid "Comment"
-msgstr "Як"
+msgstr "Коментар"
 
 #: /wa-apps/hub/templates/actions/settings/Settings.html:33
-#, fuzzy
 msgid "New comments"
 msgstr "Нові коментарі"
 
 #: /wa-apps/hub/templates/actions/settings/Settings.html:38
-#, fuzzy
 msgid "Count new comments on my posts only"
-msgstr "Розраховувати нові коментарі тільки на мої пости "
+msgstr "Враховувати коментарі тільки до моїх постів"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:165
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:186
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:205
-#, fuzzy
 msgid "Default view"
-msgstr "Вигляд за замовчуванням "
+msgstr "Вигляд за замовчуванням"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:169
-#, fuzzy
 msgid "Manual"
 msgstr "Керівництво"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:172
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:191
-#, fuzzy
 msgid "topics on top"
 msgstr "теми зверху"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:271
-#, fuzzy
 msgid "Move all topics asigned to this category (%d)"
-msgstr "Перемістити всі теми приєднана до цієї категорії (%Д)"
+msgstr "Перемістити усі теми, призначені до цієї категорії (%d)"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:246
-#, fuzzy
 msgid "The <strong>%d topics</strong> at hub %s. What should be done with these topics?"
-msgstr "Елемент <сильний>%д теми</Strong> у Hub %С. Що потрібно зробити з цими темами?"
+msgstr "У хабі %s <strong>%d тем</strong>. Що потребується зробити із цими темами?"
 
 #: /wa-apps/hub/templates/actions/settings/SettingsHub.html:250
-#, fuzzy
 msgid "Move topics to another topics hub"
-msgstr "Переміщати теми в інший хаб теми "
+msgstr "Перемістити теми до іншого хабу"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:20
-#, fuzzy
 msgid "Select"
-msgstr "Виберіть"
+msgstr "Оберіть"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:48
-#, fuzzy
 msgid "Archive"
 msgstr "Архів"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:69
-#, fuzzy
 msgid "Category settings"
-msgstr "Параметри категорії "
+msgstr "Параметри категорії"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:73
-#, fuzzy
 msgid "Customize filter"
-msgstr "Налаштування фільтру"
+msgstr "Налаштувати фільтр"
 
 #: /wa-apps/hub/templates/actions/topics/Topics.html:80
-#, fuzzy
 msgid "Hub settings"
-msgstr "Налаштування хаба "
+msgstr "Налаштування хабу"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:185
-#, fuzzy
 msgid "Notify subscribers about this topic"
-msgstr "Повідомити абонентів про цю тему"
+msgstr "Повідомити підписувачів про цю тему"
 
 #: /wa-apps/hub/templates/actions/topics/TopicsEdit.html:236
-#, fuzzy
 msgid "Publish and notify subscribers"
-msgstr "Опублікувати і повідомити абонентів"
+msgstr "Опублікувати і повідомити підписувачів"
 
 #: /wa-apps/hub/templates/mail/Suggestion.html:13
-#, fuzzy
 msgid "In just few words, tell us which question you had that this article did not answer?"
-msgstr "Всього кілька слів, повідомте нам, які питання у вас був, що ця стаття не відповіла?"
+msgstr "Розкажіть нам у декількох словах, на яке ваше питання не відповіла ця стаття?"
 
 #: /wa-apps/hub/js/comments.js:233
-#, fuzzy
 msgid "valid answer"
 msgstr "правильна відповідь"
 
 #: /wa-apps/hub/js/comments.js:233
-#, fuzzy
 msgid "remove anwsered badge"
-msgstr "видалити значок anwsered "
+msgstr "видалити позначку «Відповідь надана»"
 
 #: /wa-apps/hub/lib/classes/hubHelper.class.php:36
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:19
-#, fuzzy
 msgid "A bug report is attached to a specific product version, and has a status"
 msgstr "Звіт про помилку прив'язаний до конкретної версії продукту, і має статус"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:8
-#, fuzzy
 msgid "Article"
 msgstr "Стаття"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:9
-#, fuzzy
 msgid "A topic containing detailed description within its content"
-msgstr "Розділ, що містить докладний опис в його зміст"
+msgstr "Тема, що містить докладний опис"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:13
-#, fuzzy
 msgid "Question"
 msgstr "Питання"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:14
-#, fuzzy
 msgid "Users can post answers to this topic"
-msgstr "Користувачі можуть залишати відповіді в цій темі"
+msgstr "Користувачі можуть залишати відповіді у цій темі"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:18
-#, fuzzy
 msgid "Bug report"
-msgstr "Звіт про помилку "
+msgstr "Звіт про помилку"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:23
-#, fuzzy
 msgid "Idea"
 msgstr "Ідея"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:24
-#, fuzzy
 msgid "New idea suggestion"
-msgstr "Нова пропозиція ідея "
+msgstr "Нова пропозиція"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:28
-#, fuzzy
 msgid "Thank you"
-msgstr "Дякую"
+msgstr "Дякуємо"
 
 #: /wa-apps/hub/lib/updates/dev/1411473875.php:29
-#, fuzzy
 msgid "Just a note with a thank you message"
-msgstr "Просто записку з дякуємо повідомлення"
+msgstr "Просто повідомлення з подякою"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:8
-#, fuzzy
 msgid "Your question title"
-msgstr "Ваш заголовок питання "
+msgstr "Заголовок вашого питання"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:76
-#, fuzzy
 msgid "Basic HTML is allowed: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;a&gt;, &lt;pre&gt;, &lt;img&gt;, &lt;blockquote&gt;"
-msgstr "Базова HTML-розмітка: &ЛТ;б&ГТ;, &ЛТ;і&ГТ;, але &lt;&ГТ;, &ЛТ;і&ГТ;, але &lt;попередньо&ГТ;, &ЛТ;ІМГ&ГТ;, але &lt;цитата&ГТ;"
+msgstr "Дозволено базовий HTML: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;a&gt;, &lt;pre&gt;, &lt;img&gt;, &lt;blockquote&gt;"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:90
-#, fuzzy
 msgid "No category"
 msgstr "Немає категорії"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:112
-#, fuzzy
 msgid "Popular tags"
 msgstr "Популярні теги"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.form.html:135
-#, fuzzy
 msgid "Submit question"
 msgstr "Надіслати запитання"
 
 #: /wa-apps/hub/themes/_webasystcom/ask.html:11
 #: /wa-apps/hub/themes/_webasystcom/ask.html:13
 #: /wa-apps/hub/themes/_webasystcom/tag.html:10
-#, fuzzy
 msgid "Ask question"
 msgstr "Поставити питання"
 
 #: /wa-apps/hub/themes/_webasystcom/category.html:15
-#, fuzzy
 msgid "Ask a question"
 msgstr "Поставити питання"
 
@@ -2615,52 +2426,42 @@ msgstr[1] "%d thankyous"
 msgstr[2] "%d подяк"
 
 #: /wa-apps/hub/themes/_webasystcom/error.html:2
-#, fuzzy
 msgid "Error"
 msgstr "Помилка"
 
 #: /wa-apps/hub/themes/_webasystcom/error.html:3
-#, fuzzy
 msgid "The requested resource is not available."
 msgstr "Запитаний ресурс недоступний."
 
 #: /wa-apps/hub/themes/_webasystcom/home.html:128
-#, fuzzy
 msgid "New topics"
 msgstr "Нові теми"
 
 #: /wa-apps/hub/themes/_webasystcom/topiclist.html:21
-#, fuzzy
 msgid "asked %s"
-msgstr "запитав %з"
+msgstr "запитав %s"
 
 #: /wa-apps/hub/themes/default/author.html:12
-#, fuzzy
 msgid "Topics by %s"
-msgstr "Теми на %S"
+msgstr "Теми за %s"
 
 #: /wa-apps/hub/themes/default/footer.html:6
-#, fuzzy
 msgid "<a href=\"http://www.webasyst.com/store/app/hub/\">Feedback software</a> by Webasyst"
-msgstr "<а href=\"http://www.webasyst.com/store/app/hub/\">зворотний зв'язок</A> та Вебасист"
+msgstr "<a href=\"http://www.webasyst.ru/store/app/hub/\">Додаток збору відгуків</a> від Webasyst"
 
 #: /wa-apps/hub/themes/default/main.html:49
-#, fuzzy
 msgid "My answers"
 msgstr "Мої відповіді"
 
 #: /wa-apps/hub/themes/default/main.html:59
-#, fuzzy
 msgid "Hub staff"
-msgstr "Персонал концентратор "
+msgstr "Співробітники хабу"
 
 #: /wa-apps/hub/themes/default/topic.page.html:80
 #: /wa-apps/hub/themes/default/topic.page.html:91
-#, fuzzy
 msgid "Thank you."
-msgstr "Спасибі."
+msgstr "Дякуємо."
 
 #: /wa-apps/hub/templates/actions/settings/SettingsCategory.html:172
-#, fuzzy
 msgid "%s topics on top"
-msgstr "%з теми зверху"
+msgstr "%s тем зверху"
