@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.3.0.7 UA translation v 0.2\n"
+"Project-Id-Version: Webasyst Shop-Script 8.2.0.6 UA translation v 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
@@ -14296,6 +14296,7 @@ msgstr "Без імені"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:60
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:50
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:46
 msgid "Изменить"
 msgstr "Змінити"
 
@@ -15660,16 +15661,19 @@ msgstr "Попросити підтвердити email-адресу або но
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:980
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:972
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:999
 msgid "Проверочный код для подтверждения будет отправлен на email-адрес или телефон покупателя в зависимости от настроек авторизации для этого сайта."
 msgstr "Перевірочний код для підтвердження буде надіслано на email-адресу або телефон покупця в залежності від налаштувань авторизації для цього сайту."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:982
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:974
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:1001
 msgid "После подтверждения покупатель будет авторизован и сможет войти в личный кабинет."
 msgstr "Після підтвердження покупець буде авторизований і зможе увійти в особистий кабінет."
 
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:992
 #: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:983
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:1010
 msgid "Покупатель может пропустить подтверждение email-адрес или телефона."
 msgstr "Покупець може пропустити підтвердження email-адреси або номеру телефону."
 
@@ -16935,85 +16939,505 @@ msgstr "Більше контактної інформації"
 msgid "%d more customer found with the same email address"
 msgid_plural "%d more customers found with the same email address"
 msgstr[0] "Знайдено ще %d покупця із тим же email"
-msgstr[1] "Знайдено ще %d покупці із тим же email"
+msgstr[1] "Знайдено ще %d покупців із тим же email"
 msgstr[2] "Знайдено ще %d покупців із тим же email"
 
 #: /wa-apps/shop/templates/actions/customers/include.top_fields.html:31
 msgid "%d more customer found with the same phone number"
 msgid_plural "%d more customers found with the same phone number"
 msgstr[0] "Знайдено ще %d покупця із тим же номером телефону"
-msgstr[1] "Знайдено ще %d покупці із тим же номером телефону"
+msgstr[1] "Знайдено ще %d покупців із тим же номером телефону"
 msgstr[2] "Знайдено ще %d покупців із тим же номером телефону"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
+#, fuzzy
 msgid "Ошибка"
 msgstr "Помилка"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
+#, fuzzy
 msgid "Канал для подтвержения отсутствует"
 msgstr "Відсутній канал для підтверждення"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopConfirmationChannel.class.php:558
 msgid "TODO Больше не нужно подтверждать этот канал"
-msgstr "TODO"
+msgstr "TODO Больше не нужно подтверждать этот канал"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:181
 msgid "TODO!!! Контакт забанен"
-msgstr "TODO"
+msgstr "TODO!!! Контакт забанен"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:183
 msgid "TODO!!! Запрещено использовать эти данные"
-msgstr "TODO"
+msgstr "TODO!!! Запрещено использовать эти данные"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:300
+#, fuzzy
 msgid "TODO: Нет диалога подтверждения email или телефона."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:301
+#, fuzzy
 msgid "TODO: Нет автоматической авторизации и регистрации после оформления заказа."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:302
+#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ будет привязан к старому покупателю и он будет автоматически авторизован, но только после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта)."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:304
+#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель без автоматической авторизации и регистрации после оформления заказа."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:305
+#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ нельзя создать без подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта). После оформления заказа покупатель будет автоматически авторизован."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:314
+#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель и после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта) он будет автоматически авторизаван и зарегистрирован."
 msgstr "TODO"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:132
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:173
 msgid "Todo Требуется подтвердить канал"
-msgstr "TODO"
+msgstr "Todo Требуется подтвердить канал"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:55
 msgid "Todo Подождите %d секунд"
-msgstr "TODO"
+msgstr "Todo Подождите %d секунд"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:64
 msgid "TODO Неправильно указан источник"
-msgstr "TODO"
+msgstr "TODO Неправильно указан источник"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:73
 msgid "TODO Ошибка отправки кода"
-msgstr "TODO"
+msgstr "TODO Ошибка отправки кода"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:103
 msgid "TODO Код не отправлен"
-msgstr "TODO"
+msgstr "TODO Код не отправлен"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:115
 msgid "TODO У вас закончились попытки ввода. Отправьте смс еще раз"
-msgstr "TODO"
+msgstr "TODO У вас закончились попытки ввода. Отправьте смс еще раз"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:123
 msgid "TODO Вы ввели не верный код. У вас осталось %d попыток"
-msgstr "TODO"
+msgstr "TODO Вы ввели не верный код. У вас осталось %d попыток"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:24
+msgid "Person"
+msgstr "Особа"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:29
+msgid "Company"
+msgstr "Компанія"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:101
+#, fuzzy
+msgid "More shipping addresses"
+msgstr "ще"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:112
+msgid "More billing addresses"
+msgstr "Більше адрес для розрахунку"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:130
+#, fuzzy
+msgid "Order shipping address"
+msgstr "Кур'єр може змінити статус замовлення та адресу доставки замовлення, за винятком полів \"країна\", \"індекс\", \"штат/регіон\", \"місто\" та інших параметрів доставки незалежно від значення цього параметра."
+
+#: /wa-apps/shop/templates/form/customer/backend.html:132
+msgid "Extra shipping address"
+msgstr "Додаткова адреса доставки"
+
+#: /wa-apps/shop/templates/form/customer/backend.html:133
+msgid "Extra billing address"
+msgstr "Додаткова адреса платника"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:99
+msgid "Product &amp; category descriptions"
+msgstr "Опис товару та категорії"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:102
+msgid "Export descriptions"
+msgstr "Експорт описів"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:112
+msgid "Select how to export product images"
+msgstr "Оберіть, як експортувати зображення товарів"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:113
+msgid "Do not export"
+msgstr "Не експортувати"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:114
+msgid "Export default size images"
+msgstr "Експортувати зображення з розмірами за замовчуванням"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:116
+msgid "Export %s large images"
+msgstr "Експортувати %s великих зображень"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.export.html:120
+msgid "Product image size settings"
+msgstr "Налаштування розміру зображень товару"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:79
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:16
+#, fuzzy
+msgid "Product ID"
+msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче."
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:84
+msgid "(skip products and categories, import only SKUs)"
+msgstr "(пропустити товари та категорії, імпортувати тільки артикули)"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:102
+#: /wa-apps/shop/templates/actions/product/ProductSkuSettings.html:8
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:39
+msgid "SKU ID"
+msgstr "ID артикула"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:168
+msgid "Unique product image URLs"
+msgstr "Унікальні URL-адреси зображення товарів"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:171
+#, fuzzy
+msgid "by file name"
+msgstr "Назва файлу"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:173
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:178
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:183
+#, fuzzy
+msgid "domain.com"
+msgstr "Наприклад, <em>domain.ru</em>, якщо Webasyst встановлюється в кореневу директорію домену domain.ru, або <em>domain.ru/wa</em>, якщо Webasyst встановлюється в піддиректорію /wa/ домену domain.ru. Наприкінці URL додавати косу риску (/) не потрібно."
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:176
+#, fuzzy
+msgid "by file path"
+msgstr "Порожній хеш або шлях до файлу"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:180
+#, fuzzy
+msgid "by file path and domain name"
+msgstr "Порожній хеш або шлях до файлу"
+
+#: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:184
+msgid "Select how unique image URLs must be extracted from your CSV file."
+msgstr "Оберіть, яким чином URL зображень буде витягнуто з вашого файлу CSV."
+
+#: /wa-apps/shop/templates/actions/products/Products.html:172
+#: /wa-apps/shop/templates/actions/products/Products.html:220
+#, fuzzy
+msgid "product name"
+msgstr "Назва продукту"
+
+#: /wa-apps/shop/templates/actions/products/Products.html:176
+#: /wa-apps/shop/templates/actions/products/Products.html:225
+#, fuzzy
+msgid "sku name"
+msgstr "Назва артикулу"
+
+#: /wa-apps/shop/templates/actions/products/Products.html:178
+#: /wa-apps/shop/templates/actions/products/Products.html:235
+#, fuzzy
+msgid "compare at price"
+msgstr "Закреслена ціна"
+
+#: /wa-apps/shop/templates/actions/products/Products.html:180
+#: /wa-apps/shop/templates/actions/products/Products.html:241
+#, fuzzy
+msgid "purchase price"
+msgstr "Закупівельна ціна"
+
+#: /wa-apps/shop/templates/actions/transfer/Transfer.html:81
+#: /wa-apps/shop/templates/actions/transfer/Transfer.html:80
+msgid "Enter a product name, an SKU name, or an SKU code"
+msgstr "Введіть назву товару, ім'я артикулу або код артикулу"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsOrderStates.html:124
+#: /wa-apps/shop/templates/actions/settings/SettingsOrderStates.html:129
+#: /wa-apps/shop/templates/actions/settings/SettingsOrderStates.html:122
+msgid "customers can pay for orders in this state"
+msgstr "клієнт може оплачувати замовлення у цьому стані"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsOrderStates.html:129
+msgid "Show this message on checkout completion and in customers’ personal accounts if setting “<strong>%s</strong>” is disabled."
+msgstr "Показати це повідомлення при завершенні процесу оформлення замовлення та у особистих кабінетах клієнтів, якщо параметр “<strong>%s</strong>” вимкнено."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:696
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:690
+msgid "Shipping area selection"
+msgstr "Вибір зони доставки"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:737
+msgid "Selected country and region will be visible to customers but not available for changing."
+msgstr "Оберіть країну та регіон, які буде показано клієнтам, без можливості зміни."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:738
+msgid "To hide selected country and region fields from customers, switch to “Minimal” mode and set up a single shipping area with a country and region selected in its settings."
+msgstr "Аби приховати обрані країну та регіон від покупців, змініть режим на «Мінімальний» та налаштуйте одну зону доставки зі вказаними у її налаштуваннях країною та регіоном."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:757
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:560
+msgid "If you set up <strong>only one shipping area</strong>, with <strong>country</strong>, <strong>region</strong>, and <strong>city</strong> specified, then customers will see at once all shipping options available for that area only, without an option to change location. If you do not complete the region or locality fields in the single available shipping area’s properties, then only those empty fields will be visible during checkout."
+msgstr "Якщо ви налаштовуєте <strong>тільки одну зону доставки</strong>, зі вказаними <strong>країною</strong>, <strong>регіоном</strong> та <strong>містом</strong>, тоді клієнти одразу побачать усі варіанти доставки тільки для цієї зони, без можливості зміни локації. Якщо ви не заповнюєте регіон або інші поля місцевості у цій одній зоні доставки, то тільки ці поля будуть видимими під час оформлення замовлення."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:980
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:948
+msgid "Customer profiles updating &amp; auto-signup"
+msgstr "Оновлення профілів клієнтів та авто-вхід"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:995
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:983
+msgid "<a href=\"%s\" target=\"_blank\">How to choose the correct option for this setting</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">Як обрати коректне значення цього параметру</a>."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:995
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout2Blocks.inc.html:983
+msgid "https://www.shop-script.com/help/29297/in-cart-checkout/#customer-profiles-updating"
+msgstr "https://support.webasyst.ru/shop-script/29292/in-cart-checkout/#customer-profiles-updating"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsTaxes.html:62
+msgid "Individual tax values are first calculated per order item and and their sum is obtained as the final result. Such a sum may differ from a common tax value if calculated for the total order amount, and you can correct that in printable documents, if necessary."
+msgstr "Індивідуальні значення податків спочатку розраховуються на кожен товар, у фінальному результаті отримується їх сумма. Така сума може відрізнятися від значення загального податку, якщо підраховується від загальної сумми замовлення. При необхідності ви можете виправити це у друкованих документах."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:111
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:331
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:92
+msgid "Create a new customer profile for every guest order"
+msgstr "Створити профіль клієнта для кожного замовлення без реєстрації"
+
+#: /wa-apps/shop/templates/actions/order/Order.html:144
+msgid "Total order weight"
+msgstr "Загальна вага замовлення"
+
+#: /wa-apps/shop/templates/actions/order/Order.html:147
+msgid "Width × length × height"
+msgstr "Ширина × довжина ×висота"
+
+#: /wa-apps/shop/templates/actions/order/Order.html:147
+msgid "Total order dimensions"
+msgstr "Загальні виміри замовлення"
+
+#: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:4
+msgid "This report is generated only for storefronts with multi-step checkout."
+msgstr "Цей звіт створюється тільки для вітрин із поетапним оформленням замовлення."
+
+#: /wa-apps/shop/templates/actions/reports/ReportsCheckoutflow.html:50
+msgid "Multi-step checkout storefronts"
+msgstr "Поетапне оформлення замовлення"
+
+#: /wa-apps/shop/templates/actions/tutorial/TutorialProducts.html:19
+msgid "Product examples have been added to your online store. Now you may also add your own products as described below."
+msgstr "Зразки товарів додано до вашого інтернет-магазину. Тепер ви також можете додати власні товари згідно інструкцій нижче."
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:55
+msgid "Confirmation code"
+msgstr "Код підтвердження"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:60
+msgid "Re-send"
+msgstr "Надіслати знову"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:75
+msgid "Send code"
+msgstr "Надіслати код"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:6
+#, fuzzy
+msgid "Please confirm your phone number"
+msgstr "Аби увійти, потрібно підтвердити номер телефону."
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:7
+#, fuzzy
+msgid "sent to your phone"
+msgstr "Підтвердіть свій номер телефону"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:12
+msgid "Please confirm your email address"
+msgstr "Підтвердіть, будь ласка, вашу адресу електронної пошти"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:13
+msgid "sent by email"
+msgstr "надіслано по email"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:18
+msgid "Unsupported contact data type"
+msgstr "Тип даних контакта не підтримується"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
+#, fuzzy
+msgid "Complete checkout"
+msgstr "Об'єднання завершено."
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:101
+#, fuzzy
+msgid "Enter a confirmation code to complete checkout."
+msgstr "Введіть код підтвердження, аби закінчити реєстрацію"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/confirm.html:49
+#: /wa-apps/shop/templates/actions/frontend/FrontendOrderCart.html:364
+msgid "Rounded discount value"
+msgstr "Округлене значення знижки"
+
+#: /wa-apps/shop/templates/actions/frontend/order/form/render_field.function.html:60
+msgid "+1-222-333-4455"
+msgstr "+1-222-333-4455"
+
+#: /wa-apps/shop/templates/actions/frontend/FrontendOrderForm.html:27
+msgid "Selecting shipping and payment options for selected items"
+msgstr "Оберіть варіанти доставки і оплати для обраних елементів"
+
+#: /wa-apps/shop/templates/actions/frontend/FrontendOrderCart.html:40
+msgid "Generating a shopping cart from selected items"
+msgstr "Генерація кошика з обраних елементів"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopConfirmationChannel.class.php:986
+#: /wa-apps/shop/lib/classes/checkout2/shopConfirmationChannel.class.php:939
+msgid "You do not need to confirm this value any more."
+msgstr "Вам більше не потрібно підтверджувати це значення."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:216
+#, fuzzy
+msgid "You cannot use these values."
+msgstr "Ви не можете видалити себе."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:319
+msgid "Non-authorized customers do not need to confirm their email address or phone number."
+msgstr "Неавторизовані користувачі не повинні підтверджувати свою адресу email або номер телефона."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:320
+msgid "Authorized customers cannot use an email address or phone number from other customers’ or backend users’ profiles."
+msgstr "Авторизовані клієнти не можуть використовувати адресу email або номер телефона інших клієнтів або користувачів бекенду."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:321
+msgid "Non-authorized customers must confirm their email address or phone number before checkout completion, only if those data have been found in other registered customers’ profiles or in only one backend user profile. Such customers are automatically logged in right after confirmation or get signed up, if not registered, and receive a corresponding notification."
+msgstr "Неавторизовані користувачі повинні підтвердити свою адресу email або номер телефона під час оформлення замовлення, тільки якщо такі дані знайдено у профілях інших зареєстрованих клієнтів або тільки в одному профілі користувача бекенду. Такі користувачі автоматично входять на сайт після підтвердження або реєструються та отримають відповідне повідомлення."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:322
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:325
+msgid "Authorized customers can change their email address or phone number to those found in other registered customers’ profiles or in one backend user profile, only after confirmation."
+msgstr "Авторизовані користувачі можуть змінити свою адресу email або номер телефону на ті, що знайдені у профілях інших зареєстрованих користувачів або у профілі користувача бекенду, тільки після підтвердження."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:323
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:326
+msgid "A customer cannot place an order with the use of an email address or phone number found in multiple backend user profiles."
+msgstr "Користувач не може розмістити замовлення з використанням адреси email або номера телефону, який вказано в профілях кількох користувачів бекенду."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:324
+msgid "Non-authorized customers must confirm their email address or phone number before checkout completion. Such customers are automatically logged in right after confirmation or get signed up, if not registered, and receive a corresponding notification."
+msgstr "Неавторизовані користувачі мають підтвердити свою адресу email або номер телефона перед оформленням замовлення. Такі користувачі автоматично входять на сайт після підтвердження або реєструються та отримають відповідне повідомлення."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:273
+msgid "Offer selection of shipping type and show pickup point selection map."
+msgstr "Пропонувати вибір варіанту доставки и показувати карту пунктів самовивозу."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:276
+msgid "Offer selection of shipping type. Show pickup point selection map only on screens over 760 pixels wide."
+msgstr "Пропонувати вибір типу доставки. Показувати карту пунктів самовивозу тільки на екранах вище 760 пікселів завширшки."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:279
+msgid "Do not offer selection of shipping type or show pickup point selection map."
+msgstr "Не пропонувати вибір типу доставки або показувати карту вибору пункту самовивозу."
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:335
+#: /wa-apps/shop/templates/actions/settings/SettingsCheckout.html:98
+msgid "Add an order to existing customer profile with the same email address or phone number"
+msgstr "Додати замовлення до існуючого профілю клієнта із тим же номером телефона або адресою електронної пошти"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:339
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:287
+msgid "Checkout with mandatory email address or phone number confirmation"
+msgstr "Оформлення замовлення не допускається без підтвердження електронної адреси чи номера телефону"
+
+#: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:133
+#, fuzzy
+msgid "Please confirm your contact data."
+msgstr "Підтвердіть, будь ласка, свою підписку"
+
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:32
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:425
+msgid "Product image descriptions"
+msgstr "Описи зображень продукту"
+
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:688
+msgid "Updated %d product image description"
+msgid_plural "Updated %d product image descriptions"
+msgstr[0] "Оновлено опис %d товару"
+msgstr[1] "Оновлено опис %d товарів"
+msgstr[2] ""
+
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:750
+msgid "%d SKU imported with errors"
+msgid_plural "%d SKUs imported with errors"
+msgstr[0] "%d артикул імпортовано з помилками"
+msgstr[1] "%d артикули імпортовано з помилками"
+msgstr[2] "%d артикулів імпортовано з помилками"
+
+#: /wa-apps/shop/lib/actions/orders/shopOrdersGetProduct.controller.php:257
+msgid "Unknown SKU"
+msgstr "Невідомий артикул"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:76
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:67
+msgid "Wait for %d second"
+msgid_plural "Wait for %d seconds"
+msgstr[0] "Зачекайте %d секунду"
+msgstr[1] "Зачекайте %d секунди"
+msgstr[2] "Зачекайте %d секунд"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:134
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:130
+msgid "You have entered an incorrect code. %d more attempt is available."
+msgid_plural "You have entered an incorrect code. %d more attempts are available."
+msgstr[0] "Ви ввели некоректний код. Доступна ще %d спроба."
+msgstr[1] "Ви ввели некоректний код. Доступні ще %d спроби."
+msgstr[2] "Ви ввели некоректний код. Доступно ще %d спроб."
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:85
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:76
+msgid "Incorrect data specified to send a code"
+msgstr "Для відправки коду вказано невірні дані"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:93
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:84
+#, fuzzy
+msgid "Code sending error"
+msgstr "Помилка відправки:"
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:123
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:113
+#, fuzzy
+msgid "Code has not been sent"
+msgstr "Ще нічого не надсилалось."
+
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:131
+#: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:124
+msgid "You have run out of available attempts. Please send a new SMS."
+msgstr "Ви вичерпали доступні спроби. Надішліть нове SMS, будь ласка."
+
+#: /wa-apps/shop/themes/default/order.html:60
+msgid "Back to shopping"
+msgstr "← Повернутися до покупок"
+
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:16
+#, fuzzy
+msgid "Product id"
+msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче."
+
+#: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:38
+msgid "SKU id"
+msgstr "ID артикула"
+
+#: /wa-apps/shop/lib/actions/orders/shopOrdersGetProduct.controller.php:257
+msgid "Unknown sku"
+msgstr "Невідомий артикул"
