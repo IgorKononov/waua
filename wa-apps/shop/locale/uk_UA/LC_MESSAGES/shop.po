@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.2.0.6 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst Shop-Script 8.4.3.12 UA translation v 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
 "Language-Team: Skeeter Dev\n"
@@ -8252,7 +8252,7 @@ msgstr "дн."
 
 #: /wa-apps/shop/lib/config/data/dimension.php:214
 msgid "weeks"
-msgstr "тижд."
+msgstr "тижні"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:6
 msgid "New"
@@ -14027,10 +14027,10 @@ msgid "Recalculation of order total, new discount: %s"
 msgstr "Перерахунок суми замовлення, нова знижка: %s"
 
 msgid "Browse for more payment modules in the Installer app…"
-msgstr "Встановити нові модулі оплати за допомогою додатку «Інсталер»..."
+msgstr "Знайти нові модулі оплати за допомогою додатку «Інсталер»..."
 
 msgid "Browse for more shipping modules in the Installer app…"
-msgstr "Встановити нові модулі доставки з допомогою додатку «Інсталер»..."
+msgstr "Знайти нові модулі доставки з допомогою додатку «Інсталер»..."
 
 msgid "Program applicability"
 msgstr "Застосування програми"
@@ -16950,14 +16950,12 @@ msgstr[1] "Знайдено ще %d покупців із тим же номер
 msgstr[2] "Знайдено ще %d покупців із тим же номером телефону"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
-#, fuzzy
 msgid "Ошибка"
 msgstr "Помилка"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
-#, fuzzy
 msgid "Канал для подтвержения отсутствует"
-msgstr "Відсутній канал для підтверждення"
+msgstr "Відсутній канал для підтвердження"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopConfirmationChannel.class.php:558
 msgid "TODO Больше не нужно подтверждать этот канал"
@@ -16972,34 +16970,28 @@ msgid "TODO!!! Запрещено использовать эти данные"
 msgstr "TODO!!! Запрещено использовать эти данные"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:300
-#, fuzzy
 msgid "TODO: Нет диалога подтверждения email или телефона."
-msgstr "TODO"
+msgstr "TODO: Нет диалога подтверждения email или телефона."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:301
-#, fuzzy
 msgid "TODO: Нет автоматической авторизации и регистрации после оформления заказа."
-msgstr "TODO"
+msgstr "TODO: Нет автоматической авторизации и регистрации после оформления заказа."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:302
-#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ будет привязан к старому покупателю и он будет автоматически авторизован, но только после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта)."
-msgstr "TODO"
+msgstr "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ будет привязан к старому покупателю и он будет автоматически авторизован, но только после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта)."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:304
-#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель без автоматической авторизации и регистрации после оформления заказа."
-msgstr "TODO"
+msgstr "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель без автоматической авторизации и регистрации после оформления заказа."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:305
-#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ нельзя создать без подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта). После оформления заказа покупатель будет автоматически авторизован."
-msgstr "TODO"
+msgstr "TODO: Если с таким же номером телефона или email-адресом есть покупатель, то заказ нельзя создать без подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта). После оформления заказа покупатель будет автоматически авторизован."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:314
-#, fuzzy
 msgid "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель и после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта) он будет автоматически авторизаван и зарегистрирован."
-msgstr "TODO"
+msgstr "TODO: Если с таким же номером телефона или email-адресом нет покупателя, то будет создан новый покупатель и после обязательного подтверждения кодом еmail или телефона или их обоих (зависит от включенных способов авторизации для данного сайта) он будет автоматически авторизаван и зарегистрирован."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:132
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:173
@@ -17039,18 +17031,16 @@ msgid "Company"
 msgstr "Компанія"
 
 #: /wa-apps/shop/templates/form/customer/backend.html:101
-#, fuzzy
 msgid "More shipping addresses"
-msgstr "ще"
+msgstr "Більше адрес для розрахунку"
 
 #: /wa-apps/shop/templates/form/customer/backend.html:112
 msgid "More billing addresses"
 msgstr "Більше адрес для розрахунку"
 
 #: /wa-apps/shop/templates/form/customer/backend.html:130
-#, fuzzy
 msgid "Order shipping address"
-msgstr "Кур'єр може змінити статус замовлення та адресу доставки замовлення, за винятком полів \"країна\", \"індекс\", \"штат/регіон\", \"місто\" та інших параметрів доставки незалежно від значення цього параметра."
+msgstr "Адреса доставки замовлення"
 
 #: /wa-apps/shop/templates/form/customer/backend.html:132
 msgid "Extra shipping address"
@@ -17090,9 +17080,8 @@ msgstr "Налаштування розміру зображень товару"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:79
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:16
-#, fuzzy
 msgid "Product ID"
-msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче."
+msgstr "Ідентифікатор товару"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:84
 msgid "(skip products and categories, import only SKUs)"
@@ -17109,26 +17098,22 @@ msgid "Unique product image URLs"
 msgstr "Унікальні URL-адреси зображення товарів"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:171
-#, fuzzy
 msgid "by file name"
-msgstr "Назва файлу"
+msgstr "за назвою файлу"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:173
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:178
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:183
-#, fuzzy
 msgid "domain.com"
-msgstr "Наприклад, <em>domain.ru</em>, якщо Webasyst встановлюється в кореневу директорію домену domain.ru, або <em>domain.ru/wa</em>, якщо Webasyst встановлюється в піддиректорію /wa/ домену domain.ru. Наприкінці URL додавати косу риску (/) не потрібно."
+msgstr "domain.com"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:176
-#, fuzzy
 msgid "by file path"
-msgstr "Порожній хеш або шлях до файлу"
+msgstr "за шляхом до файлу"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:180
-#, fuzzy
 msgid "by file path and domain name"
-msgstr "Порожній хеш або шлях до файлу"
+msgstr "за шляхом до файлу та іменем домена"
 
 #: /wa-apps/shop/templates/actions/csv/CsvProductsetup.import.html:184
 msgid "Select how unique image URLs must be extracted from your CSV file."
@@ -17136,27 +17121,23 @@ msgstr "Оберіть, яким чином URL зображень буде ви
 
 #: /wa-apps/shop/templates/actions/products/Products.html:172
 #: /wa-apps/shop/templates/actions/products/Products.html:220
-#, fuzzy
 msgid "product name"
-msgstr "Назва продукту"
+msgstr "назва товару"
 
 #: /wa-apps/shop/templates/actions/products/Products.html:176
 #: /wa-apps/shop/templates/actions/products/Products.html:225
-#, fuzzy
 msgid "sku name"
-msgstr "Назва артикулу"
+msgstr "назва артикулу"
 
 #: /wa-apps/shop/templates/actions/products/Products.html:178
 #: /wa-apps/shop/templates/actions/products/Products.html:235
-#, fuzzy
 msgid "compare at price"
-msgstr "Закреслена ціна"
+msgstr "закреслена ціна"
 
 #: /wa-apps/shop/templates/actions/products/Products.html:180
 #: /wa-apps/shop/templates/actions/products/Products.html:241
-#, fuzzy
 msgid "purchase price"
-msgstr "Закупівельна ціна"
+msgstr "закупівельна ціна"
 
 #: /wa-apps/shop/templates/actions/transfer/Transfer.html:81
 #: /wa-apps/shop/templates/actions/transfer/Transfer.html:80
@@ -17253,14 +17234,12 @@ msgid "Send code"
 msgstr "Надіслати код"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:6
-#, fuzzy
 msgid "Please confirm your phone number"
-msgstr "Аби увійти, потрібно підтвердити номер телефону."
+msgstr "Підтвердіть, будь ласка, свій номер телефону"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:7
-#, fuzzy
 msgid "sent to your phone"
-msgstr "Підтвердіть свій номер телефону"
+msgstr "надіслано на ваш телефон"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:12
 msgid "Please confirm your email address"
@@ -17275,14 +17254,12 @@ msgid "Unsupported contact data type"
 msgstr "Тип даних контакта не підтримується"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:24
-#, fuzzy
 msgid "Complete checkout"
-msgstr "Об'єднання завершено."
+msgstr "Завершити оформлення замовлення"
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/dialog/channel_confirmation.html:101
-#, fuzzy
 msgid "Enter a confirmation code to complete checkout."
-msgstr "Введіть код підтвердження, аби закінчити реєстрацію"
+msgstr "Введіть код підтвердження, аби закінчити оформлення замовлення."
 
 #: /wa-apps/shop/templates/actions/frontend/order/form/confirm.html:49
 #: /wa-apps/shop/templates/actions/frontend/FrontendOrderCart.html:364
@@ -17307,9 +17284,8 @@ msgid "You do not need to confirm this value any more."
 msgstr "Вам більше не потрібно підтверджувати це значення."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutAuthStep.class.php:216
-#, fuzzy
 msgid "You cannot use these values."
-msgstr "Ви не можете видалити себе."
+msgstr "Ви не можете використовувати ці значення."
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfig.class.php:319
 msgid "Non-authorized customers do not need to confirm their email address or phone number."
@@ -17360,9 +17336,8 @@ msgid "Checkout with mandatory email address or phone number confirmation"
 msgstr "Оформлення замовлення не допускається без підтвердження електронної адреси чи номера телефону"
 
 #: /wa-apps/shop/lib/classes/checkout2/shopCheckoutConfirmStep.class.php:133
-#, fuzzy
 msgid "Please confirm your contact data."
-msgstr "Підтвердіть, будь ласка, свою підписку"
+msgstr "Підтвердіть, будь ласка, свої контактні дані."
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:32
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:425
@@ -17372,9 +17347,9 @@ msgstr "Описи зображень продукту"
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:688
 msgid "Updated %d product image description"
 msgid_plural "Updated %d product image descriptions"
-msgstr[0] "Оновлено опис %d товару"
-msgstr[1] "Оновлено опис %d товарів"
-msgstr[2] ""
+msgstr[0] "Updated %d product image description"
+msgstr[1] "Updated %d product image descriptions"
+msgstr[2] "Оновлено опис зображення %d товарів"
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductrun.controller.php:750
 msgid "%d SKU imported with errors"
@@ -17410,15 +17385,13 @@ msgstr "Для відправки коду вказано невірні дан�
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:93
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:84
-#, fuzzy
 msgid "Code sending error"
-msgstr "Помилка відправки:"
+msgstr "Помилка відправки коду"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:123
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:113
-#, fuzzy
 msgid "Code has not been sent"
-msgstr "Ще нічого не надсилалось."
+msgstr "Код не надіслано"
 
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:131
 #: /wa-apps/shop/lib/actions/frontend/order/shopFrontendOrderConfirmation.actions.php:124
@@ -17430,9 +17403,8 @@ msgid "Back to shopping"
 msgstr "← Повернутися до покупок"
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:16
-#, fuzzy
 msgid "Product id"
-msgstr "ID товару. Інші елементи об'єкта <em>$product</em>, доступні у цьому шаблоні, перераховано нижче."
+msgstr "Ідентифікатор товару"
 
 #: /wa-apps/shop/lib/actions/csv/shopCsvProductupload.controller.php:38
 msgid "SKU id"
