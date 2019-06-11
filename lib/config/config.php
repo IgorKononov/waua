@@ -14,6 +14,10 @@ return array (
     array (
       'version' => '1.4.0',
     ),
+    'checklists' => 
+    array (
+      'version' => '1.0.11',
+    ),
        'files' => 
     array (
       'version' => '1.1.3',
