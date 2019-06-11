@@ -48,15 +48,15 @@ return array (
     ),
     'mylang' => 
     array (
-      'version' => '2.2',
+      'version' => '2.5',
     ),
     'photos' => 
     array (
-      'version' => '1.2.8',
+      'version' => '1.2.10',
     ),
     'shop' => 
     array (
-      'version' => '8.0.0',
+      'version' => '8.4.3',
       'plugins' => 
       array (
 		'cml1c' => 
@@ -91,11 +91,11 @@ return array (
     ),        
     'team' => 
     array (
-      'version' => '1.0.8',
+      'version' => '1.0.10',
     ),
     'webasyst' => 
     array (
-      'version' => '1.1.3',
+      'version' => '1.11.3',
     ),
   ),
 );
