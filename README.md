@@ -1,2 +1,0 @@
-# waua
-Webasyst Ukrainian Translation
