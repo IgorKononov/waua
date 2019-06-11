@@ -67,7 +67,7 @@ return array (
         array (
           'version' => '2.1.1',
         ),
-		'redirect' =>
+		'redirect'
         array (
           'version' => '1.1',
         ),        
