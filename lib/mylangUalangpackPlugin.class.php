@@ -1,6 +1,6 @@
 <?php
 
-class mylangUalangpackPlugin extends mylangLanguagePlugin
+class mylangUalangpackPlugin extends mylangPlugin
 {
 
 }
