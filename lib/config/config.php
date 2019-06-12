@@ -75,6 +75,10 @@ return array (
         array (
           'version' => '2.3.3',
         ),
+  		'referrals' => 
+        array (
+          'version' => '1.1.3',
+        ),
       ),
     ),
     'site' => 
@@ -96,6 +100,33 @@ return array (
     'webasyst' => 
     array (
       'version' => '1.11.3',
+      'plugins' => 
+      array (
+    'cash' => 
+        array (
+    'version' => '1.0.0',
+        ),        
+    'yandexmoney' => 
+        array (
+    'version' => '1.4.1',
+        ),
+    'courier' =>
+        array (
+    'version' => '1.3.0',
+        ),        
+    'yandexmarket' => 
+        array (
+    'version' => '2.3.3',
+        ),
+    'pickup' => 
+        array (
+    'version' => '1.0.0',        
+    	),
+    'sd' => 
+        array (
+    'version' => '1.0.3',
+        ),
+      ),
     ),
   ),
 );
