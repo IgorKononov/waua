@@ -13,6 +13,12 @@ return array (
     'crm' => 
     array (
       'version' => '1.4.0',
+      'plugins' => 
+      array (
+    'telegram' => 
+        array (
+          'version' => '1.0.3.37',
+        ),
     ),
     'checklists' => 
     array (
@@ -79,6 +85,14 @@ return array (
         array (
           'version' => '1.1.3',
         ),
+      'watermark' => 
+        array (
+          'version' => '2.0.0',
+        ),
+      'paypal' => 
+        array (
+          'version' => '1.0.2',
+        ),
       ),
     ),
     'site' => 
@@ -113,11 +127,7 @@ return array (
     'courier' =>
         array (
     'version' => '1.3.0',
-        ),        
-    'yandexmarket' => 
-        array (
-    'version' => '2.3.3',
-        ),
+        ),    
     'pickup' => 
         array (
     'version' => '1.0.0',        
@@ -125,6 +135,10 @@ return array (
     'sd' => 
         array (
     'version' => '1.0.3',
+        ),
+    'flatrate' => 
+        array (
+    'version' => '1.1.1.6',
         ),
       ),
     ),
