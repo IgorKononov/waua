@@ -27,7 +27,7 @@ return array (
     ),
     'crm' => 
     array (
-      'version' => '1.4.0',
+      'version' => '1.4.1',
       'plugins' => 
       array (
     'telegram' => 
@@ -39,6 +39,7 @@ return array (
           'version' => '1.0.3.37',
         ),
     ),
+  ),
     'checklists' => 
     array (
       'version' => '1.0.11',
@@ -61,7 +62,7 @@ return array (
     ),
     'installer' => 
     array (
-      'version' => '1.10.11',
+      'version' => '1.11.3',
     ),
     'logs' => 
     array (
@@ -136,6 +137,7 @@ return array (
           'version' => '1.0.2',
         ),
       ),
+    ),
     'site' => 
     array (
       'version' => '2.5.8',
@@ -183,7 +185,5 @@ return array (
         ),
       ),
     ),
-  ),
-),
-),
+  )
 );
