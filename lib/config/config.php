@@ -5,7 +5,22 @@ return array (
     'blog' => 
     array (
       'version' => '1.4.2',
-    ),
+      'plugins' => 
+      array (
+    'category' => 
+        array (
+          'version' => '1.2',
+      ),
+     'favorite' => 
+        array (
+          'version' => '1.0.0',   
+              ),
+      'tag' => 
+        array (
+          'version' => '1.0.0',   
+              ),  
+          ),
+       ),
     'contacts' => 
     array (
       'version' => '1.1.6',
@@ -16,6 +31,10 @@ return array (
       'plugins' => 
       array (
     'telegram' => 
+        array (
+          'version' => '1.0.3.37',
+        ),
+    'vk' => 
         array (
           'version' => '1.0.3.37',
         ),
@@ -59,6 +78,21 @@ return array (
     'photos' => 
     array (
       'version' => '1.2.10',
+      'plugins' => 
+      array (
+    'imageeffects' => 
+        array (
+          'version' => '1.0.0',
+        ),
+    'import' => 
+        array (
+          'version' => '1.0.0',
+        ),
+     'watermark' => 
+        array (
+          'version' => '1.0.0',
+        ),   
+      ),
     ),
     'shop' => 
     array (
@@ -69,7 +103,7 @@ return array (
         array (
           'version' => '2.5.8',
         ),      	
-        'migrate' => 
+    'migrate' => 
         array (
           'version' => '2.1.1',
         ),
@@ -77,24 +111,31 @@ return array (
         array (
           'version' => '1.1',
         ),        
-        'yandexmarket' => 
+    'yandexmarket' => 
         array (
           'version' => '2.3.3',
         ),
-  		'referrals' => 
+  	'referrals' => 
         array (
           'version' => '1.1.3',
         ),
-      'watermark' => 
+    'watermark' => 
         array (
           'version' => '2.0.0',
         ),
-      'paypal' => 
+    'paypal' => 
+        array (
+          'version' => '1.0.2',
+        ),
+    'brands' => 
+        array (
+          'version' => '1.1',
+        ),
+    'invoice' => 
         array (
           'version' => '1.0.2',
         ),
       ),
-    ),
     'site' => 
     array (
       'version' => '2.5.8',
