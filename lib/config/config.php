@@ -7,17 +7,33 @@ return array (
       'version' => '1.4.2',
       'plugins' => 
       array (
+    'import' => 
+        array (
+          'version' => '1.2',
+              ),
     'category' => 
         array (
           'version' => '1.2',
-      ),
+              ),
      'favorite' => 
+        array (
+          'version' => '1.0.0',   
+              ),
+      'akismet' => 
         array (
           'version' => '1.0.0',   
               ),
       'tag' => 
         array (
           'version' => '1.0.0',   
+              ),
+      'troll' => 
+        array (
+          'version' => '1.0',
+              ),
+      'myposts' => 
+        array (
+          'version' => '1.0.0',
               ),  
           ),
        ),
@@ -32,12 +48,28 @@ return array (
       array (
     'telegram' => 
         array (
-          'version' => '1.0.3.37',
+          'version' => '1.0.3',
         ),
+    'fb' => 
+        array (
+          'version' => '1.0.3',
+        ),    
     'vk' => 
         array (
-          'version' => '1.0.3.37',
+          'version' => '1.0.4',
         ),
+    'zadarma' => 
+        array (
+          'version' => '1.0.0',
+      ),
+     'telphin' => 
+        array (
+          'version' => '1.1.0',
+      ),
+      'twitter' => 
+        array (
+          'version' => '1.0.1',
+      ),   
     ),
   ),
     'checklists' => 
@@ -47,6 +79,13 @@ return array (
        'files' => 
     array (
       'version' => '1.1.3',
+      'plugins' => 
+      array (
+    'dropbox' => 
+        array (
+          'version' => '1.0.40',
+        ),
+      ),
     ),
        'helpdesk' => 
     array (
@@ -92,6 +131,14 @@ return array (
      'watermark' => 
         array (
           'version' => '1.0.0',
+        ),
+       'comments' => 
+        array (
+          'version' => '1.0.0',
+        ),
+        'publicgallery' => 
+        array (
+          'version' => '1.0.1',
         ),   
       ),
     ),
@@ -136,7 +183,11 @@ return array (
         array (
           'version' => '1.0.2',
         ),
-      ),
+     'favoriteproducts' => 
+        array (
+          'version' => '1.0.0',
+        ),   
+      ),      
     ),
     'site' => 
     array (

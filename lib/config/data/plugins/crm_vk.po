@@ -17,7 +17,7 @@ msgstr "Плагін %s встановлено і запущено."
 
 #: /wa-apps/crm/plugins/vk/templates/VkPluginSettings.html:3
 msgid "Specify configuration parameters on <a href=\"%s\">deal source settings</a>."
-msgstr "Задайте параметри на <a href=\"%s\">екрані налаштувань угоди</a>."
+msgstr "Задайте параметри на <a href="%s">екрані налаштувань джерела угод</a>."
 
 #: /wa-apps/crm/plugins/vk/templates/source/message/OutMessageToBlock.html:6
 #: /wa-apps/crm/plugins/vk/templates/source/message/OutMessageFromBlock.html:6
