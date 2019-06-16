@@ -1,9 +1,9 @@
 <?php
 return array (
   'name' => 'Webasyst по-украински',    
-  'description'  => 'Перевод на украинский язык интерфейса всех продуктов Webasyst и многих сторонних',
+  'description'  => 'Перевод на украинский язык интерфейса продуктов Webasyst',
   'img' => 'img/ualangpack.png',
-  'version' => '0.3',
+  'version' => '1.0',
   'vendor' => '1077750',
   'handlers' => 
   array (
