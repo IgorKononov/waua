@@ -294,6 +294,10 @@
         'mylang' => 
         array (
           'version' => '2.5',
+              ),
+        'pocketlists' => 
+        array (
+          'version' => '3.3',
               ),                    
             ),
           );
