@@ -4,13 +4,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: 1312 Inc. Pocket Lists 3.3.0.0 UA Translation v 0.2\n"
+"Project-Id-Version: 1312 Inc. Pocket Lists 3.3.0.0 UA Translation v 0.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
+"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /wa-apps/pocketlists/templates/mails/completeanyitem.html:2
 msgid "%s has just completed <strong>%s</strong>"
@@ -54,9 +54,8 @@ msgid "%s commented on <a href=\"%s\">%s</a>"
 msgstr "%s прокоментував <a href=\"%s\">%s</a>"
 
 #: /wa-apps/pocketlists/templates/mails/dailyrecap.html:1
-#, fuzzy
 msgid "Hi %s,"
-msgstr "Привіт %з"
+msgstr "Привіт, %s,"
 
 #: /wa-apps/pocketlists/templates/mails/dailyrecap.html:4
 msgid "Here is your <a href=\"%s\">daily recap</a> for %s:"
@@ -82,9 +81,8 @@ msgstr "Термін дії"
 #: /wa-apps/pocketlists/templates/actions/list/ListDetails.html:60
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:48
 #: /wa-apps/pocketlists/templates/include/monthcalendar.html:53
-#, fuzzy
 msgid "Email list"
-msgstr "Список адрес електронної пошти "
+msgstr "Перелік адрес електронної пошти "
 
 #: /wa-apps/pocketlists/templates/actions/list/ListEmailDialog.html:10
 msgid "To"
@@ -245,22 +243,19 @@ msgstr "Позначити усі справи як завершені"
 #: /wa-apps/pocketlists/templates/actions/list/ListDetails.html:63
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:49
 #: /wa-apps/pocketlists/templates/include/monthcalendar.html:54
-#, fuzzy
 msgid "Print list"
-msgstr "Список друку "
+msgstr "Друкувати перелік"
 
 #: /wa-apps/pocketlists/templates/actions/list/ListDetails.html:66
 #: /wa-apps/pocketlists/templates/include/archivelistdialog.html:7
-#, fuzzy
 msgid "Archive list"
-msgstr "Список архіві "
+msgstr "Архівувати перелік"
 
 #: /wa-apps/pocketlists/templates/actions/list/ListDetails.html:69
 #: /wa-apps/pocketlists/templates/include/deletelistdialog.html:4
 #: /wa-apps/pocketlists/templates/include/deletelistdialog.html:8
-#, fuzzy
 msgid "Delete list"
-msgstr "Видалити список "
+msgstr "Видалити перелік"
 
 #: /wa-apps/pocketlists/templates/actions/list/ListAccesses.html:9
 msgid "Access"
@@ -367,9 +362,8 @@ msgid "To archive an active list, tap on it’s checkmark."
 msgstr "Аби заархівувати активний перелік, клікніть на його галочці."
 
 #: /wa-apps/pocketlists/templates/actions/archive/Archive.html:31
-#, fuzzy
 msgid "Unarchive list"
-msgstr "Список розархівувати "
+msgstr "Розархівувати перелік"
 
 #: /wa-apps/pocketlists/templates/actions/archive/Archive.html:34
 #: /wa-apps/pocketlists/templates/actions/comment/Comment.html:5
@@ -506,9 +500,8 @@ msgid "Daily recap notifications require CRON to be configured, which is not the
 msgstr "Щоденний огляд повідомлень вимагає налаштованого cron, а для Pocket Lists це не так. Налаштуйте cron з наступною командою для щоденного запуску:"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:117
-#, fuzzy
 msgid "Webasyst Cloud"
-msgstr "Хмара Вебасист "
+msgstr "Хмара Webasyst"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:117
 msgid "launch the <a href=\"%s\">Cloud app</a>"
@@ -548,26 +541,22 @@ msgid "to just any list"
 msgstr "до будь-якого списку"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:149
-#, fuzzy
 msgid "When someone creates a new shared to-do list"
 msgstr "Коли хтось створює новий загальний список"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:155
-#, fuzzy
 msgid "When someone marks a to-do item as complete"
-msgstr "Коли хтось відзначає який-небудь пункт, як повне"
+msgstr "Коли хтось відзначає будь-який пункт як виконаний"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:161
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:182
-#, fuzzy
 msgid "only items created by me or assigned to me"
-msgstr "тільки елементи, створені мною або призначених мені"
+msgstr "тільки елементи, створені мною або призначені на мене"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:166
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:187
-#, fuzzy
 msgid "only items I marked as favorite"
-msgstr "тільки деталі я відзначив, як улюблену"
+msgstr "тільки предмети, які я позначив обраними"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:170
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:192
@@ -575,9 +564,8 @@ msgid "any item on any shared list"
 msgstr "будь-який елемент у загальному списку"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:176
-#, fuzzy
 msgid "When someone comments on a to-do item"
-msgstr "Коли хтось коментує який-небудь пункт"
+msgstr "Коли хтось коментує будь-яку справу"
 
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:46
 msgid "%s’s to-dos (%d)"
@@ -589,14 +577,12 @@ msgstr "Доступ до списків"
 
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:69
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:76
-#, fuzzy
 msgid "Use Team app to <a href=\"%s\">configure %s’s access</a> to shared lists: select a user or a group of users &gt; Access tab &gt; Pocket Lists app &gt; apply the proper access level."
-msgstr "Використовувати команди програми для <а href=\"%s\">налаштувати %з доступом</a> для загальних списків: виберіть користувача або групу користувачів &ГТ; відкрити вкладку &ГТ; кишеня списки додатку &gt; застосування відповідного рівня доступу."
+msgstr "Використовуйте додаток «Команда», <a href=\"%s\">аби налаштувати доступ %s</a> до загальних списків: оберіть користувача або групу користувачів  &gt; вкладка «Доступ» &gt; Pocket Lists &gt; оберіть потрібний рівень доступу."
 
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:74
-#, fuzzy
 msgid "You have no lists that you would share with %s in common."
-msgstr "У вас немає списків, які ви хотіли б поділитися з %з загального."
+msgstr "У вас немає загальних з %s списків."
 
 #: /wa-apps/pocketlists/templates/actions/team/Team.html:61
 msgid "%d to-do"
@@ -607,57 +593,48 @@ msgstr[2] "%d справ"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:8
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:46
-#, fuzzy
 msgid "New list"
-msgstr "Новий список"
+msgstr "Новий перелік"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:11
-#, fuzzy
 msgid "Pocket settings"
-msgstr "Кишені параметри"
+msgstr "Параметри кишеньки"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:36
-#, fuzzy
 msgid "Go ahead! Create a list."
-msgstr "Йти вперед! Створити список."
+msgstr "Уперед! Створіть список."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:37
-#, fuzzy
 msgid "Pockets and lists help you organize to-dos, ideas, and notes, and flexibly configure access rights for your team."
-msgstr "Кишені та списки допоможуть вам організувати списки справ, ідей та нотаток, а також гнучко налаштувати права доступу для своєї команди."
+msgstr "Кишеньки та списки допоможуть вам організувати списки справ, ідей та нотаток, а також гнучко налаштувати права доступу для своєї команди."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:40
-#, fuzzy
 msgid "You don’t have access to any list in the pocket. Please contact your admin to request access setup."
-msgstr "У вас немає доступу до будь-список в кишеню. Будь ласка, зверніться до адміністратора просити установці доступом."
+msgstr "У вас немає доступу до будь-якого переліку у кишеньці. Будь ласка, зв'яжіться із своїм адміністратором та запитайте доступ."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:8
 msgid "(unnamed pocket)"
 msgstr "(кишенька без назви)"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:17
-#, fuzzy
 msgid "Pocket name"
-msgstr "Кишеньковий назва"
+msgstr "Назва кишеньки"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:39
-#, fuzzy
 msgid "Access rights"
-msgstr "Права доступу "
+msgstr "Права доступу"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:57
-#, fuzzy
 msgid "Delete pocket"
-msgstr "Видалити кишені"
+msgstr "Видалити кишеньку"
 
 #: /wa-apps/pocketlists/templates/actions/search/Search.html:9
 msgid "%s lists found"
 msgstr "Знайдено %s списків"
 
 #: /wa-apps/pocketlists/templates/actions/search/Search.html:33
-#, fuzzy
 msgid "No lists found"
-msgstr "Ніякі списки не знайдено"
+msgstr "Списків не знайдено"
 
 #: /wa-apps/pocketlists/templates/actions/search/Search.html:50
 msgid "%s to-dos found"
@@ -666,40 +643,34 @@ msgstr "Знайдено %s справ"
 #: /wa-apps/pocketlists/templates/actions/todo/Todo.html:2
 #: /wa-apps/pocketlists/templates/actions/favorites/Favorites.html:2
 #: /wa-apps/pocketlists/templates/actions/app/App.html:2
-#, fuzzy
 msgid "Next"
 msgstr "Далі"
 
 #: /wa-apps/pocketlists/templates/actions/todo/Todo.html:3
 #: /wa-apps/pocketlists/templates/actions/favorites/Favorites.html:3
 #: /wa-apps/pocketlists/templates/actions/app/App.html:3
-#, fuzzy
 msgid "Previous"
-msgstr "Попередні"
+msgstr "Назад"
 
 #: /wa-apps/pocketlists/templates/actions/todo/TodoDate.html:19
-#, fuzzy
 msgid "Welcome to Pocket Lists app!"
-msgstr "Ласкаво просимо в кишені списки додаток!"
+msgstr "Ласкаво просимо у додаток Pocket Lists!"
 
 #: /wa-apps/pocketlists/templates/actions/todo/TodoDate.html:20
-#, fuzzy
 msgid "Your daily routine"
-msgstr "Вашому повсякденному житті"
+msgstr "Ваш розпорядок дня"
 
 #: /wa-apps/pocketlists/templates/actions/todo/TodoDate.html:21
 msgid "<a href=\"%s\">Use Settings</a> page to configure your custom “My To-dos” filter behaviour."
 msgstr "<a href=\"%s\">Використовуйте сторінку параметрів,</a> аби налаштувати поведінку фільтру «Мої справи»."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:11
-#, fuzzy
 msgid "Rate"
-msgstr "Ставка"
+msgstr "Оцінка"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:15
-#, fuzzy
 msgid "Rate on Webasyst Installer"
-msgstr "Ставка установки облікового запису "
+msgstr "Оцінити через Інсталер Webasyst"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:20
 msgid "<strong>Your feedback is very important!</strong> Please rate Pocket Lists and write a short review about your experience of using the app. Reviews (both positive and negative) really help us to see what is most useful in the app so we can continue delivering new features the right way."
@@ -707,73 +678,60 @@ msgstr "<strong>Ваш відгук дуже важливий!</strong> Будь
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:21
 #: /wa-apps/pocketlists/templates/actions/about/About.html:69
-#, fuzzy
 msgid "https://www.webasyst.com/store/app/pocketlists/"
-msgstr "https://www.webasyst.com/store/app/pocketlists/"
+msgstr "https://www.webasyst.ru/store/app/pocketlists/"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:27
-#, fuzzy
 msgid "Support"
 msgstr "Підтримка"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:33
-#, fuzzy
 msgid "We speak English and Russian."
-msgstr "Ми говоримо англійською та російською мовами."
+msgstr "Ми говоримо англійською та російською."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:38
-#, fuzzy
 msgid "GitHub"
-msgstr "На GitHub"
+msgstr "szitHub"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:59
-#, fuzzy
 msgid "Pocket Lists for Webasyst is an important part of the bigger <a href=\"https://pocketlists.com\" target=\"_blank\"><strong>PocketLists.com project</strong></a> — a suite of apps that are aimed to provide the friendliest to-do list making & collaboration experience."
-msgstr "Кишеньковий списки для Webasyst-це важлива частина великої <а href=\"https://pocketlists.com\" цільових=\"розділ налаштувань\"><сильний>PocketLists.com проекту</сильні></а> — набір програм, які покликані забезпечити найдоброзичливіші список рішень для спільної роботи."
+msgstr "Pocket Lists для Webasyst це важлива частина великого проекту <a href=\"https://pocketlists.com\" target=\"_blank\"><strong>PocketLists.com</strong></a> — набору додатків, які мають на меті створення найбільш дружного переліку справ та середовища для співпраці."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:60
-#, fuzzy
 msgid "Pocket Lists is <strong>mostly known for its iOS app</strong> (iPhone, iPad, Apple Watch) designed for personal list making. Get Pocket Lists on the App Store for free."
-msgstr "Кишеньковий списків <Strong>в основному відома своєю iOS-додатки</сильний> (для iPhone, iPad, Яблуко, відкритий басейн, призначені для індивідуального списку рішень. Кишенькова списки в App Store безкоштовно."
+msgstr "Pocket Lists <strong>найбільш відомий у вигляді додатку для iOS</strong> (iPhone, iPad, Apple Watch), яке створене для створення власних переліків справ. Завантажте Pocket Lists з  App Store безкоштовно."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:63
-#, fuzzy
 msgid "http://itunes.apple.com/us/app/pocket-lists-2/id1272049520?mt=8"
-msgstr "http://itunes.apple.com/us/app/pocket-lists-2/id1272049520?mt=8"
+msgstr "https://apps.apple.com/ru/app/pocket-lists-2-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-%D0%B4%D0%B5%D0%BB/id1272049520"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:65
-#, fuzzy
 msgid "With Pocket Lists for Webasyst, our goal is to deliver the best of the Pocket Lists world to the Webasyst collaborative environment and to make the teamwork and collaboration on tasks expectionally easy and friendly."
-msgstr "З кишеньковими списки для Webasyst, наша мета полягає в наданні кращих з кишені списки світу коллаборативную середу Webasyst і зробити взаємодію та співробітництво на завдання expectionally простий і дружній."
+msgstr "Із Pocket Lists для Webasyst наша мета — привнести найкраще з Pocket Lists до середовища Webasyst та зробити співпрацю із колегами максимально простою та зрозумілою."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:76
-#, fuzzy
 msgid "Roadmap"
 msgstr "Дорожня карта"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:79
-#, fuzzy
 msgid "We have big plans for both iOS and Webasyst apps, and here is the summary of what we are keen to be integrating into Pocket Lists for Webasyst anytime soon (a draft plan):"
-msgstr "У нас великі плани як для iOS, так і програми Вебасист, і ось резюме того, що ми прагнемо до інтеграції в кишеню списки для Webasyst найближчим часом (проект плану):"
+msgstr "У нас великі плани як для iOS, так і на додаток для Webasyst. Ось резюме того, що ми прагнемо втілити у Pocket Lists для Webasyst найближчим часом (це чернетка плану):"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:83
 msgid "Bring the shared to-do list functionality into Webasyst"
 msgstr "Додайте функціональність загального переліку справ до Webasyst"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:87
-#, fuzzy
 msgid "Natural input ('... tomorrow 10am') parser"
-msgstr "Природний вхід аналізатора ('... завтра 10 ранку') "
+msgstr "Природний ввід тексту ('... завтра о 10 ранку')"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:91
-#, fuzzy
 msgid "Integrate with Shop-Script"
-msgstr "Інтеграція з Shop-скрипт"
+msgstr "Інтеграція із Shop-Script"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:92
-#, fuzzy
 msgid "The ability to create to-dos linked with orders"
-msgstr "Можливість створювати завдання, пов'язані з замовленнями"
+msgstr "Можливість створювати справи, пов'язані із замовленнями"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:96
 #, fuzzy
@@ -781,9 +739,8 @@ msgid "Multiple pockets and sophisticated access rights management"
 msgstr "Кілька кишень і складне управління правами доступу "
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:100
-#, fuzzy
 msgid "To-do search"
-msgstr "Для пошуку"
+msgstr "Пошук по справах"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:104
 #, fuzzy
@@ -799,76 +756,64 @@ msgid "Automated to-do creation based on order statuses"
 msgstr "Автоматизоване створення справ на основі статусів замовлень"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:115
-#, fuzzy
 msgid "Timelines: detailed activity log of who did what"
-msgstr "Терміни: докладний звіт діяльність хто що зробив"
+msgstr "Терміни: докладний звіт про діяльність колег"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:116
 msgid "By pocket, by list, by user"
 msgstr "За кишенею, за переліком, за користувачем"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:120
-#, fuzzy
 msgid "Custom to-do statuses"
-msgstr "Звичай-робити статуси"
+msgstr "Власні статуси справ"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:124
 msgid "Agile board"
 msgstr "Дошка Agile"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:130
-#, fuzzy
 msgid "Integration with Webasyst CRM, Tasks, and other apps"
-msgstr "Інтеграція з CRM та інструментів, завдань та інших додатків"
+msgstr "Інтеграція з Webasyst CRM, додатком «Завдання» та іншими"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:134
 msgid "“My To-dos” widget for the dashboard and Webasyst TV"
 msgstr "Віджет «Мої справи» для панелі управління та Webasyst TV"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:140
-#, fuzzy
 msgid "Rest API"
 msgstr "API-інтерфейс REST"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:141
-#, fuzzy
 msgid "Mid 2019"
-msgstr "Середини 2019"
+msgstr "Середина 2019"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:145
-#, fuzzy
 msgid "Integrate Pocket Lists for Webasyst and iOS"
-msgstr "Інтегрувати кишеню списки для Webasyst і iOS"
+msgstr "Інтегрувати Pocket Lists для Webasyst та iOS"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:150
-#, fuzzy
 msgid "Repeating to-dos"
-msgstr "Повторювані завдання"
+msgstr "Повторювані справи"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:154
-#, fuzzy
 msgid "Subtasks"
 msgstr "Підзавдання"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:159
-#, fuzzy
 msgid "Headings / dividers (sublists)"
-msgstr "Рубрики / дільників (підсписки)"
+msgstr "Рубрики / дільники (підсписки)"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:163
-#, fuzzy
 msgid "Pocket Lists for Android"
-msgstr "Кишеньковий списки для Андроїд"
+msgstr "Pocket Lists для Android"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:164
-#, fuzzy
 msgid "Someday. The real ETA depends on the availability of development resources which are now focused mostly on iOS."
-msgstr "Коли-небудь. Реальний час прибуття залежить від наявності ресурсів розвитку, які зараз зосереджені в основному на iOS."
+msgstr "Колись. Реальний термін створення залежить від наявності ресурсів, які наразі зосереджені в основному на iOS."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:168
-#, fuzzy
 msgid "Profit!"
-msgstr "Прибуток!"
+msgstr "Profit!"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:172
 msgid "Bullets highlighted with a %s label will be available as a part of the paid Pocket Lists PRO plugin."
@@ -879,14 +824,12 @@ msgid "Copyright"
 msgstr "Авторське право"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:207
-#, fuzzy
 msgid "We wish we could implement new features that easy :)"
-msgstr "Ми бажаємо ми могли б реалізувати нові функції, легко :)"
+msgstr "Хотіли б ми так просто реалізовувати нові функції :)"
 
 #: /wa-apps/pocketlists/templates/actions/favorites/FavoritesDate.html:4
-#, fuzzy
 msgid "My favorites"
-msgstr "Мої улюблені"
+msgstr "Моє обране"
 
 #: /wa-apps/pocketlists/templates/actions/favorites/FavoritesDate.html:16
 msgid "<strong>Your Favorites list is empty.</strong> To add a to-do to your personal favorites list, either click on a tiny little star icon next to a to-do name (in just any to-do list) or add a to-do directly using the form below."
@@ -897,49 +840,40 @@ msgid "All favorites"
 msgstr "Усе обране"
 
 #: /wa-apps/pocketlists/templates/actions/debug/Debug.html:49
-#, fuzzy
 msgid "Send It!"
-msgstr "Послати Його!"
+msgstr "Надіслати!"
 
 #: /wa-apps/pocketlists/templates/actions/debug/Debug.html:122
-#, fuzzy
 msgid "Generate"
-msgstr "Створити"
+msgstr "Згенерувати"
 
 #: /wa-apps/pocketlists/templates/actions/debug/Debug.html:140
-#, fuzzy
 msgid "Reset everything"
-msgstr "Скинути всі"
+msgstr "Скинути усе"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:7
-#, fuzzy
 msgid "Hide details and use the compact add mode by default"
 msgstr "Приховати подробиці і використовувати компактний режим додавання за замовчуванням"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:17
 #: /wa-apps/pocketlists/templates/include/itemadd.html:16
-#, fuzzy
 msgid "New to-do"
-msgstr "Нова"
+msgstr "Нова справа"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:21
-#, fuzzy
 msgid "Use @ or # symbols to link this to-do with a Shop-Script order."
-msgstr "Використовувати @ або # символи в посиланні на те, що з шоп-скрипт замовлення."
+msgstr "Використовуйте символи @ або #, аби пов'язати справу із замовленням Shop-Script."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:21
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:23
-#, fuzzy
 msgid "Ok, I got it."
-msgstr "Ок, я отримав його."
+msgstr "Ок, зрозуміло."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:23
-#, fuzzy
 msgid "The to-do item will be saved in the <span class=\"nowrap\"><a href=\"%s\" class=\"gray\" target=\"_blank\">Pocket Lists</a> app</span> and will be visible only to authorized Webasyst users. The customer will not see this to-do."
-msgstr "Цей пункт буде збережено <проміжок клас=\"без перенесення\"><а href=\"%s\" клас=\"сірий\" таргет=\"розділ налаштувань\">кишеньковий списки</A> додаток</span> і буде видно тільки авторизованим облікового запису користувачів. Клієнт не буде бачити цим робити."
+msgstr "Цю справу буде збережено у додатку <span class=\"nowrap\"><a href=\"%s\" class=\"gray\" target=\"_blank\">Pocket Lists</a></span>, її буде видно тільки користувачам бекенду Webasyst. Клієнт цю справу не побачить."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:35
-#, fuzzy
 msgid "Note"
 msgstr "Примітка"
 
@@ -952,41 +886,34 @@ msgid "Assigned to"
 msgstr "Призначено на"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:76
-#, fuzzy
 msgid "Nobody"
-msgstr "Ніхто не"
+msgstr "Ніхто"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:81
-#, fuzzy
 msgid "The user will see this to-do in his Pocket Lists to-do stream and will be notified about this assignment by email."
-msgstr "Користувач побачить це в кишеню списки потік і буде повідомлений про переуступку по електронній пошті."
+msgstr "Користувач побачить цю справу у перелікові справ у додатку Pocket Lists та отримає повідомлення про неї по email."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:86
 msgid "Created"
 msgstr "Створено"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:96
-#, fuzzy
 msgid "Updated"
 msgstr "Оновлено"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:121
-#, fuzzy
 msgid "Priority"
 msgstr "Пріоритет"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:133
-#, fuzzy
 msgid "When"
 msgstr "Коли"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:136
-#, fuzzy
 msgid "Set date"
 msgstr "Встановити дату"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:146
-#, fuzzy
 msgid "Set time"
 msgstr "Встановити час"
 
@@ -995,82 +922,67 @@ msgid "Clear time"
 msgstr "очистити час"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:150
-#, fuzzy
 msgid "When due is set, it may automatically increase the manually set priority color."
-msgstr "Коли в силу, це може автоматично збільшити набір пріоритетних колір вручну."
+msgstr "Коли термін встановлено, вказаний вручну приорітет може бути підвищено."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:157
-#, fuzzy
 msgid "This item is <strong>marked as completed</strong>. Setting priority and due date won’t be visible within the to-do list."
-msgstr "Цей елемент <сильний>позначений як завершена</strong>. Установка пріоритету і дати не буде відображатися в списку."
+msgstr "Цей елемент <strong>позначено як виконаний</strong>. Приорітет та термін не буде видно у перелікові справ."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:163
-#, fuzzy
 msgid "List"
 msgstr "Список"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:174
-#, fuzzy
 msgid "Removing to-do item from a list makes it <strong>your private to-do item</strong> hidden from your teammates, and available on your To-do Stream only."
-msgstr "Видалення елемента зі списку робить його <strong>ваш власний елемент</Strong> у прихованих від ваших товаришів по команді, і доступний на ваш потік."
+msgstr "Видалення справи зі списку переводить її до <strong>ваших приватних справ</strong>, які є прихованими від ваших колег та видимі тільки у вашому переліку."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:181
-#, fuzzy
 msgid "Repeat"
 msgstr "Повторити"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:185
-#, fuzzy
 msgid "Every Day"
-msgstr "Кожен День"
+msgstr "Кожен день"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:186
-#, fuzzy
 msgid "Every Week"
 msgstr "Щотижня"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:187
-#, fuzzy
 msgid "Every 2 Weeks"
-msgstr "Кожні 2 Тижні"
+msgstr "Кожні два тижні"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:188
-#, fuzzy
 msgid "Every Month"
-msgstr "Кожен Місяць"
+msgstr "Кожен місяць"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:189
-#, fuzzy
 msgid "Every Year"
-msgstr "Кожен Рік"
+msgstr "Щорічно"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:190
-#, fuzzy
 msgid "Custom..."
-msgstr "Виготовлений на замовлення..."
+msgstr "Користувальницький..."
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:195
-#, fuzzy
 msgid "Location"
 msgstr "Розташування"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:211
 #: /wa-apps/pocketlists/templates/include/deleteitemdialog.html:4
-#, fuzzy
 msgid "Delete to-do"
-msgstr "Видалити-не"
+msgstr "Видалити справу"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemDetails.html:217
 msgid "Add to-do"
 msgstr "Додати справу"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemData.html:5
-#, fuzzy
 msgid "Sort"
 msgstr "Сортувати"
 
 #: /wa-apps/pocketlists/templates/actions/item/ItemData.html:11
-#, fuzzy
 msgid "Favorite"
 msgstr "Улюблені"
 
