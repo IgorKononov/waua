@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst 1.11.3.411 UA translation v 0.1\n"
+"Project-Id-Version: Webasyst 1.11.5.413 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Igor Kononov <igor.kononov@webasyst.ru>\n"
-"Language-Team: Skeeter Dev\n"
+"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
+"Language-Team: skeeter.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2018-04-14 12:31+0300\n"
-"PO-Revision-Date: 2019-06-05 18:12+0300\n"
+"PO-Revision-Date: 2019-07-01 12:06+0300\n"
 "Language: uk_UA\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: .\n"
 
@@ -3832,11 +3832,11 @@ msgstr "Для розробників"
 
 #: /wa-system/webasyst/templates/actions/settings/Settings.html:80
 msgid "Developer mode"
-msgstr "Режим відладки (debug mode)"
+msgstr "Режим налагодження (debug mode)"
 
 #: /wa-system/webasyst/templates/actions/settings/Settings.html:81
 msgid "Debug mode disables caching and enables verbose error messages. Recommended for debugging and during software development."
-msgstr "Режим відладки вимикає кешування та вмикає детальні повідомлення про помилки. Рекомендується для діагностики помилок та протягом розробки програмного забезпечення."
+msgstr "Режим налагодження вимикає кешування та вмикає детальні повідомлення про помилки. Рекомендується для діагностики помилок та протягом розробки програмного забезпечення."
 
 #: /wa-system/webasyst/templates/actions/settings/Settings.html:89
 msgid "Webasyst version"
@@ -4816,3 +4816,202 @@ msgstr "OK"
 
 msgid "WYSIWYG editor may change your HTML code. It is necessary for correct text formatting. Smarty code may be broken and outdated HTML tags may be replaced with modern ones. Are you sure to switch to WYSIWYG editor?"
 msgstr "Візуальний редактор може змінити ваш HTML-код. Це необхідно для коректного форматування тексту. Код Smarty може бути зламано, а застарілі теги HTML може бути замінено на сучасні. Ви впевнені, що бажаете переключитися на візуальний редактор?"
+
+#: /wa-system/auth/waAuth.class.php:451
+#: /wa-system/login/actions/login/waBaseLogin.action.php:262
+#: /wa-system/auth/waAuth.class.php:380
+msgid "No user with these data was found."
+msgstr "Користувача з такими даними не знайдено."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:9
+msgid "Database tables and fields"
+msgstr "Таблиці та поля бази даних"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:12
+msgid "New encoding"
+msgstr "Нове кодування"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:13
+msgid "Old encoding"
+msgstr "Старе кодування"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:18
+msgid "Some tables and fields will not be converted. Do not try to run the conversion again to fix it."
+msgstr "Деякі таблиці та поля не буде конвертовано. Не намагайтесь повторювати конвертацію, аби це виправити."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:19
+msgid "Repeat the conversion after the installation of apps or plugins whenever you need to add emoji support for them."
+msgstr "Повторіть конвертацію після встановлення додатків або плагінів, коли захочете увімкнути підтримку емодзі і для них."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:20
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:18
+msgid "You may also use phpMyAdmin to change database tables and fields encoding."
+msgstr "Ви також можете використовувати phpMyAdmin для зміни кодування таблиць та полів."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:29
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:27
+msgid "Total tables"
+msgstr "Усього таблиць"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:30
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:28
+msgid "Total fields"
+msgstr "Усього полів"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:31
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:29
+msgid "Converted tables"
+msgstr "Перетворені таблиці"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:32
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:30
+msgid "Converted fields"
+msgstr "Перетворені поля"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:33
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:31
+msgid "Not converted tables"
+msgstr "Таблиці, що не конвертовано"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:34
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:32
+msgid "Not converted fields"
+msgstr "Поля, що не конвертовано"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:35
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:33
+msgid "Path to log file"
+msgstr "Шлях до лог-файлу"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:44
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:42
+msgid "Change encoding"
+msgstr "Змінити кодування"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:48
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:46
+msgid "Do not close this form until the conversion is completed."
+msgstr "Не закривайте цю форму доки конвертацію не буде завершено."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:61
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:59
+msgid "Start changing encoding for tables and fields?"
+msgstr "Почати зміну кодування для таблиць та полів?"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:66
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:64
+msgid "This will start the conversion of your database tables and fields to <code>utf8mb4</code> encoding."
+msgstr "Почати конвертацію таблиць та полів вашої бази даних до кодування <code>utf8mb4</code>."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:67
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:65
+msgid "It will enable you and your website visitors use emoji (smilies), hieroglyphs, and other Unicode symbols."
+msgstr "Це дозволить вам та користувачам вашого сайту використовувати емодзі (смайлики), ієрогліфи та інші Юнікод-символи."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:68
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:66
+msgid "The encoding change may last a few seconds or minutes."
+msgstr "Зміна кодування може зайняти декілька секунд або хвилин."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:69
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:67
+msgid "It is essential to wait until the process completion to ensure that no tables or fields with outdated encoding remain."
+msgstr "Важливо дочекатися, доки процес буде завершено. Це необхідно, аби впевнитися, що таблиць або полів із застарілим кодуванням не залишилось."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:70
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:68
+msgid "Do not close this browser tab until the process is completed. It is recommended to start conversion during a period of minimum load on your website."
+msgstr "Не закривайте цю вкладку браузера, доки процес не буде завершено. Рекомендується починати конвертацію в період мінімального навантаження на ваш сайт."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:77
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseListDialog.html:75
+msgid "Run"
+msgstr "Запустити"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseList.html:6
+msgid "Table"
+msgstr "Таблиця"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseList.html:7
+msgid "Fields"
+msgstr "Поля"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseList.html:8
+msgid "Collation"
+msgstr "Зіставлення"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabaseList.html:42
+msgid "Tables not found."
+msgstr "Таблиці не знайдені."
+
+#: /wa-system/webasyst/templates/actions/settings/Settings.html:97
+msgid "PHP version"
+msgstr "Версія PHP"
+
+#: /wa-system/webasyst/templates/actions/settings/Settings.html:101
+msgid "Webasyst is moving to PHP versions 5.6 and higher."
+msgstr "Webasyst рухається до PHP версій 5.6 та вище."
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:1
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:3
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:21
+msgid "Database"
+msgstr "База даних"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:11
+msgid "MySQL version"
+msgstr "Версія MySQL"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:14
+msgid "supports emoji"
+msgstr "підтримує емодзі"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:14
+msgid "does not support emoji"
+msgstr "не підтримує емодзі"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:33
+msgid "Connection charset"
+msgstr "Кодування з'єднання"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:46
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:32
+msgid "Tables and fields without emoji support"
+msgstr "Таблиці та поля без підтримки емодзі"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:51
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:37
+msgid "Proceed to adding emoji support"
+msgstr "Перейти до увімкнення підтримки емодзі"
+
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:53
+#: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:39
+msgid "To add emoji support enable <b>Debug mode</b> in <b>General settings</b>."
+msgstr "Аби додати підтримку емодзі, увімкніть <b>режим налагодження</b> у <b>розділі загальних налаштувань</b>."
+
+#: /wa-system/design/templates/ThemeDialogs.inc.html:304
+msgid "Unable to delete design theme"
+msgstr "Не вдалося видалити тему дизайну"
+
+#: /wa-system/design/templates/ThemeDialogs.inc.html:306
+msgid "This design theme is still in use on your website."
+msgstr "Тема дизайну все ще використовується на вашому сайті."
+
+#: /wa-system/design/templates/ThemeDialogs.inc.html:307
+msgid "To delete this theme, first select another theme in the following settlements’ settings:"
+msgstr "Аби видалити цю тему, спочатку оберіть іншу тему дизайну у налаштуваннях поступних поселень:"
+
+#: /wa-system/design/templates/Theme.html:365
+msgid "Design theme deleted."
+msgstr "Тему дизайну видалено."
+
+#: /wa-system/design/templates/Theme.html:352
+msgid "Design theme was not installed from Webasyst Store."
+msgstr "Тему дизайну не було встановлено з магазину Webasyst."
+
+#: /wa-system/page/templates/PageEdit.html:204
+msgid "Only image files can be uploaded"
+msgstr "Можна завантажити лише зображення"
+
+msgid "Georgia State"
+msgstr "Держава Грузія"

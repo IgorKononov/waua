@@ -4,13 +4,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Project-Id-Version: 1312 Inc. Pocket Lists 3.3.0.0 UA Translation v 1.0\n"
+"Project-Id-Version: 1312 Inc. Pocket Lists 3.3.0.0 UA Translation v 1.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
+"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
 "Language: uk_UA\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: /wa-apps/pocketlists/templates/mails/completeanyitem.html:2
 msgid "%s has just completed <strong>%s</strong>"
@@ -286,7 +286,7 @@ msgstr "Перелік створено"
 #: /wa-apps/pocketlists/templates/actions/backend/BackendSidebar.html:14
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:10
 msgid "New pocket"
-msgstr "Нова кишеня"
+msgstr "Новий проект"
 
 #: /wa-apps/pocketlists/templates/actions/backend/BackendSidebar.html:50
 msgid "Store"
@@ -391,15 +391,15 @@ msgstr "Мої особисті настройки"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:13
 msgid "Natural input"
-msgstr "Природний ввід даних"
+msgstr "Природний ввід тексту"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:18
 msgid "Understand “Meeting tomorrow at 10” input (recommended)"
-msgstr "Розуміти ввід «зустріч завтра о 10» (рекомендується)"
+msgstr "Розуміти ввід «встреча завтра в 10» (рекомендується)"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:19
 msgid "When enabled, the app will automatically parse to-do name and set due date and time if it was typed.<br> Examples: “Meeting tomorrow morning”, “Call James next friday 5pm”, “Pay electricity bill in a week”, “Update working schedule April 25”."
-msgstr "Коли увімкнено, додаток автоматично розбере текст справи і встановить час та дату, якщо їх було введено.<br> Наприклад: «Зустріч завтра вранці», «Подзвонити Джеймсові наступної п'ятниці о 17 годині», «Сплатити рахунок за електроенергію через тиждень», «Оновити графік роботи 25 квітня»."
+msgstr "Коли увімкнено, додаток автоматично розбере текст справи (російською та англійською мовою) і встановить час та дату, якщо їх було введено.<br> Наприклад: «Встреча завтра утром», «Позвонить Николаю в следующую пятницу в 17 часов», «Оплатить счет за электричество через неделю», «Обновить график работ 25 апреля»."
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:29
 msgid "My to-dos to self"
@@ -446,7 +446,7 @@ msgstr "Справи, призначені іншим користувачам, 
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:71
 msgid "App icon counter"
-msgstr "Лічильник на іконці додатка"
+msgstr "Лічильник на іконці"
 
 #: /wa-apps/pocketlists/templates/actions/settings/Settings.html:75
 msgid "All my to-dos"
@@ -598,7 +598,7 @@ msgstr "Новий перелік"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:11
 msgid "Pocket settings"
-msgstr "Параметри кишеньки"
+msgstr "Параметри проекту"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:36
 msgid "Go ahead! Create a list."
@@ -606,19 +606,19 @@ msgstr "Уперед! Створіть список."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:37
 msgid "Pockets and lists help you organize to-dos, ideas, and notes, and flexibly configure access rights for your team."
-msgstr "Кишеньки та списки допоможуть вам організувати списки справ, ідей та нотаток, а також гнучко налаштувати права доступу для своєї команди."
+msgstr "Проекти та списки допоможуть вам організувати списки справ, ідей та нотаток, а також гнучко налаштувати права доступу для своєї команди."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/Pocket.html:40
 msgid "You don’t have access to any list in the pocket. Please contact your admin to request access setup."
-msgstr "У вас немає доступу до будь-якого переліку у кишеньці. Будь ласка, зв'яжіться із своїм адміністратором та запитайте доступ."
+msgstr "У вас немає доступу до будь-якого переліку у проекті. Будь ласка, зв'яжіться із своїм адміністратором та запитайте доступ."
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:8
 msgid "(unnamed pocket)"
-msgstr "(кишенька без назви)"
+msgstr "(проект без назви)"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:17
 msgid "Pocket name"
-msgstr "Назва кишеньки"
+msgstr "Назва проекту"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:39
 msgid "Access rights"
@@ -626,7 +626,7 @@ msgstr "Права доступу"
 
 #: /wa-apps/pocketlists/templates/actions/pocket/PocketSettingsDialog.html:57
 msgid "Delete pocket"
-msgstr "Видалити кишеньку"
+msgstr "Видалити проект"
 
 #: /wa-apps/pocketlists/templates/actions/search/Search.html:9
 msgid "%s lists found"
@@ -674,7 +674,7 @@ msgstr "Оцінити через Інсталер Webasyst"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:20
 msgid "<strong>Your feedback is very important!</strong> Please rate Pocket Lists and write a short review about your experience of using the app. Reviews (both positive and negative) really help us to see what is most useful in the app so we can continue delivering new features the right way."
-msgstr "<strong>Ваш відгук дуже важливий!</strong> Будь ласка, оцініть Pocket Lists та напишіть короткий відгук про ваш досвід використання додатку. Відгуки (і позитивні і негативні) дійсно допомагають нам зрозуміти, що у додатку є найбільш корисним. Таким чином ми зможемо випускати нові функції правильним чином."
+msgstr "<strong>Ваш відгук дуже важливий!</strong> Будь ласка, оцініть Pocket Lists та напишіть короткий відгук про ваш досвід використання додатку. Відгуки (і позитивні і негативні) дійсно допомагають нам зрозуміти, що у додатку є найбільш корисним. Так ми зможемо випускати нові функції правильним чином."
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:21
 #: /wa-apps/pocketlists/templates/actions/about/About.html:69
@@ -723,7 +723,7 @@ msgstr "Додайте функціональність загального п�
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:87
 msgid "Natural input ('... tomorrow 10am') parser"
-msgstr "Природний ввід тексту ('... завтра о 10 ранку')"
+msgstr "Природний ввід тексту ('... завтра в 10 утра') (російською та англійською мовою)"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:91
 msgid "Integrate with Shop-Script"
@@ -735,7 +735,7 @@ msgstr "Можливість створювати справи, пов'язан�
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:96
 msgid "Multiple pockets and sophisticated access rights management"
-msgstr "Декілька кишень та розширене управління правами доступу"
+msgstr "Декілька проектів та розширене управління правами доступу"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:100
 msgid "To-do search"
@@ -759,7 +759,7 @@ msgstr "Терміни: докладний звіт про діяльність 
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:116
 msgid "By pocket, by list, by user"
-msgstr "За кишенею, за переліком, за користувачем"
+msgstr "За проектом, за переліком, за користувачем"
 
 #: /wa-apps/pocketlists/templates/actions/about/About.html:120
 msgid "Custom to-do statuses"
@@ -1076,7 +1076,7 @@ msgstr "Скасувати"
 
 #: /wa-apps/pocketlists/templates/include/itemadd.html:20
 msgid "New to-do (e.g. “meeting tomorrow at 10”)"
-msgstr "Нова справа (наприклад, \"нарада завтра о 10\")"
+msgstr "Нова справа (наприклад, \"совещание завтра в 10\")"
 
 #: /wa-apps/pocketlists/templates/include/itemadd.html:25
 msgid "Show details and use the detailed add mode by default"
@@ -1104,7 +1104,7 @@ msgstr "Архівування списку призведе до того, що
 
 #: /wa-apps/pocketlists/js/pocketlists-pocket.js:163
 msgid "DANGER! Pocket will be deleted with all its content including lists and to-dos. There will be no way to restore this data. Are you sure?"
-msgstr "НЕБЕЗПЕЧНО! Кишеньку буде видалено включно із її вмістом — списками та справами. Відновити ці дані можливості не буде. Ви впевнені?"
+msgstr "НЕБЕЗПЕЧНО! Проект буде видалено включно із його вмістом — списками та справами. Відновити ці дані можливості не буде. Ви впевнені?"
 
 #: /wa-apps/pocketlists/js/pocketlists.js:274
 msgid "You are about to leave this page without saving your input. Are you sure?"
@@ -1315,7 +1315,7 @@ msgstr "Може створювати та переглядати справи, 
 
 #: /wa-apps/pocketlists/lib/config/pocketlistsRightConfig.class.php:64
 msgid "Pockets"
-msgstr "Кишеньки"
+msgstr "Проекти"
 
 #: /wa-apps/pocketlists/lib/config/pocketlistsRightConfig.class.php:70
 msgid "No access"
@@ -1331,7 +1331,7 @@ msgstr "Повний доступ"
 
 #: /wa-apps/pocketlists/lib/config/pocketlistsRightConfig.class.php:91
 msgid "To setup access rights by pocket, set Limited access for at least one pocket"
-msgstr "Аби налаштувати права доступу до кишеньок, встановіть обмежений доступ до принаймні одної кишеньки."
+msgstr "Аби налаштувати права доступу до проектыв, встановіть обмежений доступ до принаймні одного проекту."
 
 #: /wa-apps/pocketlists/lib/config/pocketlistsRightConfig.class.php:120
 msgid "archive"
@@ -1343,7 +1343,7 @@ msgstr "Не вказані параметри pocket/id та list/id"
 
 #: /wa-apps/pocketlists/lib/actions/list/pocketlistsListMoveTo.controller.php:27
 msgid "Pocket and list not found"
-msgstr "Кишеньку та список не знайдено"
+msgstr "Проект та список не знайдено"
 
 #: /wa-apps/pocketlists/lib/actions/list/pocketlistsListMoveTo.controller.php:40
 msgid "List move error"

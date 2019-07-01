@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.4.3',
+            'version' => '8.4.5',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -33,7 +33,7 @@
                           ),
                 'paypal' => 
                     array (
-                      'version' => '1.0.2',
+                      'version' => '1.0.4',
                           ),
                 'brands' => 
                     array (
@@ -226,7 +226,7 @@
               ),
         'hub' => 
         array (
-          'version' => '1.2.3',
+          'version' => '1.2.4',
               ),
         'tasks' => 
         array (
@@ -234,7 +234,7 @@
               ),
         'site' => 
         array (
-          'version' => '2.5.8',
+          'version' => '2.5.9',
               ),
         'installer' => 
         array (
@@ -246,7 +246,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.11.3',
+            'version' => '1.11.5',
             'plugins' => 
               array (
                 'cash' => 
