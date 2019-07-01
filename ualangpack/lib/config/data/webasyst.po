@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst 1.11.5.413 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst 1.11.6.416 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2018-04-14 12:31+0300\n"
-"PO-Revision-Date: 2019-07-01 12:06+0300\n"
+"PO-Revision-Date: 2019-07-01 14:03+0300\n"
 "Language: uk_UA\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
@@ -4698,7 +4698,7 @@ msgstr "Надіслати дані про помилку"
 
 #: /wa-system/verification/classes/waVerificationChannelEmail.class.php:967
 msgid "Email address is not valid."
-msgstr "Некоректна email-адреса"
+msgstr "Некоректна email-адреса."
 
 #: /wa-system/verification/classes/waVerificationChannelEmail.class.php:983
 msgid "Sender address %s is not configured."
@@ -4749,7 +4749,7 @@ msgstr "Впевніться, что коректно налаштували в�
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsAuth.html:124
 msgid "No email template group is selected."
-msgstr "Видалити групу шаблонів?"
+msgstr "Групу шаблонів не обрано."
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsOnetimePasswordAuthConfirmDialog.inc.html:8
 msgid "Set one-time password authentication?"
@@ -5015,3 +5015,8 @@ msgstr "Можна завантажити лише зображення"
 
 msgid "Georgia State"
 msgstr "Держава Грузія"
+
+#: /wa-system/shipping/waShipping.class.php:886
+#: /wa-system/shipping/waShipping.class.php:848
+msgid "This setting must be supported by the app; e.g., Shop-Script ver. 8.0 or higher."
+msgstr "Це налаштування має підтримуватись додатком; наприклад, Shop-Script версії 8.0 або вище."

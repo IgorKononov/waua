@@ -238,7 +238,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.11.3',
+          'version' => '1.11.6',
               ),
         'hosting' => 
         array (
@@ -246,7 +246,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.11.5',
+            'version' => '1.11.6',
             'plugins' => 
               array (
                 'cash' => 
@@ -259,7 +259,7 @@
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.3.0',
+                    'version' => '1.4.0',
                         ),    
                     'pickup' => 
                         array (
@@ -297,7 +297,7 @@
               ),
         'pocketlists' => 
         array (
-          'version' => '3.3',
+          'version' => '3.3.0',
               ),                    
             ),
           );
