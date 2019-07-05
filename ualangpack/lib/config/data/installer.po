@@ -1,21 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Installer 1.11.6.416 UA translation v 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
-"Language-Team: skeeter.studio\n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2017-05-31T20:20:41+00:00\n"
-"PO-Revision-Date: 2019-07-01 14:08+0300\n"
-"Language: uk\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.3\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: .\n"
+"Project-Id-Version: Webasyst Installer 1.11.6.416 UA translation v 1.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
+"Language-Team: skeeter.studio\n"
+"Language: uk\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /wa-apps/installer/templates/actions/assets/Assets.row.html:23
 #: /wa-apps/installer/templates/actions/assets/Assets.row.html:25
@@ -183,7 +179,7 @@ msgstr "Немає ліцензії"
 #: /wa-apps/installer/templates/actions/widgets/Widgets.include.html:60
 #: /wa-apps/installer/templates/actions/apps/Apps.include.html:70
 msgid "Paid until %s"
-msgstr "Орендоване до %s"
+msgstr "Сплачено до %s"
 
 #: /wa-apps/installer/templates/actions/widgets/Widgets.include.html:62
 #: /wa-apps/installer/templates/actions/apps/Apps.include.html:73
@@ -702,6 +698,7 @@ msgstr "Віджет «<strong>%s</strong>»"
 
 #: /wa-apps/installer/templates/actions/update/Update.row.html:63
 #: /wa-apps/installer/templates/actions/update/Update.row.html:42
+#: /wa-apps/installer/templates/actions/update/Update.row.html:41
 msgid "Your current version is %s."
 msgstr "Встановлена версія: %s."
 
@@ -717,6 +714,7 @@ msgstr "Для отримання оновлення необхідно мати
 
 #: /wa-apps/installer/templates/actions/update/Update.row.html:107
 #: /wa-apps/installer/templates/actions/update/Update.row.html:89
+#: /wa-apps/installer/templates/actions/update/Update.row.html:66
 msgid "License for this app is either expired or not valid for this domain (%s)"
 msgstr "Ліцензія для цього додатку або закінчилася, або недійсна для даного домена (%s)"
 
@@ -1151,7 +1149,7 @@ msgstr "Плагіни для додатків"
 #: /wa-apps/installer/templates/layouts/Backend.html:97
 #: /wa-apps/installer/templates/layouts/Backend.html:90
 msgid "Manage apps"
-msgstr "Керувати додатками"
+msgstr "Встановлено"
 
 #: /wa-apps/installer/templates/layouts/Backend.html:103
 #: /wa-apps/installer/lib/actions/update/installerUpdateManager.action.php:164
@@ -1170,25 +1168,25 @@ msgstr "Налаштування"
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:94
 msgid "Application plugin %s has been deleted"
 msgid_plural "Applications plugins %s have been deleted"
-msgstr[0] "Плагін «%s» видалено"
-msgstr[1] "Плагіни «%s» видалено"
-msgstr[2] "Плагінів «%s» видалено"
+msgstr[0] "Плагін для додатку «%s» видалено"
+msgstr[1] "Плагіни для додатків «%s» видалено"
+msgstr[2] "Плагіни для додатків «%s» видалено"
 
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:154
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:95
 msgid "Application theme %s has been deleted"
 msgid_plural "Applications themes %s have been deleted"
-msgstr[0] "Тема «%s» видалена"
-msgstr[1] "Теми «%s» видалені"
-msgstr[2] "Тем «%s» видалено"
+msgstr[0] "Тему дизайну для додатку «%s» видалено"
+msgstr[1] "Теми дизайну для додатків «%s» видалені"
+msgstr[2] "Теми дизайну для додатків «%s» видалені"
 
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:155
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:141
 msgid "Application widget %s has been deleted"
 msgid_plural "Applications widgets %s have been deleted"
-msgstr[0] "Віджет «%s» відалено"
-msgstr[1] "Віджети «%s» видалено"
-msgstr[2] "Віджетів «%s» видалено"
+msgstr[0] "Віджет для додатку «%s» відалено"
+msgstr[1] "Віджети для додатків «%s» видалено"
+msgstr[2] "Віджети для додатків «%s» видалено"
 
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:41
 #: /wa-apps/installer/lib/classes/installerExtrasRemoveAction.class.php:44
@@ -1315,7 +1313,7 @@ msgstr "Додаток «%s»"
 msgid "Application %s has been deleted"
 msgid_plural "Applications %s have been deleted"
 msgstr[0] "Додаток «%s» видалено"
-msgstr[1] "Додатка «%s» видалено"
+msgstr[1] "Додатки «%s» видалено"
 msgstr[2] "Додатків «%s» видалено"
 
 #: /wa-apps/installer/lib/actions/apps/installerAppsRemove.action.php:32
@@ -1837,11 +1835,11 @@ msgstr "Цю тему дизайну не може бути оновлено"
 
 #: /wa-apps/installer/templates/actions/themes/ThemesInfo.html:153
 msgid "This theme cannot be installed"
-msgstr "Тему дизайну не може бути встановлено"
+msgstr "Цю тему дизайну не може бути встановлено"
 
 #: /wa-apps/installer/templates/actions/widgets/WidgetsInfo.html:88
 msgid "This widget cannot be updated"
-msgstr "Віджет не може бути оновлено"
+msgstr "Цей віджет не може бути оновлено"
 
 #: /wa-apps/installer/templates/actions/widgets/WidgetsInfo.html:173
 msgid "This widget cannot be installed"
@@ -2074,7 +2072,7 @@ msgstr "Наразі ви увійшли до Webasyst як <span class=\"js-cus
 #: /wa-apps/installer/templates/actions/assets/Assets.html:152
 #: /wa-apps/installer/templates/actions/store/Store.html:72
 msgid "If you want to add a review as another customer, please <a class=\"js-customer-center-logout-link\">sign out</a>."
-msgstr "Якщо ви хочете залишит огляд за іншого користувача, будь ласка, <a class=\"js-customer-center-logout-link\">вийдіть з акаунту</a>."
+msgstr "Якщо ви хочете залишити огляд за іншого користувача, будь ласка, <a class=\"js-customer-center-logout-link\">вийдіть з акаунту</a>."
 
 #: /wa-apps/installer/templates/actions/assets/Assets.html:156
 #: /wa-apps/installer/templates/actions/store/Store.html:76
@@ -2141,3 +2139,62 @@ msgstr "Неможливо видалити продукт (увімкнено �
 #: /wa-apps/installer/lib/actions/update/installerUpdateManager.action.php:35
 msgid "Unable to update product (developer version is on)"
 msgstr "Неможливо оновити продукт (режим розробки)"
+
+#: /wa-apps/installer/lib/classes/wainstallerrequirements.class.php:141
+msgid "Value of PHP configuration parameter %s: %s. Required value: %s."
+msgstr "Значення параметру конфігурації PHP %s: %s. Необхідне значення: %s."
+
+#: /wa-apps/installer/lib/classes/wainstallerrequirements.class.php:141
+msgid "Value of PHP configuration parameter %s: %s. Recommended value: %s."
+msgstr "Значення параметру конфігурації PHP %s: %s. Рекомендоване значення: %s."
+
+msgid "<a target=\"_blank\" href=\"https://support.webasyst.com/2024/mailer-dkim/\">What is DKIM</a>"
+msgstr "<a target=\"_blank\" href=\"https://support.webasyst.com/2024/mailer-dkim/\">Що таке DKIM</a>"
+
+msgid "Email transport"
+msgstr "Транспорт email"
+
+msgid "php mail() function"
+msgstr "PHP-функція mail()"
+
+msgid "Debug mailer"
+msgstr "Тестовий відправник"
+
+msgid "When this option is selected messages are sent by the default transport specified in the Webasyst framework configuration."
+msgstr "Якщо обрано цей варіант, розсилання будуть надсилатися транспортом за замовчуванням, обраним в конфігурації фреймворка Webasyst."
+
+msgid "Some web-hosting companies allow sending email message by means of this transport only. If it is required to specify additional parameters for the mail() function you can enter them in the provided text field. The default parameters are -f%s."
+msgstr "Деякі хостинг-провайдери дозволяють надсилати електронні повідомлення тільки цим транспортом. Якщо існує необхідність ввести додаткові параметри, їх можна вказати у текстовому полі при виборі варіанту «PHP-функція mail ()». За замовчуванням використовується параметр -f%s."
+
+msgid "This is the web server's system command for sending email in UNIX-like operating systems. The \"Sendmail\" option will allow you to specify a non-standard system command for sending messages if you are an experienced server administrator."
+msgstr "Це системна команда веб-сервера, за допомогою якої виконується відправка повідомлень на UNIX-хостингах. Варіант транспорту “Sendmail” дозволить вам вказати нестандартну системну команду для відправки повідомлень, якщо ви самостійно адмініструєте роботу вашого веб-сервера."
+
+msgid "Special server which is specifically used for sending email messages. You can send newsletters via any SMTP server for which you have connection credentials: host, port, user name, and password. It can be the SMTP server of your web-hosting company or that of a public mail service such as Gmail, Yahoo! Mail, Outlook.com, etc."
+msgstr "Спеціальний поштовий сервер, призначений для надсилання електронної пошти. Ви можете відправляти розсилання через будь-який SMTP-сервер, для підключення до якого у вас є дані: адреса сервера, номер порту, ім'я користувача (логін) і пароль. Це може бути SMTP-сервер вашого хостинг-провайдера або публічного поштового сервісу (Mail.ru, Gmail, Outlook.com та інші)."
+
+msgid "Options"
+msgstr "Параметри"
+
+msgid "Command"
+msgstr "Команда"
+
+msgid "Encryption"
+msgstr "Шифрування"
+
+msgid "Note: mail will be saved in wa-log/mailer/ and will NOT be sent to recipients."
+msgstr "Увага: повідомлення буде збережено у wa-log/mailer/ і не буде надіслано отримувачам."
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Home"
+msgstr "Додому"
+
+msgid "New "
+msgstr "Нові"
+
+msgid "Top-chart"
+msgstr "Топ-чарт"
+
+msgid "Developers"
+msgstr "Розробники"
