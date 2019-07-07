@@ -98,12 +98,12 @@
                   ),
         'files' => 
             array (
-              'version' => '1.1.3',
+              'version' => '1.1.4',
               'plugins' => 
                 array (
                   'dropbox' => 
                     array (
-              'version' => '1.0.40',
+              'version' => '1.1.0',
                           ),
                   'migrate' => 
                     array (
@@ -238,7 +238,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.11.6',
+          'version' => '1.11.7',
               ),
         'hosting' => 
         array (
@@ -259,7 +259,7 @@
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.4.0',
+                    'version' => '1.4.1',
                         ),    
                     'pickup' => 
                         array (
@@ -293,7 +293,7 @@
               ),      
         'mylang' => 
         array (
-          'version' => '2.5',
+          'version' => '2.6',
               ),
         'pocketlists' => 
         array (

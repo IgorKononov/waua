@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.4.5.14 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst Shop-Script 8.4.5.14 UA translation v 1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
@@ -8256,28 +8256,28 @@ msgstr "тижнів"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:6
 msgid "New"
-msgstr "Новий"
+msgstr "Нове"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:26
 #: /wa-apps/shop/lib/config/data/workflow.php:25
 msgid "Confirmed"
-msgstr "Підтверджений"
+msgstr "Підтверджене"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:45
 #: /wa-apps/shop/lib/config/data/workflow.php:134
 msgid "Paid"
-msgstr "Оплачений"
+msgstr "Оплачене"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:62
 #: /wa-apps/shop/lib/config/data/workflow.php:143
 #: /wa-apps/shop/lib/config/data/workflow.php:126
 msgid "Sent"
-msgstr "Відправлений"
+msgstr "Відправлене"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:77
 #: /wa-apps/shop/lib/config/data/workflow.php:73
 msgid "Completed"
-msgstr "Виконаний"
+msgstr "Виконане"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:90
 #: /wa-apps/shop/lib/config/data/workflow.php:86
@@ -8287,7 +8287,7 @@ msgstr "Повернення"
 #: /wa-apps/shop/lib/config/data/workflow.php:101
 #: /wa-apps/shop/lib/config/data/workflow.php:97
 msgid "Deleted"
-msgstr "Видалений"
+msgstr "Видалене"
 
 #: /wa-apps/shop/lib/config/data/workflow.php:125
 #: /wa-apps/shop/lib/config/data/workflow.php:118
@@ -11636,7 +11636,7 @@ msgstr "З Твіттера"
 
 #: /wa-apps/shop/lib/model/shopCustomersFilter.model.php:139
 msgid "Last ordered over a month ago"
-msgstr "Останній раз замовив більше місяця тому"
+msgstr "Останнє замовлення більше місяця тому"
 
 #: /wa-apps/shop/templates/actions/reports/ReportsAbtesting.html:31
 msgid "https://www.shop-script.com/help/3142/shop-script-a-b-testing/"

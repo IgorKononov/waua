@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Webasyst CRM 1.4.1.263 UA translation v 1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
+"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2019-07-05T21:22:12+03:00\n"
-"PO-Revision-Date: 2019-07-06 15:53+0300\n"
+"PO-Revision-Date: 2019-07-07 17:52+0300\n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:180
 #: /wa-apps/crm/templates/handlers/shop.backend_order.html:151
@@ -5714,12 +5714,12 @@ msgstr "Створити шаблон рахунку"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:3
 msgid "Edit invoice template"
-msgstr "Редагування шаблону накладної"
+msgstr "Редагування шаблону рахунка"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:9
 #: /wa-apps/crm/templates/actions/settings/Settings.html:26
 msgid "Invoice templates"
-msgstr "Шаблони накладної"
+msgstr "Шаблони рахунків"
 
 #: /wa-apps/crm/templates/actions/settings/SettingsTemplates.html:19
 msgid "New template"
