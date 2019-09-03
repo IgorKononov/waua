@@ -246,7 +246,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.11.9',
+            'version' => '1.11.11',
             'plugins' => 
               array (
                 'cash' => 
