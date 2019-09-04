@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.4.6.15 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst Shop-Script 8.4.10.19 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
@@ -17732,3 +17732,53 @@ msgstr[2] "Оновлено %d зображень у відгуку."
 #: /wa-apps/shop/themes/default/order.html:77
 msgid "Recommend"
 msgstr "Рекомендувати"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsPaymentSetup.html:97
+msgid "Supported payment types"
+msgstr "Типи оплати, що підтримуються"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsPaymentSetup.html:107
+msgid "In the “In-cart checkout” mode, selected payment types can be used to filter available payment options, if a list of requried payment types has been provided by a shipping plugin. These payment types are also passed on to shipping plugins for additional shipping rates calculation."
+msgstr "У режимі оформлення замовлення у кошику обрані типи оплати можуть бути застосовані для фільтрації варіантів оплати — якщо перелік потрібних типів оплати надається плагіном доставки. Ці типи оплати також передаються плагінам доставки для підрахування додаткових тарифів на доставку."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsPaymentSetup.html:108
+msgid "In the “Multi-step checkout” mode, this setting is not used."
+msgstr "У поетапному режимі оформлення замовлення це налаштування не використовується."
+
+#: /wa-apps/shop/templates/actions/settings/SettingsGeneral.html:259
+msgid "System settings"
+msgstr "Системні налаштування"
+
+#: /wa-apps/shop/templates/actions/settings/SettingsGeneral.html:269
+msgid "To be able to change system settings, you need access to Settings app."
+msgstr "Аби змінювати системні налаштування, вам потрібен доступ до додатку «Налаштування»."
+
+#: /wa-apps/shop/lib/classes/shopPayment.class.php:802
+msgid "Order amount has changed: %0.2f expected, %0.2f received. Currency: %s."
+msgstr "Сума замовлення змінилася: %0.2f очікувалось, %0.2f отримано. Валюта: %s."
+
+#: /wa-apps/shop/lib/classes/shopShipping.class.php:561
+msgid "bank card on order receipt"
+msgstr "банківською карткою при отриманні замовлення"
+
+#: /wa-apps/shop/lib/classes/shopShipping.class.php:562
+msgid "cash on order receipt"
+msgstr "готівкою при отриманні замовлення"
+
+#: /wa-apps/shop/lib/classes/shopShipping.class.php:563
+msgid "prepayment"
+msgstr "передплата"
+
+#: /wa-apps/shop/lib/actions/products/shopProductsAssignTags.controller.php:125
+msgid "Editing of %d product is not allowed."
+msgid_plural "Editing of %d products is not allowed."
+msgstr[0] "Редагування %d товару не дозволене."
+msgstr[1] "Редагування %d товарів не дозволене."
+msgstr[2] "Редагування %d товарів не дозволене."
+
+#: /wa-apps/shop/lib/actions/product/shopProductBadgeSet.controller.php:29
+msgid "You do not have sufficient access rights to set badges for selected products."
+msgstr "У вас недостатньо прав доступу для зміни стікерів на вказаних товарах."
+
+msgid "Active promos"
+msgstr "Активні промо"

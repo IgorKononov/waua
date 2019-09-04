@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.4.6',
+            'version' => '8.4.10',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -33,7 +33,7 @@
                           ),
                 'paypal' => 
                     array (
-                      'version' => '1.0.4',
+                      'version' => '1.0.5',
                           ),
                 'brands' => 
                     array (
@@ -51,7 +51,7 @@
               ),
         'crm' => 
           array (
-            'version' => '1.4.1',
+            'version' => '1.4.2',
             'plugins' => 
               array (
                 'telegram' => 
@@ -234,7 +234,7 @@
               ),
         'site' => 
         array (
-          'version' => '2.5.9',
+          'version' => '2.5.10',
               ),
         'installer' => 
         array (
