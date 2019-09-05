@@ -56,27 +56,27 @@
               array (
                 'telegram' => 
                   array (
-                    'version' => '1.0.3',
+                    'version' => '1.0.4',
                         ),
                     'fb' => 
                         array (
-                          'version' => '1.0.3',
+                          'version' => '1.0.4',
                               ),    
                     'vk' => 
                         array (
-                          'version' => '1.0.4',
+                          'version' => '1.0.5',
                               ),
                     'zadarma' => 
                         array (
-                          'version' => '1.0.0',
+                          'version' => '1.0.1',
                               ),
                      'telphin' => 
                         array (
-                          'version' => '1.1.0',
+                          'version' => '1.1.1',
                               ),
                       'twitter' => 
                         array (
-                          'version' => '1.0.1',
+                          'version' => '1.0.2',
                               ),
                       'sipuni' => 
                         array (
