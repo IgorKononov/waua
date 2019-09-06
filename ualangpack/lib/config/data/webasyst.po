@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst 1.11.11.432 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst 1.11.11.432 UA translation v 1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
+"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-09-03 18:50+0300\n"
+"PO-Revision-Date: 2019-09-06 15:22+0300\n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -67,7 +67,7 @@ msgstr "Визначте свій запит, будь ласка"
 #: /wa-system/contact/waContactsCollection.class.php:475
 #: /wa-system/contact/waContactsCollection.class.php:417
 msgid "Name"
-msgstr "Ім'я"
+msgstr "Ім&#39;я"
 
 #: /wa-system/view/waViewHelper.class.php:671
 #: /wa-system/view/waViewHelper.class.php:789
@@ -113,7 +113,7 @@ msgstr "Пароль"
 #: /wa-system/webasyst/templates/actions/login/Login.html:28
 #: /wa-system/webasyst/templates/actions/login/LoginMobile.html:38
 msgid "Remember me"
-msgstr "Запам'ятати мене"
+msgstr "Запам&#39;ятати мене"
 
 #: /wa-system/view/waViewHelper.class.php:772
 #: /wa-system/webasyst/templates/actions/login/LoginMobile.html:47
@@ -562,7 +562,7 @@ msgstr "Логін"
 #: /wa-system/webasyst/templates/actions/login/LoginFirst.html:62
 #: /wa-system/webasyst/templates/actions/login/LoginFirst.html:63
 msgid "First name"
-msgstr "Ім'я"
+msgstr "Ім&#39;я"
 
 #: /wa-system/webasyst/templates/actions/login/LoginFirst.html:70
 #: /wa-system/webasyst/templates/actions/login/LoginFirst.html:71
@@ -613,7 +613,7 @@ msgstr "Назва бази даних"
 #: /wa-system/webasyst/templates/actions/login/LoginConfig.html:59
 #: /wa-system/webasyst/templates/actions/login/LoginConfig.html:60
 msgid "If you do not know what should be entered here, please contact your hosting provider technical support."
-msgstr "Якщо ви не знаєте, що тут потрібно вказати, зв'яжіться з вашим провайдером хостингу."
+msgstr "Якщо ви не знаєте, що тут потрібно вказати, зв&#39;яжіться з вашим провайдером хостингу."
 
 #: /wa-system/webasyst/templates/actions/login/LoginConfig.html:65
 #: /wa-system/webasyst/templates/actions/login/LoginConfig.html:66
@@ -994,7 +994,7 @@ msgstr "Фото"
 #: /wa-system/contact/waContactCompositeField.class.php:78
 #: /wa-system/contact/waContactCompositeField.class.php:71
 msgid "%s subfield is required."
-msgstr "Підполе %s є обов'язковим."
+msgstr "Підполе %s є обов&#39;язковим."
 
 #: /wa-system/database/waModel.class.php:934
 #: /wa-system/database/waModel.class.php:653
@@ -1109,7 +1109,7 @@ msgstr "Користувача з таким логіном або пароле�
 #: /wa-system/controller/waSignupAction.class.php:71
 #: /wa-system/controller/waSignupAction.class.php:57
 msgid "%s is required"
-msgstr "%s є обов'язковим"
+msgstr "%s є обов&#39;язковим"
 
 #: /wa-system/controller/waSignupAction.class.php:221
 #: /wa-system/controller/waSignupAction.class.php:140
@@ -1294,7 +1294,7 @@ msgstr "Опис"
 #: /wa-system/design/templates/DesignEdit.html:125
 #: /wa-system/design/templates/DesignEdit.html:87
 msgid "Optional template description"
-msgstr "Необов'язковий опис шаблону"
+msgstr "Необов&#39;язковий опис шаблону"
 
 #: /wa-system/design/templates/DesignEdit.html:133
 #: /wa-system/design/templates/DesignEdit.html:95
@@ -1304,7 +1304,7 @@ msgstr "Обрати файл"
 #: /wa-system/design/templates/DesignEdit.html:145
 #: /wa-system/design/templates/DesignEdit.html:107
 msgid "all available parent theme files are already linked"
-msgstr "усі доступні файли батьківскої теми вже пов'язані"
+msgstr "усі доступні файли батьківскої теми вже пов&#39;язані"
 
 #: /wa-system/design/templates/DesignEdit.html:149
 #: /wa-system/design/templates/DesignEdit.html:130
@@ -1679,7 +1679,7 @@ msgstr "Не встановлено"
 #: /wa-system/design/templates/Theme.html:592
 #: /wa-system/design/templates/Theme.html:100
 msgid "IMPORTANT: Theme parenting allows linking HTML templates, CSS files and images from other design themes. If you are about to change parent for a design theme which already has a parent, be aware that existing file links and connections may become corrupted. A design theme can have not more than one parent theme."
-msgstr "ВАЖЛИВО: Вказання батьківської теми дозволяє зв'язувати шаблони HTML, файли CSS та зображення з інших тем дизайну. Якщо ви збираєтесь змінити батьківську тему дизайну, в якої вона вже вказана — майте на увазі, що існуючі посилання на файли та зображення можуть втратити чинність. У теми дизайну не може бути більше одної батьківскої теми."
+msgstr "ВАЖЛИВО: Вказання батьківської теми дозволяє зв&#39;язувати шаблони HTML, файли CSS та зображення з інших тем дизайну. Якщо ви збираєтесь змінити батьківську тему дизайну, в якої вона вже вказана — майте на увазі, що існуючі посилання на файли та зображення можуть втратити чинність. У теми дизайну не може бути більше одної батьківскої теми."
 
 #: /wa-system/design/templates/Theme.html:770
 #: /wa-system/design/templates/Theme.html:667
@@ -1783,7 +1783,7 @@ msgstr "Недостатньо прав доступу, аби зберегти 
 #: /wa-system/design/actions/waDesign.actions.php:320
 #: /wa-system/design/actions/waDesign.actions.php:312
 msgid "Please enter a filename"
-msgstr "Будь ласка, введіть ім'я файлу"
+msgstr "Будь ласка, введіть ім&#39;я файлу"
 
 #: /wa-system/design/actions/waDesign.actions.php:439
 #: /wa-system/design/actions/waDesign.actions.php:327
@@ -2169,7 +2169,7 @@ msgstr "чернетка"
 #: /wa-system/page/templates/Page.html:182
 #: /wa-system/page/templates/Page.html:94
 msgid "These pages are not connected to any of the site’s structure rules and are therefore not displayed on your site. To publish these pages now, select a site structure rule for them:"
-msgstr "Ці сторінки не під'єднано до жодного з правил у структурі, тому вони не відображатимуться на вашому сайті. Аби опубліковати ці сторінки, оберіть правило у структурі сайту:"
+msgstr "Ці сторінки не під&#39;єднано до жодного з правил у структурі, тому вони не відображатимуться на вашому сайті. Аби опубліковати ці сторінки, оберіть правило у структурі сайту:"
 
 #: /wa-system/page/templates/Page.html:200
 #: /wa-system/page/templates/Page.html:112
@@ -2196,7 +2196,7 @@ msgstr "Налаштування сторінки"
 #: /wa-system/page/templates/PageEdit.html:73
 #: /wa-system/page/templates/PageEdit.html:88
 msgid "This page is unsettled (unpublished), i.e. not connected to any of your site’s routing rules. Drag this page out of the Unpublished section in the left sidebar to connect it to any of your existing site’s routes."
-msgstr "Ця сторінка не є опублікованою, тобто не під'єднаною до будь якого з правил у структурі сайту. Перенесіть цю сторінку із секції \"Неопубліковано\" до панелі зліва, аби підключити її до любого з існуючих правил у структурі сайту."
+msgstr "Ця сторінка не є опублікованою, тобто не під&#39;єднаною до будь якого з правил у структурі сайту. Перенесіть цю сторінку із секції \"Неопубліковано\" до панелі зліва, аби підключити її до любого з існуючих правил у структурі сайту."
 
 #: /wa-system/page/templates/PageEdit.html:45
 #: /wa-system/page/templates/PageEdit.html:61
@@ -2250,7 +2250,7 @@ msgstr "URL зображення для розміщення у соціальн
 #: /wa-system/page/templates/PageEdit.html:119
 #: /wa-system/page/templates/PageEdit.html:139
 msgid "If not set, a social network will attempt to determine preview image on it’s own."
-msgstr "Якщо не встановлено, соціальна мережа намагатиметься визначити зображення для прев'ю самостійно."
+msgstr "Якщо не встановлено, соціальна мережа намагатиметься визначити зображення для прев&#39;ю самостійно."
 
 #: /wa-system/page/templates/PageEdit.html:123
 #: /wa-system/page/templates/PageEdit.html:143
@@ -2444,7 +2444,7 @@ msgstr "Відображає вміст сніпету HTML за його іде
 #: /wa-system/page/actions/waPage.actions.php:636
 #: /wa-system/page/actions/waPage.actions.php:526
 msgid "Returns authorized user data from associated record in “Contacts” app. \"<em>field</em>\" (string) is optional and indicates the field id to be returned. If not  Returns <em>false</em> if user is not authorized"
-msgstr "Повертає масив з даними авторизованого користувача з відповідного запису у додатку «Контакти». Якщо вказаний необов'язковий параметр \"<em>field</em>\" (string), то повертається вміст конкретного поля запису про контакт. Якщо користувач не авторизований, функція повертає <em>false</em>"
+msgstr "Повертає масив з даними авторизованого користувача з відповідного запису у додатку «Контакти». Якщо вказаний необов&#39;язковий параметр \"<em>field</em>\" (string), то повертається вміст конкретного поля запису про контакт. Якщо користувач не авторизований, функція повертає <em>false</em>"
 
 #: /wa-system/page/actions/waPage.actions.php:637
 #: /wa-system/page/actions/waPage.actions.php:527
@@ -2474,7 +2474,7 @@ msgstr "Повертає шлях до папки теми дизайну по <
 #: /wa-system/page/actions/waPage.actions.php:717
 #: /wa-system/page/actions/waPage.actions.php:576
 msgid "Displays a simple variable (non array/object)"
-msgstr "Відображає просту змінну (не підходить для масивів та об'єктів)"
+msgstr "Відображає просту змінну (не підходить для масивів та об&#39;єктів)"
 
 #: /wa-system/page/actions/waPage.actions.php:718
 #: /wa-system/page/actions/waPage.actions.php:577
@@ -2494,17 +2494,17 @@ msgstr "Відображає значення елементу масиву з �
 #: /wa-system/page/actions/waPage.actions.php:721
 #: /wa-system/page/actions/waPage.actions.php:580
 msgid "Displays the object property named <em>bar</em>"
-msgstr "Відображає властивість об'єкта з назвою <em>bar</em>"
+msgstr "Відображає властивість об&#39;єкта з назвою <em>bar</em>"
 
 #: /wa-system/page/actions/waPage.actions.php:722
 #: /wa-system/page/actions/waPage.actions.php:581
 msgid "Displays the return value of object method named <em>bar()</em>"
-msgstr "Відображає значення, що повертається методом об'єкта з ім'ям <em>bar()</em>"
+msgstr "Відображає значення, що повертається методом об&#39;єкта з ім&#39;ям <em>bar()</em>"
 
 #: /wa-system/page/actions/waPage.actions.php:723
 #: /wa-system/page/actions/waPage.actions.php:582
 msgid "Displays structured information about variable. Arrays and objects are explored recursively with values indented to show structure. Similar to PHP var_dump($foo)"
-msgstr "Відображає докладну інформацію про структуру змінної, масиву або об'єкта. Працює аналогічно функції PHP var_dump($foo)"
+msgstr "Відображає докладну інформацію про структуру змінної, масиву або об&#39;єкта. Працює аналогічно функції PHP var_dump($foo)"
 
 #: /wa-system/page/actions/waPage.actions.php:724
 #: /wa-system/page/actions/waPage.actions.php:583
@@ -2539,7 +2539,7 @@ msgstr "Текст між тегами {literal} не обробляється S
 #: /wa-system/page/actions/waPage.actions.php:730
 #: /wa-system/page/actions/waPage.actions.php:589
 msgid "Embeds a Smarty template into the current content. <em>file</em> attribute specifies a template filename within the current design theme folder"
-msgstr "Впроваджує шаблон Smarty в поточний зміст. Атрибут <em>file</em> вказує на ім'я файлу шаблона у папці поточної теми дизайну"
+msgstr "Впроваджує шаблон Smarty в поточний зміст. Атрибут <em>file</em> вказує на ім&#39;я файлу шаблона у папці поточної теми дизайну"
 
 #: /wa-system/page/actions/waPage.actions.php:731
 #: /wa-system/page/actions/waPage.actions.php:590
@@ -2585,7 +2585,7 @@ msgstr "Плагіни"
 #: /wa-system/page/templates/Help.html:111
 #: /wa-system/page/templates/Help.html:115
 msgid "<strong>id</strong>: block ID.<br><strong>$params</strong>: associative array of additional parameters passed to a block (example: <code>['myparam' => 100]</code>). A parameter is available by its name as a Smarty variable within a block (example: <code>$myparam</code>)."
-msgstr "<strong>id</strong>: ідентифікатор блока.<br><strong>$params</strong>: асоціативний масив додаткових параметрів передається у блок (приклад: <code>['myparam' => 100]</code>). Параметр доступний за своїм ім'ям як змінна Smarty усередині блоку (приклад: <code>$myparam</code>)."
+msgstr "<strong>id</strong>: ідентифікатор блока.<br><strong>$params</strong>: асоціативний масив додаткових параметрів передається у блок (приклад: <code>[&#39;myparam&#39; => 100]</code>). Параметр доступний за своїм ім&#39;ям як змінна Smarty усередині блоку (приклад: <code>$myparam</code>)."
 
 #: /wa-system/page/actions/waPage.actions.php:445
 msgid "Unknown page domain"
@@ -2706,11 +2706,11 @@ msgstr "Підтвердження реєстрації"
 
 #: /wa-system/exception/data/error.php:44
 msgid "Please contact app developer."
-msgstr "Зв'яжіться із розробником, будь ласка."
+msgstr "Зв&#39;яжіться із розробником, будь ласка."
 
 #: /wa-system/exception/data/error.php:46
 msgid "Please contact server administrator."
-msgstr "Зв'яжіться із адміністратором сервера."
+msgstr "Зв&#39;яжіться із адміністратором сервера."
 
 #: /wa-system/map/adapters/googleMap.class.php:88
 msgid "Link to map"
@@ -3039,7 +3039,7 @@ msgstr "Захист від спаму"
 #: /wa-system/login/templates/login/frontend/form_wrapper.html:28
 #: /wa-system/signup/templates/form_wrapper.html:18
 msgid "Field is required"
-msgstr "Це поле є обов'язковим"
+msgstr "Це поле є обов&#39;язковим"
 
 #: /wa-system/signup/templates/form_wrapper.html:22
 #: /wa-system/signup/templates/form_wrapper.html:23
@@ -3063,7 +3063,7 @@ msgstr "Введіть код підтвердження, аби закінчи�
 #: /wa-system/login/templates/login/backend/form_wrapper.html:33
 #: /wa-system/login/templates/login/frontend/form_wrapper.html:31
 msgid "Captcha is required"
-msgstr "CAPTCHA є обов'язковою"
+msgstr "CAPTCHA є обов&#39;язковою"
 
 #: /wa-system/signup/templates/field.html:28
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldFormRow.html:46
@@ -3215,7 +3215,7 @@ msgstr "Приховане поле"
 
 #: /wa-system/contact/waContactFields.class.php:589
 msgid "Full name"
-msgstr "Повне ім'я"
+msgstr "Повне ім&#39;я"
 
 #: /wa-system/datetime/waDateTime.class.php:426
 msgid "DD"
@@ -3393,7 +3393,7 @@ msgstr "Видалити"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:16
 msgid "Email or domain"
-msgstr "Email або доменне ім'я"
+msgstr "Email або доменне ім&#39;я"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:20
 msgid "Default"
@@ -3401,7 +3401,7 @@ msgstr "За замовчуванням"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:25
 msgid "Enter an <strong>email address</strong> to set up a transport <em>for one sender email</em>.<br>Enter a <strong>domain name</strong> to set up a transport <em>for all sender emails on that domain</em>."
-msgstr "Вкажіть <strong>email-адресу</strong>, аби налаштувати транспорт для <em>одного email відправника</em>. Вкажіть <strong>доменне ім'я</strong>, аби налаштувати транспорт для <em>усіх email відправника на цьому домені</em>."
+msgstr "Вкажіть <strong>email-адресу</strong>, аби налаштувати транспорт для <em>одного email відправника</em>. Вкажіть <strong>доменне ім&#39;я</strong>, аби налаштувати транспорт для <em>усіх email відправника на цьому домені</em>."
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:31
 msgid "Transport"
@@ -3469,7 +3469,7 @@ msgstr "Хост "
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:174
 msgid "Domain"
-msgstr "Доменне ім'я"
+msgstr "Доменне ім&#39;я"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsEmail.html:178
 msgid "Record type"
@@ -3609,7 +3609,7 @@ msgstr "Автологін"
 #: /wa-system/webasyst/templates/actions/settings/SettingsAuth.html:162
 #: /wa-system/webasyst/templates/actions/settings/SettingsAuth.html:157
 msgid "“Remember me” option"
-msgstr "«Запам'ятати мене» у формі авторизації"
+msgstr "«Запам&#39;ятати мене» у формі авторизації"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsAuth.html:167
 #: /wa-system/webasyst/templates/actions/settings/SettingsAuth.html:311
@@ -3760,7 +3760,7 @@ msgstr "Натисніть на кнопку «Зберегти», аби під
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldEditor.html:169
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldEditDialog.html:212
 msgid "This field is required."
-msgstr "Це поле є обов'язковим."
+msgstr "Це поле є обов&#39;язковим."
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldDeleteConfirm.html:13
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldDeleteConfirm.html:37
@@ -3862,7 +3862,7 @@ msgstr "Назва поля"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldEditDialog.html:55
 msgid "Add name in another language"
-msgstr "Додати ім'я в іншій мові"
+msgstr "Додати ім&#39;я в іншій мові"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldEditDialog.html:72
 msgid "Field ID"
@@ -3906,7 +3906,7 @@ msgstr "Вимкнути поле"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsFieldEditDialog.html:191
 msgid "This will remove field and all its data from all existing contacts. Are you sure?"
-msgstr "Буде видалено це поле і пов'язані з ним дані в усіх контактах. Видалити?"
+msgstr "Буде видалено це поле і пов&#39;язані з ним дані в усіх контактах. Видалити?"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsField.html:1
 #: /wa-system/webasyst/templates/actions/settings/SettingsField.html:4
@@ -4065,7 +4065,7 @@ msgstr "SMTP"
 
 #: /wa-system/webasyst/lib/actions/settings/email/webasystSettingsEmail.action.php:39
 msgid "A special server for sending email messages. You can send email via any SMTP server for which you have connection credentials: host, port, user name, and password. It may belong either to your web-hosting company or to a public mail service such as Gmail, Yahoo! Mail, Outlook.com, etc."
-msgstr "Спеціальний сервер для надсилання email-повідомлень. Ви можете надсилати email через довільний сервер SMTP, до якого у вас є дані для підключення: хост, порт, ім'я користувача та пароль. Він може належати вашому провайдеру хостинга або публічному поштовому сервісу — Gmail, Yahoo! Mail, Outlook.com та іншим."
+msgstr "Спеціальний сервер для надсилання email-повідомлень. Ви можете надсилати email через довільний сервер SMTP, до якого у вас є дані для підключення: хост, порт, ім&#39;я користувача та пароль. Він може належати вашому провайдеру хостинга або публічному поштовому сервісу — Gmail, Yahoo! Mail, Outlook.com та іншим."
 
 #: /wa-system/webasyst/lib/actions/settings/email/webasystSettingsEmail.action.php:45
 msgid "php mail() function"
@@ -4167,7 +4167,7 @@ msgstr "Невідома локаль: %s"
 #: /wa-system/webasyst/lib/classes/webasystFieldConstructor.class.php:195
 #: /wa-system/webasyst/lib/classes/webasystFieldConstructor.class.php:205
 msgid "Required field"
-msgstr "Обов'язкове поле"
+msgstr "Обов&#39;язкове поле"
 
 #: /wa-system/webasyst/lib/classes/webasystFieldConstructor.class.php:211
 msgid "Only English alphanumeric, hyphen and underline symbols are allowed"
@@ -4471,7 +4471,7 @@ msgid "4"
 msgstr "чотири"
 
 msgid "5"
-msgstr "п'ять"
+msgstr "п&#39;ять"
 
 msgid "6"
 msgstr "шість"
@@ -4483,7 +4483,7 @@ msgid "8"
 msgstr "вісім"
 
 msgid "9"
-msgstr "дев'ять"
+msgstr "дев&#39;ять"
 
 msgid "10"
 msgstr "десять"
@@ -4501,7 +4501,7 @@ msgid "14"
 msgstr "чотирнадцять"
 
 msgid "15"
-msgstr "п'ятнадцять"
+msgstr "п&#39;ятнадцять"
 
 msgid "16"
 msgstr "шістнадцять"
@@ -4513,7 +4513,7 @@ msgid "18"
 msgstr "вісімнадцять"
 
 msgid "19"
-msgstr "дев'ятнадцять"
+msgstr "дев&#39;ятнадцять"
 
 msgid "20"
 msgstr "двадцять"
@@ -4525,7 +4525,7 @@ msgid "40"
 msgstr "сорок"
 
 msgid "50"
-msgstr "п'ятдесят"
+msgstr "п&#39;ятдесят"
 
 msgid "60"
 msgstr "шістдесят"
@@ -4537,7 +4537,7 @@ msgid "80"
 msgstr "вісімдесят"
 
 msgid "90"
-msgstr "дев'яносто"
+msgstr "дев&#39;яносто"
 
 msgid "200"
 msgstr "двісті"
@@ -4549,7 +4549,7 @@ msgid "400"
 msgstr "чотириста"
 
 msgid "500"
-msgstr "п'ятсот"
+msgstr "п&#39;ятсот"
 
 msgid "600"
 msgstr "шістсот"
@@ -4561,7 +4561,7 @@ msgid "800"
 msgstr "вісімсот"
 
 msgid "900"
-msgstr "дев'ятсот"
+msgstr "дев&#39;ятсот"
 
 msgid "1000"
 msgid_plural "1000"
@@ -4645,7 +4645,7 @@ msgstr "«Реєстрація»"
 
 #: /wa-system/page/templates/Page.html:94
 msgid "There are <strong><span>%d</span> unsettled page(s)</strong>, i.e. pages which are not connected to any of the site’s routing rules. These pages are not displayed on your site. To publish these pages now, select the new route for them:"
-msgstr "<strong><span>%d</span> Ці сторінки не поселено</strong>, тобто їх не під'єданано до жодного с правил структури сайту. Ці сторінки не відображаються на вашому сайті. Аби опублікувати їх зараз, оберіть для них поселення:"
+msgstr "<strong><span>%d</span> Ці сторінки не поселено</strong>, тобто їх не під&#39;єданано до жодного с правил структури сайту. Ці сторінки не відображаються на вашому сайті. Аби опублікувати їх зараз, оберіть для них поселення:"
 
 #: /wa-system/design/templates/DesignEdit.html:112
 msgid "Select a file and click Save button below."
@@ -4741,7 +4741,7 @@ msgstr "Відмінити"
 
 #: /wa-system/design/templates/Theme.html:84
 msgid "All listed routes are linking %s design theme right now."
-msgstr "Всі зазначені поселення зараз зв'язані з темою дизайну %s."
+msgstr "Всі зазначені поселення зараз зв&#39;язані з темою дизайну %s."
 
 #: /wa-system/response/waResponse.class.php:405
 msgid "<strong>%s</strong> theme preview in action."
@@ -4837,7 +4837,7 @@ msgstr "Перевірте пошту: ми надісали вам повідо
 
 #: /wa-system/signup/actions/waSignup.action.php:604
 msgid "Contact is singed up, but password has not sent. Contact with admin"
-msgstr "Контакт зареєстровано, але пароль не надіслано. Зв'яжіться з адміністратором, будь ласка"
+msgstr "Контакт зареєстровано, але пароль не надіслано. Зв&#39;яжіться з адміністратором, будь ласка"
 
 #: /wa-system/signup/actions/waSignup.action.php:1039
 msgid "Send error"
@@ -4927,11 +4927,11 @@ msgstr "Користувача не існує."
 
 #: /wa-system/mail/waMailPOP3.class.php:54
 msgid "Server address is required"
-msgstr "Адреса сервера є обов'язковою"
+msgstr "Адреса сервера є обов&#39;язковою"
 
 #: /wa-system/mail/waMailPOP3.class.php:56
 msgid "Port is required"
-msgstr "Порт є обов'язковим"
+msgstr "Порт є обов&#39;язковим"
 
 #: /wa-system/map/adapters/yandexMap.class.php:217
 msgid "Obtain an API key on the <a href=\"https://developer.tech.yandex.ru/\" target=\"_blank\">developer dashboard</a>. Select “JavaScript API, Geocoding API” option."
@@ -5119,7 +5119,7 @@ msgstr "не підтримує емодзі"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:33
 msgid "Connection charset"
-msgstr "Кодування з'єднання"
+msgstr "Кодування з&#39;єднання"
 
 #: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:46
 #: /wa-system/webasyst/templates/actions/settings/SettingsDatabase.html:32
@@ -5271,7 +5271,7 @@ msgid "Thursday"
 msgstr "Четвер"
 
 msgid "Friday"
-msgstr "П'ятниця"
+msgstr "П&#39;ятниця"
 
 msgid "Saturday"
 msgstr "Субота"
@@ -5338,7 +5338,7 @@ msgid "Netherlands Antilles"
 msgstr "Нідерландські Антильські Острови"
 
 msgid "United Arab Emirates"
-msgstr "Об'єднані Арабські Емірати"
+msgstr "Об&#39;єднані Арабські Емірати"
 
 msgid "Argentina"
 msgstr "Аргентина"
@@ -5446,7 +5446,7 @@ msgid "China"
 msgstr "Китай"
 
 msgid "Côte d'Ivoire"
-msgstr "Кот-Д'івуар"
+msgstr "Кот-Д&#39;івуар"
 
 msgid "Cameroon"
 msgstr "Камерун"
@@ -5752,7 +5752,7 @@ msgid "Malta"
 msgstr "Мальта"
 
 msgid "Myanmar"
-msgstr "М'янма"
+msgstr "М&#39;янма"
 
 msgid "Montenegro"
 msgstr "Чорногорія"
@@ -5923,7 +5923,7 @@ msgid "Somalia"
 msgstr "Сомалі"
 
 msgid "Saint Pierre and Miquelon"
-msgstr "Сен-П'єр і Мікелон"
+msgstr "Сен-П&#39;єр і Мікелон"
 
 msgid "Serbia"
 msgstr "Сербія"
@@ -5995,7 +5995,7 @@ msgid "Taiwan, Province of China"
 msgstr "Тайвань, провінція Китаю"
 
 msgid "Tanzania, United Republic of"
-msgstr "Об'єднана Республіка Танзані"
+msgstr "Об&#39;єднана Республіка Танзані"
 
 msgid "Uganda"
 msgstr "Уганда"
@@ -6031,7 +6031,7 @@ msgid "Virgin Islands, U.S."
 msgstr "Віргінські острови, СШ"
 
 msgid "Viet Nam"
-msgstr "В'єтнам"
+msgstr "В&#39;єтнам"
 
 msgid "Vanuatu"
 msgstr "Вануату"
@@ -7178,7 +7178,7 @@ msgid "Urumqi"
 msgstr "Урумчі"
 
 msgid "Vientiane"
-msgstr "В'єнтьян"
+msgstr "В&#39;єнтьян"
 
 msgid "Yakutsk"
 msgstr "Якутськ"
@@ -7205,7 +7205,7 @@ msgid "Madeira"
 msgstr "Мадейра"
 
 msgid "Reykjavik"
-msgstr "Рейк'явік"
+msgstr "Рейк&#39;явік"
 
 msgid "South Georgia"
 msgstr "Південна Джорджія"
@@ -7307,7 +7307,7 @@ msgid "Sarajevo"
 msgstr "Сараєво"
 
 msgid "Skopje"
-msgstr "Скоп'є"
+msgstr "Скоп&#39;є"
 
 msgid "Tirane"
 msgstr "Тирана"
@@ -7397,7 +7397,7 @@ msgid "Galapagos"
 msgstr "Галапагоси"
 
 msgid "Gambier"
-msgstr "Гамб'є"
+msgstr "Гамб&#39;є"
 
 msgid "Guadalcanal"
 msgstr "Гуадалканал"
@@ -7571,7 +7571,7 @@ msgid "Social"
 msgstr "Соціальні"
 
 msgid "Contact us"
-msgstr "Зв'яжіться з нами"
+msgstr "Зв&#39;яжіться з нами"
 
 msgid "Submit"
 msgstr "Відправити"
@@ -7676,7 +7676,7 @@ msgid "Your website, blog or company URL (will be displayed as a link below the 
 msgstr "Адреса вашого сайту або блогу (буде відображатися у вигляді посилання під назвою компанії в лівому верхньому кутові)."
 
 msgid "Allow “Remember me” option in Webasyst backend authorization form"
-msgstr "Можна включити «Запам'ятати мене» при вході у Вебасіст"
+msgstr "Можна включити «Запам&#39;ятати мене» при вході у Вебасіст"
 
 msgid "Login only"
 msgstr "Тільки логін"
@@ -7704,7 +7704,7 @@ msgid "Placeholder in the login field"
 msgstr "Заповнювач в полі логіну"
 
 msgid "Communication channel"
-msgstr "Канал зв'язку"
+msgstr "Канал зв&#39;язку"
 
 msgid "Phone number"
 msgstr "Телефон"

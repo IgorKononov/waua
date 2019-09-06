@@ -271,7 +271,11 @@
                         ),
                     'flatrate' => 
                         array (
-                    'version' => '1.1.1.6',
+                    'version' => '1.1.1',
+                        ),
+                    'boxberry' => 
+                        array (
+                    'version' => '1.0.4',
                         ),
                       ),
                     ),
