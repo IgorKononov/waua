@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.5.2.23 UA translation v 1.1\n"
+"Project-Id-Version: Webasyst Shop-Script 8.7.1.27 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
+"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
@@ -7772,10 +7772,10 @@ msgid "Recalculation of order total, new discount: %s"
 msgstr "Перерахунок суми замовлення, нова знижка: %s"
 
 msgid "Browse for more payment modules in the Installer app…"
-msgstr "Встановити нові модулі оплати за допомогою додатку «Інсталер»..."
+msgstr "Встановити нові модулі оплати за допомогою додатку «Інсталер»…"
 
 msgid "Browse for more shipping modules in the Installer app…"
-msgstr "Встановити нові модулі доставки з допомогою додатку «Інсталер»..."
+msgstr "Встановити нові модулі доставки з допомогою додатку «Інсталер»…"
 
 msgid "Program applicability"
 msgstr "Застосування програми"
@@ -9548,13 +9548,13 @@ msgid "Канал для подтвержения отсутствует"
 msgstr "Відсутній канал для підтверждення"
 
 msgid "TODO Больше не нужно подтверждать этот канал"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO!!! Контакт забанен"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO!!! Запрещено использовать эти данные"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO: Нет диалога подтверждения email или телефона."
 msgstr ""
@@ -9575,25 +9575,25 @@ msgid "TODO: Если с таким же номером телефона или 
 msgstr ""
 
 msgid "Todo Требуется подтвердить канал"
-msgstr "TODO"
+msgstr ""
 
 msgid "Todo Подождите %d секунд"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO Неправильно указан источник"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO Ошибка отправки кода"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO Код не отправлен"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO У вас закончились попытки ввода. Отправьте смс еще раз"
-msgstr "TODO"
+msgstr ""
 
 msgid "TODO Вы ввели не верный код. У вас осталось %d попыток"
-msgstr "TODO"
+msgstr ""
 
 msgid "Person"
 msgstr "Особа"
@@ -10289,7 +10289,7 @@ msgid "Server error"
 msgstr "Помилка сервера"
 
 msgid "Promos on website"
-msgstr "Акції не сайті"
+msgstr "Акції на сайті"
 
 msgid "Change the sort order of active promos by using drag&amp;drop."
 msgstr "Змінюйте порядок сортування активних акцій, використовуючи перетягування."
@@ -10577,139 +10577,301 @@ msgid "Products will be selected from orders paid on or after specified date."
 msgstr "Товари буде вибрано з замовлень, сплачених у вказану дату або після неї."
 
 msgid "Select products by orders until date"
-msgstr ""
+msgstr "Обрати товари за замовленнями до дати"
 
 msgid "Products will be selected from orders paid on or before specified date."
-msgstr ""
+msgstr "Товари буде обрано з замовлень, які сплачені у зазначену дату або перед нею."
 
 msgid "Pause promo"
-msgstr ""
+msgstr "Поставити акцію на паузу"
 
 msgid "Promo <span class=\"bold\">“%promo_name%”</span> will be paused."
-msgstr ""
+msgstr "Акцію <span class=\"bold\">“%promo_name%”</span> буде призупинено."
 
 msgid "Operation of all tools enabled for this promo will be discontinued—special product prices will be replaced by their ordinary prices, UTM tags will no longer be used to register incoming customer traffic, orders will not be counted by applied coupons, etc."
-msgstr ""
+msgstr "Дію усіх інструментів у ції акції буде припинено: спеціальні ціни буде замінено на звичайні, мітки UTM більше не будуть застосовуватись для реєстрації трафіку, кількість замовлень із купонами реєструватися не буде, тощо."
 
 msgid "Pause this promo"
-msgstr ""
+msgstr "Поставити цю акцію на паузу"
 
 msgid "Resume promo"
-msgstr ""
+msgstr "Продовжити акцію"
 
 msgid "Promo <span class=\"bold\">“%promo_name%”</span> will be resumed."
-msgstr ""
+msgstr "Акцію <span class=\"bold\">“%promo_name%”</span> буде продовжено."
 
 msgid "Resume this promo"
-msgstr ""
+msgstr "Продовжити цю акцію"
 
 msgid "Follow-ups are configured properly. Latest cron execution time: <strong>%s</strong>."
-msgstr ""
+msgstr "Відправку відкладених повідомлень налаштовано. Останній запуск планувальника cron: <strong>%s</strong>."
 
 msgid "Featured in promos"
-msgstr ""
+msgstr "Промо"
 
 msgid "Set up types &amp; features"
-msgstr ""
+msgstr "Налаштувати типи та характеристики"
 
 msgid "%d more promo"
 msgid_plural "%d more promos"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Показати ще %d акцію"
+msgstr[1] "Показати ще %d акції"
+msgstr[2] "Показати ще %d акцій"
 
 msgid "Upselling & similar product recommendations are not configured for product type “%s”. Set up filtering conditions for “%s” in the <a href=\"%s\">recommendation settings</a>."
-msgstr ""
+msgstr "Upselling та рекомендації подібних товарів не налаштовано для типу товарів %s. Налаштуйте параметри фільтрації для %s у основних <a href=\"%s\">налаштуваннях рекомендацій</a>."
 
 msgid "Return refunded items to selected stocks"
-msgstr ""
+msgstr "Повернути повернені товари на обрані склади"
 
 msgid "To items’ original stocks"
-msgstr ""
+msgstr "На похідні склади товарів"
 
 msgid "Order deletion reason"
-msgstr ""
+msgstr "Причина видалення замовлення"
 
 msgid "Full"
-msgstr ""
+msgstr "Повне"
 
 msgid "Partial"
-msgstr ""
+msgstr "Часткове"
 
 msgid "Return money via the payment gateway"
-msgstr ""
+msgstr "Повернути гроші через платіжний шлюз"
 
 msgid "Moneyback via Shop-Script is not supported by the payment gateway. Please use your account on the payment gateway website."
-msgstr ""
+msgstr "Повернення коштів через Shop-Script не підтримується платіжним шлюзом. Використовуйте, будь ласка, свій акаунт на сайті платіжної системи."
 
 msgid "Items to be refunded"
-msgstr ""
+msgstr "Елементи до повернення"
 
 msgid "Refund amount"
-msgstr ""
+msgstr "Сума повернення"
 
 msgid "Complete the refund"
-msgstr ""
+msgstr "Виконати повернення"
 
 msgid "To be refunded"
-msgstr ""
+msgstr "До повернення"
 
 msgid "Will be refunded"
-msgstr ""
+msgstr "Буде повернено"
 
 msgid "Cancel %s via payment gateway %s."
-msgstr ""
+msgstr "Повернути %s через платіжний шлюз %s."
 
 msgid "An error occurred during the order capture. See error log for details."
-msgstr ""
+msgstr "При обробці платежу сталася помилка. Перегляньте журнал помилок, аби дізнатися подробиці."
 
 msgid "Capture %s via payment gateway %s."
-msgstr ""
+msgstr "Зафіксовано сплату %s через платіжний шлюз %s."
 
 msgid "Transaction error: %s"
-msgstr ""
+msgstr "Помилка транзакції: %s"
 
 msgid "paid for an order"
-msgstr ""
+msgstr "сплатив замовлення"
 
 msgid "partially refunded an order"
-msgstr ""
+msgstr "частково повернув замовлення"
 
 msgid "payment for an order authorized by payment gateway"
-msgstr ""
+msgstr "сплату замовлення було авторизовано платіжним шлюзом"
 
 msgid "captured payment for an order"
-msgstr ""
+msgstr "зафіксовано сплату замовлення"
 
 msgid "payment for an order captured by payment gateway"
-msgstr ""
+msgstr "сплату замовлення було зафіксовано платіжним шлюзом"
 
 msgid "canceled payment for an order"
-msgstr ""
+msgstr "відмінена сплата замовлення"
 
 msgid "payment for an order canceled by payment gateway"
-msgstr ""
+msgstr "сплату замовлення було скасовано платіжним шлюзом"
 
 msgid "Authorize payment"
-msgstr ""
+msgstr "Авторизовати сплату"
 
 msgid "Payment was authorized"
-msgstr ""
+msgstr "Сплату було авторизовано"
 
 msgid "Cancel payment"
-msgstr ""
+msgstr "Скасувати сплату"
 
 msgid "Order payment was canceled"
-msgstr ""
+msgstr "Сплату замовлення було скасовано"
 
 msgid "Capture payment"
-msgstr ""
+msgstr "Зафіксувати платіж"
 
 msgid "Order payment was captured"
-msgstr ""
+msgstr "Сплату замовлення було зафіксовано"
 
 msgid "Zip extension for PHP is required to be enabled on the server to import product examples into your online store."
-msgstr ""
+msgstr "Розширення Zip для PHP має бути увімкнене на сервері для імпорту прикладів товарів до вашого інтернет-магазину."
 
 msgid "Insufficient access rights to edit selected products."
-msgstr ""
+msgstr "Недостатньо прав доступу для редагування обраних товарів."
+
+msgid "Disable address fields which are not required for all shipping options. Shipping plugins will add required address fields during checkout, if necessary. Plugin fields’ size is defined by the selected “Field width” values."
+msgstr "Вимкніть поля адреси, які не є обов'язковими для всіх параметрів доставки. Якщо це необхідно, плагіни доставки додадуть необхідні поля адреси під час оформлення замовлення. Розмір полів плагіна визначається вибраним значенням \"ширина поля\"."
+
+msgid "When a new order is created by an administrator on behalf of a customer, contact fields’ values will be validated according to <a href=\"?action=settings#/checkout/\">checkout settings for a selected storefront</a>. All fields marked as required must be completed. For “Manual order” mode, the settings saved in section “<a href=\"?action=settings#/orderEditor/\">Order editor</a>” will be used."
+msgstr "Коли адміністратор створює замовлення за клієнта, значення полів контакту буде перевірено відповідно до <a href=\"?action=settings#/checkout/\">параметрів оформлення замовлення на обраній вітрині</a>. Усі поля, позначені як обов'язкові, має бути заповнено. Для режиму «ручного замовлення» буде використано параметри, збережені в розділі «<a href=\"?action=settings#/orderEditor/\">«Редактор замовлень»</a>»."
+
+msgid "Last paid order: today"
+msgstr "Останнє сплачене замовлення: сьогодні"
+
+msgid "Last paid order: %d day ago"
+msgid_plural "Last paid order: %d days ago"
+msgstr[0] "Останнє сплачене замовлення: %d день тому"
+msgstr[1] "Останнє сплачене замовлення: %d дні тому"
+msgstr[2] "Останнє сплачене замовлення: %d днів тому"
+
+msgid "Insufficient access rights to delete selected products."
+msgstr "Недостатньо прав доступу для видалення обраних товарів."
+
+msgid "Insufficient access rights to assign tags to selected products."
+msgstr "Недостатньо прав доступу для призначення тегів обраним товарам."
+
+msgid "Total orders:"
+msgstr "Усього замовлень:"
+
+msgid "%d paid order"
+msgid_plural "%d paid orders"
+msgstr[0] "%d сплачене замовлення"
+msgstr[1] "%d сплачені замовлення"
+msgstr[2] "%d сплачених замовлень"
+
+msgid "Data of all paid orders received from storefronts enabled for this promo, including orders not matching the promo’s settings"
+msgstr "Дані про всі сплачені замовлення, отримані з вітрин, на які діє ця акція, включаючи замовлення, що не відповідають налаштуванням акції"
+
+msgid "This name is not visible to website visitors."
+msgstr "Відвідувачі сайту не бачать цю назву."
+
+msgid "Preparing"
+msgstr "Підготовка"
+
+msgid "This page contains unsaved changes."
+msgstr "На цій сторінці є незбережені зміни."
+
+msgid "You are about to leave this page without saving your changes. Are you sure?"
+msgstr "Ви збираєтеся покинути сторінку без збереження змін. Ви впевнені?"
+
+msgid "Promos cannot be sorted"
+msgstr "Акції не може бути відсортовано"
+
+msgid "Product deletion"
+msgstr "Видалення товару"
+
+msgid "You are disabling the last enabled SKU of this product. This will delete the entire product from this promo."
+msgstr "Ви відключаєте останній доступний артикул цього товару. Таким чином цей товар будет видалено з акції."
+
+msgid "A banner is a promo image displayed in the storefront home page. To change the sort order of banners, change the sort order of promos for a selected storefront."
+msgstr "Банер — це промо-зображення, що відображується на головній сторінці вітрини. Аби змінити порядок банерів, змініть порядок сортування акцій для обраної вітрини."
+
+msgid "Add banner"
+msgstr "Додати банер"
+
+msgid "Add at least one banner."
+msgstr "Додайте хоча б один банер."
+
+msgid "Delete banner"
+msgstr "Видалити банер"
+
+msgid "Not included in the promo"
+msgstr "Не включено до акції"
+
+msgid "Delete tool?"
+msgstr "Видалити інструмент?"
+
+msgid "No more banners remaining in “Banner” tool."
+msgstr "У інструменті «Банер» більше не залишилось банерів."
+
+msgid "<strong>Delete</strong> the empty tool from the promo or <strong>continue</strong> adding banners to it."
+msgstr "<strong>Видаліть</strong> пустий інструмент з акції або <strong>продовжуйте</strong> додавати до неї банери."
+
+msgid "continue"
+msgstr "продовжити"
+
+msgid "No more products remaining in “Products & prices”  tool."
+msgstr "У інструменті «Товари та ціни» більше не залишилось товарів."
+
+msgid "<strong>Delete</strong> the empty tool from the promo or <strong>continue</strong> adding products to it."
+msgstr "<strong>Видаліть</strong> пустий інструмент з акції або <strong>продовжуйте</strong> додавати до неї товари."
+
+msgid "View shipping options"
+msgstr "Переглянути варіанти доставки"
+
+msgid "Change locality or ZIP code"
+msgstr "Змінити місцевість або поштовий індекс"
+
+msgid "Specify another locality name or ZIP code"
+msgstr "Вкажіть іншу назву місцевості або поштовий індекс"
+
+msgid "Pre-calculate shipping options for specified locality and ZIP code"
+msgstr "Попередньо розрахувати варіанти доставки для вказаної місцевості та індексу"
+
+msgid "Select shipping"
+msgstr "Обрати доставку"
+
+msgid "added a payment method"
+msgstr "додав спосіб оплати"
+
+msgid "edited a payment method"
+msgstr "відредагував спосіб оплати"
+
+msgid "deleted a payment method"
+msgstr "видалив спосіб оплати"
+
+msgid "added a shipping method"
+msgstr "додав спосіб доставки"
+
+msgid "edited a shipping method"
+msgstr "відредагував спосіб доставки"
+
+msgid "deleted a shipping method"
+msgstr "видалив спосіб доставки"
+
+msgid "reset the store"
+msgstr "скинув налаштування магазину"
+
+msgid "An error occurred during the image uploading:"
+msgstr "При завантаженні зображення сталася помилка:"
+
+msgid "Add at least one banner"
+msgstr "Додайте хоча б один банер"
+
+msgid "Upload a banner"
+msgstr "Додати банер"
+
+msgid "Banner has not been uploaded."
+msgstr "Банер не завантажено."
+
+msgid "Add at least one product to participate in the promo."
+msgstr "Додайте до участі у акції хоча б один товар."
+
+msgid "Add at least one product SKU to participate in the promo."
+msgstr "Додайте до участі у акції хоча б один артикул."
+
+msgid "Название"
+msgstr "Назва"
+
+msgid "Подготовка"
+msgstr "Підготовка"
+
+msgid "С помощью формы ниже можно что-то настроить.."
+msgstr "За допомогою форми нижче можна щось налаштувати.."
+
+msgid "No banners in this tool. First add banner please."
+msgstr "У цьому інструменті немає банерів. Додайте спочатку банер, будь ласка."
+
+msgid "An error occurred while loading the image:"
+msgstr "При завантаженні зображення сталася помилка:"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Banner has not been uploaded"
+msgstr "Банер не завантажено."

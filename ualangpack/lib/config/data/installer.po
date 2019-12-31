@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Installer 1.13.0.459 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst Installer 1.13.2.483 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
@@ -1308,3 +1308,6 @@ msgstr "Розробники"
 
 msgid "PHP extension %s is required"
 msgstr "Необхідне розширення PHP %s"
+
+msgid "This will delete the product’s source code and data, without a recovery option. Are you sure?"
+msgstr "При цьому вихідний код продукту і дані буде видалено без можливості відновлення. Ви впевнені?"

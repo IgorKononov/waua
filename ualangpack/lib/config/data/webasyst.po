@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst 1.13.0.459 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst 1.13.2.483 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: skeeter.studio <contact@skeeter.studio>\n"
 "Language-Team: skeeter.studio\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-12-14 15:14+0300\n"
+"PO-Revision-Date: 2019-12-25 18:56+0300\n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.0.6\n"
@@ -3990,7 +3990,7 @@ msgid "Virgin Islands, British"
 msgstr "Британські Віргінські Острови"
 
 msgid "Virgin Islands, U.S."
-msgstr "Віргінські острови, СШ"
+msgstr "Віргінські острови, США"
 
 msgid "Viet Nam"
 msgstr "В&#39;єтнам"
@@ -5739,7 +5739,7 @@ msgid "OneSignal User Auth Key"
 msgstr "Ключ авторизації користувача OneSignal"
 
 msgid "OneSignal User Auth Key is required."
-msgstr "Необхідний ключ авторизації користувача OneSignal"
+msgstr "Необхідний ключ авторизації користувача OneSignal."
 
 msgid "A OneSignal account is required to notify backend users."
 msgstr "Обліковий запис OneSignal потрібен, аби надсилати повідомлення користувачам бекенду."
@@ -5830,3 +5830,32 @@ msgstr "Пробна тема дизайну"
 
 msgid "Please sign up at %s and copy <b>User Auth Key</b> from <b>Account &amp; API Keys</b> page."
 msgstr "Зареєструйтеся за адресою %s та скопіюйте <b>User Auth Key</b> зі сторінки <b>Account &amp; API Keys</b>."
+
+msgid "Add emoji support"
+msgstr "Додати підтримку емодзі"
+
+msgid "For emoji support to be enabled, tables in your database need to be converted to another encoding."
+msgstr "Аби увімкнути підтримку emoji, таблиці у вашій базі даних мають бути перетворені в інше кодування."
+
+msgid "Click the button below to start the conversion."
+msgstr "Натисніть на кнопку нижче, аби почати перетворення."
+
+msgid "Cache is temporary data that help reduce extensive load on your server. Clear cache to update those data, if you have encountered a malfunction."
+msgstr "Кеш — це тимчасові дані, що допомагають знизити підвищене навантаження на ваш сервер. Якщо ви натрапили на помилку, очистіть кеш, аби оновити ці дані."
+
+msgid "Sorry, we cannot recover a password for these contact data. Please refer to your system administrator."
+msgstr "Вибачте, але ми не можемо відновити пароль для цих контактів. Зверніться, будь ласка, до свого системного адміністратора."
+
+msgid "Yandex.Maps returns error “%s”"
+msgstr "Яндекс.Карти повертають помилку “%s”"
+
+msgid "Yandex.Maps returns error “%s”, API key is invalid. Try to fix it in the <a href=\"https://developer.tech.yandex.ru/services/\">developer dashboard</a>."
+msgstr ""
+"Яндекс.Карти повертають помилку “%s”, ключ API недійсний. Спробуйте виправити це у <a href=\"https://developer.tech.yandex.ru/services/\">контрольній панелі розробника</a>\n"
+"."
+
+msgid "Yandex.Maps returns error “%s”, daily rate limit is exceeded."
+msgstr "Яндекс.Карти повертають помилку “%s”, денний ліміт вичерпано."
+
+msgid "Yandex.Maps returns error “%s”, probably API key is invalid or daily rate limit is exceeded."
+msgstr "Яндекс.Карти повертають помилку “%s”: ключ API недійсний, або денний ліміт вичерпано."

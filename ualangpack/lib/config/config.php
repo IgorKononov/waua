@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.4.10',
+            'version' => '8.7.1',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -21,7 +21,7 @@
                           ),        
                 'yandexmarket' => 
                     array (
-                      'version' => '2.3.3',
+                      'version' => '2.3.10',
                           ),
                 'referrals' => 
                     array (
@@ -37,7 +37,7 @@
                           ),
                 'brands' => 
                     array (
-                      'version' => '1.1',
+                      'version' => '1.3.0',
                           ),
                 'invoice' => 
                     array (
@@ -51,7 +51,7 @@
               ),
         'crm' => 
           array (
-            'version' => '1.4.2',
+            'version' => '1.4.5',
             'plugins' => 
               array (
                 'telegram' => 
@@ -84,7 +84,7 @@
                               ),
                         'atolonline' => 
                         array (
-                          'version' => '1.0.3',
+                          'version' => '1.0.4',
                               ),
                         'mango' => 
                         array (
@@ -168,7 +168,7 @@
                    ),
         'photos' => 
           array (
-            'version' => '1.2.10',
+            'version' => '1.2.8',
             'plugins' => 
               array (
                 'imageeffects' => 
@@ -226,7 +226,7 @@
               ),
         'hub' => 
         array (
-          'version' => '1.2.4',
+          'version' => '1.2.6',
               ),
         'tasks' => 
         array (
@@ -234,19 +234,19 @@
               ),
         'site' => 
         array (
-          'version' => '2.5.10',
+          'version' => '2.5.13',
               ),
         'installer' => 
         array (
-          'version' => '1.11.9',
+          'version' => '1.13.2',
               ),
         'hosting' => 
         array (
-          'version' => '1.0.2',
+          'version' => '1.0.5',
               ),
         'webasyst' => 
           array (
-            'version' => '1.11.11',
+            'version' => '1.13.2',
             'plugins' => 
               array (
                 'cash' => 
@@ -259,7 +259,7 @@
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.4.1',
+                    'version' => '1.4.4',
                         ),    
                     'pickup' => 
                         array (
@@ -267,15 +267,15 @@
                       ),
                     'sd' => 
                         array (
-                    'version' => '1.0.3',
+                    'version' => '1.0.8',
+                        ),
+                    'boxberry' => 
+                        array (
+                    'version' => '1.0.6',
                         ),
                     'flatrate' => 
                         array (
                     'version' => '1.1.1',
-                        ),
-                    'boxberry' => 
-                        array (
-                    'version' => '1.0.4',
                         ),
                       ),
                     ),
@@ -301,7 +301,7 @@
               ),
         'pocketlists' => 
         array (
-          'version' => '3.3.0',
+          'version' => '3.4.1',
               ),                    
             ),
           );
