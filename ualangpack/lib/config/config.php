@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.7.1',
+            'version' => '8.8.1',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -33,7 +33,7 @@
                           ),
                 'paypal' => 
                     array (
-                      'version' => '1.0.5',
+                      'version' => '1.0.6',
                           ),
                 'brands' => 
                     array (
@@ -226,7 +226,7 @@
               ),
         'hub' => 
         array (
-          'version' => '1.2.6',
+          'version' => '1.2.7',
               ),
         'tasks' => 
         array (
@@ -259,7 +259,7 @@
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.4.4',
+                    'version' => '1.4.5',
                         ),    
                     'pickup' => 
                         array (
@@ -297,7 +297,7 @@
               ),      
         'mylang' => 
         array (
-          'version' => '2.6',
+          'version' => '2.7',
               ),
         'pocketlists' => 
         array (
