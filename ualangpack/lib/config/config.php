@@ -4,12 +4,12 @@
       array (
         'shop' => 
           array (
-            'version' => '8.8.1',
+            'version' => '8.10.0',
             'plugins' => 
               array (
                 'cml1c' => 
                     array (
-                      'version' => '2.5.8',
+                      'version' => '2.5.13',
                           ),        
                 'migrate' => 
                     array (
@@ -25,7 +25,7 @@
                           ),
                 'referrals' => 
                     array (
-                      'version' => '1.1.3',
+                      'version' => '1.1.5',
                           ),
                 'watermark' => 
                     array (
@@ -46,12 +46,14 @@
                  'favoriteproducts' => 
                     array (
                       'version' => '1.0.0',
-                          ),   
-                  ),      
+                          ),
+                    array (
+                  'ordersfilter' => '2.20.1',
+                  		  ),      
               ),
         'crm' => 
           array (
-            'version' => '1.4.5',
+            'version' => '1.4.6',
             'plugins' => 
               array (
                 'telegram' => 
@@ -60,7 +62,7 @@
                         ),
                     'fb' => 
                         array (
-                          'version' => '1.0.4',
+                          'version' => '1.0.5',
                               ),    
                     'vk' => 
                         array (
@@ -154,7 +156,7 @@
                           ),
                   'emailsubscription' => 
                     array (
-                      'version' => '1.0.0',
+                      'version' => '1.1.2',
                           ),
                   'gravatar' => 
                     array (
@@ -195,7 +197,7 @@
                 ),
         'team' => 
         array (
-          'version' => '1.0.10',
+          'version' => '1.0.11',
           'plugins' => 
             array (
               'googlecalendar' => 
@@ -218,11 +220,11 @@
               ),
         'mailer' => 
         array (
-          'version' => '1.0.20',
+          'version' => '1.0.21',
               ),
         'helpdesk' => 
         array (
-          'version' => '1.2.7',
+          'version' => '1.2.9',
               ),
         'hub' => 
         array (
@@ -230,7 +232,7 @@
               ),
         'tasks' => 
         array (
-          'version' => '1.2.0',
+          'version' => '1.2.1',
               ),
         'site' => 
         array (
@@ -238,7 +240,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.13.2',
+          'version' => '1.13.8',
               ),
         'hosting' => 
         array (
@@ -246,7 +248,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.13.2',
+            'version' => '1.13.8',
             'plugins' => 
               array (
                 'cash' => 
@@ -259,7 +261,7 @@
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.4.5',
+                    'version' => '1.4.7',
                         ),    
                     'pickup' => 
                         array (
@@ -297,11 +299,11 @@
               ),      
         'mylang' => 
         array (
-          'version' => '2.7',
+          'version' => '2.7.4',
               ),
         'pocketlists' => 
         array (
-          'version' => '3.4.1',
+          'version' => '3.5.0',
               ),                    
             ),
           );
