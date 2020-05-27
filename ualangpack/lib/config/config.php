@@ -51,6 +51,7 @@
                   'ordersfilter' => '2.20.1',
                   		  ),      
               ),
+        ),
         'crm' => 
           array (
             'version' => '1.4.6',
