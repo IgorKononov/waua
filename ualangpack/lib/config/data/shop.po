@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Shop-Script 8.10.0.32 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst Shop-Script 8.13.0.37 UA translation v 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Igor Kononov <contact@skeeter.studio>\n"
+"Last-Translator: Igor Kononov <contact@skeeter-studio.ru>\n"
 "Language-Team: skeeter.studio\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Bookmarks: 2300,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
@@ -11319,3 +11319,198 @@ msgstr "Обсяг, розміри"
 
 msgid "from %s to %s"
 msgstr "з %s до %s"
+
+msgid "Hide"
+msgstr "Сховати"
+
+msgid "Select a CSV file or a ZIP archive with a CSV file.<br>ZIP archives enable faster uploading of large CSV files without exceeding server limitations on the uploaded data size."
+msgstr "Оберіть CSV-файл або ZIP-архів с CSV-файлом. ZIP-архіви дозволяють пришвидшити завантаження великих CSV-файлів без перевищення обмежень сервера на розмір завантажуваного файла."
+
+msgid "Search by beginning of word"
+msgstr "Шукати за початком слова"
+
+msgid "System features list"
+msgstr "Перелік властивостей системи"
+
+msgid "Order discount adjustment"
+msgstr "Налаштування знижок замовлення"
+
+msgid "When it is impossible to equally distribute the discount amount across all order items,"
+msgstr "Коли неможливо нарівно розподілити розмір знижки по елементам замовлення,"
+
+msgid "increase the discount"
+msgstr "підвищити знижку"
+
+msgid "The discount will be increased, and the order total will be reduced, by a minimum amount necessary for correct discount distribution across order items."
+msgstr "Знижку буде підвищено, а суму замовлення буде знижено на найменший обсяг, що необхідний для вірного розподілу знижки по елементам замовлення."
+
+msgid "To set a certain rounding precision for the discount adjustment amount, enable rounding for the <em>total discount amount</em> and select the desired rounding precision for the currencies, in which you receive orders, in their settings on this page."
+msgstr "Аби налаштувати певну точність округлення розміру знижки, увімкніть округлення для загального розміру знижку та оберіть бажану точність округлення для валют, у яких ви отримуєте замовлення, у налаштуваннях на цій сторінці."
+
+msgid "Increase discount without rounding"
+msgstr "Підвищити знижку без округлення"
+
+msgid "Order currency rounding settings are not applied as when rounding to 0.01 is selected."
+msgstr "Налаштування округлення валюти не буде застосовано, як при округленні до 0,01."
+
+msgid "split one of order items into two"
+msgstr "розділити один з елементів замовлення на два"
+
+msgid "One of order items will be split into two separate items."
+msgstr "Один з елементів замовлення буде розділено на два окремі елементи."
+
+msgid "The price of a new order item will differ by one cent."
+msgstr ""
+
+msgid "Split one of order items into two with rounding applied"
+msgstr ""
+
+msgid "The price of a new order item will differ by a minimum amount, depending on the order currency rounding settings."
+msgstr ""
+
+msgid "Automated assignment of guest orders to existing customers will not work on following sites: <strong>%s</strong>. Due to privacy considerations, auto order assignment requires enabling “Confirm signup” option in <em>Site app > select your domain > Personal > Login and signup settings</em>."
+msgstr ""
+
+msgid "To delete this product code, disable or delete the corresponding plugin."
+msgstr ""
+
+msgid "“Weight” is a special feature, which must always be available for editing in product SKUs’ properties."
+msgstr ""
+
+msgid "“GTIN (Global Trade Item Number)” is a special feature, which must always be available for editing in product SKUs’ properties."
+msgstr ""
+
+msgid "Default measurement unit"
+msgstr ""
+
+msgid "Create a customer account and send the password"
+msgstr ""
+
+msgid "Reset password for customer account"
+msgstr ""
+
+msgid "Reset customer’s password and send it to an email address"
+msgstr ""
+
+msgid "Create a customer account and send a password to an email address"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "The contact has no email addresses."
+msgstr ""
+
+msgid "Contact’s main email address will be changed. The new main address will have to be used to sign into the customer account."
+msgstr ""
+
+msgid "Reset password"
+msgstr ""
+
+msgid "Create customer account"
+msgstr ""
+
+msgid "Show customers with orders"
+msgstr ""
+
+msgid "Show customers who have only non-paid orders"
+msgstr ""
+
+msgid "Show all contacts"
+msgstr ""
+
+msgid "Count only non-paid orders"
+msgstr ""
+
+msgid "Count all orders"
+msgstr ""
+
+msgid "The editing of this order is limited because customer’s funds are authorized on a bank account."
+msgstr ""
+
+msgid "You may change the list of ordered items. However, the order total of %s must remain unchanged because the selected payment plugin does not support partial funds capturing."
+msgstr ""
+
+msgid "You may change the list of ordered items. However, the order total after your changes may not exceed the captured amount of %s."
+msgstr ""
+
+msgid "You can choose a convenient time starting from this date."
+msgstr ""
+
+msgid "To complete your order, please change the products in your shopping cart which are not available in stock:"
+msgstr ""
+
+msgid "either delete them %s"
+msgstr ""
+
+msgid "or reduce their quantity %s"
+msgstr ""
+
+msgid "or select other SKUs %s"
+msgstr ""
+
+msgid "Capture reason"
+msgstr ""
+
+msgid "Primary email address is not specified in store settings."
+msgstr ""
+
+msgid "Edit settings"
+msgstr ""
+
+msgid "mg"
+msgstr ""
+
+msgid "Order editing has been disabled because the customer’s funds have been captured and an installed plugin does not support partial funds capturing."
+msgstr ""
+
+msgid "The discount amount was reduced so as not to exceed the cost of all products."
+msgstr ""
+
+msgid "Unable to create an order with the specified discount. Please contact the store’s support team."
+msgstr ""
+
+msgid "Unable to create an order with the specified discount. Please either disable the rounding for discounts or change the currency rounding settings so that the discount becomes lower than the ordered item’s price, or enable splitting of order items in currencies settings."
+msgstr ""
+
+msgid "Order total may not exceed the captured amount of %s."
+msgstr ""
+
+msgid "Order total must remain equal to the currently captured amount of %s."
+msgstr ""
+
+msgid "Category “%current” being moved cannot be placed inside category “%parent” because category “%parent” already contains subcategory “%same” whose editable URL part matches that of category “%current”. To complete the category moving, change the editable URL part either for category “%current”, or for category “%same”."
+msgstr ""
+
+msgid "Too long URL including the URLs of parent categories."
+msgstr ""
+
+msgid "System features"
+msgstr ""
+
+msgid "The current product type is the only one selected for this storefront."
+msgstr ""
+
+msgid "Cannot reset the password for a backend user."
+msgstr ""
+
+msgid "Incorrect email addresses related data found for this contact."
+msgstr ""
+
+msgid "Message has been sent."
+msgstr ""
+
+msgid "Message sending has failed."
+msgstr ""
+
+msgid "Image thumbnails cannot be generated because required system files are missing in <em>wa-data/public/shop/promos/</em> directory."
+msgstr ""
+
+msgid "Invalid GTIN code, it must have only 8, 12, 13, or 14 digits."
+msgstr ""
+
+msgid "Payment was canceled."
+msgstr ""
+
+msgid "Checkout block"
+msgstr ""

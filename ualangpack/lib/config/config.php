@@ -54,7 +54,7 @@
         ),
         'crm' => 
           array (
-            'version' => '1.4.6',
+            'version' => '1.4.8',
             'plugins' => 
               array (
                 'telegram' => 
@@ -198,7 +198,7 @@
                 ),
         'team' => 
         array (
-          'version' => '1.0.11',
+          'version' => '1.1.'2,
           'plugins' => 
             array (
               'googlecalendar' => 
@@ -221,7 +221,7 @@
               ),
         'mailer' => 
         array (
-          'version' => '1.0.21',
+          'version' => '1.0.23',
               ),
         'helpdesk' => 
         array (
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.13.8',
+          'version' => '1.14.4',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.13.8',
+            'version' => '1.14.4',
             'plugins' => 
               array (
                 'cash' => 
