@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.13.0',
+            'version' => '8.14.1',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -59,7 +59,7 @@
               array (
                 'telegram' => 
                   array (
-                    'version' => '1.0.4',
+                    'version' => '1.0.5',
                         ),
                     'fb' => 
                         array (
@@ -67,7 +67,7 @@
                               ),    
                     'vk' => 
                         array (
-                          'version' => '1.0.5',
+                          'version' => '1.0.6',
                               ),
                     'zadarma' => 
                         array (
@@ -79,7 +79,7 @@
                               ),
                       'twitter' => 
                         array (
-                          'version' => '1.0.2',
+                          'version' => '1.0.3',
                               ),
                       'sipuni' => 
                         array (
@@ -124,7 +124,7 @@
                   ),  
         'blog' => 
           array (
-            'version' => '1.4.2',
+            'version' => '1.4.7',
             'plugins' => 
               array (
                 'import' => 
@@ -198,7 +198,7 @@
                 ),
         'team' => 
         array (
-          'version' => '1.1.'2,
+          'version' => '1.1.4',
           'plugins' => 
             array (
               'googlecalendar' => 
@@ -225,7 +225,7 @@
               ),
         'helpdesk' => 
         array (
-          'version' => '1.2.9',
+          'version' => '1.2.12',
               ),
         'hub' => 
         array (
@@ -233,7 +233,7 @@
               ),
         'tasks' => 
         array (
-          'version' => '1.2.1',
+          'version' => '1.2.3',
               ),
         'site' => 
         array (
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.14.4',
+          'version' => '1.14.7',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.14.4',
+            'version' => '1.14.7',
             'plugins' => 
               array (
                 'cash' => 
@@ -258,15 +258,15 @@
                         ),        
                     'yandexmoney' => 
                         array (
-                    'version' => '1.4.1',
+                    'version' => '2.3.13',
                         ),
                     'courier' =>
                         array (
-                    'version' => '1.4.7',
+                    'version' => '1.4.9',
                         ),    
                     'pickup' => 
                         array (
-                    'version' => '1.0.0',        
+                    'version' => '1.0.1',        
                       ),
                     'sd' => 
                         array (
@@ -274,7 +274,7 @@
                         ),
                     'boxberry' => 
                         array (
-                    'version' => '1.0.6',
+                    'version' => '1.1.0',
                         ),
                     'flatrate' => 
                         array (
@@ -304,7 +304,7 @@
               ),
         'pocketlists' => 
         array (
-          'version' => '3.5.0',
+          'version' => '3.6.1',
               ),                    
             ),
           );
