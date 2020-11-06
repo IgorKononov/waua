@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.10.0',
+            'version' => '8.13.0',
             'plugins' => 
               array (
                 'cml1c' => 

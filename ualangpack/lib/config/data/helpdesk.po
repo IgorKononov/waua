@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Webasyst Helpdesk 1.2.9.71 UA translation v 1.0\n"
+"Project-Id-Version: Webasyst Helpdesk 1.2.12.79 UA translation v 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: Igor Kononov <contact@skeeter-studio.ru>\n"
 "Language-Team: skeeter.studio\n"
@@ -2566,3 +2566,6 @@ msgstr "Для подальшого налаштування особистог�
 
 msgid "performs bulk operation “%s”"
 msgstr "запускає масове виконання операції \"%s\""
+
+msgid "Helpdesk is unable to fetch messages from source “%s”:"
+msgstr "Підтримка не може отримувати повідомлення з джерела \"%s\":"
