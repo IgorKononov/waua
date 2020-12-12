@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.14.1',
+            'version' => '8.15.0',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -21,7 +21,7 @@
                           ),        
                 'yandexmarket' => 
                     array (
-                      'version' => '2.3.10',
+                      'version' => '2.3.14',
                           ),
                 'referrals' => 
                     array (
@@ -198,7 +198,7 @@
                 ),
         'team' => 
         array (
-          'version' => '1.1.4',
+          'version' => '1.1.5',
           'plugins' => 
             array (
               'googlecalendar' => 
@@ -237,11 +237,11 @@
               ),
         'site' => 
         array (
-          'version' => '2.5.13',
+          'version' => '2.5.20',
               ),
         'installer' => 
         array (
-          'version' => '1.14.7',
+          'version' => '1.14.9',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.14.7',
+            'version' => '1.14.9',
             'plugins' => 
               array (
                 'cash' => 
@@ -274,7 +274,7 @@
                         ),
                     'boxberry' => 
                         array (
-                    'version' => '1.1.0',
+                    'version' => '1.1.1',
                         ),
                     'flatrate' => 
                         array (
@@ -304,7 +304,7 @@
               ),
         'pocketlists' => 
         array (
-          'version' => '3.6.1',
+          'version' => '3.7.0',
               ),                    
             ),
           );
