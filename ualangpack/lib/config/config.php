@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.15.0',
+            'version' => '8.16.0',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -171,7 +171,7 @@
                    ),
         'photos' => 
           array (
-            'version' => '1.2.8',
+            'version' => '1.2.11',
             'plugins' => 
               array (
                 'imageeffects' => 
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.14.9',
+          'version' => '1.14.10',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.14.9',
+            'version' => '1.14.10',
             'plugins' => 
               array (
                 'cash' => 
@@ -274,7 +274,7 @@
                         ),
                     'boxberry' => 
                         array (
-                    'version' => '1.1.1',
+                    'version' => '1.1.2',
                         ),
                     'flatrate' => 
                         array (
@@ -300,7 +300,7 @@
               ),      
         'mylang' => 
         array (
-          'version' => '2.7.4',
+          'version' => '21.1.8',
               ),
         'pocketlists' => 
         array (
