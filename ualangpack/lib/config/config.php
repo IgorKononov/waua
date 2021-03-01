@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.16.0',
+            'version' => '8.17.1',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -21,7 +21,7 @@
                           ),        
                 'yandexmarket' => 
                     array (
-                      'version' => '2.3.14',
+                      'version' => '2.4.4',
                           ),
                 'referrals' => 
                     array (
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.14.10',
+          'version' => '1.14.13',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.14.10',
+            'version' => '1.14.13',
             'plugins' => 
               array (
                 'cash' => 
@@ -300,7 +300,7 @@
               ),      
         'mylang' => 
         array (
-          'version' => '21.1.8',
+          'version' => '2021.2.1',
               ),
         'pocketlists' => 
         array (
