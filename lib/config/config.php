@@ -221,7 +221,7 @@
               ),
         'mailer' => 
         array (
-          'version' => '1.0.23',
+          'version' => '1.0.25',
               ),
         'helpdesk' => 
         array (
