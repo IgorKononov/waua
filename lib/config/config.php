@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.17.1',
+            'version' => '8.19.1',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '1.14.13',
+          'version' => '2.1.1',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '1.14.13',
+            'version' => '2.1.1',
             'plugins' => 
               array (
                 'cash' => 
