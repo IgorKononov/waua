@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.19.1',
+            'version' => '8.21.0',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -21,7 +21,7 @@
                           ),        
                 'yandexmarket' => 
                     array (
-                      'version' => '2.4.4',
+                      'version' => '2.4.8',
                           ),
                 'referrals' => 
                     array (
@@ -48,7 +48,7 @@
                       'version' => '1.0.0',
                           ),
                     array (
-                  'ordersfilter' => '2.20.1',
+                  'ordersfilter' => '2021.8.2',
                   		  ),      
               ),
         ),
@@ -233,7 +233,7 @@
               ),
         'tasks' => 
         array (
-          'version' => '1.2.3',
+          'version' => '2.1.1',
               ),
         'site' => 
         array (
