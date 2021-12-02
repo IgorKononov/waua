@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.21.0',
+            'version' => '8.22.0',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -54,20 +54,20 @@
         ),
         'crm' => 
           array (
-            'version' => '1.4.10',
+            'version' => '1.4.13',
             'plugins' => 
               array (
                 'telegram' => 
                   array (
-                    'version' => '1.0.5',
+                    'version' => '1.0.6',
                         ),
                     'fb' => 
                         array (
-                          'version' => '1.0.5',
+                          'version' => '1.0.6',
                               ),    
                     'vk' => 
                         array (
-                          'version' => '1.0.6',
+                          'version' => '1.0.9',
                               ),
                     'zadarma' => 
                         array (
@@ -79,7 +79,7 @@
                               ),
                       'twitter' => 
                         array (
-                          'version' => '1.0.3',
+                          'version' => '1.0.4',
                               ),
                       'sipuni' => 
                         array (
@@ -171,7 +171,7 @@
                    ),
         'photos' => 
           array (
-            'version' => '1.2.11',
+            'version' => '2.1.0',
             'plugins' => 
               array (
                 'imageeffects' => 
@@ -237,11 +237,11 @@
               ),
         'site' => 
         array (
-          'version' => '2.5.20',
+          'version' => '2.5.28',
               ),
         'installer' => 
         array (
-          'version' => '2.1.1',
+          'version' => '2.4.1',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '2.1.1',
+            'version' => '2.4.1',
             'plugins' => 
               array (
                 'cash' => 
@@ -296,7 +296,7 @@
               ),                  
         'logs' => 
         array (
-          'version' => '1.1.2',
+          'version' => '1.3.1',
               ),      
         'mylang' => 
         array (
