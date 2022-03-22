@@ -4,7 +4,7 @@
       array (
         'shop' => 
           array (
-            'version' => '8.22.0',
+            'version' => '9.0.5',
             'plugins' => 
               array (
                 'cml1c' => 
@@ -21,7 +21,7 @@
                           ),        
                 'yandexmarket' => 
                     array (
-                      'version' => '2.4.8',
+                      'version' => '2.4.10',
                           ),
                 'referrals' => 
                     array (
@@ -54,7 +54,7 @@
         ),
         'crm' => 
           array (
-            'version' => '1.4.13',
+            'version' => '1.4.14',
             'plugins' => 
               array (
                 'telegram' => 
@@ -198,24 +198,24 @@
                 ),
         'team' => 
         array (
-          'version' => '1.1.5',
+          'version' => '2.0.2',
           'plugins' => 
             array (
               'googlecalendar' => 
                   array (
-                    'version' => '1.0.19',
+                    'version' => '1.0.22',
                         ),
               'caldav' => 
                   array (
-                    'version' => '1.1.0',
+                    'version' => '1.1.2',
                         ),
               'office365' => 
                   array (
-                    'version' => '1.0.5',
+                    'version' => '1.1.1',
                         ),
               'ics' => 
                   array (
-                    'version' => '1.1.0',
+                    'version' => '1.1.1',
                         ),    
                 ),
               ),
@@ -225,15 +225,15 @@
               ),
         'helpdesk' => 
         array (
-          'version' => '1.2.12',
+          'version' => '1.2.19',
               ),
         'hub' => 
         array (
-          'version' => '1.2.7',
+          'version' => '2.0.2',
               ),
         'tasks' => 
         array (
-          'version' => '2.1.1',
+          'version' => '2.4.0',
               ),
         'site' => 
         array (
@@ -241,7 +241,7 @@
               ),
         'installer' => 
         array (
-          'version' => '2.4.1',
+          'version' => '2.4.2',
               ),
         'hosting' => 
         array (
@@ -249,7 +249,7 @@
               ),
         'webasyst' => 
           array (
-            'version' => '2.4.1',
+            'version' => '2.4.2',
             'plugins' => 
               array (
                 'cash' => 
@@ -274,7 +274,7 @@
                         ),
                     'boxberry' => 
                         array (
-                    'version' => '1.1.2',
+                    'version' => '1.1.7',
                         ),
                     'flatrate' => 
                         array (
